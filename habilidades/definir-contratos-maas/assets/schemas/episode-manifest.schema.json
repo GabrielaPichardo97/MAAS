@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/episode-manifest.schema.json",
+  "title": "MAAS compiled episode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "episodeId", "title", "language", "status", "seed", "profile", "orientations", "characters", "assets", "audioPolicy", "timeline", "durationMs", "warnings"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "episodeId": {"type": "string"},
+    "title": {"type": "string"},
+    "language": {"type": "string"},
+    "status": {"enum": ["draft", "ready", "published"]},
+    "seed": {"type": "integer", "minimum": 0},
+    "profile": {"enum": ["legacy-v1", "canonical-v1"]},
+    "orientations": {"type": "array", "items": {"enum": ["landscape", "portrait"]}, "minItems": 1, "uniqueItems": true},
+    "characters": {"type": "object", "additionalProperties": {"type": "string"}},
+    "assets": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "audioPolicy": {"type": "object"},
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "startMs", "durationMs"],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"enum": ["scene", "dialogue", "sfx", "transition", "advice", "ending"]},
+          "startMs": {"type": "integer", "minimum": 0},
+          "durationMs": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "durationMs": {"type": "integer", "minimum": 0},
+    "warnings": {"type": "array", "items": {"type": "object"}}
+  }
+}

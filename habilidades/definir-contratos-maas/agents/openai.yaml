@@ -1,0 +1,4 @@
+interface:
+  display_name: "Definir contratos MAAS"
+  short_description: "Define y valida contratos de episodios"
+  default_prompt: "Usa $definir-contratos-maas para validar el contrato de un episodio MAAS."

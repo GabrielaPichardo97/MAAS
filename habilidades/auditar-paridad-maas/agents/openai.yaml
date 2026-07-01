@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar paridad MAAS"
+  short_description: "Compara HTML, timeline y video legado"
+  default_prompt: "Usa $auditar-paridad-maas para medir la paridad del reproductor HTML con el video legado."

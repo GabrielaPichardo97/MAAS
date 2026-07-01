@@ -1,0 +1,13 @@
+:root { font-family: "Nanum Gothic", system-ui, sans-serif; color: #171717; background: #eeeae0; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button:focus-visible, input:focus-visible { outline: 3px solid #005fcc; outline-offset: 3px; }
+.player { width: min(100%, 1200px); margin: auto; padding: 1rem; }
+.stage { width: 100%; aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
+.player[data-orientation="portrait"] .stage { aspect-ratio: 9 / 16; max-height: 80vh; }
+.caption { min-height: 3rem; font-size: 1.2rem; }
+.controls { display: flex; gap: 1rem; align-items: center; }
+.controls input { flex: 1; }
+@media (prefers-reduced-motion: reduce) { .player { scroll-behavior: auto; } }
+@media (orientation: portrait) { .player[data-orientation="auto"] .stage { aspect-ratio: 9 / 16; max-height: 80vh; } }
