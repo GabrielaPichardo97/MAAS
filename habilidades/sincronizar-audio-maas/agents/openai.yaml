@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sincronizar audio MAAS"
+  short_description: "Construye y sincroniza pistas de audio web"
+  default_prompt: "Usa $sincronizar-audio-maas para crear la timeline de voces, música y efectos."

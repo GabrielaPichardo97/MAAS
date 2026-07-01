@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renderizar escenas MAAS"
+  short_description: "Compone escenas MAAS con React y PixiJS"
+  default_prompt: "Usa $renderizar-escenas-maas para construir el renderer PixiJS de una escena MAAS."

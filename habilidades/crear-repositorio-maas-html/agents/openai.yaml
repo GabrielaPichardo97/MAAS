@@ -1,0 +1,4 @@
+interface:
+  display_name: "Crear repositorio MAAS HTML"
+  short_description: "Inicializa el reproductor HTML completo"
+  default_prompt: "Usa $crear-repositorio-maas-html para crear desde cero un repositorio MAAS HTML."

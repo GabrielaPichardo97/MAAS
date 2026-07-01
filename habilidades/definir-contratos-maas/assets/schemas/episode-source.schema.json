@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/episode-source.schema.json",
+  "title": "MAAS episode source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "episodeId", "title", "language", "status", "content"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "episodeId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 100},
+    "title": {"type": "string", "minLength": 1, "maxLength": 200},
+    "language": {"type": "string", "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"},
+    "status": {"enum": ["draft", "ready", "published"]},
+    "seed": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "createdAt": {"type": "string", "format": "date-time"},
+        "importedFrom": {"type": "string", "minLength": 1}
+      }
+    },
+    "content": {"type": "string", "minLength": 1}
+  }
+}

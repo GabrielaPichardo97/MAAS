@@ -1,0 +1,4 @@
+interface:
+  display_name: "Empaquetar episodio MAAS"
+  short_description: "Genera una carpeta HTML estática y segura"
+  default_prompt: "Usa $empaquetar-episodio-maas para construir y verificar la salida estática de un episodio."

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "episodeId": "demo",
+  "title": "Episodio de demostración",
+  "profile": "legacy-v1",
+  "durationMs": 4000,
+  "timeline": [
+    {
+      "id": "cue-0001",
+      "type": "dialogue",
+      "startMs": 0,
+      "durationMs": 4000,
+      "text": "MAAS ahora vive en HTML.",
+      "speaker": "Narrador",
+      "speakerPosition": "izquierda",
+      "effect": {"code": "ZI", "intensity": 1.2, "target": null, "tremor": true}
+    }
+  ]
+}

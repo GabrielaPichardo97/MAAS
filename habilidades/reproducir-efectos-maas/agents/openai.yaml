@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproducir efectos MAAS"
+  short_description: "Replica cámara, temblor y tiempos legados"
+  default_prompt: "Usa $reproducir-efectos-maas para implementar o verificar los efectos visuales de MAAS."

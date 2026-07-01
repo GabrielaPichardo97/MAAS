@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrar insumos MAAS"
+  short_description: "Inventaría y audita los recursos multimedia"
+  default_prompt: "Usa $migrar-insumos-maas para inventariar y migrar los assets del repositorio legado."
