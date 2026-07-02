@@ -80,6 +80,31 @@ class CreativeSkillsTest(unittest.TestCase):
             self.assertTrue(any(item["code"] == "E_SPEAKER_AMBIGUOUS" and item["blocking"] for item in data["unresolved"]))
             run(ADAPT / "validate_adaptation.py", adaptation, expected=1)
 
+    def test_legacy_maas_headers_preserve_only_spoken_text_and_persist_casting(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            raw = root / "legacy.txt"
+            raw.write_text(
+                "[Persona_1] (4 segundos | Relajado | Revisa su reloj)\n"
+                "Dice: ya terminamos (PP Persona_1)\n"
+                "OSD (Dum!) (ZI*1.2)\n"
+                "**SALA**\n",
+                encoding="utf-8",
+            )
+            casting = root / "character-map.json"
+            casting.write_text('{"Persona_1":"pato"}\n', encoding="utf-8")
+            adaptation = root / "dialogue-adaptation.json"
+            run(
+                ADAPT / "adapt_dialogue.py", raw, "--title", "Legado", "--character-map", casting,
+                "--output", adaptation,
+            )
+            run(ADAPT / "validate_adaptation.py", adaptation)
+            beats = json.loads(adaptation.read_text(encoding="utf-8"))["scenes"][0]["beats"]
+            self.assertEqual([beat["speaker"] for beat in beats], ["Persona_1", "Persona_1"])
+            self.assertEqual([beat["characterId"] for beat in beats], ["pato", "pato"])
+            self.assertEqual([beat["verbatimText"] for beat in beats], ["Dice: ya terminamos", "OSD (Dum!)"])
+            self.assertTrue(all(beat["durationMs"]["value"] == 2000 for beat in beats))
+
     def test_direction_rejects_duplicate_roles_and_assembly_requires_approval(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

@@ -4,10 +4,12 @@ MAAS transforma guiones y diálogos en episodios HTML reproducibles con personaj
 
 ## Demo pública
 
-GitHub Pages publica tres entradas:
+GitHub Pages publica el reproductor, el catálogo y ejemplos directos:
 
 - [Reproductor de ejemplo](https://gabrielapichardo97.github.io/MAAS/)
 - [Episodio 0 · HTML directo](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-renderizar/)
+- [Episodio 0 · Prueba de efectos canonical-v2](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-efectos/)
+- [Episodio 17 · El correo infinito](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-17-el-correo-infinito/)
 - [Catálogo interactivo de 34 efectos](https://gabrielapichardo97.github.io/MAAS/effects/)
 
 Cada efecto del catálogo tiene una escena original, contexto narrativo, parámetros, contraindicaciones, nivel de soporte y token canonical-v2.
@@ -41,9 +43,9 @@ pnpm run test:e2e
 pnpm run preview:player
 ```
 
-Después abre `http://127.0.0.1:4173/`, `http://127.0.0.1:4173/episodes/episodio-0-prueba-renderizar/` o `http://127.0.0.1:4173/effects/`.
+Después abre `http://127.0.0.1:4173/`, cualquiera de las rutas bajo `/episodes/` o `http://127.0.0.1:4173/effects/`.
 
-`content:build` inventaría la media disponible, recompila el Episodio 0, resuelve personajes y fondos por ID semántico y copia únicamente los assets requeridos a `maas-html/public/assets/`.
+`content:build` crea el inventario de la media disponible, recompila todos los episodios de `content/episodes/`, resuelve personajes y fondos por ID semántico y copia únicamente los assets requeridos a `maas-html/public/assets/`.
 
 ## De diálogo ordinario a HTML
 

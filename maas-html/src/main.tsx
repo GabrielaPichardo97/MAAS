@@ -13,7 +13,9 @@ const routePath = window.location.pathname.startsWith(import.meta.env.BASE_URL)
 if (routePath.startsWith("/effects") || new URLSearchParams(window.location.search).get("view") === "effects") {
   createRoot(root).render(<Suspense fallback={<main className="lab-state" role="status">Cargando laboratorio…</main>}><EffectLab /></Suspense>);
 } else {
-  mountEpisodePlayer(root, `${import.meta.env.BASE_URL}episodes/episodio-0-prueba-renderizar/episode.manifest.json`, {
+  const episodeMatch = routePath.match(/^\/episodes\/([a-z0-9-]+)\/?$/);
+  const episodeId = episodeMatch?.[1] ?? "episodio-0-prueba-renderizar";
+  mountEpisodePlayer(root, `${import.meta.env.BASE_URL}episodes/${episodeId}/episode.manifest.json`, {
     orientation: "landscape",
     autoplay: false,
     reducedMotion: "system",

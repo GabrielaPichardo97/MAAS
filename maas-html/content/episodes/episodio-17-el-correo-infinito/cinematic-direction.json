@@ -1,0 +1,1657 @@
+{
+  "adaptationSha256": "1f63d104d73c2ffc6d419cf07b75c9622614944904600a44fbf06f08ba0c9874",
+  "approval": {
+    "approvedAt": "2026-07-02T20:39:20Z",
+    "approvedBy": "usuario: solicitud explícita de dos HTML con efectos variados",
+    "status": "approved"
+  },
+  "metadata": {
+    "episodeId": "episodio-17-el-correo-infinito",
+    "language": "es-MX",
+    "seed": 1724511258,
+    "status": "draft",
+    "title": "Episodio 17 · El correo infinito"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Revisa su reloj",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.ken-burns.exposition.documentary.v1.0.0",
+              "intensity": 0.52,
+              "params": {
+                "endX": 0.16,
+                "endY": 0,
+                "scaleEnd": 1.14
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.34,
+              "params": {
+                "color": "#ffd07a",
+                "intensity": 0.28
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0001",
+          "speaker": "Persona_1",
+          "stageDirection": "Revisa su reloj",
+          "verbatimText": "No nos vamos a ir hasta que Persona_3 termine sus pendientes"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Levanta la mano",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.318,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0002",
+          "speaker": "Persona_3",
+          "stageDirection": "Levanta la mano",
+          "verbatimText": "Pero ya acabé mis pendientes"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Se inclina hacia adelante",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.33599999999999997,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "felicidad",
+          "id": "beat-0003",
+          "speaker": "Persona_1",
+          "stageDirection": "Se inclina hacia adelante",
+          "verbatimText": "Entonces vámonos"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla de su computadora",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "confusión",
+          "id": "beat-0004",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla de su computadora",
+          "verbatimText": "Esperen, ya solo me falta escribirle un correo a los de Sistemas"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Horror",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0005",
+          "speaker": "Persona_1",
+          "stageDirection": "Horror",
+          "verbatimText": "Noooo…"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Horror",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.39,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0006",
+          "speaker": "Persona_1",
+          "stageDirection": "Horror",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Teclado en mano",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.408,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0007",
+          "speaker": "Persona_3",
+          "stageDirection": "Teclado en mano",
+          "verbatimText": "Es rápido, es solo un correo"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Teclado en mano",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.426,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0008",
+          "speaker": "Persona_3",
+          "stageDirection": "Teclado en mano",
+          "verbatimText": "OSD (Prrrrt)"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Entrecierra los ojos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.44399999999999995,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0009",
+          "speaker": "Persona_1",
+          "stageDirection": "Entrecierra los ojos",
+          "verbatimText": "¿Seguro?"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Empieza a escribir",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.46199999999999997,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "time.punch-edit.impact.snap.v1.0.0",
+              "intensity": 0.42,
+              "params": {},
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0010",
+          "speaker": "Persona_3",
+          "stageDirection": "Empieza a escribir",
+          "verbatimText": "Sí, sí…"
+        }
+      ],
+      "id": "scene-001",
+      "orientation": "landscape",
+      "placeId": "sala",
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se estira",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.48,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0011",
+          "speaker": "Persona_3",
+          "stageDirection": "Se estira",
+          "verbatimText": "Listo, ya terminé"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.498,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0012",
+          "speaker": "Persona_4",
+          "stageDirection": "Suspira",
+          "verbatimText": "¡Por fin!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.516,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0013",
+          "speaker": "Persona_4",
+          "stageDirection": "Suspira",
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.534,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "confusión",
+          "id": "beat-0014",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla",
+          "verbatimText": "Solo voy a esperar a que me respondan para confirmar"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "miedo",
+          "id": "beat-0015",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en la cabeza",
+          "verbatimText": "¡NOOOO!, No por favor"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.57,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "miedo",
+          "id": "beat-0016",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en la cabeza",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.588,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "confusión",
+          "id": "beat-0017",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla",
+          "verbatimText": "¡Solo un minuto y ya!"
+        }
+      ],
+      "id": "scene-002",
+      "orientation": "landscape",
+      "placeId": "sala",
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Mira su pantalla",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.606,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0018",
+          "speaker": "Persona_2",
+          "stageDirection": "Mira su pantalla",
+          "verbatimText": "Bueno, ya no respondieron, vámonos..."
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Mira su pantalla",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.6239999999999999,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0019",
+          "speaker": "Persona_2",
+          "stageDirection": "Mira su pantalla",
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.6419999999999999,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "time.punch-edit.impact.snap.v1.0.0",
+              "intensity": 0.42,
+              "params": {},
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0020",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "¡No tienes que esperar una respuesta!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.6599999999999999,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0021",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "Igual lo puedes revisar mañana"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.6779999999999999,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0022",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "OSD (Ugh)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se toca la barbilla",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.696,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0023",
+          "speaker": "Persona_3",
+          "stageDirection": "Se toca la barbilla",
+          "verbatimText": "Pero, ¿y si me contestan con una duda y no estoy aquí?"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.714,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "enojo",
+          "id": "beat-0024",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "¡Que lo resuelvan solos!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "time.punch-edit.impact.snap.v1.0.0",
+              "intensity": 0.42,
+              "params": {},
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "enojo",
+          "id": "beat-0025",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "¡Viven de complicarnos la vida!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "enojo",
+          "id": "beat-0026",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "OSD (Tsk, tsk)"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0027",
+          "speaker": "Persona_1",
+          "stageDirection": "Suspira",
+          "verbatimText": "Bueno, está bien, ¡Vámonos!..."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Sonríe",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0028",
+          "speaker": "Persona_3",
+          "stageDirection": "Sonríe",
+          "verbatimText": "Oh, me llegó la respuesta"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Sonríe",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0029",
+          "speaker": "Persona_3",
+          "stageDirection": "Sonríe",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Con horror",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0030",
+          "speaker": "Persona_4",
+          "stageDirection": "Con horror",
+          "verbatimText": "¡NO LO LEAS!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Con horror",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0031",
+          "speaker": "Persona_4",
+          "stageDirection": "Con horror",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se encoge de hombros",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.4,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0032",
+          "speaker": "Persona_3",
+          "stageDirection": "Se encoge de hombros",
+          "verbatimText": "Pero solo es una línea…"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Manos juntas",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0033",
+          "speaker": "Persona_2",
+          "stageDirection": "Manos juntas",
+          "verbatimText": "No caigas en la trampa…"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.28,
+              "params": {
+                "contrast": 0.08,
+                "saturation": 0.9,
+                "tint": 0
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0034",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "Dice: Gracias compañero..."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "time.punch-edit.impact.snap.v1.0.0",
+              "intensity": 0.42,
+              "params": {},
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0035",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "Solo una consulta…"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.3,
+              "params": {
+                "color": "#ffb15a",
+                "intensity": 0.24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0036",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en el aire",
+            "cameraMovement": "motivated",
+            "focus": "frame",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "medium-wide",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.78,
+            "availableInputs": [],
+            "continuity": 0.38,
+            "focus": "frame",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "suspense",
+            "stylization": 0.52,
+            "tempo": 132,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.camera-shake.impact.decay.v1.0.0",
+              "intensity": 0.58,
+              "params": {
+                "amplitudePx": 10,
+                "decayMs": 520,
+                "frequencyHz": 9
+              },
+              "role": "dominant",
+              "target": "frame"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "contrast": 0.18,
+                "saturation": 1.18,
+                "tint": 0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0037",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en el aire",
+          "verbatimText": "¡NOOOOO, POR FAVOR!..."
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en el aire",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.72,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.52,
+            "tempo": 104,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "blurPx": 10,
+                "focusTo": "subject"
+              },
+              "role": "support",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0038",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en el aire",
+          "verbatimText": "OSD (Prrrrt)"
+        }
+      ],
+      "id": "scene-003",
+      "orientation": "landscape",
+      "placeId": "pasillo",
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "unresolvedMedia": []
+}

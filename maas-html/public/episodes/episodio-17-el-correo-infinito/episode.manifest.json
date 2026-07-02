@@ -1,0 +1,1680 @@
+{
+  "assetUrls": {
+    "background-pasillo-landscape-character-left": "/assets/4eb9e1e9f8178ec0ddb60d8b69a3314970ec6f413174a577d24bf2127bbf06a8.png",
+    "background-pasillo-landscape-character-right": "/assets/19589c99a3af8bf4b40dfa93db52b7b99f11cc45359b5a4d165520e7faa95686.png",
+    "background-sala-landscape-character-left": "/assets/49560b6da8fa103e1aa5b910a7052dde7250546bb517c0d0e7c97a614e0f5e73.png",
+    "background-sala-landscape-character-right": "/assets/37c4df2de35c700b7631e4933917f2fbb7a574d016abecf4ecf72ae28ddd66ef.png",
+    "character-cactus-serious-left": "/assets/8890a0cdd52365c29c2fb19f2b8414e5c086d3d3026b3a41de9880938909ef9a.png",
+    "character-conejo-confused-left": "/assets/544265975993248d770f922871f03e343aed3806350c5bdbb810c23ef5beaed5.png",
+    "character-conejo-serious-left": "/assets/c2882877463b049a108402e9716d5513f31f5f1e6bea9dc77a8629231369cef0.png",
+    "character-pata-angry-left": "/assets/eef07df4fafb6e27b266955b5f02137275ce0c9cb636ec4a8b2e2997eff230b1.png",
+    "character-pata-serious-left": "/assets/c5bd64015b230a871e3aaf564fdc5af44046053e485a88d9aca6fbb3a3996b6f.png",
+    "character-pata-worried-left": "/assets/c2fa9e9b68be46c78d88584dea78a21e893f094287a5e426fdb555c02d45c9ff.png",
+    "character-pato-happy-left": "/assets/3433af2ddd3269cfcb9876620c64ac1b4666eca752dc750ba695166845e2f501.png",
+    "character-pato-serious-left": "/assets/c76623f38ad62fec351a9257b22ec828b6183b9dd6c5499ca2e0e03e2e3a89e7.png"
+  },
+  "assets": [
+    "background-pasillo-landscape-character-left",
+    "background-pasillo-landscape-character-right",
+    "background-sala-landscape-character-left",
+    "background-sala-landscape-character-right",
+    "character-cactus-serious-left",
+    "character-conejo-confused-left",
+    "character-conejo-serious-left",
+    "character-pata-angry-left",
+    "character-pata-serious-left",
+    "character-pata-worried-left",
+    "character-pato-happy-left",
+    "character-pato-serious-left"
+  ],
+  "audioPolicy": {
+    "musicGain": 0.15,
+    "muteMusicDuringSfx": true,
+    "sampleRate": 44100,
+    "transitionGain": 0.5
+  },
+  "characters": {
+    "Persona_1": "pato",
+    "Persona_2": "cactus",
+    "Persona_3": "conejo",
+    "Persona_4": "pata"
+  },
+  "durationMs": 91000,
+  "episodeId": "episodio-17-el-correo-infinito",
+  "language": "es-MX",
+  "orientations": [
+    "landscape",
+    "portrait"
+  ],
+  "profile": "canonical-v2",
+  "schemaVersion": "2.0",
+  "seed": 1724511258,
+  "status": "draft",
+  "timeline": [
+    {
+      "declaredDurationMs": 4000,
+      "durationMs": 4000,
+      "effects": [
+        {
+          "durationMs": 4000,
+          "id": "motion.ken-burns.exposition.documentary.v1.0.0",
+          "intensity": 0.52,
+          "params": {
+            "endX": 0.16,
+            "endY": 0,
+            "scaleEnd": 1.14
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 4000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "color": "#ffd07a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0001",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-serious-left"
+      },
+      "resolvedDurationMs": 4000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 2,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Revisa su reloj",
+      "startMs": 0,
+      "text": "No nos vamos a ir hasta que Persona_3 termine sus pendientes",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0001",
+        "cue-0002",
+        "cue-0003",
+        "cue-0004",
+        "cue-0005",
+        "cue-0006",
+        "cue-0007",
+        "cue-0008",
+        "cue-0009",
+        "cue-0010"
+      ],
+      "durationMs": 28000,
+      "id": "scene-0001",
+      "place": "SALA",
+      "startMs": 0,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0002",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 4,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Levanta la mano",
+      "startMs": 4000,
+      "text": "Pero ya acabé mis pendientes",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "happy",
+      "id": "cue-0003",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-happy-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "felicidad",
+      "sourceLine": 6,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se inclina hacia adelante",
+      "startMs": 7000,
+      "text": "Entonces vámonos",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 4000,
+      "durationMs": 4000,
+      "effects": [
+        {
+          "durationMs": 4000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 4000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "confused",
+      "id": "cue-0004",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-confused-left"
+      },
+      "resolvedDurationMs": 4000,
+      "sourceEmotion": "confusión",
+      "sourceLine": 8,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Mira la pantalla de su computadora",
+      "startMs": 10000,
+      "text": "Esperen, ya solo me falta escribirle un correo a los de Sistemas",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0005",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 10,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Horror",
+      "startMs": 14000,
+      "text": "Noooo…",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0006",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Dum!",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 12,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Horror",
+      "startMs": 16000,
+      "text": "Dum!",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0007",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 14,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Teclado en mano",
+      "startMs": 18000,
+      "text": "Es rápido, es solo un correo",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0008",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Prrrrt",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 16,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Teclado en mano",
+      "startMs": 20000,
+      "text": "Prrrrt",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0009",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 18,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Entrecierra los ojos",
+      "startMs": 22000,
+      "text": "¿Seguro?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "time.punch-edit.impact.snap.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurBoost": 0.35,
+            "peakSpeed": 4
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0010",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 20,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Empieza a escribir",
+      "startMs": 25000,
+      "text": "Sí, sí…",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0011",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 24,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Se estira",
+      "startMs": 28000,
+      "text": "Listo, ya terminé",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0011",
+        "cue-0012",
+        "cue-0013",
+        "cue-0014",
+        "cue-0015",
+        "cue-0016",
+        "cue-0017"
+      ],
+      "durationMs": 17000,
+      "id": "scene-0002",
+      "place": "SALA",
+      "startMs": 28000,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0012",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 26,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Suspira",
+      "startMs": 31000,
+      "text": "¡Por fin!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0013",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Yay",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 28,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Suspira",
+      "startMs": 33000,
+      "text": "Yay",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 4000,
+      "durationMs": 4000,
+      "effects": [
+        {
+          "durationMs": 4000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "confused",
+      "id": "cue-0014",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-confused-left"
+      },
+      "resolvedDurationMs": 4000,
+      "sourceEmotion": "confusión",
+      "sourceLine": 30,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Mira la pantalla",
+      "startMs": 35000,
+      "text": "Solo voy a esperar a que me respondan para confirmar",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "worried",
+      "id": "cue-0015",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-worried-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "miedo",
+      "sourceLine": 32,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Manos en la cabeza",
+      "startMs": 39000,
+      "text": "¡NOOOO!, No por favor",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "worried",
+      "id": "cue-0016",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-worried-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Dum!",
+      "sourceEmotion": "miedo",
+      "sourceLine": 34,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Manos en la cabeza",
+      "startMs": 41000,
+      "text": "Dum!",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "confused",
+      "id": "cue-0017",
+      "media": {
+        "backgroundAssetId": "background-sala-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-confused-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "confusión",
+      "sourceLine": 36,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Mira la pantalla",
+      "startMs": 43000,
+      "text": "¡Solo un minuto y ya!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0018",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 40,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Persona_2",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Mira su pantalla",
+      "startMs": 45000,
+      "text": "Bueno, ya no respondieron, vámonos...",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0018",
+        "cue-0019",
+        "cue-0020",
+        "cue-0021",
+        "cue-0022",
+        "cue-0023",
+        "cue-0024",
+        "cue-0025",
+        "cue-0026",
+        "cue-0027",
+        "cue-0028",
+        "cue-0029",
+        "cue-0030",
+        "cue-0031",
+        "cue-0032",
+        "cue-0033",
+        "cue-0034",
+        "cue-0035",
+        "cue-0036",
+        "cue-0037",
+        "cue-0038"
+      ],
+      "durationMs": 46000,
+      "id": "scene-0003",
+      "place": "PASILLO",
+      "startMs": 45000,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0019",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Yay",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 42,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Persona_2",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Mira su pantalla",
+      "startMs": 47000,
+      "text": "Yay",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "time.punch-edit.impact.snap.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurBoost": 0.35,
+            "peakSpeed": 4
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0020",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 44,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se agarra la cabeza",
+      "startMs": 49000,
+      "text": "¡No tienes que esperar una respuesta!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0021",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 46,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se agarra la cabeza",
+      "startMs": 51000,
+      "text": "Igual lo puedes revisar mañana",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0022",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Ugh",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 48,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se agarra la cabeza",
+      "startMs": 53000,
+      "text": "Ugh",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0023",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 50,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Se toca la barbilla",
+      "startMs": 55000,
+      "text": "Pero, ¿y si me contestan con una duda y no estoy aquí?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "angry",
+      "id": "cue-0024",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-angry-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "enojo",
+      "sourceLine": 52,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Agita los brazos",
+      "startMs": 58000,
+      "text": "¡Que lo resuelvan solos!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "time.punch-edit.impact.snap.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurBoost": 0.35,
+            "peakSpeed": 4
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "angry",
+      "id": "cue-0025",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-angry-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "enojo",
+      "sourceLine": 54,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Agita los brazos",
+      "startMs": 60000,
+      "text": "¡Viven de complicarnos la vida!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "angry",
+      "id": "cue-0026",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-angry-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Tsk, tsk",
+      "sourceEmotion": "enojo",
+      "sourceLine": 56,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Agita los brazos",
+      "startMs": 62000,
+      "text": "Tsk, tsk",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0027",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 58,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Persona_1",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Suspira",
+      "startMs": 64000,
+      "text": "Bueno, está bien, ¡Vámonos!...",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0028",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 60,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Sonríe",
+      "startMs": 67000,
+      "text": "Oh, me llegó la respuesta",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0029",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Dum!",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 62,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Sonríe",
+      "startMs": 69000,
+      "text": "Dum!",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0030",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 64,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Con horror",
+      "startMs": 71000,
+      "text": "¡NO LO LEAS!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0031",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Dum!",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 66,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Con horror",
+      "startMs": 73000,
+      "text": "Dum!",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.4,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0032",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 68,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Se encoge de hombros",
+      "startMs": 75000,
+      "text": "Pero solo es una línea…",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 3000,
+      "effects": [
+        {
+          "durationMs": 3000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 3000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0033",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 3000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 70,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Persona_2",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Manos juntas",
+      "startMs": 78000,
+      "text": "No caigas en la trampa…",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.28,
+          "params": {
+            "contrast": 0.08,
+            "saturation": 0.9,
+            "tint": 0
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0034",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 72,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Frunce el ceño",
+      "startMs": 81000,
+      "text": "Dice: Gracias compañero...",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "time.punch-edit.impact.snap.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurBoost": 0.35,
+            "peakSpeed": 4
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0035",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 74,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Frunce el ceño",
+      "startMs": 83000,
+      "text": "Solo una consulta…",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.24,
+          "params": {
+            "color": "#ffb15a",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0036",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-conejo-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Dum!",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 76,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Persona_3",
+      "speakerPosition": "derecha",
+      "stageDirection": "Frunce el ceño",
+      "startMs": 85000,
+      "text": "Dum!",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.camera-shake.impact.decay.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "amplitudePx": 10,
+            "decayMs": 520,
+            "frequencyHz": 9
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        },
+        {
+          "durationMs": 2000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "contrast": 0.18,
+            "saturation": 1.18,
+            "tint": 0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0037",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 78,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Manos en el aire",
+      "startMs": 87000,
+      "text": "¡NOOOOO, POR FAVOR!...",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "blurPx": 10,
+            "focusTo": "subject"
+          },
+          "role": "support",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0038",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pata-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Prrrrt",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 80,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Persona_4",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Manos en el aire",
+      "startMs": 89000,
+      "text": "Prrrrt",
+      "type": "sfx"
+    }
+  ],
+  "title": "Episodio 17 · El correo infinito",
+  "warnings": []
+}

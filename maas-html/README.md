@@ -1,6 +1,6 @@
 # MAAS HTML · primer preview
 
-Este subproyecto convierte el Episodio 0 histórico en un reproductor React + PixiJS estático. Usa los PNG reales de Pato, Cactus, Conejo, Pata, Oficina y Pasillo; sólo prepara los assets requeridos y conserva `media/` intacta.
+Este subproyecto convierte episodios históricos y planes canonical-v2 en un reproductor React + PixiJS estático. Usa media real verificada, prepara sólo los assets requeridos y conserva `media/` intacta.
 
 ## Requisitos
 
@@ -32,13 +32,13 @@ pnpm run verify:bundle
 pnpm run preview:episode
 ```
 
-Abre `http://127.0.0.1:4173/` o `http://127.0.0.1:4173/episodes/episodio-0-prueba-renderizar/`. El bundle requiere un servidor HTTP; no se promete soporte para `file://`.
+Abre `http://127.0.0.1:4173/` o una entrada directa bajo `http://127.0.0.1:4173/episodes/`. El bundle requiere un servidor HTTP; no se promete soporte para `file://`.
 
 El laboratorio de efectos vive en `http://127.0.0.1:4173/effects/`: permite buscar las 34 entradas, filtrar por familia o nivel de soporte, revisar parámetros y contraindicaciones, y copiar un token canonical-v2.
 
 Cada efecto incluye una escena narrativa original para juzgarlo dentro de una intención dramática concreta. La versión pública se despliega con GitHub Actions en `https://gabrielapichardo97.github.io/MAAS/effects/`.
 
-El reproductor también queda publicado en `https://gabrielapichardo97.github.io/MAAS/` y como HTML directo en `https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-renderizar/`.
+El reproductor también queda publicado en `https://gabrielapichardo97.github.io/MAAS/`. Los ejemplos con dirección creativa son `/episodes/episodio-0-prueba-efectos/` y `/episodes/episodio-17-el-correo-infinito/`.
 
 Para abrir el build que incluye el laboratorio, ejecuta `pnpm run preview:player` después de `pnpm run build`.
 
@@ -48,7 +48,7 @@ Para abrir el build que incluye el laboratorio, ejecuta `pnpm run preview:player
 
 - `content:normalize`: vuelve a importar el JSON histórico sin modificar el original.
 - `content:validate`: aplica el contrato estricto de `episode-source.json`.
-- `content:build`: compila `legacy-v1`, sincroniza con el mapa de audio vacío y aplica `presentation.json`.
+- `content:build`: descubre todos los episodios, compila `legacy-v1` o `canonical-v2`, resuelve media y conserva el perfil de cada manifiesto.
 - `assets:inventory` y `assets:audit`: regeneran la evidencia de los 365 recursos legados.
 - `media:catalog` y `media:validate`: crean IDs semánticos y verifican fuentes/hashes.
 - `media:report-gaps`: genera `media-gaps.json`, `media-gaps.md` y fichas de producción sin bloquear episodios no afectados.

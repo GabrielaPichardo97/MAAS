@@ -157,7 +157,7 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
           </div>
         ) : !started && (
           <div className="start-card">
-            <p>Una prueba visual de 33.9 segundos</p>
+            <p>Una prueba visual de {(manifest.durationMs / 1000).toFixed(1)} segundos</p>
             <button className="primary" onClick={() => { seek(0); setStarted(true); setPlaying(true); }}>
               <span aria-hidden="true">▶</span> Iniciar episodio
             </button>
