@@ -1,0 +1,38 @@
+{
+  "name": "maas-html-player",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "content:normalize": "python tools/scripts/normalize_legacy_input.py ../Guiones/capitulos/Episodio_0_Prueba_PROCESADO_20250322134659.json --output content/episodes/episodio-0-prueba-renderizar/episode-source.json",
+    "content:validate": "python tools/scripts/validate_episode.py content/episodes/episodio-0-prueba-renderizar/episode-source.json --mode strict --pretty",
+    "content:build": "python tools/maas_builder/build_preview.py",
+    "assets:inventory": "python tools/scripts/build_asset_manifest.py ../media --output reports/asset-manifest.json",
+    "assets:audit": "python tools/scripts/audit_assets.py reports/asset-manifest.json --report reports/asset-audit.json",
+    "media:catalog": "python tools/scripts/media_pipeline.py catalog reports/asset-manifest.json --root ../media --output media-library/media-catalog.json",
+    "media:validate": "python tools/scripts/media_pipeline.py validate media-library/media-catalog.json --root ../media",
+    "media:report-gaps": "python tools/scripts/media_pipeline.py report-gaps media-library/media-catalog.json --output-json reports/media-gaps.json --output-md reports/media-gaps.md --requests-dir reports/media-requests",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:python": "python -m unittest discover tests/python",
+    "package:episode": "python tools/scripts/build_episode.py public/episodes/episodio-0-prueba-renderizar/episode.manifest.json --player-dist dist/player --output dist/site --media-catalog media-library/media-catalog.json",
+    "verify:bundle": "python tools/scripts/verify_bundle.py dist/site",
+    "preview:episode": "vite preview --outDir dist/site --host 127.0.0.1",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "pixi.js": "^8",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": ">=4 <6",
+    "typescript": "^5",
+    "vite": ">=6 <8",
+    "vitest": ">=3 <5"
+  }
+}

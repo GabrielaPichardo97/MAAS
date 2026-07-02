@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/player.tsx","./src/timeline.ts","./src/types.ts","./src/audio/audioengine.ts","./src/renderer/maasstage.ts","./src/renderer/effectmath.ts","./src/ui/app.tsx","./tests/typescript/effectmath.test.ts","./tests/typescript/timeline.test.ts","./vite.config.ts"],"version":"5.9.3"}

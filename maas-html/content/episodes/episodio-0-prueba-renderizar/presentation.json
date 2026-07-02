@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "2.0",
+  "characters": {
+    "pato": {"label": "Pato", "position": "izquierda"},
+    "cactus": {"label": "Cactus", "position": "derecha"},
+    "conejo": {"label": "Conejo", "position": "izquierda"},
+    "pata": {"label": "Pata", "position": "derecha"}
+  },
+  "places": {
+    "OFICINA": "oficina",
+    "PASILLO": "pasillo"
+  }
+}

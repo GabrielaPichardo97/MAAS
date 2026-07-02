@@ -1,0 +1,23 @@
+{
+  "anchor": null,
+  "assetType": "background",
+  "blockingPublication": false,
+  "characterId": null,
+  "dimensions": {
+    "acceptedExisting": "960x540",
+    "preferred": "1080x1920"
+  },
+  "emotion": null,
+  "gaze": null,
+  "layout": "center",
+  "orientation": "portrait",
+  "placeId": "pasillo",
+  "requestId": "background-pasillo-portrait-center",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "background-pasillo-landscape-center"
+  ],
+  "suggestedFilename": "backgrounds/pasillo/portrait.center.png",
+  "transparent": false
+}

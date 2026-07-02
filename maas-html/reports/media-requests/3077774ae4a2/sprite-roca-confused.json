@@ -1,0 +1,26 @@
+{
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "assetType": "sprite",
+  "blockingPublication": false,
+  "characterId": "roca",
+  "dimensions": {
+    "acceptedExisting": "500x500",
+    "preferred": "1024x1024"
+  },
+  "emotion": "confused",
+  "gaze": "left",
+  "layout": null,
+  "orientation": null,
+  "placeId": null,
+  "requestId": "sprite-roca-confused",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "character-roca-happy-left"
+  ],
+  "suggestedFilename": "characters/roca/confused.left.png",
+  "transparent": true
+}

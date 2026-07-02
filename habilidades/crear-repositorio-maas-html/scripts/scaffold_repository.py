@@ -44,6 +44,7 @@ def main() -> int:
             "build_asset_manifest.py": skills_root / "migrar-insumos-maas" / "scripts" / "build_asset_manifest.py",
             "probe_media.py": skills_root / "migrar-insumos-maas" / "scripts" / "probe_media.py",
             "audit_assets.py": skills_root / "migrar-insumos-maas" / "scripts" / "audit_assets.py",
+            "media_pipeline.py": skills_root / "resolver-media-maas" / "scripts" / "media_pipeline.py",
             "legacy_effect_math.py": skills_root / "reproducir-efectos-maas" / "scripts" / "legacy_effect_math.py",
             "build_audio_cues.py": skills_root / "sincronizar-audio-maas" / "scripts" / "build_audio_cues.py",
             "build_episode.py": skills_root / "empaquetar-episodio-maas" / "scripts" / "build_episode.py",
@@ -59,6 +60,8 @@ def main() -> int:
             if target.exists():
                 raise FileExistsError(f"No se sobrescribe: {target}")
             shutil.copy2(source, target)
+        media_schemas = skills_root / "resolver-media-maas" / "assets" / "schemas"
+        copy_tree_without_overwrite(media_schemas, destination / "schemas")
     except (OSError, FileExistsError) as exc:
         print(str(exc))
         return 1

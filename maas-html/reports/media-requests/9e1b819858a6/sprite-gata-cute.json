@@ -1,0 +1,26 @@
+{
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "assetType": "sprite",
+  "blockingPublication": false,
+  "characterId": "gata",
+  "dimensions": {
+    "acceptedExisting": "500x500",
+    "preferred": "1024x1024"
+  },
+  "emotion": "cute",
+  "gaze": "left",
+  "layout": null,
+  "orientation": null,
+  "placeId": null,
+  "requestId": "sprite-gata-cute",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "character-gata-happy-left"
+  ],
+  "suggestedFilename": "characters/gata/cute.left.png",
+  "transparent": true
+}

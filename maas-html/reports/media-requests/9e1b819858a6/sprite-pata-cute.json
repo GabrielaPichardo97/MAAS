@@ -1,0 +1,26 @@
+{
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "assetType": "sprite",
+  "blockingPublication": false,
+  "characterId": "pata",
+  "dimensions": {
+    "acceptedExisting": "500x500",
+    "preferred": "1024x1024"
+  },
+  "emotion": "cute",
+  "gaze": "left",
+  "layout": null,
+  "orientation": null,
+  "placeId": null,
+  "requestId": "sprite-pata-cute",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "character-pata-happy-left"
+  ],
+  "suggestedFilename": "characters/pata/cute.left.png",
+  "transparent": true
+}

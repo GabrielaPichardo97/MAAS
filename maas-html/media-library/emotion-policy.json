@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "sourceAliases": {
+    "Llorando": "sad",
+    "Pensamiento": "a",
+    "Tosiendo": "serious",
+    "Silencio": "serious",
+    "Confusión": "confused",
+    "Risa": "happy",
+    "Cansancio": "sad",
+    "Dolor leve": "worried"
+  },
+  "fallbacks": {
+    "worried": ["sad", "serious", "happy"],
+    "confused": ["dizzy", "serious", "happy"],
+    "scared": ["worried", "sad", "serious"],
+    "cute": ["happy"],
+    "a": ["happy"]
+  }
+}

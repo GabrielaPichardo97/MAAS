@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -14,6 +15,14 @@ SECRET_PATTERNS = {
     "PRIVATE_KEY": re.compile(r"BEGIN (?:RSA |EC )?PRIVATE KEY"),
     "BEARER": re.compile(r"Bearer\s+[A-Za-z0-9._-]{20,}", re.IGNORECASE),
 }
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def main() -> int:
@@ -44,6 +53,20 @@ def main() -> int:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             if manifest.get("durationMs", -1) < 0 or not isinstance(manifest.get("timeline"), list):
                 raise ValueError("timeline/duration inválidos")
+            requested = set(manifest.get("assets", []))
+            asset_urls = manifest.get("assetUrls", {})
+            if requested != set(asset_urls):
+                diagnostics.append({"code": "E_ASSET", "severity": "error", "path": manifest_path.relative_to(root).as_posix(), "message": "assets y assetUrls no coinciden"})
+            for asset_id in sorted(requested):
+                url = str(asset_urls.get(asset_id, ""))
+                relative = url.removeprefix("/")
+                target = (root / relative).resolve()
+                if not url.startswith("/assets/") or root not in target.parents or not target.is_file():
+                    diagnostics.append({"code": "E_ASSET", "severity": "error", "path": relative, "message": f"Asset ausente o inseguro: {asset_id}"})
+                    continue
+                expected = Path(relative).stem
+                if len(expected) == 64 and sha256(target) != expected:
+                    diagnostics.append({"code": "E_ASSET", "severity": "error", "path": relative, "message": f"Hash distinto: {asset_id}"})
             report = manifest_path.with_name("build-report.json")
             if not report.is_file():
                 diagnostics.append({"code": "E_ASSET", "severity": "error", "path": report.relative_to(root).as_posix(), "message": "Falta build-report"})

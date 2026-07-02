@@ -1,0 +1,26 @@
+{
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "assetType": "sprite",
+  "blockingPublication": false,
+  "characterId": "cactus",
+  "dimensions": {
+    "acceptedExisting": "500x500",
+    "preferred": "1024x1024"
+  },
+  "emotion": "scared",
+  "gaze": "left",
+  "layout": null,
+  "orientation": null,
+  "placeId": null,
+  "requestId": "sprite-cactus-scared",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "character-cactus-happy-left"
+  ],
+  "suggestedFilename": "characters/cactus/scared.left.png",
+  "transparent": true
+}

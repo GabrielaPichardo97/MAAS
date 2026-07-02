@@ -1,0 +1,13 @@
+{
+  "content": "\n–Script–\n[Persona_1] (2 segundos | Llorando | Ojos llorosos)\n\n1. No otra vez... (PP Persona_1)\n2. OSD (Snif, snif) (ZI*1.3)\n\n[Persona_2] (3 segundos | Tosiendo | Lleva la mano a la boca)\n\n1. ¡Puaj! (PA-I*1.2)\n2. OSD (Cof, cof) (PP Persona_2)\n\n[Persona_3] (2 segundos | Confusión | Gira la cabeza)\n\n1. ¿Qué rayos...? (TI-B*1.1)\n2. OSD (¿Eh?) (PP Persona_3)\n\n[Persona_4] (2 segundos | Cansancio | Cerrando los ojos)\n\n1. Cinco minutos más... (TI-A*1.3)\n2. OSD (Zzzz) (PP Persona_4)\n\n**OFICINA**\n\n---CAMBIO DE ESCENA---\n\n[Persona_1] (2 segundos | Pensamiento | Mira al cielo)\n\n1. Hmm... eso fue raro. (ES)\n2. OSD (Hmm) (PP Persona_1)\n\n[Persona_2] (2 segundos | Silencio | Señala con el dedo los labios)\n\n1. Shhh, creo que escuché algo. (PP Persona_2)\n2. OSD (Shhh) (ZI*1.2)\n\n[Persona_3] (2 segundos | Risa | Se contiene)\n\n1. Esto es surrealista. (PP Persona_3)\n2. OSD (Jaja) (PA-D*1.5)\n\n[Persona_4] (1 segundo | Dolor leve | Se frota el brazo)\n\n1. ¡Ay! ¿Quién dejó esto aquí? (TI-B*1.1)\n2. OSD (Ay) (PP Persona_4)\n\n**PASILLO**\n\n",
+  "episodeId": "episodio-0-prueba-renderizar",
+  "language": "es-MX",
+  "schemaVersion": "1.0",
+  "seed": 1386310347,
+  "source": {
+    "importedFrom": "MAAS legacy JSON",
+    "url": "https://docs.google.com/document/d/17Mv8hON1gVX3qPGa0YM7NVomqlds3Us0dJr8kCwsb8c/edit?usp=drivesdk"
+  },
+  "status": "published",
+  "title": "Episodio 0 Prueba RENDERIZAR"
+}

@@ -1,0 +1,26 @@
+{
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "assetType": "sprite",
+  "blockingPublication": false,
+  "characterId": "coneja",
+  "dimensions": {
+    "acceptedExisting": "500x500",
+    "preferred": "1024x1024"
+  },
+  "emotion": "scared",
+  "gaze": "left",
+  "layout": null,
+  "orientation": null,
+  "placeId": null,
+  "requestId": "sprite-coneja-scared",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "character-coneja-happy-left"
+  ],
+  "suggestedFilename": "characters/coneja/scared.left.png",
+  "transparent": true
+}

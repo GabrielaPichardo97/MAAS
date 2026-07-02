@@ -1,0 +1,2530 @@
+{
+  "assetCount": 365,
+  "diagnostics": [
+    {
+      "assetId": "media-audio-ambiente-aire-acondicionado-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-bosque-por-la-manana",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-ciudad-poco-trafico",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-ciudad-residencial-de-noche",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-ciudad-trafico",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-correos",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-de-oficina-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-ambiente-peatonal-pasos",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-anden-estacion-2-megafonia",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-aplausos-10-personas-3-versiones",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-bostezos-0-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-camion-ambiente-de-garaje",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-comer-apio-lento",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-elec-01",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-elec-13",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-escribir-en-la-pizarra-con-tiza",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-estornudo-hombre",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-mujer-que-estornuda",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-mujer-que-tose",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-oficina-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-oficina-voces-ambiente",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-palmadas",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-pasos-de-hombre-escalera-de-madera-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-pasos-de-hombre-escalera-de-madera-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-proyector-de-diapositiva",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-puerta-de-madera-apertura",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-puerta-de-madera-chirrido",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-puerta-golpes-con-nudillos-10",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-puerta-grande-y-pessada",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-puerta-interior-chirrido",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-ambiente-risa-de-grupo-de-mujeres",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-acelerado-sonic-the-hedgehog-ost-green-hill-zone",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-amable-boat-buds",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-background",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-chilling-audio-mixkit-chill-bro-no-copyright-music-royalty-free-music",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-confundido-animal-crossing-city-folk-ost-nook-s-cranny",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-confundido-shop",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-confundido-shop-v3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-curiosidad-amabilidad-beach-buds-short-hike",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-esperanzador-spring-farm-extended-hm-save-the-homeland",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-pasar-el-tiempo-battle-wwwwww",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-pasarla-bien-menu-cooking-mama-soundtrack",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-pensativo-algo-salio-mal-spongebob-music-hawaiian",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-pensativo-entretenido-stardew-valley-ost-country-shop",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-pillado-hacer-una-travesura-able-sisters-sabel-mable-animal-crossing-new-leaf",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-relajante-animada-title-theme-cooking-mama-soundtrack",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-relajante-tranquila-my-time-at-portia-ost-spring-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-trabajando-intensamente-harold-faltermeyer-axel-f-1984-beverly-hills-cop-soundtrack",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-trabajando-investigando-jean-michel-jarre-oxygene-part-iv-original-1976-hq",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-background-triste-hello",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-green-screen-windows-xp-error",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-angel-sound-effect-hd",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-awwghghaghahh-cough-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cartoon-running-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-censor-sound-effect-hd",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-climax-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cof-corto-hombre",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cof-largo-hombre",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cof-woman",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cr-super-mario-world",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-cricket-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-diarrea-efecto-de-sonido-shitpost",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-discord-connect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-discord-desconectarse",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-discord-notificacion",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-duck-quack-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-duck-toy-squeak-dog-toy-sound-effect-download",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-efecto-de-sonido-escribiendo-en-teclado-pc",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-efecto-de-sonido-golpe",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-egreat-grey-wolf-sif-dark-souls",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-eh",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-eructos",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-fart-with-reverb-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-fnaf-ambiente-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-freezing-cold-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-funny-turtle-vine-panting",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-gapa-dhapa-funny-sound-effect-no-copyright",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-grunido-de-monstruo-sonido",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-ha-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-halo-clasic-ah",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-halo-finish-the-fight",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-halo-one-final-effort",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-hombre-bostezando",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-impact-sound-shitpost",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-kahoot-lobby-music",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-kahoot-music-10-second-countdown-3-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-kanye-west-wolves-tiene-copyright",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-microsoft-windows-95-sonido-de-inicio",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-microsoft-windows-xp-error",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-microsoft-windows-xp-startup-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-microsoft-windows-xp-error-accf6a38",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-minecraft-villager-huh-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-moai-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-msn-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-mujer-que-ronca-efecto-de-sonido-hd",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-mutahar-laughing-meme-indian-guy",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-musica-perturbadora",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-old-spice-silbido-efecto-de-sonido",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-omfg-hello-audio-pobre-0-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-persona-hablando-con-sonidos-saturados-0-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-playstation-2-startup-noise",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-pop-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-poppy-playtime-theme-sad-0-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-practice-mode-geometry-dash",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-psst-sound-effect-doors",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-risa-de-ibai",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-roblox-sonido-perturbador",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-roblox-oof-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-roncar-ronquidos-efecto",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-shhhhhhhhh-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-silencio",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-silencio-medio-segundo",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-skype-call-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sneeze-sound-effect-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sniffing-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sonido-bostezo",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sonido-de-impacto",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sonido-de-perturbacion-incomodidad",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-sonido-golpe-en-la-cabeza",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-spongebob-boo-womp-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-suspense-climax-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-suspense-sound-effect-no-copyright",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-taca-a-xereca-pra-min-0-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-thx-theme-12-18",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-tsk-tsk-solo-el-final",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-windows-11-startup-sound",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-woman-coughing-sound-effects",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-efectos-wow-sound-effect",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-endings-end2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-audio-endings-end2-v",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-cafeteria-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-calle-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-elevador-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-oficina-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-parque-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-pasillo-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-puerta-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-sala-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-3",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-4",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes-5",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-fondos-tren-fondos-de-personajes",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-cactus-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-confused-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-confused-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-happy-front",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-realistic-photo",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-coneja-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-confused-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-confused-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-conejo-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-angy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-angy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-confused-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-a-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-happy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-surprised-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-correct-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-gata-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-a-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-happy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-surprised-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-correct-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-happy-front",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-kiwi-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-confused-front",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-surprised-front",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pata-worried-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-condused-right",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-condused-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-confused-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-correct-happy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-correct-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pato-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-correct-a-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-correct-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-left-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-left-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-right-2",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-right-2",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-pollo-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-angry-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-angry-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-confused-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-confused-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-correct-a-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-correct-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-correct-happy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-correct-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-realistic-a",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-rinoceronte-rojo-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-a-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-a-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-angy-left",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-angy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-angy-right",
+      "code": "W_ASSET_NAMING",
+      "message": "Naming legado irregular",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-angy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-dizzy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-dizzy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-happy-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-happy-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-realistic-chair",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-sad-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-sad-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-serious-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-serious-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-surprised-left",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-roca-surprised-right",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-tortuga-tortuga1",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-tortuga-tortuga1png",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-personajes-personajes-animales-tortuga-tortuga-office",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-32-55-an-abstract-wallpaper-design-inspired-by-the-provided-image-featuring-a-gradient-background-with-flowing-shapes-and-patterns-in-warm-sunset-like-col",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-35-55-a-vibrant-and-colorful-painting-of-a-white-coffee-cup-with-a-galaxy-inside-the-galaxy-inside-the-cup-features-swirling-stars-planets-and-cosmic-dus",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-40-46-a-surrealist-painting-of-a-coffee-cup-with-a-penguin-on-an-iceberg-inside-the-penguin-is-standing-on-the-iceberg-floating-in-a-sea-of-coffee-inside",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-42-43-a-surrealist-painting-of-a-coffee-cup-with-an-office-chair-on-a-desk-inside-the-office-chair-is-positioned-on-top-of-the-desk-which-is-floating-in-a",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-49-42-a-top-down-view-of-a-cup-of-coffee-in-a-vibrant-colorful-artistic-style-similar-to-a-painting-of-fried-eggs-the-coffee-is-dark-brown-with-the-foam-o",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-52-24-a-top-down-view-of-a-cup-of-coffee-in-a-vibrant-colorful-artistic-style-similar-to-a-painting-of-fried-eggs-the-coffee-is-dark-brown-with-the-foam-o",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-53-21-a-vibrant-colorful-artistic-style-image-of-a-mountain-made-up-of-numerous-coffee-cups-the-cups-are-stacked-and-scattered-in-a-dynamic-chaotic-arran",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-57-25-a-vibrant-and-action-packed-shonen-anime-style-image-featuring-a-single-anthropomorphic-coffee-mug-as-the-main-character-the-coffee-mug-has-a-dynamic",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-18-58-27-a-dark-and-intense-anime-style-image-featuring-a-single-anthropomorphic-coffee-mug-as-the-main-character-in-the-style-of-berserk-the-coffee-mug-has",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-39-03-a-rugged-cozy-scene-featuring-a-steaming-hot-cup-of-coffee-perfect-for-a-lumberjack-in-alaska-the-background-should-include-elements-like-a-rustic",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-39-52-a-festive-whimsical-scene-featuring-a-steaming-hot-cup-of-coffee-for-santa-claus-the-cup-should-be-surrounded-by-snowflakes-and-a-winter-wonderland",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-43-21-a-whimsical-and-intriguing-scene-featuring-a-steaming-hot-cup-of-coffee-with-a-large-spoon-the-background-should-incorporate-mathematical-elements-li",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-44-07-a-whimsical-and-cozy-scene-featuring-a-steaming-hot-cup-of-coffee-with-a-large-spoon-inside-set-in-an-environment-that-hints-at-a-plumber-s-life-in-t",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-44-54-a-whimsical-and-cozy-scene-featuring-a-steaming-hot-cup-of-coffee-with-a-large-spoon-set-against-a-backdrop-inspired-by-the-natural-beauty-of-kamchat",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-45-43-a-whimsical-tropical-scene-set-in-honolulu-featuring-a-steaming-hot-cup-of-coffee-include-elements-like-a-serene-beach-palm-trees-and-clear-blue-o",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-46-29-a-whimsical-and-enchanting-scene-featuring-a-steaming-cup-of-coffee-set-against-a-backdrop-that-evokes-the-charm-of-paramaribo-include-elements-such",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-47-07-a-contemplative-artistic-scene-featuring-a-thinker-enjoying-a-cup-of-coffee-the-setting-is-inspired-by-the-tropical-city-of-paramaribo-with-lush-gr",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-47-49-a-vibrant-tropical-scene-featuring-a-steaming-hot-cup-of-coffee-the-background-should-include-lush-green-jungle-foliage-exotic-flowers-and-a-hint",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-49-43-a-vibrant-and-lively-scene-featuring-a-steaming-cup-of-coffee-set-against-a-background-that-captures-the-essence-of-osaka-japan-include-elements-li",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-50-49-a-cozy-whimsical-scene-set-in-a-charming-czech-village-featuring-a-steaming-hot-cup-of-coffee-the-background-should-include-picturesque-elements-li",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-54-55-a-beautiful-vibrant-scene-of-a-buenos-aires-street-cafe-the-cafe-should-be-cozy-and-inviting-with-a-steaming-hot-cup-of-coffee-on-a-table-the-back",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-55-27-a-vibrant-scene-capturing-the-essence-of-mexico-city-for-a-coffee-lover-include-iconic-elements-like-the-angel-of-independence-or-colorful-street-art",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetId": "media-transiciones-dalle-2024-06-15-19-56-33-a-beautiful-scene-set-in-penjamo-featuring-a-steaming-hot-cup-of-coffee-the-background-should-include-elements-that-represent-penjamo-such-as-tradi",
+      "code": "W_LICENSE_UNKNOWN",
+      "message": "Licencia sin documentar",
+      "severity": "warning"
+    },
+    {
+      "assetIds": [
+        "media-audio-efectos-microsoft-windows-xp-error",
+        "media-audio-efectos-microsoft-windows-xp-error-accf6a38"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "accf6a38ebfd2d7fe195c7e5ff0be5527d391d0be77ddb302c4d0668e0826613"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-angry-left",
+        "media-personajes-personajes-animales-cactus-angry-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "b5868fbed83a64461c79cf78dfcd6916b5fc540215415cfa96dbda17bc4da154"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-dizzy-left",
+        "media-personajes-personajes-animales-cactus-dizzy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "c58f8d1776e4d5c56525fb8cc2891d6375b4ce3f03e3f81f2e7f7142163fd3cf"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-happy-left",
+        "media-personajes-personajes-animales-cactus-happy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "9a21a5c3c99f5bd74d3df69d4df975227e011c866cd983c89265e3792a0d1e66"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-sad-left",
+        "media-personajes-personajes-animales-cactus-sad-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "86adae2c5350e823e01bac530c58d69bb0a30300e22689f285b24ab3ca008b31"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-serious-left",
+        "media-personajes-personajes-animales-cactus-serious-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "8890a0cdd52365c29c2fb19f2b8414e5c086d3d3026b3a41de9880938909ef9a"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-cactus-surprised-left",
+        "media-personajes-personajes-animales-cactus-surprised-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "17828a142c6c146d7e08aeae75135a5ff3e18b09ddbc144a1052023e8c1cd8c7"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-angry-left",
+        "media-personajes-personajes-animales-coneja-angry-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "3ad7695045cd1f749235c19f74f076d80f4f28febe80e33f0abf01929a4e8e8d"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-confused-left",
+        "media-personajes-personajes-animales-coneja-confused-right",
+        "media-personajes-personajes-animales-coneja-dizzy-left",
+        "media-personajes-personajes-animales-coneja-dizzy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "abf86faf0fac223d96c6b4cac46e3d050a912f1a7c2ae63f2629d4b33b5243ea"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-happy-left",
+        "media-personajes-personajes-animales-coneja-happy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "66082bf0edd87b56cd72ffc74025778110009dce428225da4bb38dacd7faa38e"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-sad-left",
+        "media-personajes-personajes-animales-coneja-sad-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "001a5b62daa1aa973792ac57ea4611f558f74a19ff731bc1a5e9ede5cf9987c1"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-serious-left",
+        "media-personajes-personajes-animales-coneja-serious-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "a552555341f768d77768150f34049f1a424fc64ce4a54076f41db014279be33c"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-coneja-surprised-left",
+        "media-personajes-personajes-animales-coneja-surprised-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "d42348710869e836b9ffc41c036b2730982eba401eb096818030b5bd9f09525b"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-conejo-a-left",
+        "media-personajes-personajes-animales-conejo-happy-left"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "578b804054ee52f5a689f82e66736f1043e7c0884b857154632361d0df3edb7b"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-conejo-a-right",
+        "media-personajes-personajes-animales-conejo-happy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "52fe2c2a0496774e7e65fb64d062bdd017c244d934457ffc5efab154b4520bfb"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-conejo-confused-left",
+        "media-personajes-personajes-animales-conejo-dizzy-left"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "544265975993248d770f922871f03e343aed3806350c5bdbb810c23ef5beaed5"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-conejo-confused-right",
+        "media-personajes-personajes-animales-conejo-dizzy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "d7845c1b231042a6a25c114a3193c57f6bbfd903a987e39cbfc5f83af67e3479"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-kiwi-correct-a-left",
+        "media-personajes-personajes-animales-kiwi-correct-surprised-left"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "3e16d0d134969196793d8a39caa1093e5499169b6e2d43f94193051ab47f5cc6"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-pato-condused-right",
+        "media-personajes-personajes-animales-pato-dizzy-right"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "bfa0346fd508c5bfdb57f9ac81e424bfc7f9e1101403c5aaa34fa62b2717a9a8"
+    },
+    {
+      "assetIds": [
+        "media-personajes-personajes-animales-pato-confused-left",
+        "media-personajes-personajes-animales-pato-dizzy-left"
+      ],
+      "code": "W_DUPLICATE_CONTENT",
+      "message": "Contenido binario duplicado",
+      "severity": "warning",
+      "sha256": "596e1a9264ed07850e6a5c0dfbb48ea629a0080760f4175ee25f78eb8c6039dd"
+    }
+  ],
+  "valid": true
+}

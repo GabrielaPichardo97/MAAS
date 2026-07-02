@@ -1,0 +1,615 @@
+{
+  "assetUrls": {
+    "background-oficina-landscape-character-left": "/assets/4bcc28e556c48653755f9af366491899808d44bcecffadfe6291c35a5452c60c.png",
+    "background-oficina-landscape-character-right": "/assets/1c5be04358ae2a30f10311ef4b0ae09f1f44159db156b797b70839341dce9ae4.png",
+    "background-pasillo-landscape-character-left": "/assets/4eb9e1e9f8178ec0ddb60d8b69a3314970ec6f413174a577d24bf2127bbf06a8.png",
+    "background-pasillo-landscape-character-right": "/assets/19589c99a3af8bf4b40dfa93db52b7b99f11cc45359b5a4d165520e7faa95686.png",
+    "character-cactus-serious-left": "/assets/8890a0cdd52365c29c2fb19f2b8414e5c086d3d3026b3a41de9880938909ef9a.png",
+    "character-conejo-confused-left": "/assets/544265975993248d770f922871f03e343aed3806350c5bdbb810c23ef5beaed5.png",
+    "character-conejo-happy-left": "/assets/578b804054ee52f5a689f82e66736f1043e7c0884b857154632361d0df3edb7b.png",
+    "character-pata-sad-left": "/assets/6f72326eab2c998ba8659ef82f87f3e7866ed2140fe9101f929d2f4e36c85fbc.png",
+    "character-pata-worried-left": "/assets/c2fa9e9b68be46c78d88584dea78a21e893f094287a5e426fdb555c02d45c9ff.png",
+    "character-pato-a-left": "/assets/187cc63e615258b13593f4e5eec642a63e7444310890ccaefa586bba9b0d7802.png",
+    "character-pato-sad-left": "/assets/438c29c8879947e4722bd9b6ad55c8d4d1eac0f271b219e3676f9316f6e60d14.png"
+  },
+  "assets": [
+    "background-oficina-landscape-character-left",
+    "background-oficina-landscape-character-right",
+    "background-pasillo-landscape-character-left",
+    "background-pasillo-landscape-character-right",
+    "character-cactus-serious-left",
+    "character-conejo-confused-left",
+    "character-conejo-happy-left",
+    "character-pata-sad-left",
+    "character-pata-worried-left",
+    "character-pato-a-left",
+    "character-pato-sad-left"
+  ],
+  "audioPolicy": {
+    "musicGain": 0.15,
+    "muteMusicDuringSfx": true,
+    "sampleRate": 44100,
+    "transitionGain": 0.5
+  },
+  "characters": {
+    "Persona_1": "pato",
+    "Persona_2": "cactus",
+    "Persona_3": "conejo",
+    "Persona_4": "pata"
+  },
+  "durationMs": 33900,
+  "episodeId": "episodio-0-prueba-renderizar",
+  "language": "es-MX",
+  "orientations": [
+    "landscape",
+    "portrait"
+  ],
+  "profile": "legacy-v1",
+  "schemaVersion": "1.0",
+  "seed": 1386310347,
+  "status": "published",
+  "timeline": [
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_1",
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0001",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-sad-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Llorando",
+      "sourceLine": 5,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Pato",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Ojos llorosos",
+      "startMs": 0,
+      "text": "No otra vez...",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0001",
+        "cue-0002",
+        "cue-0003",
+        "cue-0004",
+        "cue-0005",
+        "cue-0006",
+        "cue-0007",
+        "cue-0008"
+      ],
+      "durationMs": 16000,
+      "id": "scene-0001",
+      "place": "OFICINA",
+      "startMs": 0,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "ZI",
+        "intensity": 1.3,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0002",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-sad-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Snif, snif",
+      "sourceEmotion": "Llorando",
+      "sourceLine": 6,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Pato",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Ojos llorosos",
+      "startMs": 2000,
+      "text": "Snif, snif",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PA-I",
+        "intensity": 1.2,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0003",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Tosiendo",
+      "sourceLine": 10,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Cactus",
+      "speakerPosition": "derecha",
+      "stageDirection": "Lleva la mano a la boca",
+      "startMs": 4000,
+      "text": "¡Puaj!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 3000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_2",
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0004",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Cof, cof",
+      "sourceEmotion": "Tosiendo",
+      "sourceLine": 11,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Cactus",
+      "speakerPosition": "derecha",
+      "stageDirection": "Lleva la mano a la boca",
+      "startMs": 6000,
+      "text": "Cof, cof",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "TI-B",
+        "intensity": 1.1,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "confused",
+      "id": "cue-0005",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-conejo-confused-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Confusión",
+      "sourceLine": 15,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Conejo",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Gira la cabeza",
+      "startMs": 8000,
+      "text": "¿Qué rayos...?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_3",
+        "tremor": true
+      },
+      "emotion": "confused",
+      "id": "cue-0006",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-conejo-confused-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "¿Eh?",
+      "sourceEmotion": "Confusión",
+      "sourceLine": 16,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Conejo",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Gira la cabeza",
+      "startMs": 10000,
+      "text": "¿Eh?",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "TI-A",
+        "intensity": 1.3,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "sad",
+      "id": "cue-0007",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-pata-sad-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Cansancio",
+      "sourceLine": 20,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Pata",
+      "speakerPosition": "derecha",
+      "stageDirection": "Cerrando los ojos",
+      "startMs": 12000,
+      "text": "Cinco minutos más...",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_4",
+        "tremor": true
+      },
+      "emotion": "sad",
+      "id": "cue-0008",
+      "media": {
+        "backgroundAssetId": "background-oficina-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-pata-sad-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Zzzz",
+      "sourceEmotion": "Cansancio",
+      "sourceLine": 21,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Pata",
+      "speakerPosition": "derecha",
+      "stageDirection": "Cerrando los ojos",
+      "startMs": 14000,
+      "text": "Zzzz",
+      "type": "sfx"
+    },
+    {
+      "durationMs": 1900,
+      "id": "cue-0009",
+      "startMs": 16000,
+      "text": "CAMBIO DE ESCENA",
+      "type": "transition"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "ES",
+        "intensity": 1.0,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "a",
+      "id": "cue-0010",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-a-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Pensamiento",
+      "sourceLine": 29,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Pato",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Mira al cielo",
+      "startMs": 17900,
+      "text": "Hmm... eso fue raro.",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0010",
+        "cue-0011",
+        "cue-0012",
+        "cue-0013",
+        "cue-0014",
+        "cue-0015",
+        "cue-0016",
+        "cue-0017"
+      ],
+      "durationMs": 16000,
+      "id": "scene-0002",
+      "place": "PASILLO",
+      "startMs": 17900,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_1",
+        "tremor": true
+      },
+      "emotion": "a",
+      "id": "cue-0011",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-pato-a-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Hmm",
+      "sourceEmotion": "Pensamiento",
+      "sourceLine": 30,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "speakerLabel": "Pato",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Mira al cielo",
+      "startMs": 19900,
+      "text": "Hmm",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_2",
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0012",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Silencio",
+      "sourceLine": 34,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Cactus",
+      "speakerPosition": "derecha",
+      "stageDirection": "Señala con el dedo los labios",
+      "startMs": 21900,
+      "text": "Shhh, creo que escuché algo.",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "ZI",
+        "intensity": 1.2,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0013",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-cactus-serious-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Shhh",
+      "sourceEmotion": "Silencio",
+      "sourceLine": 35,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "speakerLabel": "Cactus",
+      "speakerPosition": "derecha",
+      "stageDirection": "Señala con el dedo los labios",
+      "startMs": 23900,
+      "text": "Shhh",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_3",
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0014",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-conejo-happy-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Risa",
+      "sourceLine": 39,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Conejo",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se contiene",
+      "startMs": 25900,
+      "text": "Esto es surrealista.",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PA-D",
+        "intensity": 1.5,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0015",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-left",
+        "fallbackApplied": null,
+        "layout": "landscape-character-left",
+        "mirrorX": true,
+        "spriteAssetId": "character-conejo-happy-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Jaja",
+      "sourceEmotion": "Risa",
+      "sourceLine": 40,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "speakerLabel": "Conejo",
+      "speakerPosition": "izquierda",
+      "stageDirection": "Se contiene",
+      "startMs": 27900,
+      "text": "Jaja",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "TI-B",
+        "intensity": 1.1,
+        "target": null,
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0016",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-pata-worried-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "Dolor leve",
+      "sourceLine": 44,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Pata",
+      "speakerPosition": "derecha",
+      "stageDirection": "Se frota el brazo",
+      "startMs": 29900,
+      "text": "¡Ay! ¿Quién dejó esto aquí?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 2000,
+      "effect": {
+        "code": "PP",
+        "intensity": 1.0,
+        "target": "Persona_4",
+        "tremor": true
+      },
+      "emotion": "happy",
+      "id": "cue-0017",
+      "media": {
+        "backgroundAssetId": "background-pasillo-landscape-character-right",
+        "fallbackApplied": null,
+        "layout": "landscape-character-right",
+        "mirrorX": false,
+        "spriteAssetId": "character-pata-worried-left"
+      },
+      "resolvedDurationMs": 2000,
+      "sound": "Ay",
+      "sourceEmotion": "Dolor leve",
+      "sourceLine": 45,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "speakerLabel": "Pata",
+      "speakerPosition": "derecha",
+      "stageDirection": "Se frota el brazo",
+      "startMs": 31900,
+      "text": "Ay",
+      "type": "sfx"
+    }
+  ],
+  "title": "Episodio 0 Prueba RENDERIZAR",
+  "warnings": [
+    {
+      "code": "W_EDITORIAL_PREFIX",
+      "line": 2,
+      "value": "–Script–"
+    },
+    {
+      "code": "W_EMOTION_HAPPY_FALLBACK",
+      "line": 3,
+      "value": "Llorando"
+    },
+    {
+      "code": "W_EMOTION_HAPPY_FALLBACK",
+      "line": 8,
+      "value": "Tosiendo"
+    },
+    {
+      "code": "W_EMOTION_HAPPY_FALLBACK",
+      "line": 32,
+      "value": "Silencio"
+    },
+    {
+      "code": "W_EMOTION_HAPPY_FALLBACK",
+      "line": 37,
+      "value": "Risa"
+    },
+    {
+      "code": "W_EMOTION_HAPPY_FALLBACK",
+      "line": 42,
+      "value": "Dolor leve"
+    }
+  ]
+}
