@@ -21,6 +21,8 @@ place         = "**", place-name, "**" ;
 transition    = "---", transition-text, "---" ;
 camera        = "(", effect, [ "*", positive-number ], [ ws, target ], ")" ;
 effect        = "ES" | "ZI" | "ZO" | "PA-I" | "PA-D" | "TI-A" | "TI-B" | "PP" ;
+fx-token      = "{{fx", ws, effect-id, ws, "role=", role, { ws, key, "=", scalar }, "}}" ;
+role          = "dominant" | "support" | "finish" ;
 ```
 
 Los delimitadores `|` del header son obligatorios. `character`, `emotion`, `stage`, `text`, `sound`, `target` y nombres no pueden quedar vacíos.
@@ -59,6 +61,14 @@ Si no hay audio, se usa la duración declarada. Nunca sobrescribir el valor decl
 ## 5. Efectos
 
 La intensidad predeterminada es `1.0` y debe ser mayor que cero. `PP` puede incluir objetivo: `(PP Pato)`. Otros efectos no admiten objetivo en modo estricto.
+
+En `canonical-v2`, reemplazar `camera` por cero a tres `fx-token` al final del diálogo. Los roles no se repiten. Los IDs siguen `familia.efecto.intencion.variante.vSemver`, en minúsculas ASCII. Ejemplo:
+
+```text
+Esto cambia todo. {{fx motion.push-in.emphasis.subtle.v1.0.0 role=dominant intensity=0.3 target=speaker}}
+```
+
+Los parámetros se validan contra el catálogo canónico. `startOffsetMs` y `durationMs` son enteros; si se omite duración, el efecto termina con el cue. Un requisito ausente produce `E_EFFECT_REQUIREMENT` y muestra el fallback, sin aplicarlo.
 
 ## 6. Compatibilidad legado
 

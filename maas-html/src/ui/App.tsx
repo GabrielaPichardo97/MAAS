@@ -3,6 +3,7 @@ import type { EpisodeManifest } from "../types";
 import type { PlayerOptions } from "../player";
 import { MaasStage } from "../renderer/MaasStage";
 import { activeNarrativeCue, clampPosition, formatTime } from "../timeline";
+import { rebaseManifestAssets } from "../assetUrls";
 
 export function App({ manifestUrl, options }: { manifestUrl: string; options: PlayerOptions }) {
   const player = useRef<HTMLElement>(null);
@@ -40,7 +41,7 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
         if (!response.ok) throw new Error(`No se pudo cargar el manifiesto (${response.status})`);
         return response.json() as Promise<EpisodeManifest>;
       })
-      .then(setManifest)
+      .then((value) => setManifest(rebaseManifestAssets(value, import.meta.env.BASE_URL)))
       .catch((error: unknown) => {
         if (error instanceof DOMException && error.name === "AbortError") return;
         setLoadError(error instanceof Error ? error.message : "Error desconocido al cargar el episodio");

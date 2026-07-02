@@ -14,6 +14,7 @@ description: Cataloga, valida, resuelve y prepara personajes, fondos y demás me
 
 ## Guardas
 
+- Aceptar `character-map.json` y `presentation.json` producidos por `$creativa-ensamblar-episodio-maas`, pero volver a comprobar cada ID contra el catálogo.
 - Usar PNG existentes sin exigir conversión, reescalado o renombrado.
 - Resolver siempre por ID semántico; nunca pasar rutas legadas al navegador.
 - En preview, permitir sólo fallbacks declarados y reportarlos.

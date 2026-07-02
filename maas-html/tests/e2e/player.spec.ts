@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-const episodePath = "/episodes/episodio-0-prueba-renderizar/";
+const episodePath = "/";
 
 for (const viewport of [
   { name: "wide", width: 1280, height: 720 },
@@ -44,3 +44,9 @@ for (const viewport of [
     await page.close();
   });
 }
+
+test("HTML directo del Episodio 0", async ({ page }) => {
+  await page.goto("/episodes/episodio-0-prueba-renderizar/", { waitUntil: "networkidle" });
+  await expect(page.getByRole("heading", { name: /Episodio 0/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Iniciar episodio" })).toBeVisible();
+});

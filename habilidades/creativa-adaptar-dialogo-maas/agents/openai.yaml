@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creativa · Adaptar diálogo MAAS"
+  short_description: "Convierte diálogo fiel en beats MAAS"
+  default_prompt: "Usa $creativa-adaptar-dialogo-maas para adaptar este diálogo sin reescribir sus parlamentos."

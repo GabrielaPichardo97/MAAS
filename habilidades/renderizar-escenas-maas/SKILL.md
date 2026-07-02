@@ -1,6 +1,6 @@
 ---
 name: renderizar-escenas-maas
-description: Implementa el stage React/PixiJS que compone fondos, sprites, texto, orientación y cámara desde episode.manifest.json. Usar al construir el reproductor, adaptar layouts horizontal/vertical, implementar resize o mejorar accesibilidad visual.
+description: Implementa el stage React/PixiJS y el laboratorio que componen fondos, sprites, texto, orientación, cámara y stacks canonical-v2 desde episode.manifest.json. Usar al construir el reproductor, previews de efectos, layouts, resize o accesibilidad visual.
 ---
 
 # Renderizar escenas MAAS
@@ -12,9 +12,11 @@ description: Implementa el stage React/PixiJS que compone fondos, sprites, texto
 5. Renderizar escena estática a una textura; después aplicar temblor y cámara mediante `$reproducir-efectos-maas`.
 6. Integrar controles y adaptación responsiva según `references/responsive-player.md`.
 7. Exponer captions en DOM aunque el texto visual esté dentro de Pixi.
+8. Para canonical-v2, separar cámara y overlays y mostrar soporte, requisitos y fallback reales en `/effects/`.
 
 ## Invariantes
 
+- Consumir la dirección ya aprobada desde el manifiesto; no reinterpretar el diálogo ni escoger efectos durante render.
 - Coordenadas internas enteras sobre 1920×1080.
 - Escalar el canvas con `contain`; no recalcular layouts desde el viewport.
 - Conservar aspect ratio, alpha y orden de capas.

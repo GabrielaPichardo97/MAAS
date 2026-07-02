@@ -7,6 +7,55 @@ export interface EffectSpec {
   tremor: boolean;
 }
 
+export type EffectRole = "dominant" | "support" | "finish";
+export type EffectSupportLevel = "native" | "approximation" | "input-assisted" | "preprocessed";
+export type EffectFamily = "transition" | "motion" | "time" | "compositing" | "graphics" | "stylize";
+
+export interface EffectInstance {
+  id: string;
+  role: EffectRole;
+  intensity: number;
+  startOffsetMs: number;
+  durationMs: number;
+  target?: string | null;
+  params: Record<string, string | number | boolean>;
+}
+
+export interface EffectParameterDefinition {
+  type: "number" | "integer" | "boolean" | "enum" | "color";
+  default: string | number | boolean;
+  min?: number;
+  max?: number;
+  values?: string[];
+}
+
+export interface EffectCatalogEntry {
+  id: string;
+  displayName: string;
+  family: EffectFamily;
+  intent: string;
+  variant: string;
+  description: string;
+  bestMoment: string;
+  avoidWhen: string[];
+  parameters: Record<string, EffectParameterDefinition>;
+  supportLevel: EffectSupportLevel;
+  requirements: string[];
+  fallbackId?: string | null;
+  renderCost: "low" | "medium" | "high";
+  mobileSafe: boolean;
+  reducedMotion: "preserve" | "reduce" | "disable" | "fallback";
+  photosensitivityRisk: "none" | "low" | "medium" | "high";
+}
+
+export interface EffectCatalog {
+  schemaVersion: "1.0";
+  catalogVersion: string;
+  families: EffectFamily[];
+  supportLevels: EffectSupportLevel[];
+  effects: EffectCatalogEntry[];
+}
+
 export interface CueMedia {
   spriteAssetId: string;
   backgroundAssetId: string;
@@ -25,6 +74,7 @@ export interface TimelineCue {
   speakerAlias?: string;
   speakerLabel?: string;
   effect?: EffectSpec;
+  effects?: EffectInstance[];
   backgroundUrl?: string;
   spriteUrl?: string;
   speakerPosition?: "izquierda" | "derecha";
@@ -37,10 +87,10 @@ export interface TimelineCue {
 }
 
 export interface EpisodeManifest {
-  schemaVersion: "1.0";
+  schemaVersion: "1.0" | "2.0";
   episodeId: string;
   title: string;
-  profile: "legacy-v1" | "canonical-v1";
+  profile: "legacy-v1" | "canonical-v1" | "canonical-v2";
   durationMs: number;
   timeline: TimelineCue[];
   warnings: Array<Record<string, unknown>>;

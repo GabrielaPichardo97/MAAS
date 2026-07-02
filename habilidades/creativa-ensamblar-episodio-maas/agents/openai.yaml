@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creativa · Ensamblar episodio MAAS"
+  short_description: "Aprueba y ensambla un episodio HTML MAAS"
+  default_prompt: "Usa $creativa-ensamblar-episodio-maas para convertir esta dirección aprobada en un episodio HTML verificable."

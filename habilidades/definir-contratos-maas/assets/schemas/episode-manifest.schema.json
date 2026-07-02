@@ -6,13 +6,13 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "episodeId", "title", "language", "status", "seed", "profile", "orientations", "characters", "assets", "audioPolicy", "timeline", "durationMs", "warnings"],
   "properties": {
-    "schemaVersion": {"const": "1.0"},
+    "schemaVersion": {"enum": ["1.0", "2.0"]},
     "episodeId": {"type": "string"},
     "title": {"type": "string"},
     "language": {"type": "string"},
     "status": {"enum": ["draft", "ready", "published"]},
     "seed": {"type": "integer", "minimum": 0},
-    "profile": {"enum": ["legacy-v1", "canonical-v1"]},
+    "profile": {"enum": ["legacy-v1", "canonical-v1", "canonical-v2"]},
     "orientations": {"type": "array", "items": {"enum": ["landscape", "portrait"]}, "minItems": 1, "uniqueItems": true},
     "characters": {"type": "object", "additionalProperties": {"type": "string"}},
     "assets": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
@@ -26,11 +26,54 @@
           "id": {"type": "string"},
           "type": {"enum": ["scene", "dialogue", "sfx", "transition", "advice", "ending"]},
           "startMs": {"type": "integer", "minimum": 0},
-          "durationMs": {"type": "integer", "minimum": 0}
+          "durationMs": {"type": "integer", "minimum": 0},
+          "effect": {"$ref": "#/$defs/legacyEffect"},
+          "effects": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {"$ref": "#/$defs/effectInstance"}
+          }
         }
       }
     },
     "durationMs": {"type": "integer", "minimum": 0},
     "warnings": {"type": "array", "items": {"type": "object"}}
-  }
+  },
+  "$defs": {
+    "legacyEffect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "intensity", "tremor"],
+      "properties": {
+        "code": {"enum": ["ES", "ZI", "ZO", "PA-I", "PA-D", "TI-A", "TI-B", "PP"]},
+        "intensity": {"type": "number", "exclusiveMinimum": 0},
+        "target": {"type": ["string", "null"]},
+        "tremor": {"type": "boolean"}
+      }
+    },
+    "effectInstance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "role", "intensity", "startOffsetMs", "durationMs", "params"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.[a-z0-9]+(?:-[a-z0-9]+)*\\.[a-z0-9]+(?:-[a-z0-9]+)*\\.[a-z0-9]+(?:-[a-z0-9]+)*\\.v[0-9]+\\.[0-9]+\\.[0-9]+$"},
+        "role": {"enum": ["dominant", "support", "finish"]},
+        "intensity": {"type": "number", "minimum": 0, "maximum": 1},
+        "startOffsetMs": {"type": "integer", "minimum": 0},
+        "durationMs": {"type": "integer", "minimum": 0},
+        "target": {"type": ["string", "null"]},
+        "params": {"type": "object"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"schemaVersion": {"const": "2.0"}}},
+      "then": {"properties": {"profile": {"const": "canonical-v2"}}}
+    },
+    {
+      "if": {"properties": {"profile": {"const": "canonical-v2"}}},
+      "then": {"properties": {"schemaVersion": {"const": "2.0"}}}
+    }
+  ]
 }

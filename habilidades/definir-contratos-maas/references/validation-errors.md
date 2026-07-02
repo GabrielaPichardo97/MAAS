@@ -10,6 +10,12 @@
 | `E_DURATION` | Duración inválida o no positiva. |
 | `E_DIALOGUE_CAMERA` | Diálogo sin camera token válido. |
 | `E_EFFECT` | Código, intensidad u objetivo inválido. |
+| `E_EFFECT_ID` | ID canonical-v2 desconocido o sin SemVer exacto. |
+| `E_EFFECT_SYNTAX` | Token `{{fx ...}}` mal formado. |
+| `E_EFFECT_PARAM` | Parámetro desconocido, mal tipado o fuera de rango. |
+| `E_EFFECT_STACK` | Más de tres efectos o roles duplicados. |
+| `E_EFFECT_REQUIREMENT` | Falta un input o artefacto obligatorio; debe indicarse una alternativa. |
+| `E_EFFECT_SAFETY` | El stack viola movimiento reducido o límites de flashes. |
 | `E_PLACE` | Lugar vacío, desconocido o ausente. |
 | `E_CHARACTER` | Personaje no resoluble. |
 | `E_EMOTION` | Emoción sin mapping o fallback explícito. |

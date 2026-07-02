@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/cinematic-direction.schema.json",
+  "title": "MAAS cinematic direction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "adaptationSha256", "metadata", "approval", "scenes", "unresolvedMedia"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "adaptationSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "metadata": {"type": "object"},
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "approvedBy", "approvedAt"],
+      "properties": {
+        "status": {"enum": ["proposed", "approved", "rejected"]},
+        "approvedBy": {"type": ["string", "null"]},
+        "approvedAt": {"type": ["string", "null"]}
+      }
+    },
+    "scenes": {"type": "array"},
+    "unresolvedMedia": {"type": "array"}
+  }
+}

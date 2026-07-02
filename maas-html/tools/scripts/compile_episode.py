@@ -25,6 +25,9 @@ PLACE_RE = re.compile(r"^\s*\*\*([^*]+)\*\*\s*$")
 TRANSITION_RE = re.compile(r"^\s*---(.+?)---\s*$")
 CAMERA_RE = re.compile(r"\((ES|ZI|ZO|PA-I|PA-D|TI-A|TI-B|PP)(?:\*([0-9]+(?:\.[0-9]+)?))?(?:\s+([^()]+))?\)\s*$")
 CAMERA_ANY_RE = re.compile(r"\((ES|ZI|ZO|PA-I|PA-D|TI-A|TI-B|PP)(?:\*([0-9]+(?:\.[0-9]+)?))?(?:\s+([^()]+))?\)")
+FX_RE = re.compile(r"\{\{fx\s+([^\s}]+)((?:\s+[A-Za-z][\w-]*=(?:\"[^\"]*\"|[^\s}]+))*)\s*\}\}")
+FX_PAIR_RE = re.compile(r"([A-Za-z][\w-]*)=(\"[^\"]*\"|[^\s}]+)")
+FX_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.v\d+\.\d+\.\d+$")
 NUMBER_PREFIX_RE = re.compile(r"^\s*\d+(?:\.\s*|\s+)")
 
 EMOTIONS = {
@@ -65,6 +68,79 @@ def effect_from(line: str, profile: str, warnings: list[dict[str, Any]], line_no
     return text, {"code": code, "intensity": float(intensity or 1.0), "target": target.strip() if target else None, "tremor": True}
 
 
+def scalar(value: str) -> str | int | float | bool:
+    if value.startswith('"') and value.endswith('"'):
+        return value[1:-1]
+    if value.casefold() in {"true", "false"}:
+        return value.casefold() == "true"
+    if re.fullmatch(r"-?\d+", value):
+        return int(value)
+    if re.fullmatch(r"-?\d+(?:\.\d+)?", value):
+        return float(value)
+    return value
+
+
+def validate_parameter(name: str, value: Any, spec: dict[str, Any], line_no: int) -> None:
+    kind = spec["type"]
+    if kind == "boolean" and not isinstance(value, bool):
+        raise ValueError(f"E_EFFECT_PARAM line {line_no}: {name} exige boolean")
+    if kind in {"number", "integer"}:
+        if isinstance(value, bool) or not isinstance(value, (int, float)) or (kind == "integer" and not isinstance(value, int)):
+            raise ValueError(f"E_EFFECT_PARAM line {line_no}: {name} exige {kind}")
+        if value < spec["min"] or value > spec["max"]:
+            raise ValueError(f"E_EFFECT_PARAM line {line_no}: {name} fuera de {spec['min']}..{spec['max']}")
+    if kind == "enum" and value not in spec["values"]:
+        raise ValueError(f"E_EFFECT_PARAM line {line_no}: {name} debe ser uno de {spec['values']}")
+    if kind == "color" and (not isinstance(value, str) or not re.fullmatch(r"#[0-9A-Fa-f]{6}", value)):
+        raise ValueError(f"E_EFFECT_PARAM line {line_no}: {name} exige color #RRGGBB")
+
+
+def effects_from(line: str, catalog: dict[str, dict[str, Any]], line_no: int) -> tuple[str, list[dict[str, Any]]]:
+    effects: list[dict[str, Any]] = []
+    roles: set[str] = set()
+    for match in FX_RE.finditer(line):
+        effect_id = match.group(1)
+        if not FX_ID_RE.fullmatch(effect_id) or effect_id not in catalog:
+            raise ValueError(f"E_EFFECT_ID line {line_no}: {effect_id}")
+        pairs = {key: scalar(value) for key, value in FX_PAIR_RE.findall(match.group(2))}
+        role = pairs.pop("role", None)
+        if role not in {"dominant", "support", "finish"}:
+            raise ValueError(f"E_EFFECT_STACK line {line_no}: role obligatorio dominant/support/finish")
+        if role in roles:
+            raise ValueError(f"E_EFFECT_STACK line {line_no}: role duplicado {role}")
+        roles.add(role)
+        intensity = pairs.pop("intensity", 1.0)
+        if isinstance(intensity, bool) or not isinstance(intensity, (int, float)) or not 0 <= intensity <= 1:
+            raise ValueError(f"E_EFFECT_PARAM line {line_no}: intensity fuera de 0..1")
+        start = pairs.pop("startOffsetMs", 0)
+        duration = pairs.pop("durationMs", -1)
+        target = pairs.pop("target", None)
+        if not isinstance(start, int) or not isinstance(duration, int):
+            raise ValueError(f"E_EFFECT_PARAM line {line_no}: offsets y duración exigen enteros ms")
+        entry = catalog[effect_id]
+        specs = entry["parameters"]
+        allowed = set(specs) | set(entry.get("requirements", []))
+        unknown = sorted(set(pairs) - allowed)
+        if unknown:
+            raise ValueError(f"E_EFFECT_PARAM line {line_no}: parámetros desconocidos {unknown}")
+        for name, value in pairs.items():
+            if name in specs:
+                validate_parameter(name, value, specs[name], line_no)
+        missing = sorted(set(entry.get("requirements", [])) - set(pairs))
+        if missing:
+            fallback = entry.get("fallbackId") or "sin fallback"
+            raise ValueError(f"E_EFFECT_REQUIREMENT line {line_no}: faltan {missing}; alternativa {fallback}")
+        params = {name: spec["default"] for name, spec in specs.items()}
+        params.update(pairs)
+        effects.append({"id": effect_id, "role": role, "intensity": float(intensity), "startOffsetMs": start, "durationMs": duration, "target": target, "params": params})
+    if len(effects) > 3:
+        raise ValueError(f"E_EFFECT_STACK line {line_no}: máximo tres efectos")
+    text = FX_RE.sub("", line).strip()
+    if "{{fx" in text:
+        raise ValueError(f"E_EFFECT_SYNTAX line {line_no}: token fx inválido")
+    return NUMBER_PREFIX_RE.sub("", text), effects
+
+
 def resolve_emotion(source: str, profile: str, warnings: list[dict[str, Any]], line: int) -> str:
     key = source.strip().split()[0].casefold()
     if key in EMOTIONS:
@@ -75,7 +151,7 @@ def resolve_emotion(source: str, profile: str, warnings: list[dict[str, Any]], l
     raise ValueError(f"E_EMOTION line {line}: {source}")
 
 
-def compile_document(data: dict, profile: str, character_map: dict[str, str]) -> dict:
+def compile_document(data: dict, profile: str, character_map: dict[str, str], effect_catalog: dict[str, dict[str, Any]] | None = None) -> dict:
     content = data["content"].replace("\r\n", "\n").replace("\r", "\n")
     warnings: list[dict[str, Any]] = []
     timeline: list[dict[str, Any]] = []
@@ -159,7 +235,12 @@ def compile_document(data: dict, profile: str, character_map: dict[str, str]) ->
         if active is None:
             warnings.append({"code": "W_EDITORIAL_PREFIX", "line": line_no, "value": line})
             continue
-        text, effect = effect_from(raw, profile, warnings, line_no)
+        if profile == "canonical-v2":
+            text, effects = effects_from(raw, effect_catalog or {}, line_no)
+            effect = None
+        else:
+            text, effect = effect_from(raw, profile, warnings, line_no)
+            effects = []
         cue_type = "dialogue"
         sound = None
         if text.upper().startswith("OSD"):
@@ -176,16 +257,35 @@ def compile_document(data: dict, profile: str, character_map: dict[str, str]) ->
             "declaredDurationMs": active["declaredDurationMs"], "resolvedDurationMs": duration,
             "speaker": active["characterId"], "speakerAlias": active["alias"], "text": text,
             "emotion": active["emotion"], "sourceEmotion": active["sourceEmotion"],
-            "stageDirection": active["stageDirection"], "effect": effect, "sourceLine": line_no,
+            "stageDirection": active["stageDirection"], "sourceLine": line_no,
         }
+        if profile == "canonical-v2":
+            for item in effects:
+                if item["durationMs"] < 0:
+                    item["durationMs"] = duration - item["startOffsetMs"]
+                if item["durationMs"] < 0 or item["startOffsetMs"] + item["durationMs"] > duration:
+                    raise ValueError(f"E_EFFECT_PARAM line {line_no}: ventana fuera del cue")
+            cue["effects"] = effects
+        else:
+            cue["effect"] = effect
         if sound is not None:
             cue["sound"] = sound
         pending.append(cue)
     if pending:
         raise ValueError("E_PLACE: el último bloque no termina con **LUGAR**")
     timeline.sort(key=lambda cue: (cue["startMs"], cue["id"]))
+    if profile == "canonical-v2":
+        flashes = sorted(
+            cue["startMs"] + effect["startOffsetMs"]
+            for cue in timeline
+            for effect in cue.get("effects", [])
+            if effect["id"] == "time.flash-frame.impact.single.v1.0.0"
+        )
+        for index, start in enumerate(flashes):
+            if sum(1 for value in flashes[index:] if value < start + 1000) > 3:
+                raise ValueError("E_EFFECT_SAFETY: más de tres flashes en un segundo")
     return {
-        "schemaVersion": "1.0", "episodeId": data["episodeId"], "title": data["title"],
+        "schemaVersion": "2.0" if profile == "canonical-v2" else "1.0", "episodeId": data["episodeId"], "title": data["title"],
         "language": data["language"], "status": data["status"], "seed": data["seed"],
         "profile": profile, "orientations": ["landscape", "portrait"], "characters": characters,
         "assets": [], "audioPolicy": {"musicGain": 0.15, "transitionGain": 0.5, "sampleRate": 44100, "muteMusicDuringSfx": True},
@@ -197,14 +297,26 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    parser.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     parser.add_argument("--character-map", type=Path)
+    parser.add_argument("--effect-catalog", type=Path)
     args = parser.parse_args()
     try:
         source = json.loads(args.input.read_text(encoding="utf-8-sig"))
         data, normalization_warnings = normalizer.normalize(source)
         character_map = json.loads(args.character_map.read_text(encoding="utf-8-sig")) if args.character_map else {}
-        manifest = compile_document(data, args.profile, character_map)
+        catalog_path = args.effect_catalog
+        if args.profile == "canonical-v2" and catalog_path is None:
+            candidates = [
+                HERE.parents[1] / "seleccionar-efectos-maas" / "references" / "effects-catalog.json",
+                HERE.parents[1] / "public" / "effects-catalog.json",
+            ]
+            catalog_path = next((candidate for candidate in candidates if candidate.exists()), candidates[0])
+        effect_catalog = {}
+        if catalog_path:
+            catalog_data = json.loads(catalog_path.read_text(encoding="utf-8-sig"))
+            effect_catalog = {item["id"]: item for item in catalog_data["effects"]}
+        manifest = compile_document(data, args.profile, character_map, effect_catalog)
         manifest["warnings"] = normalization_warnings + manifest["warnings"]
     except (OSError, UnicodeError, json.JSONDecodeError, ValueError, TypeError) as exc:
         print(str(exc), file=sys.stderr)

@@ -1,0 +1,66 @@
+name: Publicar catálogo MAAS en GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - codex/maas-html-media-real
+    paths:
+      - "maas-html/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: maas-html
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+          cache-dependency-path: maas-html/pnpm-lock.yaml
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+      - name: Preparar episodio y media real
+        run: pnpm run content:build
+      - name: Probar contratos y catálogo
+        run: pnpm run test:python
+      - name: Probar interfaz y efectos
+        run: pnpm test
+      - name: Construir para Pages
+        run: pnpm run build:pages
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: maas-html/dist/player
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

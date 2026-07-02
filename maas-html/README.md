@@ -34,6 +34,14 @@ pnpm run preview:episode
 
 Abre `http://127.0.0.1:4173/` o `http://127.0.0.1:4173/episodes/episodio-0-prueba-renderizar/`. El bundle requiere un servidor HTTP; no se promete soporte para `file://`.
 
+El laboratorio de efectos vive en `http://127.0.0.1:4173/effects/`: permite buscar las 34 entradas, filtrar por familia o nivel de soporte, revisar parámetros y contraindicaciones, y copiar un token canonical-v2.
+
+Cada efecto incluye una escena narrativa original para juzgarlo dentro de una intención dramática concreta. La versión pública se despliega con GitHub Actions en `https://gabrielapichardo97.github.io/MAAS/effects/`.
+
+El reproductor también queda publicado en `https://gabrielapichardo97.github.io/MAAS/` y como HTML directo en `https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-renderizar/`.
+
+Para abrir el build que incluye el laboratorio, ejecuta `pnpm run preview:player` después de `pnpm run build`.
+
 `package:episode` protege outputs existentes y falla si `dist/site/` ya fue generado. Para reconstruirlo, elimina únicamente esa carpeta después de revisar que no contiene trabajo manual.
 
 ## Canalización de contenido
@@ -46,5 +54,15 @@ Abre `http://127.0.0.1:4173/` o `http://127.0.0.1:4173/episodes/episodio-0-prueb
 - `media:report-gaps`: genera `media-gaps.json`, `media-gaps.md` y fichas de producción sin bloquear episodios no afectados.
 
 `content:build` ejecuta automáticamente inventario, catálogo, validación, resolución y staging. Los PNG staged se generan en `public/assets/` y no se versionan.
+
+## Efectos canonical-v2
+
+Un diálogo admite hasta tres roles explícitos:
+
+```text
+Esto cambia todo. {{fx motion.push-in.emphasis.subtle.v1.0.0 role=dominant intensity=0.3 target=speaker}}
+```
+
+Compila con `python tools/scripts/compile_episode.py INPUT --profile canonical-v2 --effect-catalog public/effects-catalog.json`. Un efecto asistido o preprocesado falla si falta su requisito e informa su alternativa; no se sustituye silenciosamente.
 
 La salida final vive en `dist/site/`. Consulta [docs/media-guidelines.md](docs/media-guidelines.md) para crear faltantes y [docs/known-differences.md](docs/known-differences.md) para las limitaciones aceptadas.

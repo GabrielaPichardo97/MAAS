@@ -1,6 +1,6 @@
 ---
 name: compilar-guion-maas
-description: Normaliza JSON históricos y compila la gramática textual de MAAS a episode.manifest.json determinista. Usar al importar Guiones/capitulos, resolver personajes y emociones, calcular cues o diagnosticar errores de parsing sin ejecutar TTS ni render de video.
+description: Normaliza JSON históricos y compila la gramática textual de MAAS a episode.manifest.json determinista, incluidos stacks de efectos canonical-v2. Usar al importar Guiones/capitulos, resolver personajes y emociones, validar tokens {{fx ...}}, calcular cues o diagnosticar errores de parsing sin ejecutar TTS ni render de video.
 ---
 
 # Compilar guion MAAS
@@ -12,8 +12,11 @@ description: Normaliza JSON históricos y compila la gramática textual de MAAS 
 5. Ejecutar `scripts/compile_episode.py INPUT --profile legacy-v1 --output episode.manifest.json`.
 6. Validar el manifiesto producido y conservar warnings.
 
+Para nuevos episodios con efectos descriptivos, usar `--profile canonical-v2 --effect-catalog PATH`. Exigir máximo tres roles únicos y recursos explícitos para efectos asistidos o preprocesados.
+
 ## Reglas
 
+- Recibir diálogo ordinario únicamente a través de `$creativa-adaptar-dialogo-maas` y `$creativa-ensamblar-episodio-maas`; el compilador valida gramática, no toma decisiones de puesta.
 - No llamar OpenAI ni ElevenLabs durante parsing.
 - No escribir scripts intermedios, renombrar inputs ni elegir lugares al azar.
 - Mantener orden del documento, seed y serialización estable.

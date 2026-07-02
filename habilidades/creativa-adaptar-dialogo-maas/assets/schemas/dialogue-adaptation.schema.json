@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/dialogue-adaptation.schema.json",
+  "title": "MAAS creative dialogue adaptation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "metadata", "sourceText", "sourceTextSha256", "scenes", "unresolved"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["episodeId", "title", "language", "status", "seed"],
+      "properties": {
+        "episodeId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "title": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "minLength": 2},
+        "status": {"const": "draft"},
+        "seed": {"type": "integer", "minimum": 0, "maximum": 2147483647}
+      }
+    },
+    "sourceText": {"type": "string"},
+    "sourceTextSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "placeId", "placeLabel", "placeInference", "beats"],
+        "properties": {
+          "id": {"type": "string"},
+          "placeId": {"type": ["string", "null"]},
+          "placeLabel": {"type": ["string", "null"]},
+          "placeInference": {"$ref": "#/$defs/inference"},
+          "beats": {"type": "array", "items": {"$ref": "#/$defs/beat"}}
+        }
+      }
+    },
+    "unresolved": {"type": "array", "items": {"$ref": "#/$defs/diagnostic"}}
+  },
+  "$defs": {
+    "inference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["inferred", "confidence"],
+      "properties": {
+        "inferred": {"type": "boolean"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "beat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "speaker", "characterId", "speakerInference", "verbatimText", "sourceFragment", "sourceStartLine", "sourceEndLine", "emotion", "stageDirection", "durationMs"],
+      "properties": {
+        "id": {"type": "string"},
+        "speaker": {"type": "string", "minLength": 1},
+        "characterId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "speakerInference": {"$ref": "#/$defs/inference"},
+        "verbatimText": {"type": "string", "minLength": 1},
+        "sourceFragment": {"type": "string", "minLength": 1},
+        "sourceStartLine": {"type": "integer", "minimum": 1},
+        "sourceEndLine": {"type": "integer", "minimum": 1},
+        "emotion": {"$ref": "#/$defs/inferredString"},
+        "stageDirection": {"$ref": "#/$defs/inferredString"},
+        "durationMs": {"$ref": "#/$defs/inferredDuration"}
+      }
+    },
+    "inferredString": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "inferred", "confidence"],
+      "properties": {
+        "value": {"type": "string", "minLength": 1},
+        "inferred": {"type": "boolean"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "inferredDuration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "inferred", "confidence"],
+      "properties": {
+        "value": {"type": "integer", "minimum": 40},
+        "inferred": {"type": "boolean"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "diagnostic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "blocking"],
+      "properties": {
+        "code": {"type": "string"},
+        "message": {"type": "string"},
+        "blocking": {"type": "boolean"},
+        "line": {"type": "integer", "minimum": 1}
+      }
+    }
+  }
+}

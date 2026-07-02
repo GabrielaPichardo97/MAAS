@@ -1,4 +1,4 @@
 interface:
   display_name: "Reproducir efectos MAAS"
-  short_description: "Replica c√°mara, temblor y tiempos legados"
-  default_prompt: "Usa $reproducir-efectos-maas para implementar o verificar los efectos visuales de MAAS."
+  short_description: "Implementa el cat·logo visual canonical-v2"
+  default_prompt: "Usa $reproducir-efectos-maas para implementar y verificar un efecto MAAS."

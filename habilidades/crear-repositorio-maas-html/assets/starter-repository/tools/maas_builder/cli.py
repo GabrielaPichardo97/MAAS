@@ -22,7 +22,7 @@ def main() -> int:
 
     compile_command = sub.add_parser("compile")
     compile_command.add_argument("input", type=Path)
-    compile_command.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    compile_command.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     compile_command.add_argument("--output", type=Path, required=True)
     compile_command.add_argument("--character-map", type=Path)
 
@@ -37,7 +37,7 @@ def main() -> int:
     build.add_argument("input", type=Path)
     build.add_argument("--output", type=Path, required=True)
     build.add_argument("--player-dist", type=Path, default=Path("web-dist"))
-    build.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    build.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     build.add_argument("--character-map", type=Path)
 
     verify = sub.add_parser("verify")

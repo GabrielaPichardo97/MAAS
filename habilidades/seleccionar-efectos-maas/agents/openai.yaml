@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seleccionar efectos MAAS"
+  short_description: "Elige efectos con criterio narrativo y técnico"
+  default_prompt: "Usa $seleccionar-efectos-maas para recomendar y justificar los efectos de cada beat."
