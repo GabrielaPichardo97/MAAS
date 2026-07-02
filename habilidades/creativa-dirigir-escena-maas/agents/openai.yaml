@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creativa · Dirigir escena MAAS"
+  short_description: "Planifica puesta, cámara y efectos MAAS"
+  default_prompt: "Usa $creativa-dirigir-escena-maas para proponer la dirección cinematográfica de esta adaptación."

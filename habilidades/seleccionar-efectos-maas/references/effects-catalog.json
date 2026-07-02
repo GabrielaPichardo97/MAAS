@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0",
+  "catalogVersion": "1.0.0",
+  "families": ["transition", "motion", "time", "compositing", "graphics", "stylize"],
+  "supportLevels": ["native", "approximation", "input-assisted", "preprocessed"],
+  "effects": [
+    {
+      "id": "transition.cut.continuity.clean.v1.0.0", "displayName": "Corte, fade y disolución", "family": "transition", "intent": "continuity", "variant": "clean",
+      "description": "Cambia de plano directamente o mezcla opacidad durante un intervalo configurable.", "bestMoment": "Continuidad limpia, respiración o cambio de escena sin llamar la atención.", "avoidWhen": ["Un beat de impacto necesita un corte seco", "La mezcla crea una imagen confusa"],
+      "parameters": {"mode": {"type": "enum", "values": ["cut", "fade", "dissolve"], "default": "cut"}, "durationMs": {"type": "integer", "min": 0, "max": 2000, "default": 0}},
+      "narrative": {"sceneTypes": ["general", "interview", "tutorial"], "arousal": [0, 0.55], "continuity": [0.55, 1], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "transition.match-cut.continuity.visual-rhyme.v1.0.0", "displayName": "Match cut", "family": "transition", "intent": "continuity", "variant": "visual-rhyme",
+      "description": "Alinea dos planos por forma, posición, movimiento o significado antes del corte.", "bestMoment": "Cambios elegantes de escena, revelaciones o humor con una rima visual real.", "avoidWhen": ["No existe una correspondencia visual verificable"],
+      "parameters": {"matchType": {"type": "enum", "values": ["shape", "motion", "graphic", "theme"], "default": "shape"}, "tolerance": {"type": "number", "min": 0, "max": 1, "default": 0.8}},
+      "narrative": {"sceneTypes": ["general", "branding"], "arousal": [0.2, 0.75], "continuity": [0.6, 1], "focus": ["object", "frame"]}, "supportLevel": "input-assisted", "requirements": ["matchAnchors"], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": true
+    },
+    {
+      "id": "transition.jump-cut.compression.fragmented.v1.0.0", "displayName": "Jump cut", "family": "transition", "intent": "compression", "variant": "fragmented",
+      "description": "Salta tiempo o posición dentro de una continuidad inmediata para hacer visible la edición.", "bestMoment": "Compresión temporal, comedia, ansiedad, vlog o pensamiento fragmentado.", "avoidWhen": ["Se necesita continuidad invisible", "El salto rompe información espacial necesaria"],
+      "parameters": {"skipMs": {"type": "integer", "min": 40, "max": 10000, "default": 400}},
+      "narrative": {"sceneTypes": ["general", "comedy", "suspense"], "arousal": [0.45, 1], "continuity": [0, 0.55], "focus": ["face", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "low", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "transition.morph-cut.continuity.interview-clean.v1.0.0", "displayName": "Morph cut", "family": "transition", "intent": "continuity", "variant": "interview-clean",
+      "description": "Interpola dos fragmentos faciales semejantes para ocultar la eliminación de una pausa.", "bestMoment": "Entrevistas y talking heads con postura, luz y fondo casi idénticos.", "avoidWhen": ["Giro rápido de cabeza", "Manos cruzan el rostro", "Cambia la iluminación o el fondo"],
+      "parameters": {"durationMs": {"type": "integer", "min": 240, "max": 800, "default": 480}},
+      "narrative": {"sceneTypes": ["interview"], "arousal": [0, 0.4], "continuity": [0.8, 1], "focus": ["face"]}, "supportLevel": "preprocessed", "requirements": ["morphClip"], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "low", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "transition.whip-pan.energy.directional.v1.0.0", "displayName": "Whip pan", "family": "transition", "intent": "energy", "variant": "directional",
+      "description": "Oculta el corte dentro de una traslación rápida con blur direccional continuo.", "bestMoment": "Acción, comedia, viaje y cambios de lugar con dirección compatible.", "avoidWhen": ["Hay texto que debe leerse", "La pieza exige elegancia estática"],
+      "parameters": {"direction": {"type": "enum", "values": ["left", "right", "up", "down"], "default": "right"}, "blurPx": {"type": "number", "min": 0, "max": 180, "default": 80}, "durationMs": {"type": "integer", "min": 120, "max": 600, "default": 280}},
+      "narrative": {"sceneTypes": ["action", "comedy", "travel"], "arousal": [0.65, 1], "continuity": [0.1, 0.65], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "transition.glitch.disruption.digital.v1.0.0", "displayName": "Transición glitch", "family": "transition", "intent": "disruption", "variant": "digital",
+      "description": "Corrompe brevemente bloques, canales RGB y scanlines durante el cambio de plano.", "bestMoment": "Tecnología, señal fallando, memoria degradada o ruptura deliberada.", "avoidWhen": ["Drama íntimo", "Marca institucional sobria", "Fotosensibilidad sin modo seguro"],
+      "parameters": {"rgbOffsetPx": {"type": "number", "min": 0, "max": 20, "default": 6}, "noise": {"type": "number", "min": 0, "max": 1, "default": 0.25}, "durationMs": {"type": "integer", "min": 80, "max": 600, "default": 240}},
+      "narrative": {"sceneTypes": ["suspense", "technology", "music"], "arousal": [0.55, 1], "continuity": [0, 0.45], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "high", "mobileSafe": false, "reducedMotion": "fallback", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "transition.split-screen.comparison.clean.v1.0.0", "displayName": "Split-screen", "family": "transition", "intent": "comparison", "variant": "clean",
+      "description": "Muestra dos o más encuadres simultáneos con márgenes y sincronización controlados.", "bestMoment": "Comparación, simultaneidad, llamadas, antes/después o tutorial.", "avoidWhen": ["Pantalla móvil con demasiados paneles", "La emoción necesita intimidad"],
+      "parameters": {"panes": {"type": "integer", "min": 2, "max": 6, "default": 2}, "gapPct": {"type": "number", "min": 0, "max": 8, "default": 2}},
+      "narrative": {"sceneTypes": ["tutorial", "general", "interview"], "arousal": [0.2, 0.75], "continuity": [0.35, 0.85], "focus": ["object", "text", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "transition.cut.continuity.clean.v1.0.0", "renderCost": "medium", "mobileSafe": false, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "motion.push-in.emphasis.subtle.v1.0.0", "displayName": "Push-in", "family": "motion", "intent": "emphasis", "variant": "subtle",
+      "description": "Escala progresivamente el encuadre hacia un rostro, objeto o texto.", "bestMoment": "Pensamiento, revelación, frase importante o cierre emocional.", "avoidWhen": ["La imagen no resiste recorte", "Ya existe movimiento fuerte de cámara"],
+      "parameters": {"scaleEnd": {"type": "number", "min": 0.75, "max": 1.5, "default": 1.1}, "easing": {"type": "enum", "values": ["linear", "ease-in", "ease-out", "ease-in-out"], "default": "ease-in-out"}},
+      "narrative": {"sceneTypes": ["general", "interview", "tutorial", "branding"], "arousal": [0.15, 0.7], "continuity": [0.45, 1], "focus": ["face", "object", "text"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "motion.ken-burns.exposition.documentary.v1.0.0", "displayName": "Panorámica / Ken Burns", "family": "motion", "intent": "exposition", "variant": "documentary",
+      "description": "Interpola entre dos regiones del frame para recorrer una imagen fija.", "bestMoment": "Fotografía, archivo, mapas, documental y B-roll explicativo.", "avoidWhen": ["Sustituye repetidamente cobertura viva", "El recorrido no tiene foco claro"],
+      "parameters": {"endX": {"type": "number", "min": -1, "max": 1, "default": 0.1}, "endY": {"type": "number", "min": -1, "max": 1, "default": 0}, "scaleEnd": {"type": "number", "min": 1, "max": 1.5, "default": 1.12}},
+      "narrative": {"sceneTypes": ["tutorial", "documentary", "general"], "arousal": [0.05, 0.55], "continuity": [0.5, 1], "focus": ["object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "motion.virtual-dolly.reveal.parallax.v1.0.0", "displayName": "Dolly virtual", "family": "motion", "intent": "reveal", "variant": "parallax",
+      "description": "Simula profundidad mediante escalas y desplazamientos distintos en capas 2.5D.", "bestMoment": "Producto, títulos integrados, maquetas y reveals controlados.", "avoidWhen": ["No existen capas de profundidad", "El movimiento parece un zoom plano"],
+      "parameters": {"depth": {"type": "number", "min": 0, "max": 1, "default": 0.35}, "travel": {"type": "number", "min": -1, "max": 1, "default": 0.25}},
+      "narrative": {"sceneTypes": ["branding", "product", "general"], "arousal": [0.25, 0.75], "continuity": [0.3, 0.85], "focus": ["object", "text"]}, "supportLevel": "approximation", "requirements": [], "fallbackId": "motion.push-in.emphasis.subtle.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": true
+    },
+    {
+      "id": "motion.camera-3d.world-building.parallax.v1.0.0", "displayName": "Cámara 3D / parallax", "family": "motion", "intent": "world-building", "variant": "parallax",
+      "description": "Aproxima una cámara 3D mediante capas 2.5D, profundidad declarada y punto de interés.", "bestMoment": "World-building, títulos espaciales y hero shots con profundidad separada.", "avoidWhen": ["No hay paralaje", "El solve o la profundidad son ambiguos"],
+      "parameters": {"depth": {"type": "number", "min": 0, "max": 1, "default": 0.5}, "rollDeg": {"type": "number", "min": -15, "max": 15, "default": 0}},
+      "narrative": {"sceneTypes": ["branding", "suspense", "music"], "arousal": [0.35, 0.85], "continuity": [0.2, 0.75], "focus": ["object", "text", "frame"]}, "supportLevel": "approximation", "requirements": [], "fallbackId": "motion.virtual-dolly.reveal.parallax.v1.0.0", "renderCost": "high", "mobileSafe": false, "reducedMotion": "fallback", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "motion.rack-focus.attention.depth-shift.v1.0.0", "displayName": "Rack focus", "family": "motion", "intent": "attention", "variant": "depth-shift",
+      "description": "Desplaza el foco aparente entre capas usando máscaras y desenfoque graduado.", "bestMoment": "Cambiar atención entre primer plano, objeto, rostro o fondo.", "avoidWhen": ["Texto pequeño", "Material comprimido", "No existe separación de capas"],
+      "parameters": {"blurPx": {"type": "number", "min": 0, "max": 80, "default": 18}, "focusTo": {"type": "enum", "values": ["foreground", "subject", "background"], "default": "subject"}},
+      "narrative": {"sceneTypes": ["general", "product", "interview"], "arousal": [0.1, 0.65], "continuity": [0.4, 0.9], "focus": ["face", "object"]}, "supportLevel": "approximation", "requirements": [], "fallbackId": "motion.push-in.emphasis.subtle.v1.0.0", "renderCost": "high", "mobileSafe": false, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "motion.stabilize.clarity.smooth.v1.0.0", "displayName": "Estabilización", "family": "motion", "intent": "clarity", "variant": "smooth",
+      "description": "Consume un track preprocesado de transformación para compensar movimiento no deseado.", "bestMoment": "B-roll, documental, dron o handheld que distrae.", "avoidWhen": ["El handheld expresa el POV", "La corrección produce wobble"],
+      "parameters": {"strength": {"type": "number", "min": 0, "max": 1, "default": 0.5}},
+      "narrative": {"sceneTypes": ["documentary", "tutorial", "general"], "arousal": [0, 0.6], "continuity": [0.55, 1], "focus": ["frame"]}, "supportLevel": "preprocessed", "requirements": ["stabilizationTrack"], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "motion.camera-shake.impact.decay.v1.0.0", "displayName": "Camera shake", "family": "motion", "intent": "impact", "variant": "decay",
+      "description": "Añade desplazamiento y rotación pseudoaleatorios con frecuencia y caída deterministas.", "bestMoment": "Golpes, horror, trailers, drops musicales y urgencia.", "avoidWhen": ["Educación", "Producto premium", "Movimiento reducido"],
+      "parameters": {"amplitudePx": {"type": "number", "min": 0, "max": 40, "default": 8}, "frequencyHz": {"type": "number", "min": 1, "max": 20, "default": 8}, "decayMs": {"type": "integer", "min": 100, "max": 1500, "default": 500}},
+      "narrative": {"sceneTypes": ["action", "suspense", "music"], "arousal": [0.7, 1], "continuity": [0, 0.5], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "disable", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "motion.motion-blur.continuity.directional.v1.0.0", "displayName": "Motion blur", "family": "motion", "intent": "continuity", "variant": "directional",
+      "description": "Simula integración temporal mediante blur direccional asociado a la velocidad visual.", "bestMoment": "Ramps, whip pans, títulos rápidos y movimientos con strobing.", "avoidWhen": ["Ya existe blur real", "El texto debe permanecer nítido"],
+      "parameters": {"blurPx": {"type": "number", "min": 0, "max": 120, "default": 24}, "angleDeg": {"type": "number", "min": -180, "max": 180, "default": 0}},
+      "narrative": {"sceneTypes": ["action", "music", "branding"], "arousal": [0.55, 1], "continuity": [0.25, 0.8], "focus": ["frame", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "disable", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "time.remap.rhythm.variable.v1.0.0", "displayName": "Time remapping", "family": "time", "intent": "rhythm", "variant": "variable",
+      "description": "Mapea el tiempo de salida a una curva de tiempo fuente con interpolación configurable.", "bestMoment": "Manipular percepción temporal o sincronizar acciones con beats.", "avoidWhen": ["Diálogo sin plan de audio", "El flujo óptico produciría artefactos"],
+      "parameters": {"speed": {"type": "number", "min": -4, "max": 20, "default": 1}, "preservePitch": {"type": "boolean", "default": true}},
+      "narrative": {"sceneTypes": ["action", "music", "general"], "arousal": [0.35, 1], "continuity": [0.1, 0.7], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "time.speed-ramp.energy.snap.v1.0.0", "displayName": "Speed ramp", "family": "time", "intent": "energy", "variant": "snap",
+      "description": "Interpola gradualmente entre velocidades para acelerar o desacelerar alrededor de un gesto.", "bestMoment": "Acción, deporte, dance edit, reveal y drop musical.", "avoidWhen": ["No existe dirección física clara", "Cabello o agua generan artefactos"],
+      "parameters": {"peakSpeed": {"type": "number", "min": 1, "max": 20, "default": 4}, "rampMs": {"type": "integer", "min": 80, "max": 1000, "default": 320}},
+      "narrative": {"sceneTypes": ["action", "music", "branding"], "arousal": [0.7, 1], "continuity": [0, 0.55], "focus": ["object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "time.remap.rhythm.variable.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "time.freeze-frame.emphasis.hold.v1.0.0", "displayName": "Freeze frame", "family": "time", "intent": "emphasis", "variant": "hold",
+      "description": "Mantiene un frame para detener la acción y abrir espacio a énfasis o texto.", "bestMoment": "Punchline, introducción de personaje, análisis, moda o producto.", "avoidWhen": ["La emoción depende de continuidad orgánica"],
+      "parameters": {"holdMs": {"type": "integer", "min": 120, "max": 10000, "default": 800}},
+      "narrative": {"sceneTypes": ["action", "comedy", "tutorial", "branding"], "arousal": [0.3, 0.9], "continuity": [0.1, 0.7], "focus": ["face", "object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": true
+    },
+    {
+      "id": "time.reverse.stylization.circular.v1.0.0", "displayName": "Reversa temporal", "family": "time", "intent": "stylization", "variant": "circular",
+      "description": "Reproduce un intervalo hacia atrás con rampas opcionales de entrada y salida.", "bestMoment": "Ironía, memoria, explicación de causa o estructura circular.", "avoidWhen": ["Continuidad naturalista", "Audio verbal sin tratamiento"],
+      "parameters": {"speed": {"type": "number", "min": 0.1, "max": 4, "default": 1}},
+      "narrative": {"sceneTypes": ["comedy", "tutorial", "music", "suspense"], "arousal": [0.35, 0.9], "continuity": [0, 0.5], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "time.trails.energy.decay.v1.0.0", "displayName": "Trails", "family": "time", "intent": "energy", "variant": "decay",
+      "description": "Acumula frames previos con opacidad decreciente para producir estelas.", "bestMoment": "Música, sci-fi, energía y secuencias abstractas.", "avoidWhen": ["Información factual", "La estela oculta el sujeto"],
+      "parameters": {"frames": {"type": "integer", "min": 2, "max": 16, "default": 4}, "decay": {"type": "number", "min": 0, "max": 1, "default": 0.65}},
+      "narrative": {"sceneTypes": ["music", "suspense", "branding"], "arousal": [0.55, 1], "continuity": [0, 0.45], "focus": ["object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "disable", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "time.flash-frame.impact.single.v1.0.0", "displayName": "Flash frame", "family": "time", "intent": "impact", "variant": "single",
+      "description": "Inserta un destello único de color durante uno o pocos frames.", "bestMoment": "Hit musical, moda, trailer o impacto físico puntual.", "avoidWhen": ["Fotosensibilidad", "Tono institucional", "Narrativa contemplativa"],
+      "parameters": {"color": {"type": "color", "default": "#ffffff"}, "durationMs": {"type": "integer", "min": 40, "max": 160, "default": 40}, "opacity": {"type": "number", "min": 0, "max": 1, "default": 0.8}},
+      "narrative": {"sceneTypes": ["action", "music", "branding"], "arousal": [0.75, 1], "continuity": [0, 0.35], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "disable", "photosensitivityRisk": "high", "musicFriendly": true
+    },
+    {
+      "id": "time.punch-edit.impact.snap.v1.0.0", "displayName": "Punch edit", "family": "time", "intent": "impact", "variant": "snap",
+      "description": "Combina pre-hold, micro-ramp, blur y corte en el gesto crítico.", "bestMoment": "Golpe, dance edit, anuncio corto o acción comprimida.", "avoidWhen": ["Más de tres impactos consecutivos", "No existe un gesto crítico"],
+      "parameters": {"peakSpeed": {"type": "number", "min": 2, "max": 8, "default": 4}, "blurBoost": {"type": "number", "min": 0, "max": 1, "default": 0.35}},
+      "narrative": {"sceneTypes": ["action", "music", "branding"], "arousal": [0.8, 1], "continuity": [0, 0.3], "focus": ["object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": "time.speed-ramp.energy.snap.v1.0.0", "renderCost": "high", "mobileSafe": false, "reducedMotion": "fallback", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "compositing.chroma-key.environment.clean.v1.0.0", "displayName": "Chroma key", "family": "compositing", "intent": "environment", "variant": "clean",
+      "description": "Convierte un color dominante en alfa y controla tolerancia, spill y bordes.", "bestMoment": "Sets virtuales, explainers, pantallas y contenido de marca.", "avoidWhen": ["Spill severo", "Sombras duras", "Compresión que destruye el borde"],
+      "parameters": {"keyColor": {"type": "color", "default": "#00ff00"}, "tolerance": {"type": "number", "min": 0, "max": 1, "default": 0.25}, "spill": {"type": "number", "min": 0, "max": 1, "default": 0.5}},
+      "narrative": {"sceneTypes": ["tutorial", "branding", "general"], "arousal": [0, 1], "continuity": [0, 1], "focus": ["face", "object"]}, "supportLevel": "input-assisted", "requirements": ["keyedSource"], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "compositing.rotoscope.isolation.object-matte.v1.0.0", "displayName": "Rotoscopía / object matte", "family": "compositing", "intent": "isolation", "variant": "object-matte",
+      "description": "Consume un matte animado para aislar un sujeto sin chroma.", "bestMoment": "Blur selectivo, reemplazo de fondo, relighting o texto detrás del sujeto.", "avoidWhen": ["El matte no cubre oclusiones", "Regrabar cuesta menos que limpiar"],
+      "parameters": {"featherPx": {"type": "number", "min": 0, "max": 50, "default": 3}, "expansionPx": {"type": "number", "min": -20, "max": 20, "default": 0}},
+      "narrative": {"sceneTypes": ["general", "branding", "music"], "arousal": [0, 1], "continuity": [0, 1], "focus": ["face", "object"]}, "supportLevel": "preprocessed", "requirements": ["objectMatte"], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "compositing.blend.layering.clean.v1.0.0", "displayName": "Compositing y blend modes", "family": "compositing", "intent": "layering", "variant": "clean",
+      "description": "Superpone capas con alfa, orden y modos de fusión definidos.", "bestMoment": "Overlays, HUD, texturas, dobles y VFX simples.", "avoidWhen": ["Luma y color no están integrados", "El stack pierde legibilidad"],
+      "parameters": {"blendMode": {"type": "enum", "values": ["normal", "add", "multiply", "screen", "overlay"], "default": "normal"}, "opacity": {"type": "number", "min": 0, "max": 1, "default": 1}},
+      "narrative": {"sceneTypes": ["general", "branding", "music", "suspense"], "arousal": [0, 1], "continuity": [0, 1], "focus": ["frame", "object", "text"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": true
+    },
+    {
+      "id": "compositing.match-move.integration.planar-3d.v1.0.0", "displayName": "Match move / tracking", "family": "compositing", "intent": "integration", "variant": "planar-3d",
+      "description": "Consume un track planar, de objeto o cámara para vincular una capa al plano.", "bestMoment": "Reemplazo de pantalla, carteles, callouts espaciales y set extensions.", "avoidWhen": ["No hay features confiables", "Oclusiones sin matte"],
+      "parameters": {"trackType": {"type": "enum", "values": ["planar", "object", "camera"], "default": "planar"}},
+      "narrative": {"sceneTypes": ["tutorial", "branding", "general"], "arousal": [0, 1], "continuity": [0.2, 1], "focus": ["object", "text"]}, "supportLevel": "preprocessed", "requirements": ["trackingData"], "fallbackId": "graphics.lower-third.identification.clean.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "graphics.kinetic-type.emphasis.sequenced.v1.0.0", "displayName": "Tipografía cinética", "family": "graphics", "intent": "emphasis", "variant": "sequenced",
+      "description": "Anima texto por bloque, línea, palabra o carácter con entrada y salida secuenciadas.", "bestMoment": "Slogans, citas, lyric videos y explainers sociales.", "avoidWhen": ["Más de un gesto tipográfico compite en el mismo beat", "El texto excede el tiempo de lectura"],
+      "parameters": {"unit": {"type": "enum", "values": ["block", "line", "word", "character"], "default": "word"}, "staggerMs": {"type": "integer", "min": 0, "max": 500, "default": 80}},
+      "narrative": {"sceneTypes": ["tutorial", "branding", "music"], "arousal": [0.35, 1], "continuity": [0, 0.7], "focus": ["text"]}, "supportLevel": "native", "requirements": [], "fallbackId": "graphics.lower-third.identification.clean.v1.0.0", "renderCost": "medium", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "graphics.lower-third.identification.clean.v1.0.0", "displayName": "Lower third / callout", "family": "graphics", "intent": "identification", "variant": "clean",
+      "description": "Presenta información breve en área segura y puede apuntar a una persona u objeto.", "bestMoment": "Identificación, educación, datos de producto y contexto.", "avoidWhen": ["El fondo es demasiado activo", "La actuación requiere atención exclusiva"],
+      "parameters": {"safeMarginPct": {"type": "number", "min": 5, "max": 12, "default": 8}, "enterMs": {"type": "integer", "min": 0, "max": 1000, "default": 320}},
+      "narrative": {"sceneTypes": ["interview", "tutorial", "branding", "general"], "arousal": [0, 0.7], "continuity": [0.4, 1], "focus": ["text", "face", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "fallback", "photosensitivityRisk": "none", "musicFriendly": false
+    },
+    {
+      "id": "stylize.color-grade.coherence.clean.v1.0.0", "displayName": "Color grade / LUT", "family": "stylize", "intent": "coherence", "variant": "clean",
+      "description": "Ajusta temperatura, contraste, saturación y matriz de color para empatar o estilizar.", "bestMoment": "Corregir y empatar planos antes de definir el look.", "avoidWhen": ["La LUT sustituye corrección primaria", "Se recortan altas luces o negros"],
+      "parameters": {"contrast": {"type": "number", "min": -1, "max": 1, "default": 0}, "saturation": {"type": "number", "min": 0, "max": 2, "default": 1}, "tint": {"type": "number", "min": -1, "max": 1, "default": 0}},
+      "narrative": {"sceneTypes": ["general", "interview", "tutorial", "branding", "music", "suspense"], "arousal": [0, 1], "continuity": [0, 1], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "preserve", "photosensitivityRisk": "none", "musicFriendly": true
+    },
+    {
+      "id": "stylize.light-leak.atmosphere.film.v1.0.0", "displayName": "Light leak / film burn", "family": "stylize", "intent": "atmosphere", "variant": "film",
+      "description": "Superpone fugas de luz suaves con mezcla screen o add.", "bestMoment": "Calidez, memoria, moda, nostalgia o acento de transición.", "avoidWhen": ["Se usa como muleta repetitiva", "Oculta contraste o texto"],
+      "parameters": {"intensity": {"type": "number", "min": 0, "max": 1, "default": 0.25}, "color": {"type": "color", "default": "#ff8a4c"}},
+      "narrative": {"sceneTypes": ["branding", "music", "general"], "arousal": [0.25, 0.8], "continuity": [0.1, 0.75], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "stylize.lens-flare.hero.optical.v1.0.0", "displayName": "Lens flare / light rays", "family": "stylize", "intent": "hero", "variant": "optical",
+      "description": "Genera reflejos, halos y rayos enlazados a una posición luminosa.", "bestMoment": "Hero shot, sci-fi, automotriz, concierto o energía de marca.", "avoidWhen": ["Entrevista sobria", "Se usa para disfrazar una imagen débil"],
+      "parameters": {"intensity": {"type": "number", "min": 0, "max": 1, "default": 0.2}, "x": {"type": "number", "min": 0, "max": 1, "default": 0.75}, "y": {"type": "number", "min": 0, "max": 1, "default": 0.25}},
+      "narrative": {"sceneTypes": ["branding", "music", "suspense"], "arousal": [0.35, 0.9], "continuity": [0.1, 0.7], "focus": ["object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "stylize.particles.atmosphere.dynamic.v1.0.0", "displayName": "Partículas", "family": "stylize", "intent": "atmosphere", "variant": "dynamic",
+      "description": "Emite elementos con vida, velocidad, tamaño, turbulencia y gravedad controlados.", "bestMoment": "Polvo, nieve, chispas, UI espacial, títulos e impactos.", "avoidWhen": ["No coinciden luz y profundidad", "Las partículas genéricas compiten con el sujeto"],
+      "parameters": {"rate": {"type": "number", "min": 0, "max": 500, "default": 40}, "lifeMs": {"type": "integer", "min": 100, "max": 10000, "default": 1800}, "gravity": {"type": "number", "min": -2, "max": 2, "default": 0.2}},
+      "narrative": {"sceneTypes": ["branding", "music", "suspense", "general"], "arousal": [0.3, 1], "continuity": [0, 0.75], "focus": ["frame", "object", "text"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "disable", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "stylize.glitch.disruption.retro-tv.v1.0.0", "displayName": "Glitch / retro TV", "family": "stylize", "intent": "disruption", "variant": "retro-tv",
+      "description": "Mantiene interferencia, scanlines, ruido, jitter y separación RGB durante el plano.", "bestMoment": "Pantalla diegética, señal rota, identidad digital o memoria corrupta.", "avoidWhen": ["Pulcritud institucional", "Duelo íntimo", "Texto crítico"],
+      "parameters": {"corruption": {"type": "number", "min": 0, "max": 1, "default": 0.25}, "rgbOffsetPx": {"type": "number", "min": 0, "max": 20, "default": 4}, "scanlines": {"type": "number", "min": 0, "max": 1, "default": 0.35}},
+      "narrative": {"sceneTypes": ["suspense", "technology", "music"], "arousal": [0.45, 1], "continuity": [0, 0.4], "focus": ["frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "disable", "photosensitivityRisk": "high", "musicFriendly": true
+    },
+    {
+      "id": "stylize.audio-reactive.rhythm.pulse.v1.0.0", "displayName": "Visual audio-reactivo", "family": "stylize", "intent": "rhythm", "variant": "pulse",
+      "description": "Mapea amplitud o bandas de frecuencia a escala, opacidad, glow o partículas.", "bestMoment": "Lyric video, concierto, ID de canal y motion branding guiado por música.", "avoidWhen": ["La música no conduce el montaje", "Falta smoothing y aparece jitter"],
+      "parameters": {"band": {"type": "enum", "values": ["bass", "mid", "treble", "full"], "default": "full"}, "sensitivity": {"type": "number", "min": 0, "max": 2, "default": 0.8}, "smoothing": {"type": "number", "min": 0, "max": 1, "default": 0.75}},
+      "narrative": {"sceneTypes": ["music", "branding"], "arousal": [0.45, 1], "continuity": [0, 0.6], "focus": ["frame", "text", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "disable", "photosensitivityRisk": "medium", "musicFriendly": true
+    }
+  ]
+}

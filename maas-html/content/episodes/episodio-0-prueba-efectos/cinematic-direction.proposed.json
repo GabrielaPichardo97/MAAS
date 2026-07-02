@@ -1,0 +1,515 @@
+{
+  "adaptationSha256": "49a48613b7c83be605b7c792b47c1945753d70c6a5fb1e041a8a114e5eb30b2e",
+  "approval": {
+    "approvedAt": null,
+    "approvedBy": null,
+    "status": "proposed"
+  },
+  "metadata": {
+    "episodeId": "episodio-0-prueba-efectos",
+    "language": "es-MX",
+    "seed": 1001104799,
+    "status": "draft",
+    "title": "Episodio 0 · Prueba de efectos"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Ojos llorosos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0001",
+          "speaker": "Persona_1",
+          "stageDirection": "Ojos llorosos",
+          "verbatimText": "No otra vez..."
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Ojos llorosos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0002",
+          "speaker": "Persona_1",
+          "stageDirection": "Ojos llorosos",
+          "verbatimText": "OSD (Snif, snif)"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Lleva la mano a la boca",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0003",
+          "speaker": "Persona_2",
+          "stageDirection": "Lleva la mano a la boca",
+          "verbatimText": "¡Puaj!"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Lleva la mano a la boca",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0004",
+          "speaker": "Persona_2",
+          "stageDirection": "Lleva la mano a la boca",
+          "verbatimText": "OSD (Cof, cof)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Gira la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "confusión",
+          "id": "beat-0005",
+          "speaker": "Persona_3",
+          "stageDirection": "Gira la cabeza",
+          "verbatimText": "¿Qué rayos...?"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Gira la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "confusión",
+          "id": "beat-0006",
+          "speaker": "Persona_3",
+          "stageDirection": "Gira la cabeza",
+          "verbatimText": "OSD (¿Eh?)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Cerrando los ojos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "tristeza",
+          "id": "beat-0007",
+          "speaker": "Persona_4",
+          "stageDirection": "Cerrando los ojos",
+          "verbatimText": "Cinco minutos más..."
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Cerrando los ojos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "tristeza",
+          "id": "beat-0008",
+          "speaker": "Persona_4",
+          "stageDirection": "Cerrando los ojos",
+          "verbatimText": "OSD (Zzzz)"
+        }
+      ],
+      "id": "scene-001",
+      "orientation": "landscape",
+      "placeId": "oficina",
+      "placeLabel": "OFICINA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Mira al cielo",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0009",
+          "speaker": "Persona_1",
+          "stageDirection": "Mira al cielo",
+          "verbatimText": "Hmm... eso fue raro."
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Mira al cielo",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0010",
+          "speaker": "Persona_1",
+          "stageDirection": "Mira al cielo",
+          "verbatimText": "OSD (Hmm)"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Señala con el dedo los labios",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0011",
+          "speaker": "Persona_2",
+          "stageDirection": "Señala con el dedo los labios",
+          "verbatimText": "Shhh, creo que escuché algo."
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Señala con el dedo los labios",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0012",
+          "speaker": "Persona_2",
+          "stageDirection": "Señala con el dedo los labios",
+          "verbatimText": "OSD (Shhh)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se contiene",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0013",
+          "speaker": "Persona_3",
+          "stageDirection": "Se contiene",
+          "verbatimText": "Esto es surrealista."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se contiene",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0014",
+          "speaker": "Persona_3",
+          "stageDirection": "Se contiene",
+          "verbatimText": "OSD (Jaja)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se frota el brazo",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0015",
+          "speaker": "Persona_4",
+          "stageDirection": "Se frota el brazo",
+          "verbatimText": "¡Ay! ¿Quién dejó esto aquí?"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se frota el brazo",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0016",
+          "speaker": "Persona_4",
+          "stageDirection": "Se frota el brazo",
+          "verbatimText": "OSD (Ay)"
+        }
+      ],
+      "id": "scene-002",
+      "orientation": "landscape",
+      "placeId": "pasillo",
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "unresolvedMedia": []
+}

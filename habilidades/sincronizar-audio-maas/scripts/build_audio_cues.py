@@ -51,7 +51,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("manifest", type=Path)
     parser.add_argument("durations", type=Path, help="JSON object cueId -> duración en ms")
-    parser.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    parser.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     try:

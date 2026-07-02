@@ -1,0 +1,552 @@
+{
+  "assets": [],
+  "audioPolicy": {
+    "musicGain": 0.15,
+    "muteMusicDuringSfx": true,
+    "sampleRate": 44100,
+    "transitionGain": 0.5
+  },
+  "characters": {
+    "Persona_1": "pato",
+    "Persona_2": "cactus",
+    "Persona_3": "conejo",
+    "Persona_4": "pata"
+  },
+  "durationMs": 18000,
+  "episodeId": "episodio-0-prueba-efectos",
+  "language": "es-MX",
+  "orientations": [
+    "landscape",
+    "portrait"
+  ],
+  "profile": "canonical-v2",
+  "schemaVersion": "2.0",
+  "seed": 1001104799,
+  "status": "draft",
+  "timeline": [
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.62,
+          "params": {
+            "easing": "ease-out",
+            "scaleEnd": 1.18
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        },
+        {
+          "durationMs": 1000,
+          "id": "stylize.color-grade.coherence.clean.v1.0.0",
+          "intensity": 0.38,
+          "params": {
+            "contrast": 0.12,
+            "saturation": 0.78,
+            "tint": -0.08
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0001",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 2,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "stageDirection": "Ojos llorosos",
+      "startMs": 0,
+      "text": "No otra vez...",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0001",
+        "cue-0002",
+        "cue-0003",
+        "cue-0004",
+        "cue-0005",
+        "cue-0006",
+        "cue-0007",
+        "cue-0008"
+      ],
+      "durationMs": 10000,
+      "id": "scene-0001",
+      "place": "OFICINA",
+      "startMs": 0,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurPx": 12,
+            "focusTo": "subject"
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0002",
+      "resolvedDurationMs": 1000,
+      "sound": "Snif, snif",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 4,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "stageDirection": "Ojos llorosos",
+      "startMs": 1000,
+      "text": "Snif, snif",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "color": "#ff8a4c",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0003",
+      "resolvedDurationMs": 2000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 6,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "stageDirection": "Lleva la mano a la boca",
+      "startMs": 2000,
+      "text": "¡Puaj!",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 2000,
+      "durationMs": 2000,
+      "effects": [
+        {
+          "durationMs": 2000,
+          "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+          "intensity": 0.34,
+          "params": {
+            "depth": 0.28,
+            "travel": 0.2
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0004",
+      "resolvedDurationMs": 2000,
+      "sound": "Cof, cof",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 8,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "stageDirection": "Lleva la mano a la boca",
+      "startMs": 4000,
+      "text": "Cof, cof",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "gravity": 0.12,
+            "lifeMs": 1200,
+            "rate": 24
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "confused",
+      "id": "cue-0005",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "confusión",
+      "sourceLine": 10,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "stageDirection": "Gira la cabeza",
+      "startMs": 6000,
+      "text": "¿Qué rayos...?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.48,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "confused",
+      "id": "cue-0006",
+      "resolvedDurationMs": 1000,
+      "sound": "¿Eh?",
+      "sourceEmotion": "confusión",
+      "sourceLine": 12,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "stageDirection": "Gira la cabeza",
+      "startMs": 7000,
+      "text": "¿Eh?",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurPx": 12,
+            "focusTo": "subject"
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "sad",
+      "id": "cue-0007",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "tristeza",
+      "sourceLine": 14,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "stageDirection": "Cerrando los ojos",
+      "startMs": 8000,
+      "text": "Cinco minutos más...",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "color": "#ff8a4c",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "sad",
+      "id": "cue-0008",
+      "resolvedDurationMs": 1000,
+      "sound": "Zzzz",
+      "sourceEmotion": "tristeza",
+      "sourceLine": 16,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "stageDirection": "Cerrando los ojos",
+      "startMs": 9000,
+      "text": "Zzzz",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+          "intensity": 0.34,
+          "params": {
+            "depth": 0.28,
+            "travel": 0.2
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0009",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 20,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "stageDirection": "Mira al cielo",
+      "startMs": 10000,
+      "text": "Hmm... eso fue raro.",
+      "type": "dialogue"
+    },
+    {
+      "cueIds": [
+        "cue-0009",
+        "cue-0010",
+        "cue-0011",
+        "cue-0012",
+        "cue-0013",
+        "cue-0014",
+        "cue-0015",
+        "cue-0016"
+      ],
+      "durationMs": 8000,
+      "id": "scene-0002",
+      "place": "PASILLO",
+      "startMs": 10000,
+      "type": "scene"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "gravity": 0.12,
+            "lifeMs": 1200,
+            "rate": 24
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0010",
+      "resolvedDurationMs": 1000,
+      "sound": "Hmm",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 22,
+      "speaker": "pato",
+      "speakerAlias": "Persona_1",
+      "stageDirection": "Mira al cielo",
+      "startMs": 11000,
+      "text": "Hmm",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.push-in.emphasis.subtle.v1.0.0",
+          "intensity": 0.48,
+          "params": {
+            "easing": "ease-in-out",
+            "scaleEnd": 1.1
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0011",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 24,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "stageDirection": "Señala con el dedo los labios",
+      "startMs": 12000,
+      "text": "Shhh, creo que escuché algo.",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+          "intensity": 0.42,
+          "params": {
+            "blurPx": 12,
+            "focusTo": "subject"
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "speaker"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0012",
+      "resolvedDurationMs": 1000,
+      "sound": "Shhh",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 26,
+      "speaker": "cactus",
+      "speakerAlias": "Persona_2",
+      "stageDirection": "Señala con el dedo los labios",
+      "startMs": 13000,
+      "text": "Shhh",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "color": "#ff8a4c",
+            "intensity": 0.25
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0013",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 28,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "stageDirection": "Se contiene",
+      "startMs": 14000,
+      "text": "Esto es surrealista.",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+          "intensity": 0.34,
+          "params": {
+            "depth": 0.28,
+            "travel": 0.2
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0014",
+      "resolvedDurationMs": 1000,
+      "sound": "Jaja",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 30,
+      "speaker": "conejo",
+      "speakerAlias": "Persona_3",
+      "stageDirection": "Se contiene",
+      "startMs": 15000,
+      "text": "Jaja",
+      "type": "sfx"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+          "intensity": 0.32,
+          "params": {
+            "gravity": 0.12,
+            "lifeMs": 1200,
+            "rate": 24
+          },
+          "role": "finish",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0015",
+      "resolvedDurationMs": 1000,
+      "sourceEmotion": "seriedad",
+      "sourceLine": 32,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "stageDirection": "Se frota el brazo",
+      "startMs": 16000,
+      "text": "¡Ay! ¿Quién dejó esto aquí?",
+      "type": "dialogue"
+    },
+    {
+      "declaredDurationMs": 1000,
+      "durationMs": 1000,
+      "effects": [
+        {
+          "durationMs": 1000,
+          "id": "time.punch-edit.impact.snap.v1.0.0",
+          "intensity": 0.58,
+          "params": {
+            "blurBoost": 0.35,
+            "peakSpeed": 4
+          },
+          "role": "dominant",
+          "startOffsetMs": 0,
+          "target": "frame"
+        }
+      ],
+      "emotion": "serious",
+      "id": "cue-0016",
+      "resolvedDurationMs": 1000,
+      "sound": "Ay",
+      "sourceEmotion": "seriedad",
+      "sourceLine": 34,
+      "speaker": "pata",
+      "speakerAlias": "Persona_4",
+      "stageDirection": "Se frota el brazo",
+      "startMs": 17000,
+      "text": "Ay",
+      "type": "sfx"
+    }
+  ],
+  "title": "Episodio 0 · Prueba de efectos",
+  "warnings": []
+}

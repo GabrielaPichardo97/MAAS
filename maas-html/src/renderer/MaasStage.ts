@@ -1,7 +1,8 @@
 import "pixi.js/unsafe-eval";
-import { Application, Assets, Container, Graphics, Sprite, Text, TextStyle, type Texture } from "pixi.js";
+import { Application, Assets, BlurFilter, Container, Graphics, NoiseFilter, Sprite, Text, TextStyle, type Texture } from "pixi.js";
 import type { TimelineCue } from "../types";
 import { legacyCameraTransform } from "./effectMath";
+import { canonicalEffectFrame, type CanonicalEffectFrame } from "./effectEngine";
 
 const LOGICAL_WIDTH = 1920;
 const LOGICAL_HEIGHT = 1080;
@@ -22,6 +23,10 @@ export class MaasStage {
   private readonly app = new Application();
   private readonly viewport = new Container();
   private readonly camera = new Container();
+  private readonly effectsLayer = new Container();
+  private readonly effectGraphics = new Graphics();
+  private readonly blurFilter = new BlurFilter({ strength: 0, quality: 2 });
+  private readonly noiseFilter = new NoiseFilter({ noise: 0, seed: 1 });
   private readonly loadedUrls = new Set<string>();
   private cue?: TimelineCue;
   private ready = false;
@@ -42,7 +47,8 @@ export class MaasStage {
     this.ready = true;
     host.dataset.stageStatus = "ready";
     host.appendChild(this.app.canvas);
-    this.viewport.addChild(this.camera);
+    this.effectsLayer.addChild(this.effectGraphics);
+    this.viewport.addChild(this.camera, this.effectsLayer);
     this.app.stage.addChild(this.viewport);
     this.resize(host.clientWidth, host.clientHeight);
     if (this.cue) await this.drawCue(this.cue);
@@ -164,10 +170,30 @@ export class MaasStage {
     this.camera.pivot.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
     this.camera.position.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
     this.camera.scale.set(1);
+    this.camera.rotation = 0;
+    this.camera.alpha = 1;
+    this.camera.tint = 0xffffff;
+    this.camera.filters = null;
+    this.effectGraphics.clear();
   }
 
   update(elapsedMs: number, reducedMotion: boolean): void {
     if (!this.ready || !this.cue) return;
+    const effects = this.cue.effects ?? [];
+    if (effects.length > 0) {
+      const seed = this.cue.id.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0);
+      const value = canonicalEffectFrame(effects, elapsedMs, seed, reducedMotion);
+      this.camera.scale.set(value.scale);
+      this.camera.position.set(LOGICAL_WIDTH / 2 + value.x * LOGICAL_WIDTH, LOGICAL_HEIGHT / 2 + value.y * LOGICAL_HEIGHT);
+      this.camera.rotation = value.rotation;
+      this.camera.alpha = value.alpha;
+      this.camera.tint = value.tint;
+      this.blurFilter.strength = value.blur;
+      this.noiseFilter.noise = value.noise;
+      this.camera.filters = value.blur > 0 || value.noise > 0 ? [this.blurFilter, this.noiseFilter] : null;
+      this.drawEffects(value);
+      return;
+    }
     const effect = this.cue.effect;
     if (!effect || reducedMotion) {
       this.camera.scale.set(1);
@@ -177,6 +203,30 @@ export class MaasStage {
     const value = legacyCameraTransform(effect.code, effect.intensity, this.cue.speakerPosition ?? "izquierda", elapsedMs / 1000);
     this.camera.scale.set(value.scale);
     this.camera.position.set(LOGICAL_WIDTH / 2 + value.x * LOGICAL_WIDTH, LOGICAL_HEIGHT / 2 + value.y * LOGICAL_HEIGHT);
+  }
+
+  private drawEffects(value: CanonicalEffectFrame): void {
+    const graphics = this.effectGraphics;
+    graphics.clear();
+    if (value.flash) graphics.rect(0, 0, LOGICAL_WIDTH, LOGICAL_HEIGHT).fill({ color: value.flash.color, alpha: value.flash.alpha });
+    if (value.leak) {
+      const x = value.leak.x * LOGICAL_WIDTH;
+      graphics.circle(x, LOGICAL_HEIGHT * 0.35, 520).fill({ color: value.leak.color, alpha: value.leak.alpha * 0.24 });
+      graphics.circle(x, LOGICAL_HEIGHT * 0.35, 270).fill({ color: value.leak.color, alpha: value.leak.alpha * 0.35 });
+    }
+    if (value.flare) {
+      const x = value.flare.x * LOGICAL_WIDTH;
+      const y = value.flare.y * LOGICAL_HEIGHT;
+      graphics.circle(x, y, 120).fill({ color: 0xffffff, alpha: value.flare.alpha });
+      graphics.circle(x, y, 260).stroke({ color: 0xffd68a, alpha: value.flare.alpha * 0.55, width: 14 });
+    }
+    if (value.particles) {
+      for (let index = 0; index < value.particles.count; index += 1) {
+        const x = ((index * 137.5 + value.particles.progress * 170) % 1000) / 1000 * LOGICAL_WIDTH;
+        const y = ((index * 83.7 + value.particles.progress * 260) % 1000) / 1000 * LOGICAL_HEIGHT;
+        graphics.circle(x, y, 3 + index % 7).fill({ color: 0xffe2b8, alpha: 0.35 + (index % 4) * 0.1 });
+      }
+    }
   }
 
   resize(width: number, height: number): void {

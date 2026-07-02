@@ -1,0 +1,25 @@
+{
+  "characters": {
+    "cactus": {
+      "label": "Persona_2",
+      "position": "izquierda"
+    },
+    "conejo": {
+      "label": "Persona_3",
+      "position": "izquierda"
+    },
+    "pata": {
+      "label": "Persona_4",
+      "position": "izquierda"
+    },
+    "pato": {
+      "label": "Persona_1",
+      "position": "izquierda"
+    }
+  },
+  "places": {
+    "OFICINA": "oficina",
+    "PASILLO": "pasillo"
+  },
+  "schemaVersion": "2.0"
+}

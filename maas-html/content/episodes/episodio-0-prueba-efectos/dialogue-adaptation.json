@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "episodeId": "episodio-0-prueba-efectos",
+    "language": "es-MX",
+    "seed": 1001104799,
+    "status": "draft",
+    "title": "Episodio 0 · Prueba de efectos"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0001",
+          "sourceEndLine": 5,
+          "sourceFragment": "1. No otra vez... (PP Persona_1)",
+          "sourceStartLine": 5,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Ojos llorosos"
+          },
+          "verbatimText": "No otra vez..."
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0002",
+          "sourceEndLine": 6,
+          "sourceFragment": "2. OSD (Snif, snif) (ZI*1.3)",
+          "sourceStartLine": 6,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Ojos llorosos"
+          },
+          "verbatimText": "OSD (Snif, snif)"
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0003",
+          "sourceEndLine": 10,
+          "sourceFragment": "1. ¡Puaj! (PA-I*1.2)",
+          "sourceStartLine": 10,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Lleva la mano a la boca"
+          },
+          "verbatimText": "¡Puaj!"
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0004",
+          "sourceEndLine": 11,
+          "sourceFragment": "2. OSD (Cof, cof) (PP Persona_2)",
+          "sourceStartLine": 11,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Lleva la mano a la boca"
+          },
+          "verbatimText": "OSD (Cof, cof)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "confusión"
+          },
+          "id": "beat-0005",
+          "sourceEndLine": 15,
+          "sourceFragment": "1. ¿Qué rayos...? (TI-B*1.1)",
+          "sourceStartLine": 15,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Gira la cabeza"
+          },
+          "verbatimText": "¿Qué rayos...?"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "confusión"
+          },
+          "id": "beat-0006",
+          "sourceEndLine": 16,
+          "sourceFragment": "2. OSD (¿Eh?) (PP Persona_3)",
+          "sourceStartLine": 16,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Gira la cabeza"
+          },
+          "verbatimText": "OSD (¿Eh?)"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "tristeza"
+          },
+          "id": "beat-0007",
+          "sourceEndLine": 20,
+          "sourceFragment": "1. Cinco minutos más... (TI-A*1.3)",
+          "sourceStartLine": 20,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Cerrando los ojos"
+          },
+          "verbatimText": "Cinco minutos más..."
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "tristeza"
+          },
+          "id": "beat-0008",
+          "sourceEndLine": 21,
+          "sourceFragment": "2. OSD (Zzzz) (PP Persona_4)",
+          "sourceStartLine": 21,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Cerrando los ojos"
+          },
+          "verbatimText": "OSD (Zzzz)"
+        }
+      ],
+      "id": "scene-001",
+      "placeId": "oficina",
+      "placeInference": {
+        "confidence": 1.0,
+        "inferred": false
+      },
+      "placeLabel": "OFICINA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0009",
+          "sourceEndLine": 29,
+          "sourceFragment": "1. Hmm... eso fue raro. (ES)",
+          "sourceStartLine": 29,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira al cielo"
+          },
+          "verbatimText": "Hmm... eso fue raro."
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0010",
+          "sourceEndLine": 30,
+          "sourceFragment": "2. OSD (Hmm) (PP Persona_1)",
+          "sourceStartLine": 30,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira al cielo"
+          },
+          "verbatimText": "OSD (Hmm)"
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0011",
+          "sourceEndLine": 34,
+          "sourceFragment": "1. Shhh, creo que escuché algo. (PP Persona_2)",
+          "sourceStartLine": 34,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Señala con el dedo los labios"
+          },
+          "verbatimText": "Shhh, creo que escuché algo."
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0012",
+          "sourceEndLine": 35,
+          "sourceFragment": "2. OSD (Shhh) (ZI*1.2)",
+          "sourceStartLine": 35,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Señala con el dedo los labios"
+          },
+          "verbatimText": "OSD (Shhh)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0013",
+          "sourceEndLine": 39,
+          "sourceFragment": "1. Esto es surrealista. (PP Persona_3)",
+          "sourceStartLine": 39,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se contiene"
+          },
+          "verbatimText": "Esto es surrealista."
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0014",
+          "sourceEndLine": 40,
+          "sourceFragment": "2. OSD (Jaja) (PA-D*1.5)",
+          "sourceStartLine": 40,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se contiene"
+          },
+          "verbatimText": "OSD (Jaja)"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0015",
+          "sourceEndLine": 44,
+          "sourceFragment": "1. ¡Ay! ¿Quién dejó esto aquí? (TI-B*1.1)",
+          "sourceStartLine": 44,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se frota el brazo"
+          },
+          "verbatimText": "¡Ay! ¿Quién dejó esto aquí?"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0016",
+          "sourceEndLine": 45,
+          "sourceFragment": "2. OSD (Ay) (PP Persona_4)",
+          "sourceStartLine": 45,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se frota el brazo"
+          },
+          "verbatimText": "OSD (Ay)"
+        }
+      ],
+      "id": "scene-002",
+      "placeId": "pasillo",
+      "placeInference": {
+        "confidence": 1.0,
+        "inferred": false
+      },
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sourceText": "\n–Script–\n[Persona_1] (2 segundos | Llorando | Ojos llorosos)\n\n1. No otra vez... (PP Persona_1)\n2. OSD (Snif, snif) (ZI*1.3)\n\n[Persona_2] (3 segundos | Tosiendo | Lleva la mano a la boca)\n\n1. ¡Puaj! (PA-I*1.2)\n2. OSD (Cof, cof) (PP Persona_2)\n\n[Persona_3] (2 segundos | Confusión | Gira la cabeza)\n\n1. ¿Qué rayos...? (TI-B*1.1)\n2. OSD (¿Eh?) (PP Persona_3)\n\n[Persona_4] (2 segundos | Cansancio | Cerrando los ojos)\n\n1. Cinco minutos más... (TI-A*1.3)\n2. OSD (Zzzz) (PP Persona_4)\n\n**OFICINA**\n\n---CAMBIO DE ESCENA---\n\n[Persona_1] (2 segundos | Pensamiento | Mira al cielo)\n\n1. Hmm... eso fue raro. (ES)\n2. OSD (Hmm) (PP Persona_1)\n\n[Persona_2] (2 segundos | Silencio | Señala con el dedo los labios)\n\n1. Shhh, creo que escuché algo. (PP Persona_2)\n2. OSD (Shhh) (ZI*1.2)\n\n[Persona_3] (2 segundos | Risa | Se contiene)\n\n1. Esto es surrealista. (PP Persona_3)\n2. OSD (Jaja) (PA-D*1.5)\n\n[Persona_4] (1 segundo | Dolor leve | Se frota el brazo)\n\n1. ¡Ay! ¿Quién dejó esto aquí? (TI-B*1.1)\n2. OSD (Ay) (PP Persona_4)\n\n**PASILLO**\n\n",
+  "sourceTextSha256": "3a3852ac8f37950d215cb7ac5451688288c51196b6b7e5e5e9592a69072bfef1",
+  "unresolved": []
+}

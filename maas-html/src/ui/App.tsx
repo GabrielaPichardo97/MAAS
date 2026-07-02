@@ -3,6 +3,7 @@ import type { EpisodeManifest } from "../types";
 import type { PlayerOptions } from "../player";
 import { MaasStage } from "../renderer/MaasStage";
 import { activeNarrativeCue, clampPosition, formatTime } from "../timeline";
+import { rebaseManifestAssets } from "../assetUrls";
 
 export function App({ manifestUrl, options }: { manifestUrl: string; options: PlayerOptions }) {
   const player = useRef<HTMLElement>(null);
@@ -40,7 +41,7 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
         if (!response.ok) throw new Error(`No se pudo cargar el manifiesto (${response.status})`);
         return response.json() as Promise<EpisodeManifest>;
       })
-      .then(setManifest)
+      .then((value) => setManifest(rebaseManifestAssets(value, import.meta.env.BASE_URL)))
       .catch((error: unknown) => {
         if (error instanceof DOMException && error.name === "AbortError") return;
         setLoadError(error instanceof Error ? error.message : "Error desconocido al cargar el episodio");
@@ -156,7 +157,7 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
           </div>
         ) : !started && (
           <div className="start-card">
-            <p>Una prueba visual de 33.9 segundos</p>
+            <p>Una prueba visual de {(manifest.durationMs / 1000).toFixed(1)} segundos</p>
             <button className="primary" onClick={() => { seek(0); setStarted(true); setPlaying(true); }}>
               <span aria-hidden="true">▶</span> Iniciar episodio
             </button>

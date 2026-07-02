@@ -18,6 +18,8 @@ PLACE_RE = re.compile(r"^\s*\*\*([^*]+)\*\*\s*$")
 TRANSITION_RE = re.compile(r"^\s*---(.+?)---\s*$")
 CAMERA_RE = re.compile(r"\((ES|ZI|ZO|PA-I|PA-D|TI-A|TI-B|PP)(?:\*([0-9]+(?:\.[0-9]+)?))?(?:\s+([^()]+))?\)\s*$")
 LEGACY_CAMERA_RE = re.compile(r"\((ES|ZI|ZO|PA-I|PA-D|TI-A|TI-B|PP)([0-9]+(?:\.[0-9]+)?)(?:\s+([^()]+))?\)\s*$")
+FX_RE = re.compile(r"\{\{fx\s+([^\s}]+)((?:\s+[A-Za-z][\w-]*=(?:\"[^\"]*\"|[^\s}]+))*)\s*\}\}")
+FX_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.v\d+\.\d+\.\d+$")
 DURATION_RE = re.compile(r"^(?:([0-9]+)\s+segundos?|([0-9]{1,2}):([0-5][0-9]))$", re.IGNORECASE)
 EPISODE_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LANGUAGE_RE = re.compile(r"^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$")
@@ -60,7 +62,7 @@ def validate_container(data: Any, mode: str) -> list[dict[str, Any]]:
     return out
 
 
-def validate_script(content: str, mode: str) -> list[dict[str, Any]]:
+def validate_script(content: str, mode: str, profile: str = "canonical-v1") -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     normalized = content.replace("\r\n", "\n").replace("\r", "\n").lstrip("\ufeff")
     seen_header = False
@@ -93,6 +95,25 @@ def validate_script(content: str, mode: str) -> list[dict[str, Any]]:
         if not seen_header:
             out.append(diagnostic("W_EDITORIAL_PREFIX", "warning", "Texto editorial anterior al primer header.", number, 1))
             continue
+        if profile == "canonical-v2":
+            tokens = list(FX_RE.finditer(raw))
+            if "{{fx" in raw and not tokens:
+                out.append(diagnostic("E_EFFECT_SYNTAX", "error", "Token {{fx ...}} inválido.", number, raw.find("{{fx") + 1))
+                continue
+            if len(tokens) > 3:
+                out.append(diagnostic("E_EFFECT_STACK", "error", "Máximo tres efectos por cue.", number, 1))
+            roles: set[str] = set()
+            for token in tokens:
+                if not FX_ID_RE.fullmatch(token.group(1)):
+                    out.append(diagnostic("E_EFFECT_ID", "error", f"ID no canónico: {token.group(1)}.", number, token.start() + 1))
+                role_match = re.search(r"(?:^|\s)role=(dominant|support|finish)(?:\s|$)", token.group(2))
+                if not role_match:
+                    out.append(diagnostic("E_EFFECT_STACK", "error", "Cada efecto requiere role.", number, token.start() + 1))
+                elif role_match.group(1) in roles:
+                    out.append(diagnostic("E_EFFECT_STACK", "error", f"Role duplicado: {role_match.group(1)}.", number, token.start() + 1))
+                else:
+                    roles.add(role_match.group(1))
+            continue
         match = CAMERA_RE.search(raw)
         legacy = LEGACY_CAMERA_RE.search(raw) if mode == "legacy" else None
         if not match and legacy:
@@ -119,6 +140,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", type=Path)
     parser.add_argument("--mode", choices=("strict", "legacy"), default="strict")
+    parser.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="canonical-v1")
     parser.add_argument("--pretty", action="store_true")
     args = parser.parse_args()
     try:
@@ -131,7 +153,7 @@ def main() -> int:
     diagnostics = validate_container(data, args.mode)
     content = data.get("content") if isinstance(data, dict) else None
     if isinstance(content, str) and content.strip():
-        diagnostics.extend(validate_script(content, args.mode))
+        diagnostics.extend(validate_script(content, args.mode, args.profile))
     else:
         diagnostics.append(diagnostic("E_SCHEMA", "error", "content debe ser un string no vacío."))
     diagnostics.sort(key=lambda item: (item["line"], item["column"], item["code"]))

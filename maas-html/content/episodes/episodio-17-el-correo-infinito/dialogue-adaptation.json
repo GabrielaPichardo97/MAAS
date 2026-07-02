@@ -1,0 +1,1112 @@
+{
+  "metadata": {
+    "episodeId": "episodio-17-el-correo-infinito",
+    "language": "es-MX",
+    "seed": 1724511258,
+    "status": "draft",
+    "title": "Episodio 17 · El correo infinito"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 4000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0001",
+          "sourceEndLine": 2,
+          "sourceFragment": "No nos vamos a ir hasta que Persona_3 termine sus pendientes (ES)",
+          "sourceStartLine": 2,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Revisa su reloj"
+          },
+          "verbatimText": "No nos vamos a ir hasta que Persona_3 termine sus pendientes"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0002",
+          "sourceEndLine": 5,
+          "sourceFragment": "Pero ya acabé mis pendientes (PP Persona_3)",
+          "sourceStartLine": 5,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Levanta la mano"
+          },
+          "verbatimText": "Pero ya acabé mis pendientes"
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "felicidad"
+          },
+          "id": "beat-0003",
+          "sourceEndLine": 8,
+          "sourceFragment": "Entonces vámonos (PP Persona_1)",
+          "sourceStartLine": 8,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se inclina hacia adelante"
+          },
+          "verbatimText": "Entonces vámonos"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 4000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "confusión"
+          },
+          "id": "beat-0004",
+          "sourceEndLine": 11,
+          "sourceFragment": "Esperen, ya solo me falta escribirle un correo a los de Sistemas (PA-I*1.2)",
+          "sourceStartLine": 11,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira la pantalla de su computadora"
+          },
+          "verbatimText": "Esperen, ya solo me falta escribirle un correo a los de Sistemas"
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0005",
+          "sourceEndLine": 14,
+          "sourceFragment": "Noooo… (PP Persona_1)",
+          "sourceStartLine": 14,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Horror"
+          },
+          "verbatimText": "Noooo…"
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0006",
+          "sourceEndLine": 15,
+          "sourceFragment": "OSD (Dum!) (ZO*1.5)",
+          "sourceStartLine": 15,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Horror"
+          },
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0007",
+          "sourceEndLine": 18,
+          "sourceFragment": "Es rápido, es solo un correo (PP Persona_3)",
+          "sourceStartLine": 18,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Teclado en mano"
+          },
+          "verbatimText": "Es rápido, es solo un correo"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0008",
+          "sourceEndLine": 19,
+          "sourceFragment": "OSD (Prrrrt) (PA-D*1.2)",
+          "sourceStartLine": 19,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Teclado en mano"
+          },
+          "verbatimText": "OSD (Prrrrt)"
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0009",
+          "sourceEndLine": 22,
+          "sourceFragment": "¿Seguro? (PP Persona_1)",
+          "sourceStartLine": 22,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Entrecierra los ojos"
+          },
+          "verbatimText": "¿Seguro?"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0010",
+          "sourceEndLine": 25,
+          "sourceFragment": "Sí, sí… (PA-D*1.2)",
+          "sourceStartLine": 25,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Empieza a escribir"
+          },
+          "verbatimText": "Sí, sí…"
+        }
+      ],
+      "id": "scene-001",
+      "placeId": "sala",
+      "placeInference": {
+        "confidence": 1.0,
+        "inferred": false
+      },
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0011",
+          "sourceEndLine": 32,
+          "sourceFragment": "Listo, ya terminé (PP Persona_3)",
+          "sourceStartLine": 32,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se estira"
+          },
+          "verbatimText": "Listo, ya terminé"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0012",
+          "sourceEndLine": 35,
+          "sourceFragment": "¡Por fin! (PP Persona_4)",
+          "sourceStartLine": 35,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Suspira"
+          },
+          "verbatimText": "¡Por fin!"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0013",
+          "sourceEndLine": 36,
+          "sourceFragment": "OSD (Yay) (PP Persona_4)",
+          "sourceStartLine": 36,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Suspira"
+          },
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 4000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "confusión"
+          },
+          "id": "beat-0014",
+          "sourceEndLine": 39,
+          "sourceFragment": "Solo voy a esperar a que me respondan para confirmar (PA-I*1.3)",
+          "sourceStartLine": 39,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira la pantalla"
+          },
+          "verbatimText": "Solo voy a esperar a que me respondan para confirmar"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "miedo"
+          },
+          "id": "beat-0015",
+          "sourceEndLine": 42,
+          "sourceFragment": "¡NOOOO!, No por favor (ZI*1.5)",
+          "sourceStartLine": 42,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Manos en la cabeza"
+          },
+          "verbatimText": "¡NOOOO!, No por favor"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "miedo"
+          },
+          "id": "beat-0016",
+          "sourceEndLine": 43,
+          "sourceFragment": "OSD (Dum!) (ZO*2)",
+          "sourceStartLine": 43,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Manos en la cabeza"
+          },
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "confusión"
+          },
+          "id": "beat-0017",
+          "sourceEndLine": 46,
+          "sourceFragment": "¡Solo un minuto y ya! (PA-I*1.3)",
+          "sourceStartLine": 46,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira la pantalla"
+          },
+          "verbatimText": "¡Solo un minuto y ya!"
+        }
+      ],
+      "id": "scene-002",
+      "placeId": "sala",
+      "placeInference": {
+        "confidence": 1.0,
+        "inferred": false
+      },
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0018",
+          "sourceEndLine": 53,
+          "sourceFragment": "Bueno, ya no respondieron, vámonos... (PP Persona_2)",
+          "sourceStartLine": 53,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira su pantalla"
+          },
+          "verbatimText": "Bueno, ya no respondieron, vámonos..."
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0019",
+          "sourceEndLine": 54,
+          "sourceFragment": "OSD (Yay) (PP Persona_2)",
+          "sourceStartLine": 54,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Mira su pantalla"
+          },
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1666
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0020",
+          "sourceEndLine": 57,
+          "sourceFragment": "¡No tienes que esperar una respuesta! (PA-I*1.5)",
+          "sourceStartLine": 57,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se agarra la cabeza"
+          },
+          "verbatimText": "¡No tienes que esperar una respuesta!"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1666
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0021",
+          "sourceEndLine": 58,
+          "sourceFragment": "Igual lo puedes revisar mañana (PP Persona_4)",
+          "sourceStartLine": 58,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se agarra la cabeza"
+          },
+          "verbatimText": "Igual lo puedes revisar mañana"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1666
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0022",
+          "sourceEndLine": 59,
+          "sourceFragment": "OSD (Ugh) (PP Persona_4)",
+          "sourceStartLine": 59,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se agarra la cabeza"
+          },
+          "verbatimText": "OSD (Ugh)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0023",
+          "sourceEndLine": 62,
+          "sourceFragment": "Pero, ¿y si me contestan con una duda y no estoy aquí? (PP Persona_3)",
+          "sourceStartLine": 62,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se toca la barbilla"
+          },
+          "verbatimText": "Pero, ¿y si me contestan con una duda y no estoy aquí?"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "enojo"
+          },
+          "id": "beat-0024",
+          "sourceEndLine": 65,
+          "sourceFragment": "¡Que lo resuelvan solos! (PA-D*1.3)",
+          "sourceStartLine": 65,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Agita los brazos"
+          },
+          "verbatimText": "¡Que lo resuelvan solos!"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "enojo"
+          },
+          "id": "beat-0025",
+          "sourceEndLine": 66,
+          "sourceFragment": "¡Viven de complicarnos la vida! (PP Persona_4)",
+          "sourceStartLine": 66,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Agita los brazos"
+          },
+          "verbatimText": "¡Viven de complicarnos la vida!"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.8,
+            "inferred": true,
+            "value": "enojo"
+          },
+          "id": "beat-0026",
+          "sourceEndLine": 67,
+          "sourceFragment": "OSD (Tsk, tsk) (PP Persona_4)",
+          "sourceStartLine": 67,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Agita los brazos"
+          },
+          "verbatimText": "OSD (Tsk, tsk)"
+        },
+        {
+          "characterId": "pato",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0027",
+          "sourceEndLine": 70,
+          "sourceFragment": "Bueno, está bien, ¡Vámonos!... (PP Persona_1)",
+          "sourceStartLine": 70,
+          "speaker": "Persona_1",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Suspira"
+          },
+          "verbatimText": "Bueno, está bien, ¡Vámonos!..."
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0028",
+          "sourceEndLine": 73,
+          "sourceFragment": "Oh, me llegó la respuesta (PP Persona_3)",
+          "sourceStartLine": 73,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Sonríe"
+          },
+          "verbatimText": "Oh, me llegó la respuesta"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0029",
+          "sourceEndLine": 74,
+          "sourceFragment": "OSD (Dum!) (PP Persona_3)",
+          "sourceStartLine": 74,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Sonríe"
+          },
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0030",
+          "sourceEndLine": 77,
+          "sourceFragment": "¡NO LO LEAS! (PA-I*1.5)",
+          "sourceStartLine": 77,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Con horror"
+          },
+          "verbatimText": "¡NO LO LEAS!"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1500
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0031",
+          "sourceEndLine": 78,
+          "sourceFragment": "OSD (Dum!) (PP Persona_4)",
+          "sourceStartLine": 78,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Con horror"
+          },
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0032",
+          "sourceEndLine": 81,
+          "sourceFragment": "Pero solo es una línea… (PP Persona_3)",
+          "sourceStartLine": 81,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Se encoge de hombros"
+          },
+          "verbatimText": "Pero solo es una línea…"
+        },
+        {
+          "characterId": "cactus",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 3000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0033",
+          "sourceEndLine": 84,
+          "sourceFragment": "No caigas en la trampa… (PP Persona_2)",
+          "sourceStartLine": 84,
+          "speaker": "Persona_2",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Manos juntas"
+          },
+          "verbatimText": "No caigas en la trampa…"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0034",
+          "sourceEndLine": 87,
+          "sourceFragment": "Dice: Gracias compañero... (PP Persona_3)",
+          "sourceStartLine": 87,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Frunce el ceño"
+          },
+          "verbatimText": "Dice: Gracias compañero..."
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0035",
+          "sourceEndLine": 88,
+          "sourceFragment": "Solo una consulta… (ZI*1.5)",
+          "sourceStartLine": 88,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Frunce el ceño"
+          },
+          "verbatimText": "Solo una consulta…"
+        },
+        {
+          "characterId": "conejo",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 1333
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0036",
+          "sourceEndLine": 89,
+          "sourceFragment": "OSD (Dum!) (ZO*1.5)",
+          "sourceStartLine": 89,
+          "speaker": "Persona_3",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Frunce el ceño"
+          },
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0037",
+          "sourceEndLine": 92,
+          "sourceFragment": "¡NOOOOO, POR FAVOR!... (ZO*2)",
+          "sourceStartLine": 92,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Manos en el aire"
+          },
+          "verbatimText": "¡NOOOOO, POR FAVOR!..."
+        },
+        {
+          "characterId": "pata",
+          "durationMs": {
+            "confidence": 0.9,
+            "inferred": true,
+            "value": 2000
+          },
+          "emotion": {
+            "confidence": 0.4,
+            "inferred": true,
+            "value": "seriedad"
+          },
+          "id": "beat-0038",
+          "sourceEndLine": 93,
+          "sourceFragment": "OSD (Prrrrt) (ZO*2)",
+          "sourceStartLine": 93,
+          "speaker": "Persona_4",
+          "speakerInference": {
+            "confidence": 1.0,
+            "inferred": false
+          },
+          "stageDirection": {
+            "confidence": 0.85,
+            "inferred": true,
+            "value": "Manos en el aire"
+          },
+          "verbatimText": "OSD (Prrrrt)"
+        }
+      ],
+      "id": "scene-003",
+      "placeId": "pasillo",
+      "placeInference": {
+        "confidence": 1.0,
+        "inferred": false
+      },
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sourceText": "[Persona_1] (4 segundos | Relajado | Revisa su reloj)\nNo nos vamos a ir hasta que Persona_3 termine sus pendientes (ES)\n\n[Persona_3] (3 segundos | Con firmeza | Levanta la mano)\nPero ya acabé mis pendientes (PP Persona_3)\n\n[Persona_1] (3 segundos | Sonríe | Se inclina hacia adelante)\nEntonces vámonos (PP Persona_1)\n\n[Persona_3] (4 segundos | Dudoso | Mira la pantalla de su computadora)\nEsperen, ya solo me falta escribirle un correo a los de Sistemas (PA-I*1.2)\n\n[Persona_1] (4 segundos | Se lleva las manos a la cara | Horror)\nNoooo… (PP Persona_1)\nOSD (Dum!) (ZO*1.5)\n\n[Persona_3] (3 segundos | Tranquilo | Teclado en mano)\nEs rápido, es solo un correo (PP Persona_3)\nOSD (Prrrrt) (PA-D*1.2)\n\n[Persona_1] (3 segundos | Sospechoso | Entrecierra los ojos)\n¿Seguro? (PP Persona_1)\n\n[Persona_3] (3 segundos | Asegurando | Empieza a escribir)\nSí, sí… (PA-D*1.2)\n\n**SALA**\n\n---30 MINUTOS DESPUÉS---\n\n[Persona_3] (3 segundos | Satisfecho | Se estira)\nListo, ya terminé (PP Persona_3)\n\n[Persona_4] (3 segundos | Con alivio | Suspira)\n¡Por fin! (PP Persona_4)\nOSD (Yay) (PP Persona_4)\n\n[Persona_3] (4 segundos | Precavido | Mira la pantalla)\nSolo voy a esperar a que me respondan para confirmar (PA-I*1.3)\n\n[Persona_4] (4 segundos | Horror absoluto | Manos en la cabeza)\n¡NOOOO!, No por favor (ZI*1.5)\nOSD (Dum!) (ZO*2)\n\n[Persona_3] (2 segundos | Precavido | Mira la pantalla)\n¡Solo un minuto y ya! (PA-I*1.3)\n\n**SALA**\n\n---10 MINUTOS DESPUÉS---\n\n[Persona_2] (3 segundos | Impaciente | Mira su pantalla)\nBueno, ya no respondieron, vámonos... (PP Persona_2)\nOSD (Yay) (PP Persona_2)\n\n[Persona_4] (5 segundos | Desesperado | Se agarra la cabeza)\n¡No tienes que esperar una respuesta! (PA-I*1.5)\nIgual lo puedes revisar mañana (PP Persona_4)\nOSD (Ugh) (PP Persona_4)\n\n[Persona_3] (3 segundos | Reflexionando | Se toca la barbilla)\nPero, ¿y si me contestan con una duda y no estoy aquí? (PP Persona_3)\n\n[Persona_4] (4 segundos | Furioso | Agita los brazos)\n¡Que lo resuelvan solos! (PA-D*1.3)\n¡Viven de complicarnos la vida! (PP Persona_4)\nOSD (Tsk, tsk) (PP Persona_4)\n\n[Persona_1] (3 segundos | Aceptando | Suspira)\nBueno, está bien, ¡Vámonos!... (PP Persona_1)\n\n[Persona_3] (3 segundos | Mira la pantalla | Sonríe)\nOh, me llegó la respuesta (PP Persona_3)\nOSD (Dum!) (PP Persona_3)\n\n[Persona_4] (3 segundos | Se paraliza | Con horror)\n¡NO LO LEAS! (PA-I*1.5)\nOSD (Dum!) (PP Persona_4)\n\n[Persona_3] (3 segundos | Tranquilo | Se encoge de hombros)\nPero solo es una línea… (PP Persona_3)\n\n[Persona_2] (3 segundos | Suplicando | Manos juntas)\nNo caigas en la trampa… (PP Persona_2)\n\n[Persona_3] (4 segundos | Leyendo en voz alta | Frunce el ceño)\nDice: Gracias compañero... (PP Persona_3)\nSolo una consulta… (ZI*1.5)\nOSD (Dum!) (ZO*1.5)\n\n[Persona_4] (4 segundos | Se tira al suelo dramáticamente | Manos en el aire)\n¡NOOOOO, POR FAVOR!... (ZO*2)\nOSD (Prrrrt) (ZO*2)\n\n**PASILLO**\n",
+  "sourceTextSha256": "48673e475c51c3c02934ddb14e225f650fb9e841245beb27c07ae9a1908eea24",
+  "unresolved": []
+}

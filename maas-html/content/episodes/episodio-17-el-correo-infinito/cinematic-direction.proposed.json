@@ -1,0 +1,1183 @@
+{
+  "adaptationSha256": "1f63d104d73c2ffc6d419cf07b75c9622614944904600a44fbf06f08ba0c9874",
+  "approval": {
+    "approvedAt": null,
+    "approvedBy": null,
+    "status": "proposed"
+  },
+  "metadata": {
+    "episodeId": "episodio-17-el-correo-infinito",
+    "language": "es-MX",
+    "seed": 1724511258,
+    "status": "draft",
+    "title": "Episodio 17 · El correo infinito"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Revisa su reloj",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0001",
+          "speaker": "Persona_1",
+          "stageDirection": "Revisa su reloj",
+          "verbatimText": "No nos vamos a ir hasta que Persona_3 termine sus pendientes"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Levanta la mano",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0002",
+          "speaker": "Persona_3",
+          "stageDirection": "Levanta la mano",
+          "verbatimText": "Pero ya acabé mis pendientes"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Se inclina hacia adelante",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "felicidad",
+          "id": "beat-0003",
+          "speaker": "Persona_1",
+          "stageDirection": "Se inclina hacia adelante",
+          "verbatimText": "Entonces vámonos"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla de su computadora",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "confusión",
+          "id": "beat-0004",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla de su computadora",
+          "verbatimText": "Esperen, ya solo me falta escribirle un correo a los de Sistemas"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Horror",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0005",
+          "speaker": "Persona_1",
+          "stageDirection": "Horror",
+          "verbatimText": "Noooo…"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Horror",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0006",
+          "speaker": "Persona_1",
+          "stageDirection": "Horror",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Teclado en mano",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0007",
+          "speaker": "Persona_3",
+          "stageDirection": "Teclado en mano",
+          "verbatimText": "Es rápido, es solo un correo"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Teclado en mano",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0008",
+          "speaker": "Persona_3",
+          "stageDirection": "Teclado en mano",
+          "verbatimText": "OSD (Prrrrt)"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Entrecierra los ojos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0009",
+          "speaker": "Persona_1",
+          "stageDirection": "Entrecierra los ojos",
+          "verbatimText": "¿Seguro?"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Empieza a escribir",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0010",
+          "speaker": "Persona_3",
+          "stageDirection": "Empieza a escribir",
+          "verbatimText": "Sí, sí…"
+        }
+      ],
+      "id": "scene-001",
+      "orientation": "landscape",
+      "placeId": "sala",
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se estira",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0011",
+          "speaker": "Persona_3",
+          "stageDirection": "Se estira",
+          "verbatimText": "Listo, ya terminé"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0012",
+          "speaker": "Persona_4",
+          "stageDirection": "Suspira",
+          "verbatimText": "¡Por fin!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0013",
+          "speaker": "Persona_4",
+          "stageDirection": "Suspira",
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 4000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "confusión",
+          "id": "beat-0014",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla",
+          "verbatimText": "Solo voy a esperar a que me respondan para confirmar"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "miedo",
+          "id": "beat-0015",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en la cabeza",
+          "verbatimText": "¡NOOOO!, No por favor"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "miedo",
+          "id": "beat-0016",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en la cabeza",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Mira la pantalla",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "confusión",
+          "id": "beat-0017",
+          "speaker": "Persona_3",
+          "stageDirection": "Mira la pantalla",
+          "verbatimText": "¡Solo un minuto y ya!"
+        }
+      ],
+      "id": "scene-002",
+      "orientation": "landscape",
+      "placeId": "sala",
+      "placeLabel": "SALA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Mira su pantalla",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0018",
+          "speaker": "Persona_2",
+          "stageDirection": "Mira su pantalla",
+          "verbatimText": "Bueno, ya no respondieron, vámonos..."
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Mira su pantalla",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0019",
+          "speaker": "Persona_2",
+          "stageDirection": "Mira su pantalla",
+          "verbatimText": "OSD (Yay)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0020",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "¡No tienes que esperar una respuesta!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0021",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "Igual lo puedes revisar mañana"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se agarra la cabeza",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1666,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0022",
+          "speaker": "Persona_4",
+          "stageDirection": "Se agarra la cabeza",
+          "verbatimText": "OSD (Ugh)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se toca la barbilla",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0023",
+          "speaker": "Persona_3",
+          "stageDirection": "Se toca la barbilla",
+          "verbatimText": "Pero, ¿y si me contestan con una duda y no estoy aquí?"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "enojo",
+          "id": "beat-0024",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "¡Que lo resuelvan solos!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "enojo",
+          "id": "beat-0025",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "¡Viven de complicarnos la vida!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Agita los brazos",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "enojo",
+          "id": "beat-0026",
+          "speaker": "Persona_4",
+          "stageDirection": "Agita los brazos",
+          "verbatimText": "OSD (Tsk, tsk)"
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Suspira",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0027",
+          "speaker": "Persona_1",
+          "stageDirection": "Suspira",
+          "verbatimText": "Bueno, está bien, ¡Vámonos!..."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Sonríe",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0028",
+          "speaker": "Persona_3",
+          "stageDirection": "Sonríe",
+          "verbatimText": "Oh, me llegó la respuesta"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Sonríe",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0029",
+          "speaker": "Persona_3",
+          "stageDirection": "Sonríe",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Con horror",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0030",
+          "speaker": "Persona_4",
+          "stageDirection": "Con horror",
+          "verbatimText": "¡NO LO LEAS!"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Con horror",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0031",
+          "speaker": "Persona_4",
+          "stageDirection": "Con horror",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se encoge de hombros",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0032",
+          "speaker": "Persona_3",
+          "stageDirection": "Se encoge de hombros",
+          "verbatimText": "Pero solo es una línea…"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Manos juntas",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 3000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0033",
+          "speaker": "Persona_2",
+          "stageDirection": "Manos juntas",
+          "verbatimText": "No caigas en la trampa…"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0034",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "Dice: Gracias compañero..."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0035",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "Solo una consulta…"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Frunce el ceño",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1333,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0036",
+          "speaker": "Persona_3",
+          "stageDirection": "Frunce el ceño",
+          "verbatimText": "OSD (Dum!)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en el aire",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0037",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en el aire",
+          "verbatimText": "¡NOOOOO, POR FAVOR!..."
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Manos en el aire",
+            "cameraMovement": "static",
+            "focus": "speaker",
+            "performance": "Mantener la intención del parlamento",
+            "shot": "medium",
+            "transition": "clean-cut"
+          },
+          "durationMs": 2000,
+          "effectContext": {
+            "arousal": 0.3,
+            "availableInputs": [],
+            "continuity": 0.8,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.2,
+            "tempo": 90,
+            "textNeed": false
+          },
+          "effects": [],
+          "emotion": "seriedad",
+          "id": "beat-0038",
+          "speaker": "Persona_4",
+          "stageDirection": "Manos en el aire",
+          "verbatimText": "OSD (Prrrrt)"
+        }
+      ],
+      "id": "scene-003",
+      "orientation": "landscape",
+      "placeId": "pasillo",
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "unresolvedMedia": []
+}

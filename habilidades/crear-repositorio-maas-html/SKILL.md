@@ -11,6 +11,8 @@ description: Crea desde cero un repositorio MAAS HTML con React, TypeScript, Vit
 4. Ejecutar en el nuevo repositorio `python -m unittest discover tests/python`, `npm install`, `npm test` y `npm run build`.
 5. Invocar, en orden: `$definir-contratos-maas`, `$migrar-insumos-maas`, `$compilar-guion-maas`, `$resolver-media-maas`, `$reproducir-efectos-maas`, `$renderizar-escenas-maas`, `$sincronizar-audio-maas`, `$empaquetar-episodio-maas` y `$auditar-paridad-maas`.
 
+Para autorar un episodio desde diálogo ordinario, anteponer `$creativa-adaptar-dialogo-maas`, `$creativa-dirigir-escena-maas` y, tras aprobación, `$creativa-ensamblar-episodio-maas`.
+
 ## Guardas
 
 - No inicializar sobre un directorio no vacío sin `--force`; aun con `--force`, no sobrescribir archivos existentes.

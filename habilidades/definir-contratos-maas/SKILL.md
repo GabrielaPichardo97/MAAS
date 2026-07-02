@@ -1,6 +1,6 @@
 ---
 name: definir-contratos-maas
-description: Define, documenta y valida los contratos versionados de entrada, assets y manifiestos de MAAS HTML. Usar al crear o cambiar episode-source.json, asset-manifest.json, episode.manifest.json, la gramática textual de guiones o los diagnósticos del compilador.
+description: Define, documenta y valida los contratos versionados de entrada, assets, efectos y manifiestos de MAAS HTML. Usar al crear o cambiar episode-source.json, asset-manifest.json, episode.manifest.json, canonical-v2, la gramática {{fx ...}} o los diagnósticos del compilador.
 ---
 
 # Definir contratos MAAS

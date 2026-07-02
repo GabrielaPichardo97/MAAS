@@ -1,4 +1,4 @@
 interface:
   display_name: "Compilar guion MAAS"
-  short_description: "Convierte guiones en timelines canónicas"
-  default_prompt: "Usa $compilar-guion-maas para compilar un guion MAAS a un manifiesto canónico."
+  short_description: "Compila guiones y stacks canonical-v2"
+  default_prompt: "Usa $compilar-guion-maas para compilar este guion con efectos expl�citos."

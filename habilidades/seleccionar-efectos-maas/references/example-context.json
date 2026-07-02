@@ -1,0 +1,11 @@
+{
+  "sceneType": "interview",
+  "arousal": 0.25,
+  "continuity": 0.9,
+  "focus": "face",
+  "stylization": 0.2,
+  "tempo": 80,
+  "musicSync": false,
+  "textNeed": false,
+  "availableInputs": ["morphClip"]
+}

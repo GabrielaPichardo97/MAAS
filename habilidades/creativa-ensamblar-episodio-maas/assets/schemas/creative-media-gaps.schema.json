@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/creative-media-gaps.schema.json",
+  "title": "MAAS creative episode media gaps",
+  "type": "object",
+  "required": ["schemaVersion", "episodeId", "mode", "gaps"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "episodeId": {"type": "string"},
+    "mode": {"enum": ["preview", "publication"]},
+    "gaps": {"type": "array"}
+  }
+}

@@ -19,12 +19,14 @@ def main() -> int:
     validate = sub.add_parser("validate")
     validate.add_argument("input", type=Path)
     validate.add_argument("--mode", choices=("strict", "legacy"), default="strict")
+    validate.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="canonical-v1")
 
     compile_command = sub.add_parser("compile")
     compile_command.add_argument("input", type=Path)
-    compile_command.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    compile_command.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     compile_command.add_argument("--output", type=Path, required=True)
     compile_command.add_argument("--character-map", type=Path)
+    compile_command.add_argument("--effect-catalog", type=Path)
 
     assets = sub.add_parser("assets")
     assets_sub = assets.add_subparsers(dest="assets_command", required=True)
@@ -37,8 +39,9 @@ def main() -> int:
     build.add_argument("input", type=Path)
     build.add_argument("--output", type=Path, required=True)
     build.add_argument("--player-dist", type=Path, default=Path("web-dist"))
-    build.add_argument("--profile", choices=("legacy-v1", "canonical-v1"), default="legacy-v1")
+    build.add_argument("--profile", choices=("legacy-v1", "canonical-v1", "canonical-v2"), default="legacy-v1")
     build.add_argument("--character-map", type=Path)
+    build.add_argument("--effect-catalog", type=Path)
 
     verify = sub.add_parser("verify")
     verify.add_argument("target", type=Path)
@@ -76,11 +79,13 @@ def main() -> int:
     repo = Path(__file__).resolve().parents[2]
     scripts = repo / "tools" / "scripts"
     if args.command == "validate":
-        return run(scripts / "validate_episode.py", args.input, "--mode", args.mode, "--pretty")
+        return run(scripts / "validate_episode.py", args.input, "--mode", args.mode, "--profile", args.profile, "--pretty")
     if args.command == "compile":
         command: list[object] = [args.input, "--profile", args.profile, "--output", args.output]
         if args.character_map:
             command += ["--character-map", args.character_map]
+        if args.effect_catalog:
+            command += ["--effect-catalog", args.effect_catalog]
         return run(scripts / "compile_episode.py", *command)
     if args.command == "assets":
         command = [args.root, "--output", args.output]
@@ -93,7 +98,9 @@ def main() -> int:
                 manifest = json.loads(args.target.read_text(encoding="utf-8-sig"))
                 timeline = manifest["timeline"]
                 ordered = timeline == sorted(timeline, key=lambda cue: (cue["startMs"], cue["id"]))
-                valid = manifest.get("schemaVersion") == "1.0" and isinstance(manifest.get("durationMs"), int) and ordered
+                version = manifest.get("schemaVersion")
+                profile = manifest.get("profile")
+                valid = version in {"1.0", "2.0"} and (version != "2.0" or profile == "canonical-v2") and isinstance(manifest.get("durationMs"), int) and ordered
             except (OSError, UnicodeError, json.JSONDecodeError, KeyError, TypeError):
                 valid = False
             print(json.dumps({"valid": valid, "target": str(args.target)}, ensure_ascii=False))
@@ -119,6 +126,8 @@ def main() -> int:
             compile_args: list[object] = [args.input, "--profile", args.profile, "--output", manifest]
             if args.character_map:
                 compile_args += ["--character-map", args.character_map]
+            if args.effect_catalog:
+                compile_args += ["--effect-catalog", args.effect_catalog]
             code = run(scripts / "compile_episode.py", *compile_args)
             if code:
                 return code

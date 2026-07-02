@@ -1,0 +1,696 @@
+{
+  "adaptationSha256": "49a48613b7c83be605b7c792b47c1945753d70c6a5fb1e041a8a114e5eb30b2e",
+  "approval": {
+    "approvedAt": "2026-07-02T20:42:15Z",
+    "approvedBy": "usuario: solicitud explícita de dos HTML con efectos variados",
+    "status": "approved"
+  },
+  "metadata": {
+    "episodeId": "episodio-0-prueba-efectos",
+    "language": "es-MX",
+    "seed": 1001104799,
+    "status": "draft",
+    "title": "Episodio 0 · Prueba de efectos"
+  },
+  "scenes": [
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Ojos llorosos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.42,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.62,
+              "params": {
+                "easing": "ease-out",
+                "scaleEnd": 1.18
+              },
+              "role": "dominant",
+              "target": "speaker"
+            },
+            {
+              "id": "stylize.color-grade.coherence.clean.v1.0.0",
+              "intensity": 0.38,
+              "params": {
+                "contrast": 0.12,
+                "saturation": 0.78,
+                "tint": -0.08
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0001",
+          "speaker": "Persona_1",
+          "stageDirection": "Ojos llorosos",
+          "verbatimText": "No otra vez..."
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Ojos llorosos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.445,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.42,
+              "params": {
+                "blurPx": 12,
+                "focusTo": "subject"
+              },
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0002",
+          "speaker": "Persona_1",
+          "stageDirection": "Ojos llorosos",
+          "verbatimText": "OSD (Snif, snif)"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Lleva la mano a la boca",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.47,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.38,
+              "params": {
+                "color": "#ff8a4c",
+                "intensity": 0.32
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0003",
+          "speaker": "Persona_2",
+          "stageDirection": "Lleva la mano a la boca",
+          "verbatimText": "¡Puaj!"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Lleva la mano a la boca",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1500,
+          "effectContext": {
+            "arousal": 0.495,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+              "intensity": 0.34,
+              "params": {
+                "depth": 0.28,
+                "travel": 0.2
+              },
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0004",
+          "speaker": "Persona_2",
+          "stageDirection": "Lleva la mano a la boca",
+          "verbatimText": "OSD (Cof, cof)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Gira la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.52,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "gravity": 0.12,
+                "lifeMs": 1200,
+                "rate": 24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "confusión",
+          "id": "beat-0005",
+          "speaker": "Persona_3",
+          "stageDirection": "Gira la cabeza",
+          "verbatimText": "¿Qué rayos...?"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Gira la cabeza",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.5449999999999999,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.48,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "confusión",
+          "id": "beat-0006",
+          "speaker": "Persona_3",
+          "stageDirection": "Gira la cabeza",
+          "verbatimText": "OSD (¿Eh?)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Cerrando los ojos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.5700000000000001,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.42,
+              "params": {
+                "blurPx": 12,
+                "focusTo": "subject"
+              },
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "tristeza",
+          "id": "beat-0007",
+          "speaker": "Persona_4",
+          "stageDirection": "Cerrando los ojos",
+          "verbatimText": "Cinco minutos más..."
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Cerrando los ojos",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.595,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.38,
+              "params": {
+                "color": "#ff8a4c",
+                "intensity": 0.32
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "tristeza",
+          "id": "beat-0008",
+          "speaker": "Persona_4",
+          "stageDirection": "Cerrando los ojos",
+          "verbatimText": "OSD (Zzzz)"
+        }
+      ],
+      "id": "scene-001",
+      "orientation": "landscape",
+      "placeId": "oficina",
+      "placeLabel": "OFICINA"
+    },
+    {
+      "beats": [
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Mira al cielo",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.62,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+              "intensity": 0.34,
+              "params": {
+                "depth": 0.28,
+                "travel": 0.2
+              },
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0009",
+          "speaker": "Persona_1",
+          "stageDirection": "Mira al cielo",
+          "verbatimText": "Hmm... eso fue raro."
+        },
+        {
+          "characterId": "pato",
+          "direction": {
+            "blocking": "Mira al cielo",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.645,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "gravity": 0.12,
+                "lifeMs": 1200,
+                "rate": 24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0010",
+          "speaker": "Persona_1",
+          "stageDirection": "Mira al cielo",
+          "verbatimText": "OSD (Hmm)"
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Señala con el dedo los labios",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.6699999999999999,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.push-in.emphasis.subtle.v1.0.0",
+              "intensity": 0.48,
+              "params": {},
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0011",
+          "speaker": "Persona_2",
+          "stageDirection": "Señala con el dedo los labios",
+          "verbatimText": "Shhh, creo que escuché algo."
+        },
+        {
+          "characterId": "cactus",
+          "direction": {
+            "blocking": "Señala con el dedo los labios",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.6950000000000001,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.rack-focus.attention.depth-shift.v1.0.0",
+              "intensity": 0.42,
+              "params": {
+                "blurPx": 12,
+                "focusTo": "subject"
+              },
+              "role": "dominant",
+              "target": "speaker"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0012",
+          "speaker": "Persona_2",
+          "stageDirection": "Señala con el dedo los labios",
+          "verbatimText": "OSD (Shhh)"
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se contiene",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.72,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.light-leak.atmosphere.film.v1.0.0",
+              "intensity": 0.38,
+              "params": {
+                "color": "#ff8a4c",
+                "intensity": 0.32
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0013",
+          "speaker": "Persona_3",
+          "stageDirection": "Se contiene",
+          "verbatimText": "Esto es surrealista."
+        },
+        {
+          "characterId": "conejo",
+          "direction": {
+            "blocking": "Se contiene",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 1000,
+          "effectContext": {
+            "arousal": 0.745,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "motion.virtual-dolly.reveal.parallax.v1.0.0",
+              "intensity": 0.34,
+              "params": {
+                "depth": 0.28,
+                "travel": 0.2
+              },
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0014",
+          "speaker": "Persona_3",
+          "stageDirection": "Se contiene",
+          "verbatimText": "OSD (Jaja)"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se frota el brazo",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 500,
+          "effectContext": {
+            "arousal": 0.77,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "stylize.particles.atmosphere.dynamic.v1.0.0",
+              "intensity": 0.32,
+              "params": {
+                "gravity": 0.12,
+                "lifeMs": 1200,
+                "rate": 24
+              },
+              "role": "finish",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0015",
+          "speaker": "Persona_4",
+          "stageDirection": "Se frota el brazo",
+          "verbatimText": "¡Ay! ¿Quién dejó esto aquí?"
+        },
+        {
+          "characterId": "pata",
+          "direction": {
+            "blocking": "Se frota el brazo",
+            "cameraMovement": "motivated",
+            "focus": "face",
+            "performance": "Sostener el subtexto y dejar respirar el remate",
+            "shot": "close",
+            "transition": "clean-cut"
+          },
+          "durationMs": 500,
+          "effectContext": {
+            "arousal": 0.7949999999999999,
+            "availableInputs": [],
+            "continuity": 0.58,
+            "focus": "face",
+            "musicSync": false,
+            "reducedMotion": false,
+            "sceneType": "general",
+            "stylization": 0.68,
+            "tempo": 112,
+            "textNeed": false
+          },
+          "effects": [
+            {
+              "id": "time.punch-edit.impact.snap.v1.0.0",
+              "intensity": 0.58,
+              "params": {},
+              "role": "dominant",
+              "target": "frame"
+            }
+          ],
+          "emotion": "seriedad",
+          "id": "beat-0016",
+          "speaker": "Persona_4",
+          "stageDirection": "Se frota el brazo",
+          "verbatimText": "OSD (Ay)"
+        }
+      ],
+      "id": "scene-002",
+      "orientation": "landscape",
+      "placeId": "pasillo",
+      "placeLabel": "PASILLO"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "unresolvedMedia": []
+}
