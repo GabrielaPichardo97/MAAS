@@ -1,0 +1,1958 @@
+{
+  "catalogSha256": "f8face46dd141806cef168ccd58071dbee36151b0b41969a6ad9e72ebd1313ab",
+  "gaps": [
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "cactus",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-cactus-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-cactus-happy-left"
+      ],
+      "suggestedFilename": "characters/cactus/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "cactus",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-cactus-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-cactus-happy-left"
+      ],
+      "suggestedFilename": "characters/cactus/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "cactus",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-cactus-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-cactus-happy-left"
+      ],
+      "suggestedFilename": "characters/cactus/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "cactus",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-cactus-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-cactus-happy-left"
+      ],
+      "suggestedFilename": "characters/cactus/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "coneja",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-coneja-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-coneja-happy-left"
+      ],
+      "suggestedFilename": "characters/coneja/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "coneja",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-coneja-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-coneja-happy-left"
+      ],
+      "suggestedFilename": "characters/coneja/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "coneja",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-coneja-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-coneja-happy-left"
+      ],
+      "suggestedFilename": "characters/coneja/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "coneja",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "a",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-coneja-a",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-coneja-happy-left"
+      ],
+      "suggestedFilename": "characters/coneja/a.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "conejo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-conejo-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-conejo-happy-left"
+      ],
+      "suggestedFilename": "characters/conejo/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "conejo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-conejo-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-conejo-happy-left"
+      ],
+      "suggestedFilename": "characters/conejo/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "conejo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-conejo-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-conejo-happy-left"
+      ],
+      "suggestedFilename": "characters/conejo/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "gata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "sad",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-gata-sad",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-gata-happy-left"
+      ],
+      "suggestedFilename": "characters/gata/sad.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "gata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-gata-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-gata-happy-left"
+      ],
+      "suggestedFilename": "characters/gata/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "gata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "dizzy",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-gata-dizzy",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-gata-happy-left"
+      ],
+      "suggestedFilename": "characters/gata/dizzy.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "gata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-gata-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-gata-happy-left"
+      ],
+      "suggestedFilename": "characters/gata/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "gata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-gata-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-gata-happy-left"
+      ],
+      "suggestedFilename": "characters/gata/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "kiwi",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-kiwi-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-kiwi-happy-left"
+      ],
+      "suggestedFilename": "characters/kiwi/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "kiwi",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-kiwi-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-kiwi-happy-left"
+      ],
+      "suggestedFilename": "characters/kiwi/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "kiwi",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-kiwi-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-kiwi-happy-left"
+      ],
+      "suggestedFilename": "characters/kiwi/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "kiwi",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-kiwi-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-kiwi-happy-left"
+      ],
+      "suggestedFilename": "characters/kiwi/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "surprised",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pata-surprised",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pata-happy-left"
+      ],
+      "suggestedFilename": "characters/pata/surprised.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pata-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pata-happy-left"
+      ],
+      "suggestedFilename": "characters/pata/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pata-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pata-happy-left"
+      ],
+      "suggestedFilename": "characters/pata/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pata",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pata-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pata-happy-left"
+      ],
+      "suggestedFilename": "characters/pata/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pato",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pato-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pato-happy-left"
+      ],
+      "suggestedFilename": "characters/pato/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pato",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "surprised",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pato-surprised",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pato-happy-left"
+      ],
+      "suggestedFilename": "characters/pato/surprised.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pato",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pato-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pato-happy-left"
+      ],
+      "suggestedFilename": "characters/pato/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pato",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pato-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pato-happy-left"
+      ],
+      "suggestedFilename": "characters/pato/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pollo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pollo-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pollo-happy-left"
+      ],
+      "suggestedFilename": "characters/pollo/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pollo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pollo-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pollo-happy-left"
+      ],
+      "suggestedFilename": "characters/pollo/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pollo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pollo-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pollo-happy-left"
+      ],
+      "suggestedFilename": "characters/pollo/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "pollo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-pollo-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-pollo-happy-left"
+      ],
+      "suggestedFilename": "characters/pollo/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "rinoceronte-rojo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-rinoceronte-rojo-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-rinoceronte-rojo-happy-left"
+      ],
+      "suggestedFilename": "characters/rinoceronte-rojo/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "rinoceronte-rojo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "dizzy",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-rinoceronte-rojo-dizzy",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-rinoceronte-rojo-happy-left"
+      ],
+      "suggestedFilename": "characters/rinoceronte-rojo/dizzy.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "rinoceronte-rojo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-rinoceronte-rojo-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-rinoceronte-rojo-happy-left"
+      ],
+      "suggestedFilename": "characters/rinoceronte-rojo/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "rinoceronte-rojo",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-rinoceronte-rojo-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-rinoceronte-rojo-happy-left"
+      ],
+      "suggestedFilename": "characters/rinoceronte-rojo/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "roca",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-roca-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-roca-happy-left"
+      ],
+      "suggestedFilename": "characters/roca/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "roca",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-roca-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-roca-happy-left"
+      ],
+      "suggestedFilename": "characters/roca/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "roca",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-roca-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-roca-happy-left"
+      ],
+      "suggestedFilename": "characters/roca/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "roca",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-roca-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-roca-happy-left"
+      ],
+      "suggestedFilename": "characters/roca/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "happy",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-happy",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/happy.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "sad",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-sad",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/sad.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "angry",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-angry",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/angry.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "serious",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-serious",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/serious.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "worried",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-worried",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/worried.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "surprised",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-surprised",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/surprised.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "dizzy",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-dizzy",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/dizzy.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "confused",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-confused",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/confused.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "scared",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-scared",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/scared.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "cute",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-cute",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/cute.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "assetType": "sprite",
+      "blockingPublication": false,
+      "characterId": "tortuga",
+      "dimensions": {
+        "acceptedExisting": "500x500",
+        "preferred": "1024x1024"
+      },
+      "emotion": "a",
+      "gaze": "left",
+      "layout": null,
+      "orientation": null,
+      "placeId": null,
+      "requestId": "sprite-tortuga-a",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "character-tortuga-happy-left"
+      ],
+      "suggestedFilename": "characters/tortuga/a.left.png",
+      "transparent": true
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "cafeteria",
+      "requestId": "background-cafeteria-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-cafeteria-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/cafeteria/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "cafeteria",
+      "requestId": "background-cafeteria-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-cafeteria-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/cafeteria/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "cafeteria",
+      "requestId": "background-cafeteria-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-cafeteria-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/cafeteria/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "calle",
+      "requestId": "background-calle-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-calle-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/calle/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "calle",
+      "requestId": "background-calle-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-calle-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/calle/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "calle",
+      "requestId": "background-calle-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-calle-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/calle/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "elevador",
+      "requestId": "background-elevador-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-elevador-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/elevador/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "elevador",
+      "requestId": "background-elevador-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-elevador-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/elevador/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "elevador",
+      "requestId": "background-elevador-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-elevador-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/elevador/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "oficina",
+      "requestId": "background-oficina-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-oficina-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/oficina/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "oficina",
+      "requestId": "background-oficina-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-oficina-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/oficina/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "oficina",
+      "requestId": "background-oficina-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-oficina-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/oficina/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "parque",
+      "requestId": "background-parque-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-parque-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/parque/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "parque",
+      "requestId": "background-parque-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-parque-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/parque/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "parque",
+      "requestId": "background-parque-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-parque-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/parque/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "pasillo",
+      "requestId": "background-pasillo-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-pasillo-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/pasillo/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "pasillo",
+      "requestId": "background-pasillo-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-pasillo-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/pasillo/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "pasillo",
+      "requestId": "background-pasillo-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-pasillo-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/pasillo/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "puerta",
+      "requestId": "background-puerta-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-puerta-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/puerta/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "puerta",
+      "requestId": "background-puerta-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-puerta-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/puerta/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "puerta",
+      "requestId": "background-puerta-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-puerta-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/puerta/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "sala",
+      "requestId": "background-sala-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-sala-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/sala/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "sala",
+      "requestId": "background-sala-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-sala-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/sala/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "sala",
+      "requestId": "background-sala-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-sala-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/sala/portrait.character-right.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "center",
+      "orientation": "portrait",
+      "placeId": "tren",
+      "requestId": "background-tren-portrait-center",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-tren-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/tren/portrait.center.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-left",
+      "orientation": "portrait",
+      "placeId": "tren",
+      "requestId": "background-tren-portrait-character-left",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-tren-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/tren/portrait.character-left.png",
+      "transparent": false
+    },
+    {
+      "anchor": null,
+      "assetType": "background",
+      "blockingPublication": false,
+      "characterId": null,
+      "dimensions": {
+        "acceptedExisting": "960x540",
+        "preferred": "1080x1920"
+      },
+      "emotion": null,
+      "gaze": null,
+      "layout": "character-right",
+      "orientation": "portrait",
+      "placeId": "tren",
+      "requestId": "background-tren-portrait-character-right",
+      "requiredFor": [],
+      "severity": "catalog-gap",
+      "styleReferenceIds": [
+        "background-tren-landscape-center"
+      ],
+      "suggestedFilename": "backgrounds/tren/portrait.character-right.png",
+      "transparent": false
+    }
+  ],
+  "schemaVersion": "1.0",
+  "summary": {
+    "catalogGaps": 78,
+    "episodeRequired": 0,
+    "total": 78
+  }
+}

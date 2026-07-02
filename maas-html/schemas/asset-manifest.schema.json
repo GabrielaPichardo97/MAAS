@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maas.local/schemas/asset-manifest.schema.json",
+  "title": "MAAS asset manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "generatedAt", "assets"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "type", "path", "sha256", "mimeType", "allowedForPublish"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "type": {"enum": ["background", "sprite", "transition", "font", "voice", "sfx", "music", "ending", "other"]},
+          "path": {"type": "string", "pattern": "^(?!/)(?!.*\\.\\./).+$"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "mimeType": {"type": "string", "minLength": 1},
+          "width": {"type": ["integer", "null"], "minimum": 1},
+          "height": {"type": ["integer", "null"], "minimum": 1},
+          "durationMs": {"type": ["integer", "null"], "minimum": 0},
+          "character": {"type": ["string", "null"]},
+          "emotion": {"type": ["string", "null"]},
+          "gaze": {"enum": ["left", "right", "front", null]},
+          "place": {"type": ["string", "null"]},
+          "orientation": {"enum": ["landscape", "portrait", "both", null]},
+          "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "source": {"type": ["string", "null"]},
+          "author": {"type": ["string", "null"]},
+          "license": {"type": ["string", "null"]},
+          "allowedForPublish": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

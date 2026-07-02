@@ -9,7 +9,7 @@ description: Crea desde cero un repositorio MAAS HTML con React, TypeScript, Vit
 2. Leer `references/architecture.md` y confirmar que el destino está vacío.
 3. Ejecutar `scripts/scaffold_repository.py DESTINO` para copiar el starter, schemas y herramientas de las skills hermanas.
 4. Ejecutar en el nuevo repositorio `python -m unittest discover tests/python`, `npm install`, `npm test` y `npm run build`.
-5. Invocar, en orden: `$definir-contratos-maas`, `$migrar-insumos-maas`, `$compilar-guion-maas`, `$reproducir-efectos-maas`, `$renderizar-escenas-maas`, `$sincronizar-audio-maas`, `$empaquetar-episodio-maas` y `$auditar-paridad-maas`.
+5. Invocar, en orden: `$definir-contratos-maas`, `$migrar-insumos-maas`, `$compilar-guion-maas`, `$resolver-media-maas`, `$reproducir-efectos-maas`, `$renderizar-escenas-maas`, `$sincronizar-audio-maas`, `$empaquetar-episodio-maas` y `$auditar-paridad-maas`.
 
 ## Guardas
 
@@ -17,3 +17,4 @@ description: Crea desde cero un repositorio MAAS HTML con React, TypeScript, Vit
 - No copiar outputs MP4, cachés, secretos ni assets sin licencia.
 - Mantener Python como herramienta de build y TypeScript como runtime del navegador.
 - Usar `legacy-v1` hasta que la auditoría apruebe `canonical-v1`.
+- No crear personajes/fondos placeholder cuando existe `media/`; resolver PNG reales o emitir una ficha de faltante.

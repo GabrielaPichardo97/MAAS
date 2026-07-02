@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resolver media MAAS"
+  short_description: "Vincula media real con episodios MAAS"
+  default_prompt: "Usa $resolver-media-maas para catalogar y vincular personajes y fondos reales a un episodio HTML."

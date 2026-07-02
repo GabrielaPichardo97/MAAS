@@ -1,0 +1,23 @@
+{
+  "anchor": null,
+  "assetType": "background",
+  "blockingPublication": false,
+  "characterId": null,
+  "dimensions": {
+    "acceptedExisting": "960x540",
+    "preferred": "1080x1920"
+  },
+  "emotion": null,
+  "gaze": null,
+  "layout": "center",
+  "orientation": "portrait",
+  "placeId": "oficina",
+  "requestId": "background-oficina-portrait-center",
+  "requiredFor": [],
+  "severity": "catalog-gap",
+  "styleReferenceIds": [
+    "background-oficina-landscape-center"
+  ],
+  "suggestedFilename": "backgrounds/oficina/portrait.center.png",
+  "transparent": false
+}

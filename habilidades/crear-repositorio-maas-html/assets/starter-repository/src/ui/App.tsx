@@ -15,14 +15,14 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
 
   useEffect(() => { fetch(manifestUrl).then((response) => { if (!response.ok) throw new Error(`Manifest ${response.status}`); return response.json(); }).then(setManifest); }, [manifestUrl]);
   useEffect(() => {
-    if (!host.current) return;
-    const value = new MaasStage();
+    if (!manifest || !host.current) return;
+    const value = new MaasStage(manifest.assetUrls ?? {});
     stage.current = value;
     void value.init(host.current);
     const observer = new ResizeObserver(([entry]) => value.resize(entry.contentRect.width, entry.contentRect.height));
     observer.observe(host.current);
     return () => { observer.disconnect(); value.destroy(); };
-  }, []);
+  }, [manifest]);
   useEffect(() => { if (active) void stage.current?.show(active); }, [active?.id]);
   useEffect(() => {
     if (!playing || !manifest) return;
@@ -47,7 +47,7 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
   return <main className="player" data-orientation={options.orientation ?? "auto"}>
     <h1>{manifest.title}</h1>
     <div className="stage" ref={host} aria-hidden="true" />
-    <p className="caption" aria-live="polite"><strong>{active?.speaker}</strong>{active?.speaker ? ": " : ""}{active?.text}</p>
+    <p className="caption" aria-live="polite"><strong>{active?.speakerLabel ?? active?.speaker}</strong>{active?.speaker ? ": " : ""}{active?.text}</p>
     {!started ? <button onClick={() => { setStarted(true); setPlaying(options.autoplay ?? false); }}>Iniciar episodio</button> : <div className="controls">
       <button onClick={() => setPlaying((value) => !value)}>{playing ? "Pausar" : "Reproducir"}</button>
       <input aria-label="Progreso" type="range" min={0} max={manifest.durationMs} value={position} onChange={(event) => { const next = Number(event.target.value); positionRef.current = next; setPosition(next); }} />

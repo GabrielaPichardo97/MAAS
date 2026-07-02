@@ -4,6 +4,9 @@
   "title": "Episodio de demostración",
   "profile": "legacy-v1",
   "durationMs": 4000,
+  "assets": [],
+  "assetUrls": {},
+  "warnings": [],
   "timeline": [
     {
       "id": "cue-0001",
