@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -121,7 +120,8 @@ class CreativeSkillsTest(unittest.TestCase):
 
             site = root / "site"
             player_dist = root / "player"
-            shutil.copytree(PLAYER / "dist" / "player", player_dist, ignore=shutil.ignore_patterns("episodes"))
+            player_dist.mkdir()
+            (player_dist / "index.html").write_text("<!doctype html><title>MAAS test player</title>\n", encoding="utf-8")
             run(TOOLS / "media_pipeline.py", "stage", PLAYER / "media-library" / "media-catalog.json", manifest, "--root", WORKSPACE / "media", "--output", site / "assets")
             run(TOOLS / "build_episode.py", manifest, "--player-dist", player_dist, "--output", site, "--media-catalog", PLAYER / "media-library" / "media-catalog.json")
             run(TOOLS / "verify_bundle.py", site)
