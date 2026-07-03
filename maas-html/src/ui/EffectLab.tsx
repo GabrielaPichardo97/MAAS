@@ -170,7 +170,7 @@ export function EffectLab() {
   const [playing, setPlaying] = useState(true);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}effects-catalog.json`)
+    fetch(`${import.meta.env.BASE_URL}effects-catalog.json?t=${Date.now()}`)
       .then((response) => { if (!response.ok) throw new Error(`Catálogo ${response.status}`); return response.json() as Promise<EffectCatalog>; })
       .then((value) => { setCatalog(value); setSelectedId(value.effects[0]?.id); })
       .catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "No se pudo cargar el catálogo"));
