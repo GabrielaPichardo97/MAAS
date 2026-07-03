@@ -119,20 +119,31 @@ def effects_from(line: str, catalog: dict[str, dict[str, Any]], line_no: int) ->
             raise ValueError(f"E_EFFECT_PARAM line {line_no}: offsets y duración exigen enteros ms")
         entry = catalog[effect_id]
         specs = entry["parameters"]
-        allowed = set(specs) | set(entry.get("requirements", []))
+        requirements = set(entry.get("requirements", []))
+        allowed = set(specs) | requirements
         unknown = sorted(set(pairs) - allowed)
         if unknown:
             raise ValueError(f"E_EFFECT_PARAM line {line_no}: parámetros desconocidos {unknown}")
         for name, value in pairs.items():
             if name in specs:
                 validate_parameter(name, value, specs[name], line_no)
-        missing = sorted(set(entry.get("requirements", [])) - set(pairs))
+        missing = sorted(requirements - set(pairs))
         if missing:
             fallback = entry.get("fallbackId") or "sin fallback"
             raise ValueError(f"E_EFFECT_REQUIREMENT line {line_no}: faltan {missing}; alternativa {fallback}")
+        inputs = {}
+        for name in requirements:
+            value = pairs.pop(name)
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f"E_EFFECT_REQUIREMENT line {line_no}: {name} exige un asset id")
+            kind = "media" if name in {"morphClip", "keyedSource", "objectMatte"} else "data"
+            inputs[name] = {"kind": kind, "assetId": value}
         params = {name: spec["default"] for name, spec in specs.items()}
         params.update(pairs)
-        effects.append({"id": effect_id, "role": role, "intensity": float(intensity), "startOffsetMs": start, "durationMs": duration, "target": target, "params": params})
+        compiled = {"id": effect_id, "role": role, "intensity": float(intensity), "startOffsetMs": start, "durationMs": duration, "target": target, "params": params}
+        if inputs:
+            compiled["inputs"] = inputs
+        effects.append(compiled)
     if len(effects) > 3:
         raise ValueError(f"E_EFFECT_STACK line {line_no}: máximo tres efectos")
     text = FX_RE.sub("", line).strip()
@@ -285,7 +296,7 @@ def compile_document(data: dict, profile: str, character_map: dict[str, str], ef
             if sum(1 for value in flashes[index:] if value < start + 1000) > 3:
                 raise ValueError("E_EFFECT_SAFETY: más de tres flashes en un segundo")
     return {
-        "schemaVersion": "2.0" if profile == "canonical-v2" else "1.0", "episodeId": data["episodeId"], "title": data["title"],
+        "schemaVersion": "2.1" if profile == "canonical-v2" else "1.0", "episodeId": data["episodeId"], "title": data["title"],
         "language": data["language"], "status": data["status"], "seed": data["seed"],
         "profile": profile, "orientations": ["landscape", "portrait"], "characters": characters,
         "assets": [], "audioPolicy": {"musicGain": 0.15, "transitionGain": 0.5, "sampleRate": 44100, "muteMusicDuringSfx": True},

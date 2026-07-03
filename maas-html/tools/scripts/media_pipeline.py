@@ -262,6 +262,15 @@ def command_resolve(args: argparse.Namespace) -> int:
     publication_errors: list[str] = []
 
     for cue in manifest.get("timeline", []):
+        for effect in cue.get("effects", []):
+            for input_name, reference in effect.get("inputs", {}).items():
+                asset_id = str(reference.get("assetId", ""))
+                asset = by_id.get(asset_id)
+                if not asset:
+                    raise ValueError(f"E_EFFECT_INPUT_ASSET: {cue.get('id')} {input_name} referencia {asset_id} ausente")
+                if asset.get("allowedForPublish") is not True and args.mode == "publication":
+                    raise ValueError(f"E_LICENSE: input {asset_id} no autorizado para publicar")
+                selected.add(asset_id)
         if cue.get("type") in {"scene", "transition", "ending", "advice"}:
             continue
         speaker = str(cue.get("speaker", ""))

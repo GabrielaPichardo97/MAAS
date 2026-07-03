@@ -33,7 +33,7 @@ class EffectCatalogTest(unittest.TestCase):
             self.assertTrue(effect["bestMoment"])
             self.assertTrue(effect["avoidWhen"])
             self.assertTrue(effect["parameters"])
-        self.assertEqual(counts, {"native": 25, "approximation": 3, "input-assisted": 2, "preprocessed": 4})
+        self.assertEqual(counts, {"native": 24, "approximation": 3, "input-assisted": 3, "preprocessed": 4})
 
     def test_public_catalog_is_exact_mirror(self):
         self.assertEqual(CATALOG_SOURCE.read_bytes(), CATALOG_PUBLIC.read_bytes())
@@ -59,7 +59,7 @@ class CanonicalV2CompilerTest(unittest.TestCase):
         token = "{{fx motion.push-in.emphasis.subtle.v1.0.0 role=dominant intensity=0.3 target=speaker}}"
         manifest = self.compiler.compile_document(self.source(token), "canonical-v2", {"Ana": "ana"}, self.lookup)
         cue = next(item for item in manifest["timeline"] if item["type"] == "dialogue")
-        self.assertEqual(manifest["schemaVersion"], "2.0")
+        self.assertEqual(manifest["schemaVersion"], "2.1")
         self.assertNotIn("effect", cue)
         self.assertEqual(cue["effects"][0]["params"]["scaleEnd"], 1.1)
 
@@ -67,6 +67,14 @@ class CanonicalV2CompilerTest(unittest.TestCase):
         token = "{{fx transition.morph-cut.continuity.interview-clean.v1.0.0 role=dominant}}"
         with self.assertRaisesRegex(ValueError, "E_EFFECT_REQUIREMENT.*transition.cut.continuity.clean"):
             self.compiler.compile_document(self.source(token), "canonical-v2", {"Ana": "ana"}, self.lookup)
+
+    def test_separates_required_inputs_from_programmable_params(self):
+        token = "{{fx transition.match-cut.continuity.visual-rhyme.v1.0.0 role=dominant matchAnchors=anchors-toma-1}}"
+        manifest = self.compiler.compile_document(self.source(token), "canonical-v2", {"Ana": "ana"}, self.lookup)
+        cue = next(item for item in manifest["timeline"] if item["type"] == "dialogue")
+        effect = cue["effects"][0]
+        self.assertNotIn("matchAnchors", effect["params"])
+        self.assertEqual(effect["inputs"]["matchAnchors"], {"kind": "data", "assetId": "anchors-toma-1"})
 
 
 if __name__ == "__main__":

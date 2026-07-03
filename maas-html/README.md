@@ -34,7 +34,7 @@ pnpm run preview:episode
 
 Abre `http://127.0.0.1:4173/` o una entrada directa bajo `http://127.0.0.1:4173/episodes/`. El bundle requiere un servidor HTTP; no se promete soporte para `file://`.
 
-El laboratorio de efectos vive en `http://127.0.0.1:4173/effects/`: permite buscar las 34 entradas, filtrar por familia o nivel de soporte, revisar parámetros y contraindicaciones, y copiar un token canonical-v2.
+El laboratorio de efectos vive en `http://127.0.0.1:4173/effects/`: permite buscar las 34 entradas, filtrar por familia o nivel de soporte, editar todos sus parámetros, pausar o recorrer el tiempo y copiar un token canonical-v2.1. Los efectos asistidos usan fixtures visibles y declaran el input que exige producción.
 
 Cada efecto incluye una escena narrativa original para juzgarlo dentro de una intención dramática concreta. La versión pública se despliega con GitHub Actions en `https://gabrielapichardo97.github.io/MAAS/effects/`.
 
@@ -55,7 +55,7 @@ Para abrir el build que incluye el laboratorio, ejecuta `pnpm run preview:player
 
 `content:build` ejecuta automáticamente inventario, catálogo, validación, resolución y staging. Los PNG staged se generan en `public/assets/` y no se versionan.
 
-## Efectos canonical-v2
+## Efectos canonical-v2.1
 
 Un diálogo admite hasta tres roles explícitos:
 
@@ -64,5 +64,7 @@ Esto cambia todo. {{fx motion.push-in.emphasis.subtle.v1.0.0 role=dominant inten
 ```
 
 Compila con `python tools/scripts/compile_episode.py INPUT --profile canonical-v2 --effect-catalog public/effects-catalog.json`. Un efecto asistido o preprocesado falla si falta su requisito e informa su alternativa; no se sustituye silenciosamente.
+
+Los requisitos se compilan en `EffectInstance.inputs`, separados de `params`. Por ejemplo, `matchAnchors=anchors-plano-01` referencia un asset de datos que la canalización debe resolver y autorizar. El reproductor acepta manifiestos `2.0` existentes y los nuevos builds canonical-v2 emiten `2.1`.
 
 La salida final vive en `dist/site/`. Consulta [docs/media-guidelines.md](docs/media-guidelines.md) para crear faltantes y [docs/known-differences.md](docs/known-differences.md) para las limitaciones aceptadas.

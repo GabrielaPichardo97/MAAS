@@ -22,12 +22,14 @@ function textLabel(text: string, size: number, color = "#ffffff", weight: "500" 
 export class MaasStage {
   private readonly app = new Application();
   private readonly viewport = new Container();
+  private readonly previousCamera = new Container();
   private readonly camera = new Container();
   private readonly effectsLayer = new Container();
   private readonly effectGraphics = new Graphics();
   private readonly blurFilter = new BlurFilter({ strength: 0, quality: 2 });
   private readonly noiseFilter = new NoiseFilter({ noise: 0, seed: 1 });
   private readonly loadedUrls = new Set<string>();
+  private readonly effectHistory: CanonicalEffectFrame[] = [];
   private cue?: TimelineCue;
   private ready = false;
   private destroyRequested = false;
@@ -48,21 +50,24 @@ export class MaasStage {
     host.dataset.stageStatus = "ready";
     host.appendChild(this.app.canvas);
     this.effectsLayer.addChild(this.effectGraphics);
-    this.viewport.addChild(this.camera, this.effectsLayer);
+    this.viewport.addChild(this.previousCamera, this.camera, this.effectsLayer);
     this.app.stage.addChild(this.viewport);
     this.resize(host.clientWidth, host.clientHeight);
     if (this.cue) await this.drawCue(this.cue);
   }
 
   async show(cue: TimelineCue | undefined): Promise<void> {
+    const changed = this.cue?.id !== cue?.id;
     this.cue = cue;
     if (this.host) this.host.dataset.stageStatus = cue ? `queued:${cue.id}` : "idle";
-    if (!this.ready || !cue) return;
+    if (!this.ready || !cue || !changed) return;
     await this.drawCue(cue);
   }
 
-  private clearCamera(): void {
-    this.camera.removeChildren().forEach((child) => child.destroy({ children: true, texture: false, textureSource: false }));
+  private promoteCamera(): void {
+    this.previousCamera.removeChildren().forEach((child) => child.destroy({ children: true, texture: false, textureSource: false }));
+    const outgoing = this.camera.removeChildren();
+    if (outgoing.length > 0) this.previousCamera.addChild(...outgoing);
   }
 
   private async loadTexture(assetId: string): Promise<Texture> {
@@ -76,7 +81,7 @@ export class MaasStage {
   private async drawCue(cue: TimelineCue): Promise<void> {
     const token = ++this.drawToken;
     if (this.host) this.host.dataset.stageStatus = `drawing:${cue.id}`;
-    this.clearCamera();
+    this.promoteCamera();
     if (cue.type === "transition") {
       this.drawTransition(cue);
       this.resetCamera();
@@ -129,7 +134,7 @@ export class MaasStage {
       if (this.host) this.host.dataset.stageStatus = `rendered:${cue.id}`;
     } catch (error: unknown) {
       if (token !== this.drawToken) return;
-      this.clearCamera();
+      this.camera.removeChildren().forEach((child) => child.destroy({ children: true, texture: false, textureSource: false }));
       this.drawMissing(error instanceof Error ? error.message : `No se pudo cargar media para ${cue.id}`);
       if (this.host) this.host.dataset.stageStatus = `error:${cue.id}`;
     }
@@ -167,13 +172,15 @@ export class MaasStage {
   }
 
   private resetCamera(): void {
-    this.camera.pivot.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
-    this.camera.position.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
-    this.camera.scale.set(1);
-    this.camera.rotation = 0;
-    this.camera.alpha = 1;
-    this.camera.tint = 0xffffff;
-    this.camera.filters = null;
+    for (const layer of [this.previousCamera, this.camera]) {
+      layer.pivot.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
+      layer.position.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
+      layer.scale.set(1);
+      layer.rotation = 0;
+      layer.alpha = layer === this.camera ? 1 : 0;
+      layer.tint = 0xffffff;
+      layer.filters = null;
+    }
     this.effectGraphics.clear();
   }
 
@@ -186,11 +193,20 @@ export class MaasStage {
       this.camera.scale.set(value.scale);
       this.camera.position.set(LOGICAL_WIDTH / 2 + value.x * LOGICAL_WIDTH, LOGICAL_HEIGHT / 2 + value.y * LOGICAL_HEIGHT);
       this.camera.rotation = value.rotation;
-      this.camera.alpha = value.alpha;
+      this.camera.alpha = value.alpha * value.incomingAlpha;
       this.camera.tint = value.tint;
       this.blurFilter.strength = value.blur;
       this.noiseFilter.noise = value.noise;
       this.camera.filters = value.blur > 0 || value.noise > 0 ? [this.blurFilter, this.noiseFilter] : null;
+      this.previousCamera.scale.set(value.secondaryScale);
+      this.previousCamera.position.set(LOGICAL_WIDTH / 2 + value.secondaryX * LOGICAL_WIDTH, LOGICAL_HEIGHT / 2 + value.secondaryY * LOGICAL_HEIGHT);
+      this.previousCamera.alpha = value.outgoingAlpha;
+      if (this.host) {
+        this.host.dataset.effectIds = value.activeEffectIds.join(",");
+        this.host.dataset.effectDiagnostics = value.diagnostics.map((item) => `${item.code}:${item.effectId}`).join(",");
+      }
+      this.effectHistory.push(value);
+      if (this.effectHistory.length > 24) this.effectHistory.shift();
       this.drawEffects(value);
       return;
     }
@@ -209,6 +225,7 @@ export class MaasStage {
     const graphics = this.effectGraphics;
     graphics.clear();
     if (value.flash) graphics.rect(0, 0, LOGICAL_WIDTH, LOGICAL_HEIGHT).fill({ color: value.flash.color, alpha: value.flash.alpha });
+    if (value.blackout > 0) graphics.rect(0, 0, LOGICAL_WIDTH, LOGICAL_HEIGHT).fill({ color: 0x000000, alpha: value.blackout });
     if (value.leak) {
       const x = value.leak.x * LOGICAL_WIDTH;
       graphics.circle(x, LOGICAL_HEIGHT * 0.35, 520).fill({ color: value.leak.color, alpha: value.leak.alpha * 0.24 });
@@ -226,6 +243,40 @@ export class MaasStage {
         const y = ((index * 83.7 + value.particles.progress * 260) % 1000) / 1000 * LOGICAL_HEIGHT;
         graphics.circle(x, y, 3 + index % 7).fill({ color: 0xffe2b8, alpha: 0.35 + (index % 4) * 0.1 });
       }
+    }
+    if (value.trails) {
+      const history = this.effectHistory.slice(-value.trails.count - 1, -1).reverse();
+      history.forEach((previous, index) => {
+        const alpha = Math.pow(value.trails!.decay, index + 1) * 0.35;
+        graphics.roundRect(
+          260 + previous.x * LOGICAL_WIDTH,
+          250 + previous.y * LOGICAL_HEIGHT,
+          520,
+          560,
+          120,
+        ).stroke({ color: 0x9bd8ff, alpha, width: 12 });
+      });
+    }
+    if (value.splitPanes > 1) {
+      const gap = Math.max(2, value.splitGapPct / 100 * LOGICAL_WIDTH);
+      graphics.rect(LOGICAL_WIDTH / 2 - gap / 2, 0, gap, LOGICAL_HEIGHT).fill({ color: 0xffffff, alpha: 0.9 });
+    }
+    if (value.chroma) {
+      graphics.roundRect(120, 160, 380, 600, 90).fill({ color: 0xffb857, alpha: 0.2 + value.chroma.tolerance * 0.4 });
+    }
+    if (value.matte) {
+      graphics.roundRect(120, 160, 380, 600, 90).stroke({ color: 0x70e4ff, alpha: 0.9, width: Math.max(2, value.matte.featherPx) });
+    }
+    if (value.tracking) {
+      graphics.roundRect(1260 + value.tracking.x * 500, 210 + value.tracking.y * 500, 260, 90, 14).fill({ color: 0xffcf67, alpha: 0.88 });
+    }
+    if (value.lowerThird) {
+      const x = -560 + value.lowerThird.progress * (680 + value.lowerThird.safeMarginPct * 4);
+      graphics.roundRect(x, 820, 560, 150, 18).fill({ color: 0x07101b, alpha: 0.92 });
+      graphics.rect(x, 820, 14, 150).fill({ color: 0xffca67, alpha: 1 });
+    }
+    if (value.audioLevel !== undefined) {
+      graphics.roundRect(1810, 900 - value.audioLevel * 500, 34, value.audioLevel * 500, 17).fill({ color: 0x66e5b4, alpha: 0.95 });
     }
   }
 

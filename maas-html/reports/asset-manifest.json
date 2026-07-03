@@ -2870,7 +2870,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -2880,7 +2880,7 @@
       "sha256": "c78bd45931f21f775d8048a13770e605e06c326ea59d534bac5940ec6babd944",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -2892,7 +2892,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -2902,7 +2902,7 @@
       "sha256": "1f9718146add61812bbf84642db069dac3e77ef991b0cd0b869a28291ea35877",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -2914,7 +2914,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -2924,7 +2924,7 @@
       "sha256": "1f7e33f1bb087b298370b51e890218ea841fc48aed6a51f1ac3246cc3032de27",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -2936,7 +2936,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -2946,7 +2946,7 @@
       "sha256": "c223711fa1b4a09fea417aa2fed8480708c973e09431c26868be2785eac48668",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -2958,7 +2958,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -2968,7 +2968,7 @@
       "sha256": "4dff71a6911c860ee0b0b07778b57ebbfefcdf78d8e4034598cce656989fa1bf",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -2980,7 +2980,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-cafeteria-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -2990,7 +2990,7 @@
       "sha256": "4836c8e1964008191b204d45dbfb9ef98f67fe3de2fc9d0dbe1c0d5372ad169e",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3002,7 +3002,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3012,7 +3012,7 @@
       "sha256": "2ada69473599ff1e0baa7cc6a4c7cad1ba116960ce5b3391969b3f755c75d528",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3024,7 +3024,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3034,7 +3034,7 @@
       "sha256": "0d2ea62b663a195952dba43a8100961fd9fe2e118e0fcfc37bdca8acb92d1d96",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3046,7 +3046,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3056,7 +3056,7 @@
       "sha256": "7e27c168741dccd52a462b5693dac76f3eece54bf68f805d7d1f72e95f18b0e2",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3068,7 +3068,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3078,7 +3078,7 @@
       "sha256": "7ecb1ce9388e002c43b6a91366520b015abf54020f06906aceb90dc3d00fd1f6",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3090,7 +3090,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3100,7 +3100,7 @@
       "sha256": "20b63e14ed2c493b94267e47d45bc8354571b4325be91a5da0bc919b84fe18a2",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3112,7 +3112,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-calle-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3122,7 +3122,7 @@
       "sha256": "11ba40a440e851bdfbcf6a914d881a3e00b38ac3c8ffb38adca8f8e196e81718",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3134,7 +3134,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3144,7 +3144,7 @@
       "sha256": "8a60a60699610e1b78b1870761b2403a9c8fd19641f11fd3dc94c343305b1607",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3156,7 +3156,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3166,7 +3166,7 @@
       "sha256": "5636b95f2495fa793655fe07d6b3b8527f7e5dc773309db37709173d3bb2f457",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3178,7 +3178,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3188,7 +3188,7 @@
       "sha256": "b6d8381f555381fe0c45a1befe85896ea9d3d5d44ad95060b3962db337664e47",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3200,7 +3200,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3210,7 +3210,7 @@
       "sha256": "e5eec2d3a8661bb7bd4869a1c04a5578ffcd6740f6728bfeea329484e810901c",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3222,7 +3222,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3232,7 +3232,7 @@
       "sha256": "2e0d686304ab23765c30d028ad0ffc288e41f831fed8b0ba5b970f69bb438de7",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3244,7 +3244,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-elevador-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3254,7 +3254,7 @@
       "sha256": "fcd7dcd053aa8e2e69085c80e86ec699fe80fa820c0e2572e99a38c286fa69d1",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3266,7 +3266,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3276,7 +3276,7 @@
       "sha256": "4bcc28e556c48653755f9af366491899808d44bcecffadfe6291c35a5452c60c",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3288,7 +3288,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3298,7 +3298,7 @@
       "sha256": "1c5be04358ae2a30f10311ef4b0ae09f1f44159db156b797b70839341dce9ae4",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3310,7 +3310,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3320,7 +3320,7 @@
       "sha256": "e95911b18f4ec0ca79da998742311a3b31f48334e9763d1b44eb06fb72dd8af8",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3332,7 +3332,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3342,7 +3342,7 @@
       "sha256": "a25e9938ba0616d97005fcf804d4faa362aa0f61f97901f691a6be31aeb961ae",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3354,7 +3354,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3364,7 +3364,7 @@
       "sha256": "0a142b89855aadd41d9d04f7f4856baffff391df07dba45b5495a2339b3125f0",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3376,7 +3376,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-oficina-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3386,7 +3386,7 @@
       "sha256": "7964a83d3012a4c38d0eae81f391f7b7c24a50e0e2c1f6292e729e985ef324a4",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3398,7 +3398,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3408,7 +3408,7 @@
       "sha256": "6debfa4d5f91590ea69ead9fd64408e1b1f825a2de6773c8f7d06bc4b9ca8d85",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3420,7 +3420,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3430,7 +3430,7 @@
       "sha256": "8e575814111dd8e1d5f76cceb4d10d0fff49766d050418d04b33c08e177170a7",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3442,7 +3442,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3452,7 +3452,7 @@
       "sha256": "6c690799b5cf169122fac70e0869e38b0e6927e7b49ee5729dc2945ce4811685",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3464,7 +3464,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3474,7 +3474,7 @@
       "sha256": "e9668f67044eda38a203724caa9a1966bf7d9fbef073338c8530d0af590649ee",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3486,7 +3486,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3496,7 +3496,7 @@
       "sha256": "5fd6b3fc9e97f1df08077090588a9df226a36b6cff754f35da5c266e67815fb8",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3508,7 +3508,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-parque-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3518,7 +3518,7 @@
       "sha256": "578e9716aad37a7ea955e1bcd1d3d7833078ae4feb1d0989b3965172cd8a5532",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3530,7 +3530,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3540,7 +3540,7 @@
       "sha256": "4eb9e1e9f8178ec0ddb60d8b69a3314970ec6f413174a577d24bf2127bbf06a8",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3552,7 +3552,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3562,7 +3562,7 @@
       "sha256": "19589c99a3af8bf4b40dfa93db52b7b99f11cc45359b5a4d165520e7faa95686",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3574,7 +3574,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3584,7 +3584,7 @@
       "sha256": "47b117228fe4da43bf2dbd1f0e4312776b6ce3b79e124bbcc33b3d98bfb28165",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3596,7 +3596,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3606,7 +3606,7 @@
       "sha256": "c919dfdb0e6c71f2c1e0977148f3217b7256942fc7836539c75dc72c88add8fb",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3618,7 +3618,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3628,7 +3628,7 @@
       "sha256": "a7208d22632ca7f69d679dd17355e3c9731b5d69954337202e785f7ec17d0188",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3640,7 +3640,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-pasillo-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3650,7 +3650,7 @@
       "sha256": "a67a29150e155e4e102f2bef52de0437c432e6fee34b8b4c8ea8fa6ae257998a",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3662,7 +3662,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3672,7 +3672,7 @@
       "sha256": "0aa6368355a1c8a9dd3d986ad91fcb4a7cf77a5c14c05b235050db80d30185f3",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3684,7 +3684,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3694,7 +3694,7 @@
       "sha256": "9c2d2e2a0355fb71b7e33f67e5223272e2433827f489cb81177c7e04bf5774ef",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3706,7 +3706,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3716,7 +3716,7 @@
       "sha256": "824e5dc6177fcffee0814887854cd5994e2afa70f81ac03b401c05adc3e83a4a",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3728,7 +3728,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3738,7 +3738,7 @@
       "sha256": "fec0521ea6cb456e617625ff36ecc5e2e0893f462507e47aa4c69201325f254c",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3750,7 +3750,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3760,7 +3760,7 @@
       "sha256": "82807aeb1a686a7a853978b1830df93e5184350739fe2769461624c0dd170ef1",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3772,7 +3772,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-puerta-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3782,7 +3782,7 @@
       "sha256": "2ad6ea49a1a7c418f4ddec752ddd50b8601aaa610e7f8e4daf0a40d9ca015097",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3794,7 +3794,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3804,7 +3804,7 @@
       "sha256": "49560b6da8fa103e1aa5b910a7052dde7250546bb517c0d0e7c97a614e0f5e73",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3816,7 +3816,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3826,7 +3826,7 @@
       "sha256": "37c4df2de35c700b7631e4933917f2fbb7a574d016abecf4ecf72ae28ddd66ef",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3838,7 +3838,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3848,7 +3848,7 @@
       "sha256": "cfef7247918cae4b970676be81e9e7e5a1a740af1621058142a845168db2219c",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3860,7 +3860,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -3870,7 +3870,7 @@
       "sha256": "53720f3144af3759f08428e5fbe1ad578e11b9d501f77297fd4ca6cba1a85ce3",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3882,7 +3882,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -3892,7 +3892,7 @@
       "sha256": "4fe363764c4830a50fac5e7abe7b9808a7a084a4b462ba13baf533d79df17a84",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3904,7 +3904,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-sala-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -3914,7 +3914,7 @@
       "sha256": "3d952d2baf5ed40a3e00e4eee963a0b21f2c5cec0ea4875c16f29c2c215c26c9",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3926,7 +3926,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes-1",
       "license": null,
       "mimeType": "image/png",
@@ -3936,7 +3936,7 @@
       "sha256": "aaafeef6c35c941cbfa84d9bf7fb3d9c29885cb8fcdb9c0f36b0226550c7faac",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3948,7 +3948,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes-2",
       "license": null,
       "mimeType": "image/png",
@@ -3958,7 +3958,7 @@
       "sha256": "ab39e7264c136a4551a60a91afe201695436ca5cbb0dff6f700b732afa68d6a3",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3970,7 +3970,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes-3",
       "license": null,
       "mimeType": "image/png",
@@ -3980,7 +3980,7 @@
       "sha256": "72de0981816ae480db0227ac3768e6bb30565b11e36ccfa7f4af741dd979e1bf",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -3992,7 +3992,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes-4",
       "license": null,
       "mimeType": "image/png",
@@ -4002,7 +4002,7 @@
       "sha256": "b11ec1420a18a4bca37cb23b7e69772a908d885a7e3745d7282bddbcf08d46ea",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -4014,7 +4014,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes-5",
       "license": null,
       "mimeType": "image/png",
@@ -4024,7 +4024,7 @@
       "sha256": "c7ec7177d94af09ac228150ac84317e06066cf87469682b0c7d34233c8f4827e",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -4036,7 +4036,7 @@
       "durationMs": null,
       "emotion": null,
       "gaze": null,
-      "height": null,
+      "height": 540,
       "id": "fondos-tren-fondos-de-personajes",
       "license": null,
       "mimeType": "image/png",
@@ -4046,7 +4046,7 @@
       "sha256": "749e656b5e3fa9b403f16a7a450e7a7ddc939778f32110d4d20d4486a3070fb4",
       "source": null,
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "aliases": [
@@ -4124,7 +4124,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -4134,7 +4134,7 @@
       "sha256": "c2d0d7b357ace3ca71495f923f95ddd2a24d41035b7e62086c4762efe6f24ae1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4146,7 +4146,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -4156,7 +4156,7 @@
       "sha256": "b5868fbed83a64461c79cf78dfcd6916b5fc540215415cfa96dbda17bc4da154",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4168,7 +4168,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -4178,7 +4178,7 @@
       "sha256": "b5868fbed83a64461c79cf78dfcd6916b5fc540215415cfa96dbda17bc4da154",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4190,7 +4190,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4200,7 +4200,7 @@
       "sha256": "c58f8d1776e4d5c56525fb8cc2891d6375b4ce3f03e3f81f2e7f7142163fd3cf",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4212,7 +4212,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -4222,7 +4222,7 @@
       "sha256": "c58f8d1776e4d5c56525fb8cc2891d6375b4ce3f03e3f81f2e7f7142163fd3cf",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4234,7 +4234,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4244,7 +4244,7 @@
       "sha256": "9a21a5c3c99f5bd74d3df69d4df975227e011c866cd983c89265e3792a0d1e66",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4256,7 +4256,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -4266,7 +4266,7 @@
       "sha256": "9a21a5c3c99f5bd74d3df69d4df975227e011c866cd983c89265e3792a0d1e66",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4278,7 +4278,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -4288,7 +4288,7 @@
       "sha256": "30e9ffc8b752d1d0751756aceb109ffbd5761b338f45602db36465ca1cd80250",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4300,7 +4300,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -4310,7 +4310,7 @@
       "sha256": "86adae2c5350e823e01bac530c58d69bb0a30300e22689f285b24ab3ca008b31",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4322,7 +4322,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -4332,7 +4332,7 @@
       "sha256": "86adae2c5350e823e01bac530c58d69bb0a30300e22689f285b24ab3ca008b31",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4344,7 +4344,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -4354,7 +4354,7 @@
       "sha256": "8890a0cdd52365c29c2fb19f2b8414e5c086d3d3026b3a41de9880938909ef9a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4366,7 +4366,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -4376,7 +4376,7 @@
       "sha256": "8890a0cdd52365c29c2fb19f2b8414e5c086d3d3026b3a41de9880938909ef9a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4388,7 +4388,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -4398,7 +4398,7 @@
       "sha256": "17828a142c6c146d7e08aeae75135a5ff3e18b09ddbc144a1052023e8c1cd8c7",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4410,7 +4410,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-cactus-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -4420,7 +4420,7 @@
       "sha256": "17828a142c6c146d7e08aeae75135a5ff3e18b09ddbc144a1052023e8c1cd8c7",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4432,7 +4432,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -4442,7 +4442,7 @@
       "sha256": "3ad7695045cd1f749235c19f74f076d80f4f28febe80e33f0abf01929a4e8e8d",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4454,7 +4454,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -4464,7 +4464,7 @@
       "sha256": "3ad7695045cd1f749235c19f74f076d80f4f28febe80e33f0abf01929a4e8e8d",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4476,7 +4476,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-confused-left",
       "license": null,
       "mimeType": "image/png",
@@ -4486,7 +4486,7 @@
       "sha256": "abf86faf0fac223d96c6b4cac46e3d050a912f1a7c2ae63f2629d4b33b5243ea",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4498,7 +4498,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-confused-right",
       "license": null,
       "mimeType": "image/png",
@@ -4508,7 +4508,7 @@
       "sha256": "abf86faf0fac223d96c6b4cac46e3d050a912f1a7c2ae63f2629d4b33b5243ea",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4520,7 +4520,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4530,7 +4530,7 @@
       "sha256": "abf86faf0fac223d96c6b4cac46e3d050a912f1a7c2ae63f2629d4b33b5243ea",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4542,7 +4542,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -4552,7 +4552,7 @@
       "sha256": "abf86faf0fac223d96c6b4cac46e3d050a912f1a7c2ae63f2629d4b33b5243ea",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4564,7 +4564,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-happy-front",
       "license": null,
       "mimeType": "image/png",
@@ -4574,7 +4574,7 @@
       "sha256": "5b656540a1a4b57ea6e44fa4f2f5999e59684e4beabb74ab1143fb16c24b140e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4586,7 +4586,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4596,7 +4596,7 @@
       "sha256": "66082bf0edd87b56cd72ffc74025778110009dce428225da4bb38dacd7faa38e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4608,7 +4608,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -4618,7 +4618,7 @@
       "sha256": "66082bf0edd87b56cd72ffc74025778110009dce428225da4bb38dacd7faa38e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4630,7 +4630,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -4640,7 +4640,7 @@
       "sha256": "5131e66902d1e8ad2fc610b6f306c2cb7fd115b87c8f0633ffd208b9ee4eba54",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4652,7 +4652,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-realistic-photo",
       "license": null,
       "mimeType": "image/png",
@@ -4662,7 +4662,7 @@
       "sha256": "96935e031ab1bc5d925fbed2ae6564c58718eed9584b3e5bc596a11151d7e02d",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4674,7 +4674,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -4684,7 +4684,7 @@
       "sha256": "001a5b62daa1aa973792ac57ea4611f558f74a19ff731bc1a5e9ede5cf9987c1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4696,7 +4696,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -4706,7 +4706,7 @@
       "sha256": "001a5b62daa1aa973792ac57ea4611f558f74a19ff731bc1a5e9ede5cf9987c1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4718,7 +4718,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -4728,7 +4728,7 @@
       "sha256": "a552555341f768d77768150f34049f1a424fc64ce4a54076f41db014279be33c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4740,7 +4740,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -4750,7 +4750,7 @@
       "sha256": "a552555341f768d77768150f34049f1a424fc64ce4a54076f41db014279be33c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4762,7 +4762,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -4772,7 +4772,7 @@
       "sha256": "d42348710869e836b9ffc41c036b2730982eba401eb096818030b5bd9f09525b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4784,7 +4784,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-coneja-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -4794,7 +4794,7 @@
       "sha256": "d42348710869e836b9ffc41c036b2730982eba401eb096818030b5bd9f09525b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4806,7 +4806,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -4816,7 +4816,7 @@
       "sha256": "578b804054ee52f5a689f82e66736f1043e7c0884b857154632361d0df3edb7b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4828,7 +4828,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -4838,7 +4838,7 @@
       "sha256": "52fe2c2a0496774e7e65fb64d062bdd017c244d934457ffc5efab154b4520bfb",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4850,7 +4850,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -4860,7 +4860,7 @@
       "sha256": "e438164cdd16243e20a9e5c7f00260a4ecc12913a3ee90b77fc0ed9f740b1b7b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4872,7 +4872,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -4882,7 +4882,7 @@
       "sha256": "6f592f1bd575acc496f2265d526334d9c60ffb2355295bd5e674b8da4899cd5b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4894,7 +4894,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-confused-left",
       "license": null,
       "mimeType": "image/png",
@@ -4904,7 +4904,7 @@
       "sha256": "544265975993248d770f922871f03e343aed3806350c5bdbb810c23ef5beaed5",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4916,7 +4916,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-confused-right",
       "license": null,
       "mimeType": "image/png",
@@ -4926,7 +4926,7 @@
       "sha256": "d7845c1b231042a6a25c114a3193c57f6bbfd903a987e39cbfc5f83af67e3479",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4938,7 +4938,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4948,7 +4948,7 @@
       "sha256": "544265975993248d770f922871f03e343aed3806350c5bdbb810c23ef5beaed5",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4960,7 +4960,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -4970,7 +4970,7 @@
       "sha256": "d7845c1b231042a6a25c114a3193c57f6bbfd903a987e39cbfc5f83af67e3479",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -4982,7 +4982,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -4992,7 +4992,7 @@
       "sha256": "578b804054ee52f5a689f82e66736f1043e7c0884b857154632361d0df3edb7b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5004,7 +5004,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -5014,7 +5014,7 @@
       "sha256": "52fe2c2a0496774e7e65fb64d062bdd017c244d934457ffc5efab154b4520bfb",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5026,7 +5026,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -5036,7 +5036,7 @@
       "sha256": "8662c98bae4f7c85fe763c920749e4d5708925af4fd75a8839202cd9fb0c165c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5048,7 +5048,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -5058,7 +5058,7 @@
       "sha256": "d25a5e2c17a764791b2531b1541010f9993f4c0c154b9966adce54db15f3aa31",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5070,7 +5070,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -5080,7 +5080,7 @@
       "sha256": "08ef98058332dd35efbdfa07ace9e7c71309d31c32797b7c992ac43b55141ecc",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5092,7 +5092,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -5102,7 +5102,7 @@
       "sha256": "c2882877463b049a108402e9716d5513f31f5f1e6bea9dc77a8629231369cef0",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5114,7 +5114,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -5124,7 +5124,7 @@
       "sha256": "400417496dd8b538b08f4335d9c7fbe253ca9e52b91d6eadd987bbf2bd73e3c1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5136,7 +5136,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -5146,7 +5146,7 @@
       "sha256": "dc65f7ec1cd1236daea5717683c574c65d3171c8f5a377c0e1c5c4be4d4f072f",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5158,7 +5158,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-conejo-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -5168,7 +5168,7 @@
       "sha256": "36d26980884751d7e92e21632f8339c06d5a169bc75d2c8c81e73afc04cd696b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5180,7 +5180,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -5190,7 +5190,7 @@
       "sha256": "7611aff4bec9af80435d43206a90a01829effd547aa2fa26d7bba76331aeda3f",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5202,7 +5202,7 @@
       "durationMs": null,
       "emotion": "angy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-angy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5212,7 +5212,7 @@
       "sha256": "bf360a1d6e8a3c0d9abe4cf503d6b8e71e783221b6c09640e062a2027b810958",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5224,7 +5224,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-confused-left",
       "license": null,
       "mimeType": "image/png",
@@ -5234,7 +5234,7 @@
       "sha256": "247fb9a6d85f5a15121e122f1f4bd4ae5763edf9795bf4b7881ef347670e8eef",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5246,7 +5246,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-correct-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -5256,7 +5256,7 @@
       "sha256": "c04c37b21a98a915d592feab4630011664511532166450184e0ce780f3080b0b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5268,7 +5268,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-correct-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5278,7 +5278,7 @@
       "sha256": "254d8b3bbedc20c9e8ab49e51c74c9b5cc407b9e5297d9baf0f604132c427928",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5290,7 +5290,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-correct-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -5300,7 +5300,7 @@
       "sha256": "b9ce908ae2380358b3b62c9b1da48d314ab8426368bf07d84cadb8db3bd28888",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5312,7 +5312,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -5322,7 +5322,7 @@
       "sha256": "fc629ed301ae58514abefbf219dbc653c2c35e62490f97aff905f252a0d18cbe",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5334,7 +5334,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -5344,7 +5344,7 @@
       "sha256": "75df40b3372987b472a8d4e6cbcdbdbbc723a7be079b666c927171d5a2cc67eb",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5356,7 +5356,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -5366,7 +5366,7 @@
       "sha256": "238428e119d5e77e2cf1de0b595113aec86fbe49585c1def2ce677c685a38002",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5378,7 +5378,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-gata-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -5388,7 +5388,7 @@
       "sha256": "7236669b1d5826f65a8d2704bba27de45ba27bda280bd63ddde28f8abadc91ab",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5400,7 +5400,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -5410,7 +5410,7 @@
       "sha256": "3b36cc4dfc9525ed729aedc09f51cd08de5c53c84a6af6f4ee686d4dcfebc1b9",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5422,7 +5422,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -5432,7 +5432,7 @@
       "sha256": "4767e0c72e0980a8d02bb613cfc042754c822406a7b5083956e424d34a50134a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5444,7 +5444,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -5454,7 +5454,7 @@
       "sha256": "0def5f68912b56127d42abe98d936d7494dd11a5f8080c34a76040b9a24fd903",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5466,7 +5466,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-correct-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -5476,7 +5476,7 @@
       "sha256": "3e16d0d134969196793d8a39caa1093e5499169b6e2d43f94193051ab47f5cc6",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5488,7 +5488,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-correct-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5498,7 +5498,7 @@
       "sha256": "8173d997c5eae68304903d7e27ea48721b869735aa8d239b9b041618af9e71cf",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5510,7 +5510,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-correct-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -5520,7 +5520,7 @@
       "sha256": "3e16d0d134969196793d8a39caa1093e5499169b6e2d43f94193051ab47f5cc6",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5532,7 +5532,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5542,7 +5542,7 @@
       "sha256": "df590c7a198ff9d58dab24b560dc6c4b877de8c5fd1e6bb658b1d562418c9b07",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5554,7 +5554,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -5564,7 +5564,7 @@
       "sha256": "f8d95610aacbee4cddc542c67ed61e41e196b659c8a0f7ef2736466e336f87ac",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5576,7 +5576,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-happy-front",
       "license": null,
       "mimeType": "image/png",
@@ -5586,7 +5586,7 @@
       "sha256": "abb912a113c9f43ef6d3919b4075685a2b7b4037002c37b9bbee38eb50c6bd42",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5598,7 +5598,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -5608,7 +5608,7 @@
       "sha256": "9fc555081f04d99c29cb7b0dd2a2dedd9f5d8286b6d9b65e89c2f056f00a48b2",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5620,7 +5620,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -5630,7 +5630,7 @@
       "sha256": "e0354fdaa4582cc36e9dfc2980d1e08e5c7d0cb7201128d78522a627bd287d6a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5642,7 +5642,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -5652,7 +5652,7 @@
       "sha256": "c4742bb0d32c1222fdcd748bbcf20acbb51bde755520903f55d490c492c2a91b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5664,7 +5664,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -5674,7 +5674,7 @@
       "sha256": "918fad79888d07a38b6781d4d3e5b87e57b16c00562a343d5b24fe31ba55a843",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5686,7 +5686,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -5696,7 +5696,7 @@
       "sha256": "6b7613ca9c2b2052924a776cb4f59743d925db37c5a6a8ff97eb94fcf30ef42a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5708,7 +5708,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -5718,7 +5718,7 @@
       "sha256": "b031f86021ddc728779b615063e09907decbb42986f6b694a5233e26616c8d01",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5730,7 +5730,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -5740,7 +5740,7 @@
       "sha256": "b9ded3f1c43f387fa3950b05f55c7cf9030fed4347406463ba92bd8eeef3e632",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5752,7 +5752,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-kiwi-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -5762,7 +5762,7 @@
       "sha256": "39b1a3b27d913d289947cf32fb89b08da67547d4eacfa8d783a98b0900a8a0db",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5774,7 +5774,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -5784,7 +5784,7 @@
       "sha256": "2b75cfd4b6e206b7c313acbc4d4f185d580953dd7ff4aace0501f001fb05698d",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5796,7 +5796,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -5806,7 +5806,7 @@
       "sha256": "eef07df4fafb6e27b266955b5f02137275ce0c9cb636ec4a8b2e2997eff230b1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5818,7 +5818,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -5828,7 +5828,7 @@
       "sha256": "615e0f471c505bb1a94f16a6e7750d00c30ff981f4ef0ae07b0ae837765a75ef",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5840,7 +5840,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-confused-front",
       "license": null,
       "mimeType": "image/png",
@@ -5850,7 +5850,7 @@
       "sha256": "9d81ca7cf9f1e009291157dc081e816b61865de1d8c97d92b8c7512e875b61cd",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5862,7 +5862,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5872,7 +5872,7 @@
       "sha256": "6d50b7ebec35e3b97622caca55b2ed3d129889d08da4761e77717254bb55ac9d",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5884,7 +5884,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -5894,7 +5894,7 @@
       "sha256": "396278ec77e0e253d61d351d2abe5e5da335342a207af90d0c723df0d2ad49a0",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5906,7 +5906,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -5916,7 +5916,7 @@
       "sha256": "493eb8c0cf479c946504c8dc4a1ea5b5c6a47ace1a230cb81e7d17c2a7b2d3fc",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5928,7 +5928,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -5938,7 +5938,7 @@
       "sha256": "b26ed00701b57a525929baaab94a0f9d49ce0e0fbaa6377fe46bc5e19500fa74",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5950,7 +5950,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -5960,7 +5960,7 @@
       "sha256": "6f72326eab2c998ba8659ef82f87f3e7866ed2140fe9101f929d2f4e36c85fbc",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5972,7 +5972,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -5982,7 +5982,7 @@
       "sha256": "4871817407e22efabd00b62e3206a7683c8c85ec06e2989773d9b352a460f607",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -5994,7 +5994,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -6004,7 +6004,7 @@
       "sha256": "c5bd64015b230a871e3aaf564fdc5af44046053e485a88d9aca6fbb3a3996b6f",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6016,7 +6016,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -6026,7 +6026,7 @@
       "sha256": "30615c18ac7253ed6cc087511ef9baa768f7a9eac693013ddb2b06f5494b8484",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6038,7 +6038,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-surprised-front",
       "license": null,
       "mimeType": "image/png",
@@ -6048,7 +6048,7 @@
       "sha256": "d2d90d877e027a4c9ddf833a1009bfd53764acc5131291969748bbeb645849c5",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6060,7 +6060,7 @@
       "durationMs": null,
       "emotion": "worried",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pata-worried-left",
       "license": null,
       "mimeType": "image/png",
@@ -6070,7 +6070,7 @@
       "sha256": "c2fa9e9b68be46c78d88584dea78a21e893f094287a5e426fdb555c02d45c9ff",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6082,7 +6082,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -6092,7 +6092,7 @@
       "sha256": "187cc63e615258b13593f4e5eec642a63e7444310890ccaefa586bba9b0d7802",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6104,7 +6104,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -6114,7 +6114,7 @@
       "sha256": "8ef1b9ee18028351be77de5c24c51a040e3e5690347f9a0daa77d1aa48492190",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6126,7 +6126,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -6136,7 +6136,7 @@
       "sha256": "1bcd2fd0ae7c4e69f90754095847a495bd1f63f01e5b4f5572f37d838fe5b6f6",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6148,7 +6148,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -6158,7 +6158,7 @@
       "sha256": "846cdbc4c9864b55b668198bf7017a3cb5fa302d1c9a2b6b0440deb4454a4f6e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6170,7 +6170,7 @@
       "durationMs": null,
       "emotion": "condused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-condused-right",
       "license": null,
       "mimeType": "image/png",
@@ -6180,7 +6180,7 @@
       "sha256": "bfa0346fd508c5bfdb57f9ac81e424bfc7f9e1101403c5aaa34fa62b2717a9a8",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6192,7 +6192,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-confused-left",
       "license": null,
       "mimeType": "image/png",
@@ -6202,7 +6202,7 @@
       "sha256": "596e1a9264ed07850e6a5c0dfbb48ea629a0080760f4175ee25f78eb8c6039dd",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6214,7 +6214,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-correct-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -6224,7 +6224,7 @@
       "sha256": "3433af2ddd3269cfcb9876620c64ac1b4666eca752dc750ba695166845e2f501",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6236,7 +6236,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -6246,7 +6246,7 @@
       "sha256": "596e1a9264ed07850e6a5c0dfbb48ea629a0080760f4175ee25f78eb8c6039dd",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6258,7 +6258,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -6268,7 +6268,7 @@
       "sha256": "bfa0346fd508c5bfdb57f9ac81e424bfc7f9e1101403c5aaa34fa62b2717a9a8",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6280,7 +6280,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -6290,7 +6290,7 @@
       "sha256": "d8c7c742c7c4b544db79c562123880f0bcc6e80c438cd180d4d0107bba4694b1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6302,7 +6302,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -6312,7 +6312,7 @@
       "sha256": "e84b66b9337d5b5f2785d2fd7aed48fdb05552e684631c5bd4d4a80970bc4b93",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6324,7 +6324,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -6334,7 +6334,7 @@
       "sha256": "438c29c8879947e4722bd9b6ad55c8d4d1eac0f271b219e3676f9316f6e60d14",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6346,7 +6346,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -6356,7 +6356,7 @@
       "sha256": "9c783bc57928a7dd03796b8b96bd77c3d3d4f90552a1d248c3af5e1ec4ff03ac",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6368,7 +6368,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -6378,7 +6378,7 @@
       "sha256": "c76623f38ad62fec351a9257b22ec828b6183b9dd6c5499ca2e0e03e2e3a89e7",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6390,7 +6390,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pato-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -6400,7 +6400,7 @@
       "sha256": "45ed0fc1dbe97fabe639d910401e16f680c73ebe562b5f1ad046903151b90921",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6412,7 +6412,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -6422,7 +6422,7 @@
       "sha256": "dbc33e9019f03a2b55bf72e3ea017c67a6a899975c0078573fa3b3e607964e26",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6434,7 +6434,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -6444,7 +6444,7 @@
       "sha256": "efe56fd93cad83706254e9809d561d651584d4c5318d8383eb8cc4ce17864973",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6456,7 +6456,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -6466,7 +6466,7 @@
       "sha256": "69ad7e3bafa5d81c59ff17f2a30d298144b7216dbd9e59885a4ae2872cf3be12",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6478,7 +6478,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-correct-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -6488,7 +6488,7 @@
       "sha256": "ee25d66cfe7731643b4a2896d6f4b9bee1f87c9761495c66c1bc9281cfe00cf9",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6500,7 +6500,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -6510,7 +6510,7 @@
       "sha256": "f605a7a6e974a77148224d307610f210656be14fad1ffc63e225bf092951c6e7",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6522,7 +6522,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -6532,7 +6532,7 @@
       "sha256": "963224e2fe1415f3cfd68b89177e1968351f30d1bbf710b5939e446e4f633a6e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6544,7 +6544,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-happy-left-2",
       "license": null,
       "mimeType": "image/png",
@@ -6554,7 +6554,7 @@
       "sha256": "dee42a1a3787f1060dc7d36d7cd1a9d18558e7f538b04507b3fa94e357881dfc",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6566,7 +6566,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -6576,7 +6576,7 @@
       "sha256": "f8045be72188e178a3d5ec47c3c88703493713a1ec623665896c6e87a92cadd7",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6588,7 +6588,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-happy-right-2",
       "license": null,
       "mimeType": "image/png",
@@ -6598,7 +6598,7 @@
       "sha256": "7cb609d2c7bcc815afbebe25264b011bbaf0b2afb2cdb00b7dd79c3b14f283ad",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6610,7 +6610,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -6620,7 +6620,7 @@
       "sha256": "8779f9eea6a0198378ba2f146a89a1aa9ac1a07543a392a3ff2e1c966809a469",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6632,7 +6632,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -6642,7 +6642,7 @@
       "sha256": "841515086ef26d2e40e32efd540edb94fd005e0caf7e94af49951d9b35adec09",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6654,7 +6654,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -6664,7 +6664,7 @@
       "sha256": "f6714339624dbd99dbe62d10ed8ee2b8e2145ff56e880daeac0b78cfee8da502",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6676,7 +6676,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -6686,7 +6686,7 @@
       "sha256": "cc69d20a1e23fe0eb210a50c6050ee2d850ccc98e58b40a38d38b553547f0c21",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6698,7 +6698,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -6708,7 +6708,7 @@
       "sha256": "e5b644b7830aa59a0462d7f17cc2b3d1242fc5ce4e5936ab8dbf04ba2509d001",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6720,7 +6720,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -6730,7 +6730,7 @@
       "sha256": "a38f68c0a33d575fadde29f9d365d2db92acbdd20493859214c0b77b6f254828",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6742,7 +6742,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -6752,7 +6752,7 @@
       "sha256": "a86eff57840548479a7452cae2d904b1faffa525f63e391bca3e25e50385c705",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6764,7 +6764,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-pollo-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -6774,7 +6774,7 @@
       "sha256": "53bad21e70d0ce84bffc75e2358d203afc12145077e88fb56a8f2f4444763288",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6786,7 +6786,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -6796,7 +6796,7 @@
       "sha256": "606c5ee819d078e6574cd7ae502d86d6bd3f494723f10bae4ca2a77b7575e00b",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6808,7 +6808,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-angry-left",
       "license": null,
       "mimeType": "image/png",
@@ -6818,7 +6818,7 @@
       "sha256": "75179feaa5abbec86387448761ece760dee57ab65eb9699daa57e1bbe3df2073",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6830,7 +6830,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-angry-right",
       "license": null,
       "mimeType": "image/png",
@@ -6840,7 +6840,7 @@
       "sha256": "b4b4237ae11d7a89212b400aa905ab6c66187247dcbd1473446f0c3f2f8daa84",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6852,7 +6852,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-confused-left",
       "license": null,
       "mimeType": "image/png",
@@ -6862,7 +6862,7 @@
       "sha256": "1c9f996ad1fa0d2500a507559d831b609557a92853566fb4cf5342052cc1a06c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6874,7 +6874,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-confused-right",
       "license": null,
       "mimeType": "image/png",
@@ -6884,7 +6884,7 @@
       "sha256": "66612e4c7565f7f69f7dadf1a4ba80bbbcf1a8b4357109c3f077803c5fadf5e0",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6896,7 +6896,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-correct-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -6906,7 +6906,7 @@
       "sha256": "9f1075e97fb635e0b7430f7a4ee0b4e30bd6971410b575527d51ba3286835178",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6918,7 +6918,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-correct-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -6928,7 +6928,7 @@
       "sha256": "09fa2736c3b63d595be29f9d92947d48b920c019ad7b02ac3386d0f1a8be8318",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6940,7 +6940,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -6950,7 +6950,7 @@
       "sha256": "63e96a9bce5bbea12ec5578b90d9daa8b34bca0f7dc27f670875286ce8675914",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6962,7 +6962,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-realistic-a",
       "license": null,
       "mimeType": "image/png",
@@ -6972,7 +6972,7 @@
       "sha256": "d72b0d027e66d59943efed66db5b948bf5cf56bf1a15aeb51b995830ff10bed0",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -6984,7 +6984,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -6994,7 +6994,7 @@
       "sha256": "595da9717b09fc7a5baf7f38fbcc6f86f76a38cbe7246b9fd7fe4f4da0e9cc74",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7006,7 +7006,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -7016,7 +7016,7 @@
       "sha256": "084bf8f4dc5cca1a21d9e5bf97020345e9bb75683a8d17a2c1adbdd5e96754ff",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7028,7 +7028,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -7038,7 +7038,7 @@
       "sha256": "48d83733c33ff3635453b83b3e41547e5ad47eaa95c264d3def4832931e7be11",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7050,7 +7050,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -7060,7 +7060,7 @@
       "sha256": "2b22f96e63f2183dc5714a4c950379c3e41b831c9b4c4aeb85b3c3702cac5e90",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7072,7 +7072,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -7082,7 +7082,7 @@
       "sha256": "c8c19f171d7876109e704652bd83e5fbd4d32af98f74c96f0891e6069096f29e",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7094,7 +7094,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -7104,7 +7104,7 @@
       "sha256": "ca0b83730a5d4e49f70c31fd37d41e98a41290cf2a4741fc4f80c6809828dfd1",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7116,7 +7116,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-rinoceronte-rojo-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -7126,7 +7126,7 @@
       "sha256": "e653668fd781227cea7e9d4b22a1684921ce4fcc91a817c89958979b7970e759",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7138,7 +7138,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-a-left",
       "license": null,
       "mimeType": "image/png",
@@ -7148,7 +7148,7 @@
       "sha256": "a86f8279c4cd9c4a0ec2a59b972bb88cbb0de462a880b9d36bafcabf6b82d125",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7160,7 +7160,7 @@
       "durationMs": null,
       "emotion": "A",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-a-right",
       "license": null,
       "mimeType": "image/png",
@@ -7170,7 +7170,7 @@
       "sha256": "47015da95879df9387c2d76f74fe85f6b5ee02973dce75536fd8c17c86500da6",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7182,7 +7182,7 @@
       "durationMs": null,
       "emotion": "angy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-angy-left",
       "license": null,
       "mimeType": "image/png",
@@ -7192,7 +7192,7 @@
       "sha256": "009f861f321d89a3436a9bb77adca1de664cd0233d09c0ab088114e044f87c1a",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7204,7 +7204,7 @@
       "durationMs": null,
       "emotion": "angy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-angy-right",
       "license": null,
       "mimeType": "image/png",
@@ -7214,7 +7214,7 @@
       "sha256": "edc0c0778047773855786f43426540f5f1622ec00e26e7ef15a9ec6194616977",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7226,7 +7226,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-dizzy-left",
       "license": null,
       "mimeType": "image/png",
@@ -7236,7 +7236,7 @@
       "sha256": "2f4be22bbf4e65041156af440a2d59347b96c2e9fb52801c1a8737b329a0136f",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7248,7 +7248,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-dizzy-right",
       "license": null,
       "mimeType": "image/png",
@@ -7258,7 +7258,7 @@
       "sha256": "2531c47bab6f85b337ad82456d60a92a7c134c68640fd47b0d43306ef8a0a07c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7270,7 +7270,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-happy-left",
       "license": null,
       "mimeType": "image/png",
@@ -7280,7 +7280,7 @@
       "sha256": "3b923ab3cfe78b5df0c862874e999007530e4aa0d45d92e1dc234397b99f5d79",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7292,7 +7292,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-happy-right",
       "license": null,
       "mimeType": "image/png",
@@ -7302,7 +7302,7 @@
       "sha256": "6fa57b6d5700a8229c698c23f5397c26efa58edfc50b87be119c1b66cb970588",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7314,7 +7314,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-realistic-chair",
       "license": null,
       "mimeType": "image/png",
@@ -7324,7 +7324,7 @@
       "sha256": "8240ab5b376d97127fd039292714b0952d34d13c8dacc9e7d8f7a705756e5f18",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7336,7 +7336,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-sad-left",
       "license": null,
       "mimeType": "image/png",
@@ -7346,7 +7346,7 @@
       "sha256": "98a6550962d4258f0eb40f32f0309edb64bcabde2d1a50f2940aae90742ecaa0",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7358,7 +7358,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-sad-right",
       "license": null,
       "mimeType": "image/png",
@@ -7368,7 +7368,7 @@
       "sha256": "7d1c8065fff629bbaa27d2acf07355ec991a24adb1e1f73876326c860b5131e3",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7380,7 +7380,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-serious-left",
       "license": null,
       "mimeType": "image/png",
@@ -7390,7 +7390,7 @@
       "sha256": "4bd003db2bad87a3c0779fb59b206311bf972e708e903f52a97abbc46fda3ba5",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7402,7 +7402,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-serious-right",
       "license": null,
       "mimeType": "image/png",
@@ -7412,7 +7412,7 @@
       "sha256": "745f7818967f90037ce69c182e119e67b754b703a81984aadc53ef2377ed621c",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7424,7 +7424,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-surprised-left",
       "license": null,
       "mimeType": "image/png",
@@ -7434,7 +7434,7 @@
       "sha256": "7abdc49cf9eb0f9f77eea656fc291f42f69b12e2bfbf1d13bf351ca27913a0f9",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7446,7 +7446,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-roca-surprised-right",
       "license": null,
       "mimeType": "image/png",
@@ -7456,7 +7456,7 @@
       "sha256": "307d87d4a9cf160c09da9f39ba3a55169c774f1f99c11bf834514e9e6bd3f823",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7468,7 +7468,7 @@
       "durationMs": null,
       "emotion": "tortuga1",
       "gaze": null,
-      "height": null,
+      "height": 1024,
       "id": "personajes-personajes-animales-tortuga-tortuga1",
       "license": null,
       "mimeType": "image/png",
@@ -7478,7 +7478,7 @@
       "sha256": "e293af4b09e3717e20c24ded1b33b9da483868af3b8356d543f72b9a6f68c450",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 1024
     },
     {
       "aliases": [
@@ -7490,7 +7490,7 @@
       "durationMs": null,
       "emotion": "tortuga1png",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "personajes-personajes-animales-tortuga-tortuga1png",
       "license": null,
       "mimeType": "image/png",
@@ -7500,7 +7500,7 @@
       "sha256": "f1cb551bdb85f32248c2be55bbd5be5df02a33f40630c4c870e4e3f447cbd0ca",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "aliases": [
@@ -7512,7 +7512,7 @@
       "durationMs": null,
       "emotion": "tortuga",
       "gaze": null,
-      "height": null,
+      "height": 1024,
       "id": "personajes-personajes-animales-tortuga-tortuga-office",
       "license": null,
       "mimeType": "image/png",
@@ -7522,7 +7522,7 @@
       "sha256": "bb8f20cefb8e3c56ce2c074fd88e5ec0b1095041c87e78d8a6fea73be46f41f4",
       "source": null,
       "type": "sprite",
-      "width": null
+      "width": 1024
     },
     {
       "aliases": [

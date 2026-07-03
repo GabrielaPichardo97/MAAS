@@ -3,7 +3,7 @@
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -17,12 +17,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes",
       "sourcePath": "fondos/Cafetería/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -36,12 +36,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes-1",
       "sourcePath": "fondos/Cafetería/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -55,12 +55,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes-2",
       "sourcePath": "fondos/Cafetería/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -74,12 +74,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes-3",
       "sourcePath": "fondos/Cafetería/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -93,12 +93,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes-4",
       "sourcePath": "fondos/Cafetería/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-cafeteria-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -112,12 +112,12 @@
       "sourceAssetId": "fondos-cafeteria-fondos-de-personajes-5",
       "sourcePath": "fondos/Cafetería/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -131,12 +131,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes",
       "sourcePath": "fondos/Calle/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -150,12 +150,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes-1",
       "sourcePath": "fondos/Calle/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -169,12 +169,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes-2",
       "sourcePath": "fondos/Calle/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -188,12 +188,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes-3",
       "sourcePath": "fondos/Calle/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -207,12 +207,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes-4",
       "sourcePath": "fondos/Calle/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-calle-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -226,12 +226,12 @@
       "sourceAssetId": "fondos-calle-fondos-de-personajes-5",
       "sourcePath": "fondos/Calle/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -245,12 +245,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes",
       "sourcePath": "fondos/Elevador/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -264,12 +264,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes-1",
       "sourcePath": "fondos/Elevador/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -283,12 +283,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes-2",
       "sourcePath": "fondos/Elevador/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -302,12 +302,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes-3",
       "sourcePath": "fondos/Elevador/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -321,12 +321,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes-4",
       "sourcePath": "fondos/Elevador/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-elevador-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -340,12 +340,12 @@
       "sourceAssetId": "fondos-elevador-fondos-de-personajes-5",
       "sourcePath": "fondos/Elevador/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -359,12 +359,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes",
       "sourcePath": "fondos/Oficina/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -378,12 +378,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes-1",
       "sourcePath": "fondos/Oficina/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -397,12 +397,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes-2",
       "sourcePath": "fondos/Oficina/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -416,12 +416,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes-3",
       "sourcePath": "fondos/Oficina/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -435,12 +435,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes-4",
       "sourcePath": "fondos/Oficina/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-oficina-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -454,12 +454,12 @@
       "sourceAssetId": "fondos-oficina-fondos-de-personajes-5",
       "sourcePath": "fondos/Oficina/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -473,12 +473,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes",
       "sourcePath": "fondos/Parque/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -492,12 +492,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes-1",
       "sourcePath": "fondos/Parque/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -511,12 +511,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes-2",
       "sourcePath": "fondos/Parque/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -530,12 +530,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes-3",
       "sourcePath": "fondos/Parque/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -549,12 +549,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes-4",
       "sourcePath": "fondos/Parque/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-parque-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -568,12 +568,12 @@
       "sourceAssetId": "fondos-parque-fondos-de-personajes-5",
       "sourcePath": "fondos/Parque/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -587,12 +587,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes",
       "sourcePath": "fondos/Pasillo/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -606,12 +606,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes-1",
       "sourcePath": "fondos/Pasillo/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -625,12 +625,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes-2",
       "sourcePath": "fondos/Pasillo/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -644,12 +644,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes-3",
       "sourcePath": "fondos/Pasillo/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -663,12 +663,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes-4",
       "sourcePath": "fondos/Pasillo/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-pasillo-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -682,12 +682,12 @@
       "sourceAssetId": "fondos-pasillo-fondos-de-personajes-5",
       "sourcePath": "fondos/Pasillo/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -701,12 +701,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes",
       "sourcePath": "fondos/Puerta/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -720,12 +720,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes-1",
       "sourcePath": "fondos/Puerta/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -739,12 +739,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes-2",
       "sourcePath": "fondos/Puerta/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -758,12 +758,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes-3",
       "sourcePath": "fondos/Puerta/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -777,12 +777,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes-4",
       "sourcePath": "fondos/Puerta/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-puerta-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -796,12 +796,12 @@
       "sourceAssetId": "fondos-puerta-fondos-de-personajes-5",
       "sourcePath": "fondos/Puerta/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -815,12 +815,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes",
       "sourcePath": "fondos/Sala/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -834,12 +834,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes-1",
       "sourcePath": "fondos/Sala/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -853,12 +853,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes-2",
       "sourcePath": "fondos/Sala/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -872,12 +872,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes-3",
       "sourcePath": "fondos/Sala/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -891,12 +891,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes-4",
       "sourcePath": "fondos/Sala/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-sala-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -910,12 +910,12 @@
       "sourceAssetId": "fondos-sala-fondos-de-personajes-5",
       "sourcePath": "fondos/Sala/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-landscape-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -929,12 +929,12 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes",
       "sourcePath": "fondos/Tren/Fondos de personajes.png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-landscape-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -948,12 +948,12 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes-1",
       "sourcePath": "fondos/Tren/Fondos de personajes (1).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-landscape-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -967,12 +967,12 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes-2",
       "sourcePath": "fondos/Tren/Fondos de personajes (2).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-portrait-legacy-center",
       "layout": "center",
       "licenseId": "maas-proprietary",
@@ -986,12 +986,12 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes-3",
       "sourcePath": "fondos/Tren/Fondos de personajes (3).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-portrait-legacy-character-left",
       "layout": "character-left",
       "licenseId": "maas-proprietary",
@@ -1005,12 +1005,12 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes-4",
       "sourcePath": "fondos/Tren/Fondos de personajes (4).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
       "durationMs": null,
-      "height": null,
+      "height": 540,
       "id": "background-tren-portrait-legacy-character-right",
       "layout": "character-right",
       "licenseId": "maas-proprietary",
@@ -1024,7 +1024,7 @@
       "sourceAssetId": "fondos-tren-fondos-de-personajes-5",
       "sourcePath": "fondos/Tren/Fondos de personajes (5).png",
       "type": "background",
-      "width": null
+      "width": 960
     },
     {
       "allowedForPublish": true,
@@ -1033,7 +1033,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1042,7 +1042,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-a-left",
       "sourcePath": "personajes/personajes_animales/Cactus/A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1051,7 +1051,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1060,7 +1060,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-angry-left",
       "sourcePath": "personajes/personajes_animales/Cactus/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1069,7 +1069,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1078,7 +1078,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-angry-right",
       "sourcePath": "personajes/personajes_animales/Cactus/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1087,7 +1087,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1096,7 +1096,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Cactus/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1105,7 +1105,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1114,7 +1114,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Cactus/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1123,7 +1123,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1132,7 +1132,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-happy-left",
       "sourcePath": "personajes/personajes_animales/Cactus/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1141,7 +1141,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1150,7 +1150,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-happy-right",
       "sourcePath": "personajes/personajes_animales/Cactus/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1159,7 +1159,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-cactus-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1168,7 +1168,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Cactus/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1177,7 +1177,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1186,7 +1186,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-sad-left",
       "sourcePath": "personajes/personajes_animales/Cactus/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1195,7 +1195,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1204,7 +1204,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-sad-right",
       "sourcePath": "personajes/personajes_animales/Cactus/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1213,7 +1213,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1222,7 +1222,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-serious-left",
       "sourcePath": "personajes/personajes_animales/Cactus/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1231,7 +1231,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1240,7 +1240,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-serious-right",
       "sourcePath": "personajes/personajes_animales/Cactus/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1249,7 +1249,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1258,7 +1258,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-surprised-left",
       "sourcePath": "personajes/personajes_animales/Cactus/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1267,7 +1267,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-cactus-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1276,7 +1276,7 @@
       "sourceAssetId": "personajes-personajes-animales-cactus-surprised-right",
       "sourcePath": "personajes/personajes_animales/Cactus/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1285,7 +1285,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1294,7 +1294,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-angry-left",
       "sourcePath": "personajes/personajes_animales/Coneja/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1303,7 +1303,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1312,7 +1312,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-angry-right",
       "sourcePath": "personajes/personajes_animales/Coneja/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1321,7 +1321,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-confused-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1330,7 +1330,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-confused-left",
       "sourcePath": "personajes/personajes_animales/Coneja/confused_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1339,7 +1339,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-confused-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1348,7 +1348,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-confused-right",
       "sourcePath": "personajes/personajes_animales/Coneja/confused_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1357,7 +1357,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1366,7 +1366,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Coneja/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1375,7 +1375,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1384,7 +1384,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Coneja/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1393,7 +1393,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-happy-front",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1402,7 +1402,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-happy-front",
       "sourcePath": "personajes/personajes_animales/Coneja/happy_front.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1411,7 +1411,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1420,7 +1420,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-happy-left",
       "sourcePath": "personajes/personajes_animales/Coneja/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1429,7 +1429,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1438,7 +1438,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-happy-right",
       "sourcePath": "personajes/personajes_animales/Coneja/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1447,7 +1447,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-coneja-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1456,7 +1456,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Coneja/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1465,7 +1465,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-coneja-realistic-unspecified-96935e03",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1474,7 +1474,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-realistic-photo",
       "sourcePath": "personajes/personajes_animales/Coneja/realistic_photo.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1483,7 +1483,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1492,7 +1492,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-sad-left",
       "sourcePath": "personajes/personajes_animales/Coneja/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1501,7 +1501,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1510,7 +1510,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-sad-right",
       "sourcePath": "personajes/personajes_animales/Coneja/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1519,7 +1519,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1528,7 +1528,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-serious-left",
       "sourcePath": "personajes/personajes_animales/Coneja/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1537,7 +1537,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1546,7 +1546,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-serious-right",
       "sourcePath": "personajes/personajes_animales/Coneja/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1555,7 +1555,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1564,7 +1564,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-surprised-left",
       "sourcePath": "personajes/personajes_animales/Coneja/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1573,7 +1573,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-coneja-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1582,7 +1582,7 @@
       "sourceAssetId": "personajes-personajes-animales-coneja-surprised-right",
       "sourcePath": "personajes/personajes_animales/Coneja/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1591,7 +1591,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1600,7 +1600,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-a-left",
       "sourcePath": "personajes/personajes_animales/Conejo/A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1609,7 +1609,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1618,7 +1618,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-a-right",
       "sourcePath": "personajes/personajes_animales/Conejo/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1627,7 +1627,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1636,7 +1636,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-angry-left",
       "sourcePath": "personajes/personajes_animales/Conejo/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1645,7 +1645,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1654,7 +1654,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-angry-right",
       "sourcePath": "personajes/personajes_animales/Conejo/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1663,7 +1663,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-confused-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1672,7 +1672,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-confused-left",
       "sourcePath": "personajes/personajes_animales/Conejo/confused_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1681,7 +1681,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-confused-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1690,7 +1690,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-confused-right",
       "sourcePath": "personajes/personajes_animales/Conejo/confused_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1699,7 +1699,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1708,7 +1708,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Conejo/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1717,7 +1717,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1726,7 +1726,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Conejo/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1735,7 +1735,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1744,7 +1744,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-happy-left",
       "sourcePath": "personajes/personajes_animales/Conejo/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1753,7 +1753,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1762,7 +1762,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-happy-right",
       "sourcePath": "personajes/personajes_animales/Conejo/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1771,7 +1771,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-conejo-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1780,7 +1780,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Conejo/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1789,7 +1789,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1798,7 +1798,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-sad-left",
       "sourcePath": "personajes/personajes_animales/Conejo/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1807,7 +1807,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1816,7 +1816,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-sad-right",
       "sourcePath": "personajes/personajes_animales/Conejo/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1825,7 +1825,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1834,7 +1834,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-serious-left",
       "sourcePath": "personajes/personajes_animales/Conejo/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1843,7 +1843,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1852,7 +1852,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-serious-right",
       "sourcePath": "personajes/personajes_animales/Conejo/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1861,7 +1861,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1870,7 +1870,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-surprised-left",
       "sourcePath": "personajes/personajes_animales/Conejo/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1879,7 +1879,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-conejo-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1888,7 +1888,7 @@
       "sourceAssetId": "personajes-personajes-animales-conejo-surprised-right",
       "sourcePath": "personajes/personajes_animales/Conejo/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1897,7 +1897,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1906,7 +1906,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-correct-a-left",
       "sourcePath": "personajes/personajes_animales/Gata/Correct_A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1915,7 +1915,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-gata-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1924,7 +1924,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-a-right",
       "sourcePath": "personajes/personajes_animales/Gata/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1933,7 +1933,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1942,7 +1942,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-angy-left",
       "sourcePath": "personajes/personajes_animales/Gata/angy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1951,7 +1951,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-confused-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1960,7 +1960,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-confused-left",
       "sourcePath": "personajes/personajes_animales/Gata/confused_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1969,7 +1969,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1978,7 +1978,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-correct-happy-left",
       "sourcePath": "personajes/personajes_animales/Gata/Correct_happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -1987,7 +1987,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-gata-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -1996,7 +1996,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-happy-right",
       "sourcePath": "personajes/personajes_animales/Gata/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2005,7 +2005,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-gata-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2014,7 +2014,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Gata/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2023,7 +2023,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2032,7 +2032,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-serious-left",
       "sourcePath": "personajes/personajes_animales/Gata/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2041,7 +2041,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-gata-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2050,7 +2050,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-correct-surprised-left",
       "sourcePath": "personajes/personajes_animales/Gata/Correct_surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2059,7 +2059,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-gata-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2068,7 +2068,7 @@
       "sourceAssetId": "personajes-personajes-animales-gata-surprised-right",
       "sourcePath": "personajes/personajes_animales/Gata/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2077,7 +2077,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2086,7 +2086,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-correct-a-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/Correct_A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2095,7 +2095,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2104,7 +2104,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-a-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2113,7 +2113,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2122,7 +2122,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-angry-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2131,7 +2131,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2140,7 +2140,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-angry-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2149,7 +2149,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2158,7 +2158,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2167,7 +2167,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2176,7 +2176,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2185,7 +2185,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-happy-front",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2194,7 +2194,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-happy-front",
       "sourcePath": "personajes/personajes_animales/Kiwi/happy_front.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2203,7 +2203,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2212,7 +2212,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-correct-happy-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/Correct_happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2221,7 +2221,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2230,7 +2230,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-happy-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2239,7 +2239,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2248,7 +2248,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Kiwi/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2257,7 +2257,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2266,7 +2266,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-sad-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2275,7 +2275,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2284,7 +2284,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-sad-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2293,7 +2293,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2302,7 +2302,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-serious-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2311,7 +2311,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2320,7 +2320,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-serious-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2329,7 +2329,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2338,7 +2338,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-correct-surprised-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/Correct_surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2347,7 +2347,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-surprised-left-b9ded3f1",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2356,7 +2356,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-surprised-left",
       "sourcePath": "personajes/personajes_animales/Kiwi/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2365,7 +2365,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-kiwi-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2374,7 +2374,7 @@
       "sourceAssetId": "personajes-personajes-animales-kiwi-surprised-right",
       "sourcePath": "personajes/personajes_animales/Kiwi/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2383,7 +2383,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2392,7 +2392,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-a-left",
       "sourcePath": "personajes/personajes_animales/Pata/A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2401,7 +2401,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2410,7 +2410,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-angry-left",
       "sourcePath": "personajes/personajes_animales/Pata/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2419,7 +2419,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pata-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2428,7 +2428,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-angry-right",
       "sourcePath": "personajes/personajes_animales/Pata/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2437,7 +2437,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "character-pata-confused-front",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2446,7 +2446,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-confused-front",
       "sourcePath": "personajes/personajes_animales/Pata/confused_front.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2455,7 +2455,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2464,7 +2464,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Pata/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2473,7 +2473,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pata-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2482,7 +2482,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Pata/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2491,7 +2491,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2500,7 +2500,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-happy-left",
       "sourcePath": "personajes/personajes_animales/Pata/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2509,7 +2509,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-pata-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2518,7 +2518,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Pata/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2527,7 +2527,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2536,7 +2536,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-sad-left",
       "sourcePath": "personajes/personajes_animales/Pata/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2545,7 +2545,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pata-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2554,7 +2554,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-sad-right",
       "sourcePath": "personajes/personajes_animales/Pata/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2563,7 +2563,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2572,7 +2572,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-serious-left",
       "sourcePath": "personajes/personajes_animales/Pata/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2581,7 +2581,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pata-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2590,7 +2590,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-serious-right",
       "sourcePath": "personajes/personajes_animales/Pata/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2599,7 +2599,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "front",
-      "height": null,
+      "height": 500,
       "id": "character-pata-surprised-front",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2608,7 +2608,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-surprised-front",
       "sourcePath": "personajes/personajes_animales/Pata/surprised_front.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2617,7 +2617,7 @@
       "durationMs": null,
       "emotion": "worried",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pata-worried-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2626,7 +2626,7 @@
       "sourceAssetId": "personajes-personajes-animales-pata-worried-left",
       "sourcePath": "personajes/personajes_animales/Pata/worried_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2635,7 +2635,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2644,7 +2644,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-a-left",
       "sourcePath": "personajes/personajes_animales/Pato/A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2653,7 +2653,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2662,7 +2662,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-a-right",
       "sourcePath": "personajes/personajes_animales/Pato/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2671,7 +2671,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2680,7 +2680,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-angry-left",
       "sourcePath": "personajes/personajes_animales/Pato/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2689,7 +2689,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2698,7 +2698,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-angry-right",
       "sourcePath": "personajes/personajes_animales/Pato/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2707,7 +2707,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-confused-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2716,7 +2716,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-confused-left",
       "sourcePath": "personajes/personajes_animales/Pato/confused_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2725,7 +2725,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-confused-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2734,7 +2734,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-condused-right",
       "sourcePath": "personajes/personajes_animales/Pato/condused_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2743,7 +2743,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2752,7 +2752,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Pato/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2761,7 +2761,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2770,7 +2770,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Pato/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2779,7 +2779,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2788,7 +2788,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-correct-happy-left",
       "sourcePath": "personajes/personajes_animales/Pato/Correct_happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2797,7 +2797,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2806,7 +2806,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-happy-right",
       "sourcePath": "personajes/personajes_animales/Pato/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2815,7 +2815,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-pato-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2824,7 +2824,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Pato/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2833,7 +2833,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2842,7 +2842,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-sad-left",
       "sourcePath": "personajes/personajes_animales/Pato/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2851,7 +2851,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2860,7 +2860,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-sad-right",
       "sourcePath": "personajes/personajes_animales/Pato/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2869,7 +2869,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pato-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2878,7 +2878,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-serious-left",
       "sourcePath": "personajes/personajes_animales/Pato/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2887,7 +2887,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pato-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2896,7 +2896,7 @@
       "sourceAssetId": "personajes-personajes-animales-pato-serious-right",
       "sourcePath": "personajes/personajes_animales/Pato/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2905,7 +2905,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2914,7 +2914,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-correct-a-left",
       "sourcePath": "personajes/personajes_animales/Pollo/Correct_A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2923,7 +2923,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2932,7 +2932,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-a-right",
       "sourcePath": "personajes/personajes_animales/Pollo/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2941,7 +2941,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2950,7 +2950,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-angry-left",
       "sourcePath": "personajes/personajes_animales/Pollo/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2959,7 +2959,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2968,7 +2968,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-angry-right",
       "sourcePath": "personajes/personajes_animales/Pollo/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2977,7 +2977,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -2986,7 +2986,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Pollo/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -2995,7 +2995,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3004,7 +3004,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Pollo/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3013,7 +3013,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3022,7 +3022,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-happy-left-2",
       "sourcePath": "personajes/personajes_animales/Pollo/happy_left (2).png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3031,7 +3031,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-happy-left-f8045be7",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3040,7 +3040,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-happy-left",
       "sourcePath": "personajes/personajes_animales/Pollo/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3049,7 +3049,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3058,7 +3058,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-happy-right-2",
       "sourcePath": "personajes/personajes_animales/Pollo/happy_right (2).png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3067,7 +3067,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-happy-right-8779f9ee",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3076,7 +3076,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-happy-right",
       "sourcePath": "personajes/personajes_animales/Pollo/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3085,7 +3085,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-pollo-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3094,7 +3094,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Pollo/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3103,7 +3103,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3112,7 +3112,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-sad-left",
       "sourcePath": "personajes/personajes_animales/Pollo/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3121,7 +3121,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3130,7 +3130,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-sad-right",
       "sourcePath": "personajes/personajes_animales/Pollo/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3139,7 +3139,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3148,7 +3148,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-serious-left",
       "sourcePath": "personajes/personajes_animales/Pollo/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3157,7 +3157,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3166,7 +3166,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-serious-right",
       "sourcePath": "personajes/personajes_animales/Pollo/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3175,7 +3175,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3184,7 +3184,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-surprised-left",
       "sourcePath": "personajes/personajes_animales/Pollo/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3193,7 +3193,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-pollo-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3202,7 +3202,7 @@
       "sourceAssetId": "personajes-personajes-animales-pollo-surprised-right",
       "sourcePath": "personajes/personajes_animales/Pollo/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3211,7 +3211,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3220,7 +3220,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-correct-a-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/Correct_A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3229,7 +3229,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3238,7 +3238,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-a-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3247,7 +3247,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3256,7 +3256,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-angry-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/angry_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3265,7 +3265,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3274,7 +3274,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-angry-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/angry_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3283,7 +3283,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-confused-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3292,7 +3292,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-confused-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/confused_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3301,7 +3301,7 @@
       "durationMs": null,
       "emotion": "confused",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-confused-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3310,7 +3310,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-confused-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/confused_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3319,7 +3319,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3328,7 +3328,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-correct-happy-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/Correct_happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3337,7 +3337,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3346,7 +3346,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-happy-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3355,7 +3355,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3364,7 +3364,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-realistic-a",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/realistic_A.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3373,7 +3373,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-realistic-unspecified-595da971",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3382,7 +3382,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3391,7 +3391,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3400,7 +3400,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-sad-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3409,7 +3409,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3418,7 +3418,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-sad-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3427,7 +3427,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3436,7 +3436,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-serious-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3445,7 +3445,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3454,7 +3454,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-serious-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3463,7 +3463,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3472,7 +3472,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-surprised-left",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3481,7 +3481,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-rinoceronte-rojo-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3490,7 +3490,7 @@
       "sourceAssetId": "personajes-personajes-animales-rinoceronte-rojo-surprised-right",
       "sourcePath": "personajes/personajes_animales/Rinoceronte Rojo/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3499,7 +3499,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-a-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3508,7 +3508,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-a-left",
       "sourcePath": "personajes/personajes_animales/Roca/A_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3517,7 +3517,7 @@
       "durationMs": null,
       "emotion": "a",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-a-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3526,7 +3526,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-a-right",
       "sourcePath": "personajes/personajes_animales/Roca/A_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3535,7 +3535,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-angry-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3544,7 +3544,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-angy-left",
       "sourcePath": "personajes/personajes_animales/Roca/angy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3553,7 +3553,7 @@
       "durationMs": null,
       "emotion": "angry",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-angry-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3562,7 +3562,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-angy-right",
       "sourcePath": "personajes/personajes_animales/Roca/angy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3571,7 +3571,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-dizzy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3580,7 +3580,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-dizzy-left",
       "sourcePath": "personajes/personajes_animales/Roca/dizzy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3589,7 +3589,7 @@
       "durationMs": null,
       "emotion": "dizzy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-dizzy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3598,7 +3598,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-dizzy-right",
       "sourcePath": "personajes/personajes_animales/Roca/dizzy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3607,7 +3607,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-happy-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3616,7 +3616,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-happy-left",
       "sourcePath": "personajes/personajes_animales/Roca/happy_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3625,7 +3625,7 @@
       "durationMs": null,
       "emotion": "happy",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-happy-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3634,7 +3634,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-happy-right",
       "sourcePath": "personajes/personajes_animales/Roca/happy_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3643,7 +3643,7 @@
       "durationMs": null,
       "emotion": "realistic",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-roca-realistic-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3652,7 +3652,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-realistic-chair",
       "sourcePath": "personajes/personajes_animales/Roca/realistic_chair.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3661,7 +3661,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-sad-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3670,7 +3670,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-sad-left",
       "sourcePath": "personajes/personajes_animales/Roca/sad_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3679,7 +3679,7 @@
       "durationMs": null,
       "emotion": "sad",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-sad-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3688,7 +3688,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-sad-right",
       "sourcePath": "personajes/personajes_animales/Roca/sad_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3697,7 +3697,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-serious-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3706,7 +3706,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-serious-left",
       "sourcePath": "personajes/personajes_animales/Roca/serious_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3715,7 +3715,7 @@
       "durationMs": null,
       "emotion": "serious",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-serious-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3724,7 +3724,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-serious-right",
       "sourcePath": "personajes/personajes_animales/Roca/serious_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3733,7 +3733,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "left",
-      "height": null,
+      "height": 500,
       "id": "character-roca-surprised-left",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3742,7 +3742,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-surprised-left",
       "sourcePath": "personajes/personajes_animales/Roca/surprised_left.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3751,7 +3751,7 @@
       "durationMs": null,
       "emotion": "surprised",
       "gaze": "right",
-      "height": null,
+      "height": 500,
       "id": "character-roca-surprised-right",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3760,7 +3760,7 @@
       "sourceAssetId": "personajes-personajes-animales-roca-surprised-right",
       "sourcePath": "personajes/personajes_animales/Roca/surprised_right.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": true,
@@ -3769,7 +3769,7 @@
       "durationMs": null,
       "emotion": "tortuga",
       "gaze": null,
-      "height": null,
+      "height": 1024,
       "id": "character-tortuga-tortuga-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3778,7 +3778,7 @@
       "sourceAssetId": "personajes-personajes-animales-tortuga-tortuga-office",
       "sourcePath": "personajes/personajes_animales/Tortuga/tortuga_office.png",
       "type": "sprite",
-      "width": null
+      "width": 1024
     },
     {
       "allowedForPublish": true,
@@ -3787,7 +3787,7 @@
       "durationMs": null,
       "emotion": "tortuga1",
       "gaze": null,
-      "height": null,
+      "height": 1024,
       "id": "character-tortuga-tortuga1-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3796,7 +3796,7 @@
       "sourceAssetId": "personajes-personajes-animales-tortuga-tortuga1",
       "sourcePath": "personajes/personajes_animales/Tortuga/tortuga1.png",
       "type": "sprite",
-      "width": null
+      "width": 1024
     },
     {
       "allowedForPublish": true,
@@ -3805,7 +3805,7 @@
       "durationMs": null,
       "emotion": "tortuga1png",
       "gaze": null,
-      "height": null,
+      "height": 500,
       "id": "character-tortuga-tortuga1png-unspecified",
       "licenseId": "maas-proprietary",
       "mimeType": "image/png",
@@ -3814,7 +3814,7 @@
       "sourceAssetId": "personajes-personajes-animales-tortuga-tortuga1png",
       "sourcePath": "personajes/personajes_animales/Tortuga/tortuga1png.png",
       "type": "sprite",
-      "width": null
+      "width": 500
     },
     {
       "allowedForPublish": false,
