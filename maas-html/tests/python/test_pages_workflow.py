@@ -14,8 +14,9 @@ class PagesWorkflowTest(unittest.TestCase):
         self.assertIn("  build:\n", self.source)
         self.assertIn("  deploy:\n", self.source)
         self.assertIn("    needs: build\n", self.source)
-        self.assertIn("github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}", self.source)
-        self.assertIn("artifact_name: ${{ needs.build.outputs.artifact_name }}", self.source)
+        self.assertIn("actions/upload-pages-artifact@v5", self.source)
+        self.assertIn("actions/deploy-pages@v5", self.source)
+        self.assertNotIn("artifact_name:", self.source)
 
     def test_uses_node_24_actions_without_insecure_opt_out(self):
         for action in (
