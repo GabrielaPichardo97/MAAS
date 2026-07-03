@@ -10,7 +10,7 @@ GitHub Pages publica el reproductor, el catálogo y ejemplos directos:
 - [Episodio 0 · HTML directo](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-renderizar/)
 - [Episodio 0 · Prueba de efectos canonical-v2](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-0-prueba-efectos/)
 - [Episodio 17 · El correo infinito](https://gabrielapichardo97.github.io/MAAS/episodes/episodio-17-el-correo-infinito/)
-- [Catálogo interactivo de 34 efectos](https://gabrielapichardo97.github.io/MAAS/effects/)
+- [Catálogo interactivo de 37 efectos](https://gabrielapichardo97.github.io/MAAS/effects/)
 
 Cada efecto del catálogo tiene una escena original, contexto narrativo, parámetros, contraindicaciones, nivel de soporte y token canonical-v2.
 

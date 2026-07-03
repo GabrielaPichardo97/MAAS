@@ -24,7 +24,7 @@ function observable(frame: ReturnType<typeof canonicalEffectFrame>) {
 }
 
 describe("registro canonical-v2.1", () => {
-  it("registra exactamente los 34 efectos del catálogo", () => {
+  it("registra exactamente los 37 efectos del catálogo", () => {
     expect([...REGISTERED_EFFECT_IDS].sort()).toEqual([...EFFECT_IDS].sort());
     expect(catalog.effects.map((effect) => effect.id).sort()).toEqual([...EFFECT_IDS].sort());
   });
@@ -58,6 +58,49 @@ describe("registro canonical-v2.1", () => {
   it("el shake es determinista", () => {
     const effect = instance(catalog.effects.find((entry) => entry.id.includes("camera-shake"))!);
     expect(canonicalEffectFrame([effect], 250, 42, false)).toEqual(canonicalEffectFrame([effect], 250, 42, false));
+  });
+});
+
+describe("efectos artesanales por capa", () => {
+  const lineBoilEntry = catalog.effects.find((entry) => entry.id.includes("line-boil"))!;
+  const wobbleEntry = catalog.effects.find((entry) => entry.id.includes("cutout-wobble"))!;
+  const grainEntry = catalog.effects.find((entry) => entry.id.includes("paper-grain"))!;
+
+  it("aísla fondo y personaje sin modificar el frame global", () => {
+    const line = instance(lineBoilEntry, { target: "speaker" });
+    const grain = instance(grainEntry, { target: "background" });
+    const frame = canonicalEffectFrame([line, grain], 260, 42, false);
+    expect(frame.layers.speaker.lineBoil).toBeDefined();
+    expect(frame.layers.speaker.paperGrain).toBeUndefined();
+    expect(frame.layers.background.paperGrain).toBeDefined();
+    expect(frame.layers.background.lineBoil).toBeUndefined();
+    expect(frame).toMatchObject({ x: 0, y: 0, rotation: 0, scale: 1 });
+  });
+
+  it("cuantiza line boil y grano con semilla estable", () => {
+    const effects = [instance(lineBoilEntry, { target: "speaker" }), instance(grainEntry, { target: "background" })];
+    const early = canonicalEffectFrame(effects, 20, 77, false).layers;
+    const held = canonicalEffectFrame(effects, 80, 77, false).layers;
+    const advanced = canonicalEffectFrame(effects, 220, 77, false).layers;
+    expect(held).toEqual(early);
+    expect(advanced.speaker.lineBoil?.step).not.toBe(early.speaker.lineBoil?.step);
+    expect(advanced.background.paperGrain?.step).not.toBe(early.background.paperGrain?.step);
+  });
+
+  it("usa semillas distintas al animar fondo y personaje a la vez", () => {
+    const both = canonicalEffectFrame([
+      instance(lineBoilEntry, { role: "dominant", target: "background" }),
+      instance(lineBoilEntry, { role: "support", target: "speaker" }),
+    ], 220, 77, false);
+    expect(both.layers.background.lineBoil?.seed).not.toBe(both.layers.speaker.lineBoil?.seed);
+  });
+
+  it("con movimiento reducido congela texturas y desactiva wobble", () => {
+    const effects = [instance(lineBoilEntry), instance(wobbleEntry), instance(grainEntry)];
+    const reduced = canonicalEffectFrame(effects, 760, 42, true);
+    expect(reduced.layers.speaker.lineBoil).toMatchObject({ step: 0, amplitudePx: 0.5 });
+    expect(reduced.layers.background.paperGrain).toMatchObject({ step: 0, amount: 0.06 });
+    expect(reduced.layers.speaker).toMatchObject({ xPx: 0, yPx: 0, rotation: 0 });
   });
 });
 

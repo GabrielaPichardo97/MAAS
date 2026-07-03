@@ -33,6 +33,7 @@ def render(catalog: dict) -> str:
                 f"- **Movimiento reducido:** `{effect['reducedMotion']}` · riesgo fotosensible `{effect['photosensitivityRisk']}`.",
                 f"- **Requisitos:** {', '.join(f'`{x}`' for x in effect['requirements']) if effect['requirements'] else 'ninguno'}.",
                 f"- **Fallback:** `{effect['fallbackId']}`." if effect.get("fallbackId") else "- **Fallback:** sin sustitución automática.",
+                f"- **Objetivos:** {', '.join(f'`{x}`' for x in effect['targets'])}; default `{effect['defaultTarget']}`." if effect.get("targets") else "- **Objetivos:** contrato heredado.",
                 "- **Parámetros:**",
             ])
             for name, spec in effect["parameters"].items():

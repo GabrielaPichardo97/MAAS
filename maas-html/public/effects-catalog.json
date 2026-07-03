@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "catalogVersion": "1.1.0",
+  "catalogVersion": "1.2.0",
   "families": ["transition", "motion", "time", "compositing", "graphics", "stylize"],
   "supportLevels": ["native", "approximation", "input-assisted", "preprocessed"],
   "effects": [
@@ -93,6 +93,13 @@
       "description": "Simula integración temporal mediante blur direccional asociado a la velocidad visual.", "bestMoment": "Ramps, whip pans, títulos rápidos y movimientos con strobing.", "avoidWhen": ["Ya existe blur real", "El texto debe permanecer nítido"],
       "parameters": {"blurPx": {"type": "number", "min": 0, "max": 120, "default": 24}, "angleDeg": {"type": "number", "min": -180, "max": 180, "default": 0}},
       "narrative": {"sceneTypes": ["action", "music", "branding"], "arousal": [0.55, 1], "continuity": [0.25, 0.8], "focus": ["frame", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "disable", "photosensitivityRisk": "low", "musicFriendly": true
+    },
+    {
+      "id": "motion.cutout-wobble.presence.puppet-idle.v1.0.0", "displayName": "Wobble de recorte", "family": "motion", "intent": "presence", "variant": "puppet-idle",
+      "description": "Anima un personaje como una pieza física recortada mediante poses sostenidas, microasentamiento y movimiento anclado a los pies.", "bestMoment": "Planos de diálogo, reacciones contenidas y escenas artesanales que necesitan vida sin cambiar de pose.", "avoidWhen": ["El personaje ya tiene animación corporal", "La actuación exige inmovilidad absoluta", "Se aplicaría a texto o interfaz"],
+      "parameters": {"travelPx": {"type": "number", "min": 0, "max": 18, "default": 4}, "rotationDeg": {"type": "number", "min": 0, "max": 3, "default": 0.45}, "rateFps": {"type": "integer", "min": 2, "max": 12, "default": 6}},
+      "narrative": {"sceneTypes": ["general", "comedy", "interview", "memory"], "arousal": [0.15, 0.65], "continuity": [0.45, 1], "focus": ["face", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "low", "mobileSafe": true, "reducedMotion": "disable", "photosensitivityRisk": "none", "musicFriendly": false,
+      "targets": ["speaker"], "defaultTarget": "speaker"
     },
     {
       "id": "time.remap.rhythm.variable.v1.0.0", "displayName": "Time remapping", "family": "time", "intent": "rhythm", "variant": "variable",
@@ -207,6 +214,20 @@
       "description": "Mapea amplitud o bandas de frecuencia a escala, opacidad, glow o partículas.", "bestMoment": "Lyric video, concierto, ID de canal y motion branding guiado por música.", "avoidWhen": ["La música no conduce el montaje", "Falta smoothing y aparece jitter"],
       "parameters": {"band": {"type": "enum", "values": ["bass", "mid", "treble", "full"], "default": "full"}, "sensitivity": {"type": "number", "min": 0, "max": 2, "default": 0.8}, "smoothing": {"type": "number", "min": 0, "max": 1, "default": 0.75}},
       "narrative": {"sceneTypes": ["music", "branding"], "arousal": [0.45, 1], "continuity": [0, 0.6], "focus": ["frame", "text", "object"]}, "supportLevel": "input-assisted", "requirements": ["audioEnvelope"], "fallbackId": null, "renderCost": "high", "mobileSafe": false, "reducedMotion": "disable", "photosensitivityRisk": "medium", "musicFriendly": true
+    },
+    {
+      "id": "stylize.line-boil.handmade.edge-jitter.v1.0.0", "displayName": "Line boil", "family": "stylize", "intent": "handmade", "variant": "edge-jitter",
+      "description": "Redibuja ópticamente los contornos con una deformación UV cuantizada y guiada por bordes, conservando estables las masas de color.", "bestMoment": "Diálogo ilustrado, recuerdos, nervios contenidos y escenas con identidad dibujada a mano.", "avoidWhen": ["Hay texto pequeño dentro de la capa", "La imagen necesita precisión geométrica", "Se combina con wobble fuerte sobre el mismo personaje"],
+      "parameters": {"amplitudePx": {"type": "number", "min": 0, "max": 4, "default": 1.25}, "rateFps": {"type": "integer", "min": 2, "max": 15, "default": 8}, "wavelengthPx": {"type": "number", "min": 8, "max": 96, "default": 36}},
+      "narrative": {"sceneTypes": ["general", "comedy", "memory", "suspense"], "arousal": [0.2, 0.8], "continuity": [0.3, 1], "focus": ["face", "object", "frame"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "low", "musicFriendly": true,
+      "targets": ["speaker", "background"], "defaultTarget": "speaker"
+    },
+    {
+      "id": "stylize.paper-grain.texture.living-fiber.v1.0.0", "displayName": "Grano de papel vivo", "family": "stylize", "intent": "texture", "variant": "living-fiber",
+      "description": "Hace respirar la superficie con grano monocromático y fibras procedurales, preservando alfa, color y legibilidad.", "bestMoment": "Fondos estáticos, secuencias de memoria y acabados artesanales usados como textura de soporte.", "avoidWhen": ["La compresión ya produce ruido", "El acabado debe ser clínicamente limpio", "La textura reduce contraste crítico"],
+      "parameters": {"amount": {"type": "number", "min": 0, "max": 0.25, "default": 0.06}, "grainPx": {"type": "number", "min": 1, "max": 12, "default": 3}, "fiber": {"type": "number", "min": 0, "max": 1, "default": 0.35}, "rateFps": {"type": "integer", "min": 1, "max": 12, "default": 6}},
+      "narrative": {"sceneTypes": ["general", "memory", "comedy", "branding"], "arousal": [0.05, 0.7], "continuity": [0.45, 1], "focus": ["frame", "face", "object"]}, "supportLevel": "native", "requirements": [], "fallbackId": null, "renderCost": "medium", "mobileSafe": true, "reducedMotion": "reduce", "photosensitivityRisk": "low", "musicFriendly": true,
+      "targets": ["background", "speaker"], "defaultTarget": "background"
     }
   ]
 }

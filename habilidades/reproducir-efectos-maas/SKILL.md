@@ -10,7 +10,7 @@ description: Cataloga, implementa y prueba los efectos visuales programables de 
 3. Leer la especificación correspondiente y `references/timing-formulas.md`.
 4. Usar `scripts/legacy_effect_math.py` como oráculo numérico de cámara.
 5. Regenerar fixtures con `scripts/export_effect_fixtures.py` y comparar inicio, mitad y final.
-6. Aplicar los efectos al frame aplanado, no a sprites individuales, salvo que `canonical-v1` lo indique.
+6. Aplicar los efectos al frame aplanado salvo que el catálogo canonical-v2 declare `targets`; en ese caso aislar `background` o `speaker` y mantener texto/UI fuera del procesamiento.
 7. En canonical-v2, ordenar por rol `dominant`, `support`, `finish`; limitar el stack a tres y respetar requisitos y fallbacks.
 
 ## Guardas

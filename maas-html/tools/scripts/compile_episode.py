@@ -118,6 +118,11 @@ def effects_from(line: str, catalog: dict[str, dict[str, Any]], line_no: int) ->
         if not isinstance(start, int) or not isinstance(duration, int):
             raise ValueError(f"E_EFFECT_PARAM line {line_no}: offsets y duración exigen enteros ms")
         entry = catalog[effect_id]
+        targets = entry.get("targets")
+        if targets:
+            target = target if target is not None else entry.get("defaultTarget")
+            if target not in targets:
+                raise ValueError(f"E_EFFECT_TARGET line {line_no}: {target!r} no permitido; usa {targets}")
         specs = entry["parameters"]
         requirements = set(entry.get("requirements", []))
         allowed = set(specs) | requirements

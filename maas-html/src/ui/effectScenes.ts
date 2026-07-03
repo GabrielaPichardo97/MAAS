@@ -28,6 +28,7 @@ export const EFFECT_SCENES: Record<string, EffectScene> = {
   "motion.stabilize.clarity.smooth.v1.0.0": { title: "Reporte desde la tormenta", location: "Avenida central", dialogue: "Seguimos al aire, aunque todo se mueva.", leftActor: "Reportera", rightActor: "Camarógrafo", prop: "EN VIVO", mood: "street" },
   "motion.camera-shake.impact.decay.v1.0.0": { title: "El archivo cayó", location: "Sótano de datos", dialogue: "Eso no fue un trueno.", leftActor: "Gata", rightActor: "Rinoceronte", prop: "¡BUM!", mood: "night" },
   "motion.motion-blur.continuity.directional.v1.0.0": { title: "Mensajería urgente", location: "Cruce Reforma", dialogue: "Entrega primero, pregunta después.", leftActor: "Kiwi", rightActor: "Mensajero", prop: "PAQUETE", mood: "street" },
+  "motion.cutout-wobble.presence.puppet-idle.v1.0.0": { title: "La junta de cartón", location: "Teatrino de oficina", dialogue: "Quédate quieto. Van a notar los hilos.", leftActor: "Cactus", rightActor: "Pato", prop: "TOMA 6", mood: "office" },
   "time.remap.rhythm.variable.v1.0.0": { title: "Cinco minutos prestados", location: "Elevador", dialogue: "El tiempo corre distinto entre pisos.", leftActor: "Pato", rightActor: "Relojera", prop: "00:05", mood: "digital" },
   "time.speed-ramp.energy.snap.v1.0.0": { title: "La carrera del café", location: "Cafetería / Sala", dialogue: "Si llega caliente, ganamos.", leftActor: "Cactus", rightActor: "Pata", prop: "CAFÉ", mood: "street" },
   "time.freeze-frame.emphasis.hold.v1.0.0": { title: "Exactamente ahí", location: "Recepción", dialogue: "Ese fue el segundo en que entendió todo.", leftActor: "Narrador", rightActor: "Conejo", prop: "PAUSA", mood: "stage" },
@@ -47,6 +48,8 @@ export const EFFECT_SCENES: Record<string, EffectScene> = {
   "stylize.particles.atmosphere.dynamic.v1.0.0": { title: "Nieve en la oficina", location: "Piso 12", dialogue: "El aire acondicionado se tomó muy en serio diciembre.", leftActor: "Cactus", rightActor: "Gata", prop: "NIEVE", mood: "office" },
   "stylize.glitch.disruption.retro-tv.v1.0.0": { title: "Canal 0", location: "Televisor abandonado", dialogue: "La transmisión conoce nuestros nombres.", leftActor: "Conejo", rightActor: "Señal", prop: "NO SIGNAL", mood: "digital" },
   "stylize.audio-reactive.rhythm.pulse.v1.0.0": { title: "La pared escucha", location: "Club subterráneo", dialogue: "Cada bajo enciende otra parte del mural.", leftActor: "DJ Kiwi", rightActor: "Pata", prop: "BPM 128", mood: "stage" },
+  "stylize.line-boil.handmade.edge-jitter.v1.0.0": { title: "El trazo inquieto", location: "Mesa de dibujo", dialogue: "Juro que no se movía cuando lo dibujé.", leftActor: "Coneja", rightActor: "Roca", prop: "LÁPIZ 2B", mood: "memory" },
+  "stylize.paper-grain.texture.living-fiber.v1.0.0": { title: "El archivo respira", location: "Hemeroteca · 1987", dialogue: "El papel recuerda incluso lo que tachamos.", leftActor: "Pata", rightActor: "Cactus", prop: "EXP. 41", mood: "memory" },
 };
 
 const FALLBACK_SCENE: EffectScene = { title: "Prueba de cámara", location: "Set MAAS", dialogue: "Una escena nueva espera dirección.", leftActor: "A", rightActor: "B", prop: "TAKE 1", mood: "stage" };

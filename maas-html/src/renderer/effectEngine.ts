@@ -1,5 +1,15 @@
 import { EFFECT_IDS, type CanonicalEffectId, type EffectInstance } from "../types";
 
+export type LayerEffectTarget = "background" | "speaker";
+
+export interface LayerEffectFrame {
+  xPx: number;
+  yPx: number;
+  rotation: number;
+  lineBoil?: { amplitudePx: number; wavelengthPx: number; step: number; seed: number };
+  paperGrain?: { amount: number; grainPx: number; fiber: number; step: number; seed: number };
+}
+
 export interface EffectDiagnostic {
   code: "E_EFFECT_INPUT" | "E_EFFECT_UNSUPPORTED";
   effectId: string;
@@ -43,6 +53,7 @@ export interface CanonicalEffectFrame {
   lowerThird?: { progress: number; safeMarginPct: number };
   colorGrade?: { contrast: number; saturation: number; tint: number };
   audioLevel?: number;
+  layers: Record<LayerEffectTarget, LayerEffectFrame>;
   diagnostics: EffectDiagnostic[];
   activeEffectIds: string[];
 }
@@ -60,6 +71,8 @@ interface HandlerContext {
   intensity: number;
   elapsedMs: number;
   runtime: EffectRuntimeContext;
+  seed: number;
+  reducedMotion: boolean;
 }
 
 type EffectHandler = (context: HandlerContext) => void;
@@ -86,6 +99,10 @@ const identity = (elapsedMs: number): CanonicalEffectFrame => ({
   morph: 0,
   jumpPhase: 0,
   freeze: false,
+  layers: {
+    background: { xPx: 0, yPx: 0, rotation: 0 },
+    speaker: { xPx: 0, yPx: 0, rotation: 0 },
+  },
   diagnostics: [],
   activeEffectIds: [],
 });
@@ -103,6 +120,18 @@ const colorParam = (effect: EffectInstance, key: string, fallback: number) => {
 function pseudo(seed: number): number {
   const value = Math.sin(seed * 12.9898) * 43758.5453;
   return value - Math.floor(value);
+}
+
+function targetFor(context: HandlerContext, defaultTarget: LayerEffectTarget): LayerEffectTarget {
+  return context.effect.target === "background" || context.effect.target === "speaker" ? context.effect.target : defaultTarget;
+}
+
+function layerFor(context: HandlerContext, defaultTarget: LayerEffectTarget): LayerEffectFrame {
+  return context.frame.layers[targetFor(context, defaultTarget)];
+}
+
+function quantizedStep(elapsedMs: number, rateFps: number, reducedMotion: boolean): number {
+  return reducedMotion ? 0 : Math.floor(elapsedMs / Math.max(1, 1000 / rateFps));
 }
 
 function hasInput(context: HandlerContext, name: string): boolean {
@@ -249,6 +278,19 @@ const handlers: Record<CanonicalEffectId, EffectHandler> = {
     frame.x += Math.cos(frame.directionalBlur.angleDeg * Math.PI / 180) * Math.sin(Math.PI * progress) * 0.04 * intensity;
     frame.y += Math.sin(frame.directionalBlur.angleDeg * Math.PI / 180) * Math.sin(Math.PI * progress) * 0.04 * intensity;
   },
+  "motion.cutout-wobble.presence.puppet-idle.v1.0.0": (context) => {
+    const layer = layerFor(context, "speaker");
+    const rateFps = numberParam(context.effect, "rateFps", 6);
+    const frameMs = 1000 / rateFps;
+    const step = Math.floor(context.elapsedMs / frameMs);
+    const settle = ease(clamp((context.elapsedMs % frameMs) / (frameMs * 0.22)));
+    const travel = numberParam(context.effect, "travelPx", 4) * context.intensity;
+    const rotation = numberParam(context.effect, "rotationDeg", 0.45) * Math.PI / 180 * context.intensity;
+    const pose = (index: number, offset: number) => pseudo(context.seed * 0.071 + index * 13.17 + offset) * 2 - 1;
+    layer.xPx += (pose(step - 1, 11) * (1 - settle) + pose(step, 11) * settle) * travel;
+    layer.yPx += (pose(step - 1, 29) * (1 - settle) + pose(step, 29) * settle) * travel * 0.55;
+    layer.rotation += (pose(step - 1, 47) * (1 - settle) + pose(step, 47) * settle) * rotation;
+  },
   "time.remap.rhythm.variable.v1.0.0": ({ effect, frame, elapsedMs, intensity }) => {
     const speed = numberParam(effect, "speed", 1);
     frame.sourceTimeMs = elapsedMs * speed;
@@ -350,6 +392,32 @@ const handlers: Record<CanonicalEffectId, EffectHandler> = {
     context.frame.scale *= 1 + level * 0.09 * context.intensity;
     context.frame.alpha = 0.82 + level * 0.18;
   },
+  "stylize.line-boil.handmade.edge-jitter.v1.0.0": (context) => {
+    const target = targetFor(context, "speaker");
+    const layer = context.frame.layers[target];
+    const amplitude = numberParam(context.effect, "amplitudePx", 1.25) * context.intensity * (context.reducedMotion ? 0.4 : 1);
+    const next = {
+      amplitudePx: amplitude,
+      wavelengthPx: numberParam(context.effect, "wavelengthPx", 36),
+      step: quantizedStep(context.elapsedMs, numberParam(context.effect, "rateFps", 8), context.reducedMotion),
+      seed: context.seed + (target === "background" ? 17 : 43),
+    };
+    if (layer.lineBoil) next.amplitudePx = Math.min(4, layer.lineBoil.amplitudePx + next.amplitudePx);
+    layer.lineBoil = next;
+  },
+  "stylize.paper-grain.texture.living-fiber.v1.0.0": (context) => {
+    const target = targetFor(context, "background");
+    const layer = context.frame.layers[target];
+    const next = {
+      amount: numberParam(context.effect, "amount", 0.06) * context.intensity,
+      grainPx: numberParam(context.effect, "grainPx", 3),
+      fiber: numberParam(context.effect, "fiber", 0.35),
+      step: quantizedStep(context.elapsedMs, numberParam(context.effect, "rateFps", 6), context.reducedMotion),
+      seed: context.seed + (target === "background" ? 101 : 151),
+    };
+    if (layer.paperGrain) next.amount = Math.min(0.25, layer.paperGrain.amount + next.amount);
+    layer.paperGrain = next;
+  },
 };
 
 const disabledForReducedMotion = new Set<CanonicalEffectId>([
@@ -360,6 +428,7 @@ const disabledForReducedMotion = new Set<CanonicalEffectId>([
   "stylize.particles.atmosphere.dynamic.v1.0.0",
   "stylize.glitch.disruption.retro-tv.v1.0.0",
   "stylize.audio-reactive.rhythm.pulse.v1.0.0",
+  "motion.cutout-wobble.presence.puppet-idle.v1.0.0",
 ]);
 
 const fallbackForReducedMotion: Partial<Record<CanonicalEffectId, CanonicalEffectId>> = {
@@ -389,7 +458,7 @@ export function effectProgress(effect: EffectInstance, elapsedMs: number): numbe
   return effect.durationMs === 0 ? 1 : clamp(local / effect.durationMs);
 }
 
-export function canonicalEffectFrame(effects: EffectInstance[], elapsedMs: number, _seed: number, reducedMotion: boolean, runtime: EffectRuntimeContext = {}): CanonicalEffectFrame {
+export function canonicalEffectFrame(effects: EffectInstance[], elapsedMs: number, seed: number, reducedMotion: boolean, runtime: EffectRuntimeContext = {}): CanonicalEffectFrame {
   const frame = identity(elapsedMs);
   for (const effect of effects) {
     const progress = effectProgress(effect, elapsedMs);
@@ -400,8 +469,9 @@ export function canonicalEffectFrame(effects: EffectInstance[], elapsedMs: numbe
     }
     frame.activeEffectIds.push(effect.id);
     if (reducedMotion && disabledForReducedMotion.has(effect.id)) continue;
-    const intensity = effect.intensity * (reducedMotion ? 0.2 : 1);
-    const context = { effect, frame, progress, eased: ease(progress), intensity, elapsedMs: elapsedMs - effect.startOffsetMs, runtime };
+    const preservesReducedIntensity = effect.id === "stylize.line-boil.handmade.edge-jitter.v1.0.0" || effect.id === "stylize.paper-grain.texture.living-fiber.v1.0.0";
+    const intensity = effect.intensity * (reducedMotion && !preservesReducedIntensity ? 0.2 : 1);
+    const context = { effect, frame, progress, eased: ease(progress), intensity, elapsedMs: elapsedMs - effect.startOffsetMs, runtime, seed, reducedMotion };
     const fallbackId = reducedMotion ? fallbackForReducedMotion[effect.id] : undefined;
     if (fallbackId) handlers[fallbackId](context);
     else handlers[effect.id](context);

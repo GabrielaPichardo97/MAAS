@@ -8,6 +8,7 @@ export interface EffectSpec {
 }
 
 export type EffectRole = "dominant" | "support" | "finish";
+export type EffectTarget = "frame" | "background" | "speaker";
 export type EffectSupportLevel = "native" | "approximation" | "input-assisted" | "preprocessed";
 export type EffectFamily = "transition" | "motion" | "time" | "compositing" | "graphics" | "stylize";
 
@@ -27,6 +28,7 @@ export const EFFECT_IDS = [
   "motion.stabilize.clarity.smooth.v1.0.0",
   "motion.camera-shake.impact.decay.v1.0.0",
   "motion.motion-blur.continuity.directional.v1.0.0",
+  "motion.cutout-wobble.presence.puppet-idle.v1.0.0",
   "time.remap.rhythm.variable.v1.0.0",
   "time.speed-ramp.energy.snap.v1.0.0",
   "time.freeze-frame.emphasis.hold.v1.0.0",
@@ -46,6 +48,8 @@ export const EFFECT_IDS = [
   "stylize.particles.atmosphere.dynamic.v1.0.0",
   "stylize.glitch.disruption.retro-tv.v1.0.0",
   "stylize.audio-reactive.rhythm.pulse.v1.0.0",
+  "stylize.line-boil.handmade.edge-jitter.v1.0.0",
+  "stylize.paper-grain.texture.living-fiber.v1.0.0",
 ] as const;
 
 export type CanonicalEffectId = typeof EFFECT_IDS[number];
@@ -61,7 +65,7 @@ export interface EffectInstance {
   intensity: number;
   startOffsetMs: number;
   durationMs: number;
-  target?: string | null;
+  target?: EffectTarget | null;
   params: Record<string, string | number | boolean>;
   inputs?: Record<string, EffectInputReference>;
 }
@@ -91,6 +95,8 @@ export interface EffectCatalogEntry {
   mobileSafe: boolean;
   reducedMotion: "preserve" | "reduce" | "disable" | "fallback";
   photosensitivityRisk: "none" | "low" | "medium" | "high";
+  targets?: EffectTarget[];
+  defaultTarget?: EffectTarget;
 }
 
 export interface EffectCatalog {

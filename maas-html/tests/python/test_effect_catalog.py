@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 WORKSPACE = ROOT.parent
 CATALOG_SOURCE = WORKSPACE / "habilidades" / "seleccionar-efectos-maas" / "references" / "effects-catalog.json"
 CATALOG_PUBLIC = ROOT / "public" / "effects-catalog.json"
+CATALOG_RENDERER = WORKSPACE / "habilidades" / "reproducir-efectos-maas" / "references" / "effects-catalog-v2.json"
 COMPILER_PATH = ROOT / "tools" / "scripts" / "compile_episode.py"
 
 
@@ -17,12 +18,12 @@ class EffectCatalogTest(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog = json.loads(CATALOG_SOURCE.read_text(encoding="utf-8"))
 
-    def test_catalog_has_34_unique_versioned_effects(self):
+    def test_catalog_has_37_unique_versioned_effects(self):
         effects = self.catalog["effects"]
         ids = [item["id"] for item in effects]
         pattern = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*\.v\d+\.\d+\.\d+$")
-        self.assertEqual(len(effects), 34)
-        self.assertEqual(len(set(ids)), 34)
+        self.assertEqual(len(effects), 37)
+        self.assertEqual(len(set(ids)), 37)
         self.assertTrue(all(pattern.fullmatch(value) for value in ids))
 
     def test_support_distribution_is_explicit(self):
@@ -33,10 +34,11 @@ class EffectCatalogTest(unittest.TestCase):
             self.assertTrue(effect["bestMoment"])
             self.assertTrue(effect["avoidWhen"])
             self.assertTrue(effect["parameters"])
-        self.assertEqual(counts, {"native": 24, "approximation": 3, "input-assisted": 3, "preprocessed": 4})
+        self.assertEqual(counts, {"native": 27, "approximation": 3, "input-assisted": 3, "preprocessed": 4})
 
     def test_public_catalog_is_exact_mirror(self):
         self.assertEqual(CATALOG_SOURCE.read_bytes(), CATALOG_PUBLIC.read_bytes())
+        self.assertEqual(CATALOG_SOURCE.read_bytes(), CATALOG_RENDERER.read_bytes())
 
 
 class CanonicalV2CompilerTest(unittest.TestCase):
@@ -75,6 +77,22 @@ class CanonicalV2CompilerTest(unittest.TestCase):
         effect = cue["effects"][0]
         self.assertNotIn("matchAnchors", effect["params"])
         self.assertEqual(effect["inputs"]["matchAnchors"], {"kind": "data", "assetId": "anchors-toma-1"})
+
+    def test_applies_and_validates_layer_targets(self):
+        line_id = "stylize.line-boil.handmade.edge-jitter.v1.0.0"
+        default_token = f"{{{{fx {line_id} role=dominant}}}}"
+        manifest = self.compiler.compile_document(self.source(default_token), "canonical-v2", {"Ana": "ana"}, self.lookup)
+        cue = next(item for item in manifest["timeline"] if item["type"] == "dialogue")
+        self.assertEqual(cue["effects"][0]["target"], "speaker")
+
+        background_token = f"{{{{fx {line_id} role=dominant target=background}}}}"
+        manifest = self.compiler.compile_document(self.source(background_token), "canonical-v2", {"Ana": "ana"}, self.lookup)
+        cue = next(item for item in manifest["timeline"] if item["type"] == "dialogue")
+        self.assertEqual(cue["effects"][0]["target"], "background")
+
+        invalid_token = f"{{{{fx {line_id} role=dominant target=frame}}}}"
+        with self.assertRaisesRegex(ValueError, "E_EFFECT_TARGET"):
+            self.compiler.compile_document(self.source(invalid_token), "canonical-v2", {"Ana": "ana"}, self.lookup)
 
 
 if __name__ == "__main__":

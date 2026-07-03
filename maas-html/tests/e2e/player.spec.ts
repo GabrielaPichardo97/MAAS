@@ -51,6 +51,28 @@ test("HTML directo del Episodio 0", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Iniciar episodio" })).toBeVisible();
 });
 
+test("stack artesanal renderiza en WebGL y conserva capas aisladas", async ({ page, request }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); });
+  const response = await request.get("/episodes/episodio-0-prueba-renderizar/episode.manifest.json");
+  const manifest = await response.json();
+  const firstDialogue = manifest.timeline.find((cue: { type: string; media?: unknown }) => cue.type === "dialogue" && cue.media);
+  firstDialogue.effects = [
+    { id: "stylize.line-boil.handmade.edge-jitter.v1.0.0", role: "dominant", intensity: 0.65, startOffsetMs: 0, durationMs: firstDialogue.durationMs, target: "speaker", params: { amplitudePx: 1.25, rateFps: 8, wavelengthPx: 36 } },
+    { id: "motion.cutout-wobble.presence.puppet-idle.v1.0.0", role: "support", intensity: 0.65, startOffsetMs: 0, durationMs: firstDialogue.durationMs, target: "speaker", params: { travelPx: 4, rotationDeg: 0.45, rateFps: 6 } },
+    { id: "stylize.paper-grain.texture.living-fiber.v1.0.0", role: "finish", intensity: 0.65, startOffsetMs: 0, durationMs: firstDialogue.durationMs, target: "background", params: { amount: 0.06, grainPx: 3, fiber: 0.35, rateFps: 6 } },
+  ];
+  await page.route("**/episodes/episodio-0-prueba-renderizar/episode.manifest.json", (route) => route.fulfill({ json: manifest }));
+  await page.goto("/", { waitUntil: "networkidle" });
+  await expect(page.locator(".stage")).toHaveAttribute("data-stage-status", /^rendered:/, { timeout: 15_000 });
+  await page.getByRole("button", { name: "Iniciar episodio" }).click();
+  await expect(page.locator(".stage")).toHaveAttribute("data-effect-ids", /line-boil.*cutout-wobble.*paper-grain/);
+  await expect(page.locator(".stage")).toHaveAttribute("data-effect-layers", "background:paper-grain,speaker:line-boil+wobble");
+  await expect(page.locator(".stage")).toHaveAttribute("data-effect-diagnostics", "");
+  expect(errors).toEqual([]);
+});
+
 for (const episode of [
   {
     id: "episodio-0-prueba-efectos",

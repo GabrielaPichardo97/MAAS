@@ -3,9 +3,17 @@ import { Application, Assets, BlurFilter, Container, Graphics, NoiseFilter, Spri
 import type { TimelineCue } from "../types";
 import { legacyCameraTransform } from "./effectMath";
 import { canonicalEffectFrame, type CanonicalEffectFrame } from "./effectEngine";
+import { HandmadeLayerFilter } from "./HandmadeLayerFilter";
 
 const LOGICAL_WIDTH = 1920;
 const LOGICAL_HEIGHT = 1080;
+
+interface CurrentLayers {
+  background: Container;
+  speaker: Container;
+  text: Container;
+  speakerOrigin: { x: number; y: number };
+}
 
 function textLabel(text: string, size: number, color = "#ffffff", weight: "500" | "700" | "800" = "700"): Text {
   return new Text({
@@ -28,6 +36,8 @@ export class MaasStage {
   private readonly effectGraphics = new Graphics();
   private readonly blurFilter = new BlurFilter({ strength: 0, quality: 2 });
   private readonly noiseFilter = new NoiseFilter({ noise: 0, seed: 1 });
+  private readonly backgroundHandmadeFilter = new HandmadeLayerFilter();
+  private readonly speakerHandmadeFilter = new HandmadeLayerFilter();
   private readonly loadedUrls = new Set<string>();
   private readonly effectHistory: CanonicalEffectFrame[] = [];
   private cue?: TimelineCue;
@@ -35,6 +45,7 @@ export class MaasStage {
   private destroyRequested = false;
   private drawToken = 0;
   private host?: HTMLElement;
+  private currentLayers?: CurrentLayers;
 
   constructor(private readonly assetUrls: Record<string, string>) {}
 
@@ -65,6 +76,11 @@ export class MaasStage {
   }
 
   private promoteCamera(): void {
+    if (this.currentLayers) {
+      this.currentLayers.background.filters = null;
+      this.currentLayers.speaker.filters = null;
+      this.currentLayers = undefined;
+    }
     this.previousCamera.removeChildren().forEach((child) => child.destroy({ children: true, texture: false, textureSource: false }));
     const outgoing = this.camera.removeChildren();
     if (outgoing.length > 0) this.previousCamera.addChild(...outgoing);
@@ -102,7 +118,11 @@ export class MaasStage {
       background.position.set(0, 0);
       background.width = LOGICAL_WIDTH;
       background.height = LOGICAL_HEIGHT;
-      this.camera.addChild(background);
+      const backgroundLayer = new Container();
+      const speakerLayer = new Container();
+      const textLayer = new Container();
+      backgroundLayer.addChild(background);
+      this.camera.addChild(backgroundLayer, speakerLayer, textLayer);
 
       const isRight = cue.speakerPosition === "derecha";
       const isCloseUp = cue.effect?.code === "PP";
@@ -115,7 +135,10 @@ export class MaasStage {
       sprite.width = frame.width;
       sprite.height = frame.height;
       if (cue.media.mirrorX) sprite.scale.x *= -1;
-      this.camera.addChild(sprite);
+      speakerLayer.addChild(sprite);
+      const speakerOrigin = { x: frame.left + frame.width / 2, y: frame.top + frame.height };
+      speakerLayer.pivot.set(speakerOrigin.x, speakerOrigin.y);
+      speakerLayer.position.set(speakerOrigin.x, speakerOrigin.y);
 
       const visualText = new Text({
         text: cue.text ?? "",
@@ -130,7 +153,8 @@ export class MaasStage {
         }),
       });
       visualText.position.set(isRight ? 348 : 1054, isRight ? 70 : 98);
-      this.camera.addChild(visualText);
+      textLayer.addChild(visualText);
+      this.currentLayers = { background: backgroundLayer, speaker: speakerLayer, text: textLayer, speakerOrigin };
       if (this.host) this.host.dataset.stageStatus = `rendered:${cue.id}`;
     } catch (error: unknown) {
       if (token !== this.drawToken) return;
@@ -181,7 +205,19 @@ export class MaasStage {
       layer.tint = 0xffffff;
       layer.filters = null;
     }
+    this.resetLayerEffects();
     this.effectGraphics.clear();
+  }
+
+  private resetLayerEffects(): void {
+    if (!this.currentLayers) return;
+    const { background, speaker, speakerOrigin } = this.currentLayers;
+    background.position.set(0, 0);
+    background.rotation = 0;
+    background.filters = null;
+    speaker.position.set(speakerOrigin.x, speakerOrigin.y);
+    speaker.rotation = 0;
+    speaker.filters = null;
   }
 
   update(elapsedMs: number, reducedMotion: boolean): void {
@@ -201,9 +237,26 @@ export class MaasStage {
       this.previousCamera.scale.set(value.secondaryScale);
       this.previousCamera.position.set(LOGICAL_WIDTH / 2 + value.secondaryX * LOGICAL_WIDTH, LOGICAL_HEIGHT / 2 + value.secondaryY * LOGICAL_HEIGHT);
       this.previousCamera.alpha = value.outgoingAlpha;
+      if (this.currentLayers) {
+        const backgroundState = value.layers.background;
+        const speakerState = value.layers.speaker;
+        this.currentLayers.background.position.set(backgroundState.xPx, backgroundState.yPx);
+        this.currentLayers.background.rotation = backgroundState.rotation;
+        this.currentLayers.speaker.position.set(this.currentLayers.speakerOrigin.x + speakerState.xPx, this.currentLayers.speakerOrigin.y + speakerState.yPx);
+        this.currentLayers.speaker.rotation = speakerState.rotation;
+        this.backgroundHandmadeFilter.update(backgroundState, LOGICAL_WIDTH, LOGICAL_HEIGHT);
+        this.speakerHandmadeFilter.update(speakerState, 854, 854);
+        this.currentLayers.background.filters = this.backgroundHandmadeFilter.filter.enabled ? [this.backgroundHandmadeFilter.filter] : null;
+        this.currentLayers.speaker.filters = this.speakerHandmadeFilter.filter.enabled ? [this.speakerHandmadeFilter.filter] : null;
+      }
       if (this.host) {
         this.host.dataset.effectIds = value.activeEffectIds.join(",");
         this.host.dataset.effectDiagnostics = value.diagnostics.map((item) => `${item.code}:${item.effectId}`).join(",");
+        this.host.dataset.effectLayers = ["background", "speaker"].map((target) => {
+          const layer = value.layers[target as "background" | "speaker"];
+          const active = [layer.lineBoil ? "line-boil" : "", layer.paperGrain ? "paper-grain" : "", Math.abs(layer.xPx) + Math.abs(layer.yPx) + Math.abs(layer.rotation) > 0 ? "wobble" : ""].filter(Boolean);
+          return `${target}:${active.join("+") || "none"}`;
+        }).join(",");
       }
       this.effectHistory.push(value);
       if (this.effectHistory.length > 24) this.effectHistory.shift();
@@ -214,6 +267,7 @@ export class MaasStage {
     if (!effect || reducedMotion) {
       this.camera.scale.set(1);
       this.camera.position.set(LOGICAL_WIDTH / 2, LOGICAL_HEIGHT / 2);
+      this.resetLayerEffects();
       return;
     }
     const value = legacyCameraTransform(effect.code, effect.intensity, this.cue.speakerPosition ?? "izquierda", elapsedMs / 1000);
@@ -293,6 +347,8 @@ export class MaasStage {
     this.drawToken += 1;
     for (const url of this.loadedUrls) void Assets.unload(url);
     this.loadedUrls.clear();
+    this.backgroundHandmadeFilter.destroy();
+    this.speakerHandmadeFilter.destroy();
     if (this.ready) {
       this.app.destroy(true, { children: true, texture: false, textureSource: false });
       this.ready = false;

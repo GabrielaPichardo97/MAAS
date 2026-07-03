@@ -36,6 +36,8 @@ Restar `0.35` por cada contraindicación blanda. Una contraindicación dura o re
 
 Usar hasta tres entradas, una por rol. Evitar dos efectos dominantes o dos transformaciones que controlen simultáneamente la misma propiedad.
 
+Para el stack artesanal, usar `line-boil` como dominante, `cutout-wobble` como soporte y `paper-grain` como acabado. No combinar line boil y wobble con intensidad alta sobre el mismo personaje; mantener el texto fuera de las capas afectadas.
+
 ## 5. Intensidad
 
 ```text

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { CSSProperties } from "react";
-import type { EffectCatalog, EffectCatalogEntry, EffectInputReference, EffectInstance } from "../types";
-import { canonicalEffectFrame, type CanonicalEffectFrame } from "../renderer/effectEngine";
+import type { EffectCatalog, EffectCatalogEntry, EffectInputReference, EffectInstance, EffectTarget } from "../types";
+import { canonicalEffectFrame, type CanonicalEffectFrame, type LayerEffectFrame } from "../renderer/effectEngine";
 import { sceneForEffect, type EffectScene } from "./effectScenes";
 
 const supportLabels = {
@@ -10,6 +10,40 @@ const supportLabels = {
   "input-assisted": "Requiere input",
   preprocessed: "Preprocesado",
 } as const;
+
+type DemoTarget = EffectTarget | "both";
+
+interface HandmadeDemo {
+  mode: Extract<DemoTarget, "background" | "speaker" | "both">;
+  label: string;
+  description: string;
+  intensity: number;
+  params: Record<string, number>;
+}
+
+const HANDMADE_DEMOS: Record<string, HandmadeDemo> = {
+  "stylize.paper-grain.texture.living-fiber.v1.0.0": {
+    mode: "background",
+    label: "Fondo móvil · personaje quieto",
+    description: "La textura del papel respira detrás de un personaje completamente estable.",
+    intensity: 0.85,
+    params: { amount: 0.1, grainPx: 4, fiber: 0.45, rateFps: 6 },
+  },
+  "motion.cutout-wobble.presence.puppet-idle.v1.0.0": {
+    mode: "speaker",
+    label: "Personaje móvil · fondo quieto",
+    description: "El recorte se asienta y oscila sobre un escenario inmóvil.",
+    intensity: 0.85,
+    params: { travelPx: 6, rotationDeg: 0.7, rateFps: 6 },
+  },
+  "stylize.line-boil.handmade.edge-jitter.v1.0.0": {
+    mode: "both",
+    label: "Fondo y personaje móviles",
+    description: "Los dos planos hierven con semillas independientes sin deformar el texto.",
+    intensity: 0.8,
+    params: { amplitudePx: 1.8, rateFps: 8, wavelengthPx: 32 },
+  },
+};
 
 function defaults(effect: EffectCatalogEntry): Record<string, string | number | boolean> {
   return Object.fromEntries(Object.entries(effect.parameters).map(([name, spec]) => [name, spec.default]));
@@ -36,8 +70,33 @@ function signature(frame: CanonicalEffectFrame): string {
     outgoing: Number(frame.outgoingAlpha.toFixed(3)), blackout: Number(frame.blackout.toFixed(3)), source: Math.round(frame.sourceTimeMs),
     panes: frame.splitPanes, morph: Number(frame.morph.toFixed(3)), jump: frame.jumpPhase,
     overlay: Boolean(frame.flash || frame.leak || frame.flare || frame.particles || frame.trails || frame.chroma || frame.matte || frame.blend || frame.tracking || frame.kineticType || frame.lowerThird || frame.colorGrade || frame.audioLevel),
+    layers: frame.layers,
     diagnostics: frame.diagnostics.map((item) => item.code),
   });
+}
+
+function HandmadeFilterDef({ id, state }: { id: string; state: LayerEffectFrame }) {
+  const line = state.lineBoil;
+  const grain = state.paperGrain;
+  if (!line && !grain) return null;
+  const lineFrequency = line ? Math.max(0.006, 1 / line.wavelengthPx) : 0.01;
+  const grainFrequency = grain ? Math.min(0.8, 1 / grain.grainPx) : 0.2;
+  return <svg className="handmade-filter-def" aria-hidden="true">
+    <defs>
+      <filter id={id} x="-3%" y="-3%" width="106%" height="106%" colorInterpolationFilters="sRGB">
+        {line && <><feTurbulence type="fractalNoise" baseFrequency={lineFrequency} numOctaves="2" seed={Math.round(line.seed + line.step)} result="lineNoise" /><feDisplacementMap in="SourceGraphic" in2="lineNoise" scale={line.amplitudePx * 2} xChannelSelector="R" yChannelSelector="G" result="lineResult" /></>}
+        {grain && <><feTurbulence type="fractalNoise" baseFrequency={`${grainFrequency} ${grainFrequency * (1 + grain.fiber * 3)}`} numOctaves="1" seed={Math.round(grain.seed + grain.step)} result="grainNoise" /><feColorMatrix in="grainNoise" type="saturate" values="0" result="monoGrain" /><feComponentTransfer in="monoGrain" result="weightedGrain"><feFuncA type="linear" slope={Math.min(0.5, grain.amount * 2)} /></feComponentTransfer><feBlend in={line ? "lineResult" : "SourceGraphic"} in2="weightedGrain" mode="soft-light" /></>}
+      </filter>
+    </defs>
+  </svg>;
+}
+
+function layerStyle(state: LayerEffectFrame, filterId: string): CSSProperties {
+  return {
+    transform: `translate(${state.xPx}px, ${state.yPx}px) rotate(${state.rotation}rad)`,
+    filter: state.lineBoil || state.paperGrain ? `url(#${filterId})` : undefined,
+    transformOrigin: "50% 100%",
+  };
 }
 
 function SceneShot({ frame, scene, shot, opacity, className = "" }: { frame: CanonicalEffectFrame; scene: EffectScene; shot: "a" | "b"; opacity: number; className?: string }) {
@@ -64,12 +123,18 @@ function SceneShot({ frame, scene, shot, opacity, className = "" }: { frame: Can
   const propStyle = frame.kineticType
     ? { opacity: Math.max(0.15, frame.kineticType.progress), transform: `translateX(calc(-50% + var(--prop-motion))) translateY(${(1 - frame.kineticType.progress) * 28}px) scale(${0.65 + frame.kineticType.progress * 0.35})` }
     : { transform: `translateX(calc(-50% + var(--prop-motion))) rotate(-2deg)` };
+  const backgroundFilterId = `handmade-background-${shot}`;
+  const speakerFilterId = `handmade-speaker-${shot}`;
   return (
     <div className={`preview-scene preview-shot shot-${shot} mood-${scene.mood} ${className}`} style={style} aria-hidden={shot === "a"}>
-      <div className="scene-set"><span className="scene-moon" /><span className="scene-window" /><span className="scene-desk" /></div>
-      <div className="scene-actor actor-left" style={actorStyle}><span>{(shot === "a" ? scene.leftActor : scene.rightActor).slice(0, 1)}</span><small>{shot === "a" ? scene.leftActor : scene.rightActor}</small></div>
+      <HandmadeFilterDef id={backgroundFilterId} state={frame.layers.background} />
+      <HandmadeFilterDef id={speakerFilterId} state={frame.layers.speaker} />
+      <div className="scene-set" data-effect-layer="background" style={layerStyle(frame.layers.background, backgroundFilterId)}><span className="scene-moon" /><span className="scene-window" /><span className="scene-desk" /></div>
+      <div className="scene-speaker-layer" data-effect-layer="speaker" style={layerStyle(frame.layers.speaker, speakerFilterId)}>
+        <div className="scene-actor actor-left" style={actorStyle}><span>{(shot === "a" ? scene.leftActor : scene.rightActor).slice(0, 1)}</span><small>{shot === "a" ? scene.leftActor : scene.rightActor}</small></div>
+        <div className="scene-actor actor-right"><span>{(shot === "a" ? scene.rightActor : scene.leftActor).slice(0, 1)}</span><small>{shot === "a" ? scene.rightActor : scene.leftActor}</small></div>
+      </div>
       <div className="scene-prop" style={propStyle}>{shot === "a" ? scene.prop : `${scene.prop} · B`}</div>
-      <div className="scene-actor actor-right"><span>{(shot === "a" ? scene.rightActor : scene.leftActor).slice(0, 1)}</span><small>{shot === "a" ? scene.rightActor : scene.leftActor}</small></div>
       <div className="scene-slate"><small>{scene.location} · PLANO {shot.toUpperCase()}</small><strong>{scene.title}</strong><p>“{scene.dialogue}”</p></div>
       <div className="scene-grade" />
       {frame.chroma && <div className="scene-key-result" style={{ opacity: 0.35 + frame.chroma.tolerance * 0.5 }} />}
@@ -99,6 +164,7 @@ export function EffectLab() {
   const [support, setSupport] = useState("all");
   const [selectedId, setSelectedId] = useState<string>();
   const [intensity, setIntensity] = useState(0.65);
+  const [target, setTarget] = useState<DemoTarget>("frame");
   const [params, setParams] = useState<Record<string, string | number | boolean>>({});
   const [elapsed, setElapsed] = useState(0);
   const [playing, setPlaying] = useState(true);
@@ -111,7 +177,15 @@ export function EffectLab() {
   }, []);
 
   const selected = catalog?.effects.find((item) => item.id === selectedId);
-  useEffect(() => { if (selected) { setParams(defaults(selected)); setElapsed(0); setPlaying(true); } }, [selected]);
+  useEffect(() => {
+    if (!selected) return;
+    const demo = HANDMADE_DEMOS[selected.id];
+    setParams({ ...defaults(selected), ...(demo?.params ?? {}) });
+    setTarget(demo?.mode ?? selected.defaultTarget ?? "frame");
+    setIntensity(demo?.intensity ?? 0.65);
+    setElapsed(0);
+    setPlaying(true);
+  }, [selected]);
   const duration = selected ? previewDuration(selected, params) : 1800;
   useEffect(() => {
     if (!playing) return;
@@ -135,9 +209,20 @@ export function EffectLab() {
   if (error) return <main className="lab-state" role="alert"><h1>No se pudo abrir el catálogo</h1><p>{error}</p></main>;
   if (!catalog || !selected) return <main className="lab-state" role="status">Cargando los efectos…</main>;
 
-  const instance: EffectInstance = { id: selected.id, role: "dominant", intensity, startOffsetMs: 0, durationMs: duration, params, inputs: demoInputs(selected) };
+  const demo = HANDMADE_DEMOS[selected.id];
+  const demoTargets: EffectTarget[] = target === "both" ? ["background", "speaker"] : [target];
+  const instances: EffectInstance[] = demoTargets.map((effectTarget, index) => ({
+    id: selected.id,
+    role: index === 0 ? "dominant" : "support",
+    intensity,
+    startOffsetMs: 0,
+    durationMs: duration,
+    target: effectTarget,
+    params,
+    inputs: demoInputs(selected),
+  }));
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const frame = canonicalEffectFrame([instance], elapsed, 42, reduce, { simulateInputs: true, audioLevel: 0.5 + Math.sin(elapsed / 110) * 0.5 });
+  const frame = canonicalEffectFrame(instances, elapsed, 42, reduce, { simulateInputs: true, audioLevel: 0.5 + Math.sin(elapsed / 110) * 0.5 });
   const scene = sceneForEffect(selected);
   const effectClass = selected.id.split(".")[1];
   const blendMode = frame.blend?.mode === "normal" ? "normal" : frame.blend?.mode;
@@ -154,8 +239,9 @@ export function EffectLab() {
       <div className="lab-layout">
         <nav className="effect-list" aria-label="Efectos disponibles">{filtered.map((effect) => <button key={effect.id} className={effect.id === selected.id ? "selected" : ""} onClick={() => setSelectedId(effect.id)}><strong>{effect.displayName}</strong><span>{effect.family} · {supportLabels[effect.supportLevel]}</span></button>)}</nav>
         <article className="effect-detail">
-          <div className="effect-heading"><div><span className={`support-pill ${selected.supportLevel}`}>{supportLabels[selected.supportLevel]}</span><h2>{selected.displayName}</h2><code>{selected.id}</code></div><label>Intensidad <output>{intensity.toFixed(2)}</output><input type="range" min="0" max="1" step="0.05" value={intensity} onChange={(event) => setIntensity(Number(event.target.value))} /></label></div>
-          <div className={`effect-preview fx-${effectClass}`} aria-label={`Demostración de ${selected.displayName}`} data-testid="effect-preview" data-effect-id={selected.id} data-effect-signature={signature(frame)}>
+          <div className="effect-heading"><div><span className={`support-pill ${selected.supportLevel}`}>{supportLabels[selected.supportLevel]}</span><h2>{selected.displayName}</h2><code>{selected.id}</code></div><div className="effect-heading-controls"><label>Intensidad <output>{intensity.toFixed(2)}</output><input type="range" min="0" max="1" step="0.05" value={intensity} onChange={(event) => setIntensity(Number(event.target.value))} /></label>{selected.targets && <label>Capas del ejemplo<select aria-label="Capas del ejemplo" value={target} onChange={(event) => setTarget(event.target.value as DemoTarget)}>{selected.targets.map((value) => <option key={value} value={value}>{value === "speaker" ? "Solo personaje" : "Solo fondo"}</option>)}{selected.targets.length > 1 && <option value="both">Fondo y personaje</option>}</select></label>}</div></div>
+          <div className={`effect-preview fx-${effectClass}`} aria-label={`Demostración de ${selected.displayName}`} data-testid="effect-preview" data-effect-id={selected.id} data-example-mode={demo?.mode} data-effect-signature={signature(frame)}>
+            {demo && <div className="layer-example" data-testid="layer-example"><strong>{demo.label}</strong><span>{demo.description}</span><div className="layer-example-status" aria-label="Capas animadas"><i className={target === "background" || target === "both" ? "active" : ""}>Fondo</i><i className={target === "speaker" || target === "both" ? "active" : ""}>Personaje</i><i>Texto quieto</i></div></div>}
             <div className="preview-compositor" data-testid="effect-scene" style={{ mixBlendMode: blendMode as CSSProperties["mixBlendMode"] }}>
               <SceneShot frame={frame} scene={scene} shot="a" opacity={frame.outgoingAlpha} className="outgoing-shot" />
               <SceneShot frame={frame} scene={scene} shot="b" opacity={frame.incomingAlpha} className="incoming-shot" />
@@ -176,7 +262,7 @@ export function EffectLab() {
           <div className="effect-copy"><section><h3>Qué hace</h3><p>{selected.description}</p></section><section><h3>Mejor momento</h3><p>{selected.bestMoment}</p></section><section><h3>Evítalo cuando</h3><ul>{selected.avoidWhen.map((item) => <li key={item}>{item}</li>)}</ul></section></div>
           <section><h3>Parámetros programables</h3><div className="parameter-grid">{Object.entries(selected.parameters).map(([name, spec]) => <ParameterControl key={name} name={name} spec={spec} value={params[name]} update={(value) => setParams((current) => ({ ...current, [name]: value }))} />)}</div></section>
           <dl className="effect-meta"><div><dt>Requisitos</dt><dd>{selected.requirements.join(", ") || "Ninguno"}</dd></div><div><dt>Fallback</dt><dd>{selected.fallbackId ?? "Sin sustitución automática"}</dd></div><div><dt>Riesgo fotosensible</dt><dd>{selected.photosensitivityRisk}</dd></div><div><dt>Movimiento reducido</dt><dd>{selected.reducedMotion}</dd></div><div><dt>Costo</dt><dd>{selected.renderCost}</dd></div><div><dt>Móvil</dt><dd>{selected.mobileSafe ? "Compatible" : "Requiere degradación"}</dd></div></dl>
-          <section><h3>Token listo para aprobar</h3><pre>{`{{fx ${selected.id} role=dominant intensity=${intensity.toFixed(2)} target=frame${selected.requirements.map((name) => ` ${name}=asset-${name}`).join("")}}}`}</pre></section>
+          <section><h3>{instances.length > 1 ? "Tokens listos para aprobar" : "Token listo para aprobar"}</h3><pre>{instances.map((instance) => `{{fx ${selected.id} role=${instance.role} intensity=${intensity.toFixed(2)} target=${instance.target}${selected.requirements.map((name) => ` ${name}=asset-${name}`).join("")}}}`).join("\n")}</pre></section>
         </article>
       </div>
     </main>

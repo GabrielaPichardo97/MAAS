@@ -21,6 +21,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `mode` (enum, cut, fade, dissolve); default `cut`.
   - `durationMs` (integer, 0..2000); default `0`.
@@ -34,6 +35,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** `matchAnchors`.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `matchType` (enum, shape, motion, graphic, theme); default `shape`.
   - `tolerance` (number, 0..1); default `0.8`.
@@ -47,6 +49,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `skipMs` (integer, 40..10000); default `400`.
 ### Morph cut
@@ -59,6 +62,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** `morphClip`.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `durationMs` (integer, 240..800); default `480`.
 ### Whip pan
@@ -71,6 +75,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `direction` (enum, left, right, up, down); default `right`.
   - `blurPx` (number, 0..180); default `80`.
@@ -85,6 +90,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `rgbOffsetPx` (number, 0..20); default `6`.
   - `noise` (number, 0..1); default `0.25`.
@@ -99,6 +105,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** `transition.cut.continuity.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `panes` (integer, 2..6); default `2`.
   - `gapPct` (number, 0..8); default `2`.
@@ -115,6 +122,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `reduce` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `scaleEnd` (number, 0.75..1.5); default `1.1`.
   - `easing` (enum, linear, ease-in, ease-out, ease-in-out); default `ease-in-out`.
@@ -128,6 +136,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `reduce` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `endX` (number, -1..1); default `0.1`.
   - `endY` (number, -1..1); default `0`.
@@ -142,6 +151,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** `motion.push-in.emphasis.subtle.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `depth` (number, 0..1); default `0.35`.
   - `travel` (number, -1..1); default `0.25`.
@@ -155,6 +165,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** `motion.virtual-dolly.reveal.parallax.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `depth` (number, 0..1); default `0.5`.
   - `rollDeg` (number, -15..15); default `0`.
@@ -168,6 +179,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** `motion.push-in.emphasis.subtle.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `blurPx` (number, 0..80); default `18`.
   - `focusTo` (enum, foreground, subject, background); default `subject`.
@@ -181,6 +193,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** `stabilizationTrack`.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `strength` (number, 0..1); default `0.5`.
 ### Camera shake
@@ -193,6 +206,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `amplitudePx` (number, 0..40); default `8`.
   - `frequencyHz` (number, 1..20); default `8`.
@@ -207,9 +221,25 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `blurPx` (number, 0..120); default `24`.
   - `angleDeg` (number, -180..180); default `0`.
+### Wobble de recorte
+
+- **ID:** `motion.cutout-wobble.presence.puppet-idle.v1.0.0`
+- **Qué hace:** Anima un personaje como una pieza física recortada mediante poses sostenidas, microasentamiento y movimiento anclado a los pies.
+- **Mejor momento:** Planos de diálogo, reacciones contenidas y escenas artesanales que necesitan vida sin cambiar de pose.
+- **Evitar:** El personaje ya tiene animación corporal; La actuación exige inmovilidad absoluta; Se aplicaría a texto o interfaz.
+- **Soporte:** `native` · costo `low` · móvil `sí`.
+- **Movimiento reducido:** `disable` · riesgo fotosensible `none`.
+- **Requisitos:** ninguno.
+- **Fallback:** sin sustitución automática.
+- **Objetivos:** `speaker`; default `speaker`.
+- **Parámetros:**
+  - `travelPx` (number, 0..18); default `4`.
+  - `rotationDeg` (number, 0..3); default `0.45`.
+  - `rateFps` (integer, 2..12); default `6`.
 
 ## time
 
@@ -223,6 +253,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `speed` (number, -4..20); default `1`.
   - `preservePitch` (boolean, boolean); default `True`.
@@ -236,6 +267,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** `time.remap.rhythm.variable.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `peakSpeed` (number, 1..20); default `4`.
   - `rampMs` (integer, 80..1000); default `320`.
@@ -249,6 +281,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `holdMs` (integer, 120..10000); default `800`.
 ### Reversa temporal
@@ -261,6 +294,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `speed` (number, 0.1..4); default `1`.
 ### Trails
@@ -273,6 +307,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `frames` (integer, 2..16); default `4`.
   - `decay` (number, 0..1); default `0.65`.
@@ -286,6 +321,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `high`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `color` (color, color); default `#ffffff`.
   - `durationMs` (integer, 40..160); default `40`.
@@ -300,6 +336,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** `time.speed-ramp.energy.snap.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `peakSpeed` (number, 2..8); default `4`.
   - `blurBoost` (number, 0..1); default `0.35`.
@@ -316,6 +353,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** `keyedSource`.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `keyColor` (color, color); default `#00ff00`.
   - `tolerance` (number, 0..1); default `0.25`.
@@ -330,6 +368,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** `objectMatte`.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `featherPx` (number, 0..50); default `3`.
   - `expansionPx` (number, -20..20); default `0`.
@@ -343,9 +382,10 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
-  - `blendMode` (enum, normal, add, multiply, screen, overlay); default `normal`.
-  - `opacity` (number, 0..1); default `1`.
+  - `blendMode` (enum, normal, add, multiply, screen, overlay); default `screen`.
+  - `opacity` (number, 0..1); default `0.65`.
 ### Match move / tracking
 
 - **ID:** `compositing.match-move.integration.planar-3d.v1.0.0`
@@ -356,6 +396,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** `trackingData`.
 - **Fallback:** `graphics.lower-third.identification.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `trackType` (enum, planar, object, camera); default `planar`.
 
@@ -371,6 +412,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** `graphics.lower-third.identification.clean.v1.0.0`.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `unit` (enum, block, line, word, character); default `word`.
   - `staggerMs` (integer, 0..500); default `80`.
@@ -384,6 +426,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `fallback` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `safeMarginPct` (number, 5..12); default `8`.
   - `enterMs` (integer, 0..1000); default `320`.
@@ -400,10 +443,11 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `preserve` · riesgo fotosensible `none`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
-  - `contrast` (number, -1..1); default `0`.
-  - `saturation` (number, 0..2); default `1`.
-  - `tint` (number, -1..1); default `0`.
+  - `contrast` (number, -1..1); default `0.15`.
+  - `saturation` (number, 0..2); default `1.12`.
+  - `tint` (number, -1..1); default `0.1`.
 ### Light leak / film burn
 
 - **ID:** `stylize.light-leak.atmosphere.film.v1.0.0`
@@ -414,6 +458,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `reduce` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `intensity` (number, 0..1); default `0.25`.
   - `color` (color, color); default `#ff8a4c`.
@@ -427,6 +472,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `reduce` · riesgo fotosensible `medium`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `intensity` (number, 0..1); default `0.2`.
   - `x` (number, 0..1); default `0.75`.
@@ -441,6 +487,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `low`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `rate` (number, 0..500); default `40`.
   - `lifeMs` (integer, 100..10000); default `1800`.
@@ -455,6 +502,7 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Movimiento reducido:** `disable` · riesgo fotosensible `high`.
 - **Requisitos:** ninguno.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `corruption` (number, 0..1); default `0.25`.
   - `rgbOffsetPx` (number, 0..20); default `4`.
@@ -465,11 +513,43 @@ Fuente de verdad: `effects-catalog.json`. Los IDs son exactos y no resuelven ver
 - **Qué hace:** Mapea amplitud o bandas de frecuencia a escala, opacidad, glow o partículas.
 - **Mejor momento:** Lyric video, concierto, ID de canal y motion branding guiado por música.
 - **Evitar:** La música no conduce el montaje; Falta smoothing y aparece jitter.
-- **Soporte:** `native` · costo `high` · móvil `no`.
+- **Soporte:** `input-assisted` · costo `high` · móvil `no`.
 - **Movimiento reducido:** `disable` · riesgo fotosensible `medium`.
-- **Requisitos:** ninguno.
+- **Requisitos:** `audioEnvelope`.
 - **Fallback:** sin sustitución automática.
+- **Objetivos:** contrato heredado.
 - **Parámetros:**
   - `band` (enum, bass, mid, treble, full); default `full`.
   - `sensitivity` (number, 0..2); default `0.8`.
   - `smoothing` (number, 0..1); default `0.75`.
+### Line boil
+
+- **ID:** `stylize.line-boil.handmade.edge-jitter.v1.0.0`
+- **Qué hace:** Redibuja ópticamente los contornos con una deformación UV cuantizada y guiada por bordes, conservando estables las masas de color.
+- **Mejor momento:** Diálogo ilustrado, recuerdos, nervios contenidos y escenas con identidad dibujada a mano.
+- **Evitar:** Hay texto pequeño dentro de la capa; La imagen necesita precisión geométrica; Se combina con wobble fuerte sobre el mismo personaje.
+- **Soporte:** `native` · costo `medium` · móvil `sí`.
+- **Movimiento reducido:** `reduce` · riesgo fotosensible `low`.
+- **Requisitos:** ninguno.
+- **Fallback:** sin sustitución automática.
+- **Objetivos:** `speaker`, `background`; default `speaker`.
+- **Parámetros:**
+  - `amplitudePx` (number, 0..4); default `1.25`.
+  - `rateFps` (integer, 2..15); default `8`.
+  - `wavelengthPx` (number, 8..96); default `36`.
+### Grano de papel vivo
+
+- **ID:** `stylize.paper-grain.texture.living-fiber.v1.0.0`
+- **Qué hace:** Hace respirar la superficie con grano monocromático y fibras procedurales, preservando alfa, color y legibilidad.
+- **Mejor momento:** Fondos estáticos, secuencias de memoria y acabados artesanales usados como textura de soporte.
+- **Evitar:** La compresión ya produce ruido; El acabado debe ser clínicamente limpio; La textura reduce contraste crítico.
+- **Soporte:** `native` · costo `medium` · móvil `sí`.
+- **Movimiento reducido:** `reduce` · riesgo fotosensible `low`.
+- **Requisitos:** ninguno.
+- **Fallback:** sin sustitución automática.
+- **Objetivos:** `background`, `speaker`; default `background`.
+- **Parámetros:**
+  - `amount` (number, 0..0.25); default `0.06`.
+  - `grainPx` (number, 1..12); default `3`.
+  - `fiber` (number, 0..1); default `0.35`.
+  - `rateFps` (integer, 1..12); default `6`.
