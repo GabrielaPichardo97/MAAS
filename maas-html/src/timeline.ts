@@ -1,4 +1,4 @@
-import type { TimelineCue } from "./types";
+import type { Interaction, SubtitleCue, TimelineCue } from "./types";
 
 export function narrativeCues(timeline: TimelineCue[]): TimelineCue[] {
   return timeline.filter((cue) => cue.type !== "scene");
@@ -7,6 +7,31 @@ export function narrativeCues(timeline: TimelineCue[]): TimelineCue[] {
 export function activeNarrativeCue(timeline: TimelineCue[], positionMs: number): TimelineCue | undefined {
   return narrativeCues(timeline).find(
     (cue) => positionMs >= cue.startMs && positionMs < cue.startMs + cue.durationMs,
+  );
+}
+
+export function fallbackSubtitleFromCue(cue: TimelineCue | undefined): SubtitleCue | undefined {
+  if (!cue?.text) return undefined;
+  const kind = cue.type === "sfx" ? "sound" : cue.type === "transition" ? "transition" : cue.type === "advice" ? "advice" : "dialogue";
+  return {
+    id: `fallback-${cue.id}`,
+    cueId: cue.id,
+    startMs: cue.startMs,
+    endMs: cue.startMs + cue.durationMs,
+    speakerLabel: cue.speakerLabel ?? cue.speakerAlias ?? cue.speaker ?? "",
+    text: cue.text,
+    kind,
+  };
+}
+
+export function activeSubtitle(subtitles: SubtitleCue[] | undefined, timeline: TimelineCue[], positionMs: number): SubtitleCue | undefined {
+  const current = subtitles?.find((subtitle) => positionMs >= subtitle.startMs && positionMs < subtitle.endMs);
+  return current ?? fallbackSubtitleFromCue(activeNarrativeCue(timeline, positionMs));
+}
+
+export function activeInteractions(interactions: Interaction[] | undefined, positionMs: number): Interaction[] {
+  return (interactions ?? []).filter(
+    (interaction) => positionMs >= interaction.startMs && positionMs < interaction.startMs + interaction.durationMs,
   );
 }
 

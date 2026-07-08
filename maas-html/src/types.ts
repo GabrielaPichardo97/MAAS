@@ -137,13 +137,70 @@ export interface TimelineCue {
   media?: CueMedia;
 }
 
+export interface SubtitleTrack {
+  id: string;
+  kind: "subtitles";
+  format: "webvtt";
+  language: string;
+  label: string;
+  url: string;
+  sha256: string;
+}
+
+export interface SubtitleCue {
+  id: string;
+  cueId: string;
+  startMs: number;
+  endMs: number;
+  speakerLabel: string;
+  text: string;
+  kind: "dialogue" | "sound" | "transition" | "advice";
+}
+
+export type InteractionTarget = { x: number; y: number; width: number; height: number } | null;
+
+export type InteractionAction =
+  | { type: "pause" }
+  | { type: "seek"; positionMs: number }
+  | { type: "openPanel"; panelId: string }
+  | { type: "openUrl"; url: string }
+  | { type: "emit"; event: string; detail?: Record<string, unknown> };
+
+export interface Interaction {
+  id: string;
+  type: "button" | "hotspot";
+  label: string;
+  startMs: number;
+  durationMs: number;
+  target: InteractionTarget;
+  action: InteractionAction;
+}
+
+export interface GenerationContract {
+  schemaVersion: "1.0";
+  policy: "approved-json-bit-for-bit";
+  determinism: "bit-for-bit-after-approval";
+  aiRuntime: "forbidden-during-build";
+  htmlFirst: true;
+  seed: number;
+  toolchain: Record<string, string>;
+  inputHashes: Record<string, string>;
+}
+
 export interface EpisodeManifest {
   schemaVersion: "1.0" | "2.0" | "2.1";
   episodeId: string;
   title: string;
+  language?: string;
+  status?: "draft" | "ready" | "published";
+  seed?: number;
   profile: "legacy-v1" | "canonical-v1" | "canonical-v2";
   durationMs: number;
   timeline: TimelineCue[];
+  subtitleTracks?: SubtitleTrack[];
+  subtitles?: SubtitleCue[];
+  interactions?: Interaction[];
+  generation?: GenerationContract;
   warnings: Array<Record<string, unknown>>;
   assets: string[];
   assetUrls: Record<string, string>;

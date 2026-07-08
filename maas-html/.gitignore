@@ -3,7 +3,11 @@ dist/
 .vite/
 __pycache__/
 *.pyc
+*.tsbuildinfo
 .venv/
 .env
 build-report.json
+!public/episodes/*/build-report.json
 public/assets/
+playwright-report/
+test-results/

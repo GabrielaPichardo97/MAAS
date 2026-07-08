@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import subprocess
 import sys
@@ -10,10 +11,42 @@ import tempfile
 from pathlib import Path
 
 
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
 def run(*command: object) -> None:
     result = subprocess.run([str(value) for value in command], check=False)
     if result.returncode:
         raise RuntimeError(f"Falló el comando con exit code {result.returncode}: {' '.join(map(str, command))}")
+
+
+def write_build_report(report_path: Path, *, source: Path, resolved_input: Path, manifest_path: Path, manifest: dict, profile: str) -> None:
+    generation = manifest.get("generation", {})
+    subtitle_tracks = [
+        {"id": track.get("id"), "url": track.get("url"), "sha256": track.get("sha256")}
+        for track in manifest.get("subtitleTracks", [])
+        if isinstance(track, dict)
+    ]
+    report = {
+        "schemaVersion": "1.0",
+        "episodeId": manifest["episodeId"],
+        "profile": profile,
+        "sourceSha256": sha256(source),
+        "inputSha256": sha256(resolved_input),
+        "manifestSha256": sha256(manifest_path),
+        "assetCount": len(manifest.get("assets", [])),
+        "subtitleTrackCount": len(subtitle_tracks),
+        "subtitleTracks": subtitle_tracks,
+        "warningCount": len(manifest.get("warnings", [])),
+        "inputHashes": generation.get("inputHashes", {}),
+        "toolchain": generation.get("toolchain", {}),
+    }
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
 
 
 def main() -> int:
@@ -75,6 +108,14 @@ def main() -> int:
                     "--root", legacy_media, "--output", root / "public" / "assets",
                 )
                 manifest = json.loads(output.read_text(encoding="utf-8"))
+                write_build_report(
+                    output.with_name("build-report.json"),
+                    source=source,
+                    resolved_input=resolved_input,
+                    manifest_path=output,
+                    manifest=manifest,
+                    profile=profile,
+                )
                 summaries.append({
                     "assets": len(manifest["assets"]), "durationMs": manifest["durationMs"],
                     "episodeId": manifest["episodeId"], "output": str(output),

@@ -1,0 +1,27 @@
+{
+  "assetCount": 11,
+  "episodeId": "episodio-0-prueba-renderizar",
+  "inputHashes": {
+    "emotionPolicy": "6620d820587974c18a2e8ff959a7cce1687ed814dd0542af9b4ec810eb8ebd34",
+    "mediaCatalog": "f8face46dd141806cef168ccd58071dbee36151b0b41969a6ad9e72ebd1313ab",
+    "presentation": "6cfc76333c91a5a011b5f2ba683d87e1b79a3b06b25e93d73e4c386f561ad151",
+    "timelineInput": "df37e62fdeb1919cbdebe8999f5a19d9762b0033a50392fb7b4bf729c68e640d"
+  },
+  "inputSha256": "df37e62fdeb1919cbdebe8999f5a19d9762b0033a50392fb7b4bf729c68e640d",
+  "manifestSha256": "777a006e4befd05200856a6422535a265c8e2ce722597b86b087dfd0088f40cd",
+  "profile": "legacy-v1",
+  "schemaVersion": "1.0",
+  "sourceSha256": "6ea735b2e9d7b7d739c2a84a0f24bfb5bb4ae57433e54e010ce040bb392175ae",
+  "subtitleTrackCount": 1,
+  "subtitleTracks": [
+    {
+      "id": "subtitles-es-mx",
+      "sha256": "98ef196d82f696ddcebdfc0f33331f08079ee3d0e9a3a1b34c20d0c4272d0dd6",
+      "url": "/episodes/episodio-0-prueba-renderizar/subtitles.es-mx.vtt"
+    }
+  ],
+  "toolchain": {
+    "maasHtmlBuilder": "0.1.0"
+  },
+  "warningCount": 6
+}

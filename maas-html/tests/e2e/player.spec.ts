@@ -51,6 +51,34 @@ test("HTML directo del Episodio 0", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Iniciar episodio" })).toBeVisible();
 });
 
+test("interacciones HTML aparecen por ventana temporal y no viven en Pixi", async ({ page, request }) => {
+  const response = await request.get("/episodes/episodio-0-prueba-renderizar/episode.manifest.json");
+  const manifest = await response.json();
+  manifest.interactions = [
+    { id: "abrir-contexto", type: "button", label: "Ver contexto", startMs: 0, durationMs: 5000, target: null, action: { type: "openPanel", panelId: "contexto" } },
+    { id: "hotspot-pato", type: "hotspot", label: "Pato", startMs: 0, durationMs: 5000, target: { x: 0.12, y: 0.22, width: 0.18, height: 0.28 }, action: { type: "emit", event: "personaje", detail: { speaker: "pato" } } },
+  ];
+  await page.route("**/episodes/episodio-0-prueba-renderizar/episode.manifest.json", (route) => route.fulfill({ json: manifest }));
+  await page.goto("/", { waitUntil: "networkidle" });
+  await expect(page.getByTestId("interaction-layer")).toHaveCount(0);
+  await page.evaluate(() => {
+    (window as typeof window & { __maasEvents?: unknown[] }).__maasEvents = [];
+    document.addEventListener("maas-interaction", (event) => {
+      (window as typeof window & { __maasEvents: unknown[] }).__maasEvents.push((event as CustomEvent).detail);
+    });
+  });
+  await page.getByRole("button", { name: "Iniciar episodio" }).click();
+  await expect(page.getByTestId("interaction-abrir-contexto")).toBeVisible();
+  await expect(page.getByTestId("interaction-hotspot-pato")).toBeVisible();
+  await page.getByTestId("interaction-hotspot-pato").click();
+  await expect.poll(() => page.evaluate(() => (window as typeof window & { __maasEvents?: unknown[] }).__maasEvents?.length ?? 0)).toBe(1);
+  await page.getByTestId("interaction-abrir-contexto").click();
+  await expect(page.getByRole("dialog", { name: "Ver contexto" })).toBeVisible();
+  await page.getByRole("button", { name: "Cerrar" }).click();
+  await page.getByRole("button", { name: "Adelantar 5 segundos" }).click();
+  await expect(page.getByTestId("interaction-layer")).toHaveCount(0);
+});
+
 test("stack artesanal renderiza en WebGL y conserva capas aisladas", async ({ page, request }) => {
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));

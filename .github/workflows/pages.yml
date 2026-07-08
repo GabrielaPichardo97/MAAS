@@ -49,6 +49,8 @@ jobs:
         run: pnpm test
       - name: Construir para Pages
         run: pnpm run build:pages
+      - name: Verificar contrato HTML-first
+        run: pnpm run verify:publication
       - name: Configurar Pages
         uses: actions/configure-pages@v6
       - name: Subir artefacto

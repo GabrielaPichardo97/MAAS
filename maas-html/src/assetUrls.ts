@@ -13,5 +13,6 @@ export function rebaseManifestAssets(manifest: EpisodeManifest, baseUrl: string)
     assetUrls: Object.fromEntries(
       Object.entries(manifest.assetUrls).map(([assetId, url]) => [assetId, rebaseAssetUrl(url, baseUrl)]),
     ),
+    subtitleTracks: manifest.subtitleTracks?.map((track) => ({ ...track, url: rebaseAssetUrl(track.url, baseUrl) })),
   };
 }

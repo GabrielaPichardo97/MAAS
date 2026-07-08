@@ -2,8 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { EpisodeManifest } from "../types";
 import type { PlayerOptions } from "../player";
 import { MaasStage } from "../renderer/MaasStage";
-import { activeNarrativeCue, clampPosition, formatTime } from "../timeline";
+import { activeInteractions, activeNarrativeCue, activeSubtitle, clampPosition, formatTime } from "../timeline";
 import { rebaseManifestAssets } from "../assetUrls";
+import type { Interaction } from "../types";
 
 export function App({ manifestUrl, options }: { manifestUrl: string; options: PlayerOptions }) {
   const player = useRef<HTMLElement>(null);
@@ -19,9 +20,18 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
   const [position, setPosition] = useState(0);
   const [fullscreen, setFullscreen] = useState(false);
   const [systemReducedMotion, setSystemReducedMotion] = useState(false);
+  const [openPanel, setOpenPanel] = useState<{ id: string; label: string } | null>(null);
 
   const active = useMemo(
     () => (manifest ? activeNarrativeCue(manifest.timeline, position) : undefined),
+    [manifest, position],
+  );
+  const caption = useMemo(
+    () => (manifest ? activeSubtitle(manifest.subtitles, manifest.timeline, position) : undefined),
+    [manifest, position],
+  );
+  const interactions = useMemo(
+    () => (manifest ? activeInteractions(manifest.interactions, position) : []),
     [manifest, position],
   );
   const reducedMotion = options.reducedMotion === "on" || (options.reducedMotion === "system" && systemReducedMotion);
@@ -132,11 +142,33 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
     else await player.current.requestFullscreen();
   };
 
+  const triggerInteraction = useCallback((interaction: Interaction) => {
+    const action = interaction.action;
+    if (action.type === "pause") {
+      setPlaying(false);
+    } else if (action.type === "seek") {
+      setStarted(true);
+      seek(action.positionMs);
+    } else if (action.type === "openPanel") {
+      setOpenPanel({ id: action.panelId, label: interaction.label });
+      setPlaying(false);
+    } else if (action.type === "openUrl") {
+      if (action.url.startsWith("/") && !action.url.startsWith("//") && !action.url.includes("..")) {
+        window.location.assign(action.url);
+      }
+    } else if (action.type === "emit") {
+      player.current?.dispatchEvent(new CustomEvent("maas-interaction", {
+        bubbles: true,
+        detail: { id: interaction.id, event: action.event, detail: action.detail ?? {} },
+      }));
+    }
+  }, [seek]);
+
   if (loadError) return <main className="load-state error" role="alert"><h1>No pudimos abrir el episodio</h1><p>{loadError}</p></main>;
   if (!manifest) return <main className="load-state" role="status"><span className="loader" />Cargando episodio…</main>;
 
-  const speaker = active?.speakerLabel ?? active?.speaker ?? active?.speakerAlias;
-  const captionText = position >= manifest.durationMs ? "Fin del preview" : active?.text ?? "Preparando escena…";
+  const speaker = caption?.speakerLabel;
+  const captionText = position >= manifest.durationMs ? "Fin del preview" : caption?.text ?? "Preparando escena...";
 
   return (
     <main className="player" data-orientation="landscape" ref={player}>
@@ -150,6 +182,32 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
 
       <section className="stage-shell" aria-label="Escenario del episodio">
         <div className="stage" ref={host} aria-hidden="true" />
+        {started && interactions.length > 0 && (
+          <div className="interaction-layer" aria-label="Interacciones del episodio" data-testid="interaction-layer">
+            {interactions.map((interaction) => {
+              const style = interaction.target
+                ? {
+                    left: `${interaction.target.x * 100}%`,
+                    top: `${interaction.target.y * 100}%`,
+                    width: `${interaction.target.width * 100}%`,
+                    height: `${interaction.target.height * 100}%`,
+                  }
+                : undefined;
+              return (
+                <button
+                  key={interaction.id}
+                  type="button"
+                  className={`interaction-trigger ${interaction.type}`}
+                  style={style}
+                  data-testid={`interaction-${interaction.id}`}
+                  onClick={() => triggerInteraction(interaction)}
+                >
+                  {interaction.label}
+                </button>
+              );
+            })}
+          </div>
+        )}
         {renderError ? (
           <div className="start-card render-error" role="alert">
             <strong>No se pudo iniciar PixiJS</strong>
@@ -163,6 +221,13 @@ export function App({ manifestUrl, options }: { manifestUrl: string; options: Pl
             </button>
           </div>
         )}
+        {openPanel ? (
+          <div className="interaction-panel" role="dialog" aria-modal="false" aria-label={openPanel.label}>
+            <strong>{openPanel.label}</strong>
+            <span>{openPanel.id}</span>
+            <button type="button" onClick={() => setOpenPanel(null)}>Cerrar</button>
+          </div>
+        ) : null}
       </section>
 
       <div className={`caption ${captions ? "" : "caption-hidden"}`} aria-live="polite" aria-atomic="true">

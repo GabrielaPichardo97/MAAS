@@ -11,6 +11,8 @@ import shutil
 import time
 from pathlib import Path
 
+from episode_contract import build_webvtt
+
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
@@ -72,6 +74,22 @@ def main() -> int:
                 raise FileExistsError(f"No se sobrescribe {manifest_target}")
         else:
             manifest_target.write_text(payload, encoding="utf-8", newline="\n")
+        for track in manifest.get("subtitleTracks", []):
+            if track.get("format") != "webvtt":
+                continue
+            url = str(track.get("url", ""))
+            if not url.startswith(f"/episodes/{episode_id}/") or "://" in url or ".." in url:
+                raise ValueError(f"E_SUBTITLE: URL insegura {url}")
+            track_target = safe_join(output, url.removeprefix("/"))
+            track_payload = build_webvtt(manifest.get("subtitles", []))
+            if track.get("sha256") and hashlib.sha256(track_payload.encode("utf-8")).hexdigest() != track.get("sha256"):
+                raise ValueError(f"E_SUBTITLE: hash distinto para {url}")
+            if track_target.exists():
+                if track_target.read_text(encoding="utf-8") != track_payload:
+                    raise FileExistsError(f"No se sobrescribe {track_target}")
+            else:
+                track_target.parent.mkdir(parents=True, exist_ok=True)
+                track_target.write_text(track_payload, encoding="utf-8", newline="\n")
         copied_assets = 0
         requested = set(manifest.get("assets", []))
         asset_urls = manifest.get("assetUrls", {})

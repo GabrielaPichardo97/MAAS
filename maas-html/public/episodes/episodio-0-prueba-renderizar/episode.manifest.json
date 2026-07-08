@@ -39,6 +39,24 @@
   },
   "durationMs": 33900,
   "episodeId": "episodio-0-prueba-renderizar",
+  "generation": {
+    "aiRuntime": "forbidden-during-build",
+    "determinism": "bit-for-bit-after-approval",
+    "htmlFirst": true,
+    "inputHashes": {
+      "emotionPolicy": "6620d820587974c18a2e8ff959a7cce1687ed814dd0542af9b4ec810eb8ebd34",
+      "mediaCatalog": "f8face46dd141806cef168ccd58071dbee36151b0b41969a6ad9e72ebd1313ab",
+      "presentation": "6cfc76333c91a5a011b5f2ba683d87e1b79a3b06b25e93d73e4c386f561ad151",
+      "timelineInput": "df37e62fdeb1919cbdebe8999f5a19d9762b0033a50392fb7b4bf729c68e640d"
+    },
+    "policy": "approved-json-bit-for-bit",
+    "schemaVersion": "1.0",
+    "seed": 1386310347,
+    "toolchain": {
+      "maasHtmlBuilder": "0.1.0"
+    }
+  },
+  "interactions": [],
   "language": "es-MX",
   "orientations": [
     "landscape",
@@ -48,6 +66,172 @@
   "schemaVersion": "1.0",
   "seed": 1386310347,
   "status": "published",
+  "subtitleTracks": [
+    {
+      "format": "webvtt",
+      "id": "subtitles-es-mx",
+      "kind": "subtitles",
+      "label": "Espanol",
+      "language": "es-MX",
+      "sha256": "98ef196d82f696ddcebdfc0f33331f08079ee3d0e9a3a1b34c20d0c4272d0dd6",
+      "url": "/episodes/episodio-0-prueba-renderizar/subtitles.es-mx.vtt"
+    }
+  ],
+  "subtitles": [
+    {
+      "cueId": "cue-0001",
+      "endMs": 2000,
+      "id": "subtitle-0001",
+      "kind": "dialogue",
+      "speakerLabel": "Pato",
+      "startMs": 0,
+      "text": "No otra vez..."
+    },
+    {
+      "cueId": "cue-0002",
+      "endMs": 4000,
+      "id": "subtitle-0002",
+      "kind": "sound",
+      "speakerLabel": "Pato",
+      "startMs": 2000,
+      "text": "Snif, snif"
+    },
+    {
+      "cueId": "cue-0003",
+      "endMs": 6000,
+      "id": "subtitle-0003",
+      "kind": "dialogue",
+      "speakerLabel": "Cactus",
+      "startMs": 4000,
+      "text": "¡Puaj!"
+    },
+    {
+      "cueId": "cue-0004",
+      "endMs": 8000,
+      "id": "subtitle-0004",
+      "kind": "sound",
+      "speakerLabel": "Cactus",
+      "startMs": 6000,
+      "text": "Cof, cof"
+    },
+    {
+      "cueId": "cue-0005",
+      "endMs": 10000,
+      "id": "subtitle-0005",
+      "kind": "dialogue",
+      "speakerLabel": "Conejo",
+      "startMs": 8000,
+      "text": "¿Qué rayos...?"
+    },
+    {
+      "cueId": "cue-0006",
+      "endMs": 12000,
+      "id": "subtitle-0006",
+      "kind": "sound",
+      "speakerLabel": "Conejo",
+      "startMs": 10000,
+      "text": "¿Eh?"
+    },
+    {
+      "cueId": "cue-0007",
+      "endMs": 14000,
+      "id": "subtitle-0007",
+      "kind": "dialogue",
+      "speakerLabel": "Pata",
+      "startMs": 12000,
+      "text": "Cinco minutos más..."
+    },
+    {
+      "cueId": "cue-0008",
+      "endMs": 16000,
+      "id": "subtitle-0008",
+      "kind": "sound",
+      "speakerLabel": "Pata",
+      "startMs": 14000,
+      "text": "Zzzz"
+    },
+    {
+      "cueId": "cue-0009",
+      "endMs": 17900,
+      "id": "subtitle-0009",
+      "kind": "transition",
+      "speakerLabel": "",
+      "startMs": 16000,
+      "text": "CAMBIO DE ESCENA"
+    },
+    {
+      "cueId": "cue-0010",
+      "endMs": 19900,
+      "id": "subtitle-0010",
+      "kind": "dialogue",
+      "speakerLabel": "Pato",
+      "startMs": 17900,
+      "text": "Hmm... eso fue raro."
+    },
+    {
+      "cueId": "cue-0011",
+      "endMs": 21900,
+      "id": "subtitle-0011",
+      "kind": "sound",
+      "speakerLabel": "Pato",
+      "startMs": 19900,
+      "text": "Hmm"
+    },
+    {
+      "cueId": "cue-0012",
+      "endMs": 23900,
+      "id": "subtitle-0012",
+      "kind": "dialogue",
+      "speakerLabel": "Cactus",
+      "startMs": 21900,
+      "text": "Shhh, creo que escuché algo."
+    },
+    {
+      "cueId": "cue-0013",
+      "endMs": 25900,
+      "id": "subtitle-0013",
+      "kind": "sound",
+      "speakerLabel": "Cactus",
+      "startMs": 23900,
+      "text": "Shhh"
+    },
+    {
+      "cueId": "cue-0014",
+      "endMs": 27900,
+      "id": "subtitle-0014",
+      "kind": "dialogue",
+      "speakerLabel": "Conejo",
+      "startMs": 25900,
+      "text": "Esto es surrealista."
+    },
+    {
+      "cueId": "cue-0015",
+      "endMs": 29900,
+      "id": "subtitle-0015",
+      "kind": "sound",
+      "speakerLabel": "Conejo",
+      "startMs": 27900,
+      "text": "Jaja"
+    },
+    {
+      "cueId": "cue-0016",
+      "endMs": 31900,
+      "id": "subtitle-0016",
+      "kind": "dialogue",
+      "speakerLabel": "Pata",
+      "startMs": 29900,
+      "text": "¡Ay! ¿Quién dejó esto aquí?"
+    },
+    {
+      "cueId": "cue-0017",
+      "endMs": 33900,
+      "id": "subtitle-0017",
+      "kind": "sound",
+      "speakerLabel": "Pata",
+      "startMs": 31900,
+      "text": "Ay"
+    }
+  ],
   "timeline": [
     {
       "declaredDurationMs": 2000,

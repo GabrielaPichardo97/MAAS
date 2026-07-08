@@ -143,6 +143,62 @@ button:focus-visible, input:focus-visible { outline: 3px solid #78a9ff; outline-
 
 .stage canvas { display: block; width: 100%; height: 100%; }
 
+.interaction-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.interaction-trigger {
+  position: absolute;
+  min-width: 7.5rem;
+  min-height: 2.75rem;
+  padding: 0.6rem 0.85rem;
+  border-color: #f7c66d;
+  color: #101726;
+  background: #ffd37a;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.32);
+  font-weight: 850;
+  pointer-events: auto;
+}
+
+.interaction-trigger.button {
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.interaction-trigger.hotspot {
+  display: grid;
+  min-width: 0;
+  min-height: 0;
+  place-items: center;
+  padding: 0.35rem;
+  border: 2px solid #ffd37a;
+  color: #fff7dd;
+  background: rgba(19, 29, 48, 0.28);
+  text-shadow: 0 1px 4px #000;
+}
+
+.interaction-panel {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 6;
+  width: min(21rem, calc(100% - 2rem));
+  display: grid;
+  gap: 0.55rem;
+  padding: 1rem;
+  border: 1px solid #526a96;
+  border-radius: 0.5rem;
+  color: #eaf0ff;
+  background: rgba(10, 16, 28, 0.94);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.42);
+}
+
+.interaction-panel span { color: #aebdd8; font-size: 0.82rem; }
+.interaction-panel button { justify-self: start; padding: 0.5rem 0.75rem; }
+
 .start-card {
   position: absolute;
   inset: 0;

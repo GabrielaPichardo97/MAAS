@@ -100,7 +100,7 @@ def main() -> int:
                 ordered = timeline == sorted(timeline, key=lambda cue: (cue["startMs"], cue["id"]))
                 version = manifest.get("schemaVersion")
                 profile = manifest.get("profile")
-                valid = version in {"1.0", "2.0"} and (version != "2.0" or profile == "canonical-v2") and isinstance(manifest.get("durationMs"), int) and ordered
+                valid = version in {"1.0", "2.0", "2.1"} and (version not in {"2.0", "2.1"} or profile == "canonical-v2") and isinstance(manifest.get("durationMs"), int) and ordered
             except (OSError, UnicodeError, json.JSONDecodeError, KeyError, TypeError):
                 valid = False
             print(json.dumps({"valid": valid, "target": str(args.target)}, ensure_ascii=False))

@@ -14,6 +14,8 @@ import unicodedata
 from pathlib import Path
 from typing import Any
 
+from episode_contract import apply_html_contract, write_webvtt
+
 
 STANDARD_EMOTIONS = ("happy", "sad", "angry", "serious", "worried", "surprised", "dizzy", "confused", "scared", "cute", "a")
 EMOTION_ALIASES = {"angy": "angry", "condused": "confused"}
@@ -42,6 +44,16 @@ def load_json(path: Path) -> dict[str, Any]:
 def dump_json(value: Any, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
+
+
+def remove_generated_dir(path: Path) -> None:
+    try:
+        shutil.rmtree(path)
+    except PermissionError:
+        try:
+            path.rmdir()
+        except OSError:
+            pass
 
 
 def file_sha(path: Path) -> str:
@@ -221,6 +233,15 @@ def write_gap_reports(gaps: list[dict[str, Any]], output_json: Path, output_md: 
     }
     dump_json(result, output_json)
     request_root = requests_dir / catalog_sha[:12]
+    if requests_dir.exists():
+        resolved_requests = requests_dir.resolve()
+        for existing in requests_dir.iterdir():
+            if not existing.is_dir() or existing.name == request_root.name:
+                continue
+            resolved_existing = existing.resolve()
+            if resolved_requests not in resolved_existing.parents:
+                raise ValueError(f"E_ASSET: request dir inseguro {existing}")
+            remove_generated_dir(existing)
     for gap in gaps:
         dump_json(gap, request_root / f"{gap['requestId']}.json")
     lines = ["# Media faltante MAAS", "", f"Catálogo: `{catalog_sha}`", "", f"Total: {len(gaps)}", "", "| Prioridad | ID | Archivo sugerido | Bloquea publicación |", "|---|---|---|---|"]
@@ -314,7 +335,14 @@ def command_resolve(args: argparse.Namespace) -> int:
             }
     manifest["assets"] = sorted(selected)
     manifest["assetUrls"] = {asset_id: f"/assets/{by_id[asset_id]['sha256']}{Path(by_id[asset_id]['sourcePath']).suffix.casefold()}" for asset_id in sorted(selected)}
+    webvtt = apply_html_contract(manifest, {
+        "mediaCatalog": file_sha(args.catalog),
+        "presentation": file_sha(args.presentation),
+        "emotionPolicy": file_sha(args.emotions),
+        "timelineInput": file_sha(args.manifest),
+    })
     dump_json(manifest, args.output)
+    write_webvtt(args.output.with_name(f"subtitles.{str(manifest.get('language', 'und')).casefold()}.vtt"), webvtt)
     gap_result = {"schemaVersion": "1.0", "episodeId": manifest.get("episodeId"), "mode": args.mode, "gaps": episode_gaps}
     dump_json(gap_result, args.episode_gaps)
     if publication_errors:

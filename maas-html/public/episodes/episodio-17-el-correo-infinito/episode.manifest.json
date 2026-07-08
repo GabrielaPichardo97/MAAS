@@ -41,6 +41,24 @@
   },
   "durationMs": 91000,
   "episodeId": "episodio-17-el-correo-infinito",
+  "generation": {
+    "aiRuntime": "forbidden-during-build",
+    "determinism": "bit-for-bit-after-approval",
+    "htmlFirst": true,
+    "inputHashes": {
+      "emotionPolicy": "6620d820587974c18a2e8ff959a7cce1687ed814dd0542af9b4ec810eb8ebd34",
+      "mediaCatalog": "f8face46dd141806cef168ccd58071dbee36151b0b41969a6ad9e72ebd1313ab",
+      "presentation": "a927361da9f362e10de05c3d271334ba05d7be6661acc97dc32ce3010bf7f8b8",
+      "timelineInput": "99defb744a7fc1e111e3f19898c1afa7b37fcfc1c82524bf1299d5d3b27b7f75"
+    },
+    "policy": "approved-json-bit-for-bit",
+    "schemaVersion": "1.0",
+    "seed": 1724511258,
+    "toolchain": {
+      "maasHtmlBuilder": "0.1.0"
+    }
+  },
+  "interactions": [],
   "language": "es-MX",
   "orientations": [
     "landscape",
@@ -50,6 +68,361 @@
   "schemaVersion": "2.1",
   "seed": 1724511258,
   "status": "draft",
+  "subtitleTracks": [
+    {
+      "format": "webvtt",
+      "id": "subtitles-es-mx",
+      "kind": "subtitles",
+      "label": "Espanol",
+      "language": "es-MX",
+      "sha256": "bb272ee5ab7d0b3d5570018a695a57005bd73dbe9d6d8f92ab1acf0f8cf82818",
+      "url": "/episodes/episodio-17-el-correo-infinito/subtitles.es-mx.vtt"
+    }
+  ],
+  "subtitles": [
+    {
+      "cueId": "cue-0001",
+      "endMs": 4000,
+      "id": "subtitle-0001",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 0,
+      "text": "No nos vamos a ir hasta que Persona_3 termine sus pendientes"
+    },
+    {
+      "cueId": "cue-0002",
+      "endMs": 7000,
+      "id": "subtitle-0002",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 4000,
+      "text": "Pero ya acabé mis pendientes"
+    },
+    {
+      "cueId": "cue-0003",
+      "endMs": 10000,
+      "id": "subtitle-0003",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 7000,
+      "text": "Entonces vámonos"
+    },
+    {
+      "cueId": "cue-0004",
+      "endMs": 14000,
+      "id": "subtitle-0004",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 10000,
+      "text": "Esperen, ya solo me falta escribirle un correo a los de Sistemas"
+    },
+    {
+      "cueId": "cue-0005",
+      "endMs": 16000,
+      "id": "subtitle-0005",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 14000,
+      "text": "Noooo…"
+    },
+    {
+      "cueId": "cue-0006",
+      "endMs": 18000,
+      "id": "subtitle-0006",
+      "kind": "sound",
+      "speakerLabel": "Persona_1",
+      "startMs": 16000,
+      "text": "Dum!"
+    },
+    {
+      "cueId": "cue-0007",
+      "endMs": 20000,
+      "id": "subtitle-0007",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 18000,
+      "text": "Es rápido, es solo un correo"
+    },
+    {
+      "cueId": "cue-0008",
+      "endMs": 22000,
+      "id": "subtitle-0008",
+      "kind": "sound",
+      "speakerLabel": "Persona_3",
+      "startMs": 20000,
+      "text": "Prrrrt"
+    },
+    {
+      "cueId": "cue-0009",
+      "endMs": 25000,
+      "id": "subtitle-0009",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 22000,
+      "text": "¿Seguro?"
+    },
+    {
+      "cueId": "cue-0010",
+      "endMs": 28000,
+      "id": "subtitle-0010",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 25000,
+      "text": "Sí, sí…"
+    },
+    {
+      "cueId": "cue-0011",
+      "endMs": 31000,
+      "id": "subtitle-0011",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 28000,
+      "text": "Listo, ya terminé"
+    },
+    {
+      "cueId": "cue-0012",
+      "endMs": 33000,
+      "id": "subtitle-0012",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 31000,
+      "text": "¡Por fin!"
+    },
+    {
+      "cueId": "cue-0013",
+      "endMs": 35000,
+      "id": "subtitle-0013",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 33000,
+      "text": "Yay"
+    },
+    {
+      "cueId": "cue-0014",
+      "endMs": 39000,
+      "id": "subtitle-0014",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 35000,
+      "text": "Solo voy a esperar a que me respondan para confirmar"
+    },
+    {
+      "cueId": "cue-0015",
+      "endMs": 41000,
+      "id": "subtitle-0015",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 39000,
+      "text": "¡NOOOO!, No por favor"
+    },
+    {
+      "cueId": "cue-0016",
+      "endMs": 43000,
+      "id": "subtitle-0016",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 41000,
+      "text": "Dum!"
+    },
+    {
+      "cueId": "cue-0017",
+      "endMs": 45000,
+      "id": "subtitle-0017",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 43000,
+      "text": "¡Solo un minuto y ya!"
+    },
+    {
+      "cueId": "cue-0018",
+      "endMs": 47000,
+      "id": "subtitle-0018",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_2",
+      "startMs": 45000,
+      "text": "Bueno, ya no respondieron, vámonos..."
+    },
+    {
+      "cueId": "cue-0019",
+      "endMs": 49000,
+      "id": "subtitle-0019",
+      "kind": "sound",
+      "speakerLabel": "Persona_2",
+      "startMs": 47000,
+      "text": "Yay"
+    },
+    {
+      "cueId": "cue-0020",
+      "endMs": 51000,
+      "id": "subtitle-0020",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 49000,
+      "text": "¡No tienes que esperar una respuesta!"
+    },
+    {
+      "cueId": "cue-0021",
+      "endMs": 53000,
+      "id": "subtitle-0021",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 51000,
+      "text": "Igual lo puedes revisar mañana"
+    },
+    {
+      "cueId": "cue-0022",
+      "endMs": 55000,
+      "id": "subtitle-0022",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 53000,
+      "text": "Ugh"
+    },
+    {
+      "cueId": "cue-0023",
+      "endMs": 58000,
+      "id": "subtitle-0023",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 55000,
+      "text": "Pero, ¿y si me contestan con una duda y no estoy aquí?"
+    },
+    {
+      "cueId": "cue-0024",
+      "endMs": 60000,
+      "id": "subtitle-0024",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 58000,
+      "text": "¡Que lo resuelvan solos!"
+    },
+    {
+      "cueId": "cue-0025",
+      "endMs": 62000,
+      "id": "subtitle-0025",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 60000,
+      "text": "¡Viven de complicarnos la vida!"
+    },
+    {
+      "cueId": "cue-0026",
+      "endMs": 64000,
+      "id": "subtitle-0026",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 62000,
+      "text": "Tsk, tsk"
+    },
+    {
+      "cueId": "cue-0027",
+      "endMs": 67000,
+      "id": "subtitle-0027",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 64000,
+      "text": "Bueno, está bien, ¡Vámonos!..."
+    },
+    {
+      "cueId": "cue-0028",
+      "endMs": 69000,
+      "id": "subtitle-0028",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 67000,
+      "text": "Oh, me llegó la respuesta"
+    },
+    {
+      "cueId": "cue-0029",
+      "endMs": 71000,
+      "id": "subtitle-0029",
+      "kind": "sound",
+      "speakerLabel": "Persona_3",
+      "startMs": 69000,
+      "text": "Dum!"
+    },
+    {
+      "cueId": "cue-0030",
+      "endMs": 73000,
+      "id": "subtitle-0030",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 71000,
+      "text": "¡NO LO LEAS!"
+    },
+    {
+      "cueId": "cue-0031",
+      "endMs": 75000,
+      "id": "subtitle-0031",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 73000,
+      "text": "Dum!"
+    },
+    {
+      "cueId": "cue-0032",
+      "endMs": 78000,
+      "id": "subtitle-0032",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 75000,
+      "text": "Pero solo es una línea…"
+    },
+    {
+      "cueId": "cue-0033",
+      "endMs": 81000,
+      "id": "subtitle-0033",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_2",
+      "startMs": 78000,
+      "text": "No caigas en la trampa…"
+    },
+    {
+      "cueId": "cue-0034",
+      "endMs": 83000,
+      "id": "subtitle-0034",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 81000,
+      "text": "Dice: Gracias compañero..."
+    },
+    {
+      "cueId": "cue-0035",
+      "endMs": 85000,
+      "id": "subtitle-0035",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 83000,
+      "text": "Solo una consulta…"
+    },
+    {
+      "cueId": "cue-0036",
+      "endMs": 87000,
+      "id": "subtitle-0036",
+      "kind": "sound",
+      "speakerLabel": "Persona_3",
+      "startMs": 85000,
+      "text": "Dum!"
+    },
+    {
+      "cueId": "cue-0037",
+      "endMs": 89000,
+      "id": "subtitle-0037",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 87000,
+      "text": "¡NOOOOO, POR FAVOR!..."
+    },
+    {
+      "cueId": "cue-0038",
+      "endMs": 91000,
+      "id": "subtitle-0038",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 89000,
+      "text": "Prrrrt"
+    }
+  ],
   "timeline": [
     {
       "declaredDurationMs": 4000,

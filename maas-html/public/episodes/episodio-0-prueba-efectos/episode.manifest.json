@@ -33,6 +33,24 @@
   },
   "durationMs": 18000,
   "episodeId": "episodio-0-prueba-efectos",
+  "generation": {
+    "aiRuntime": "forbidden-during-build",
+    "determinism": "bit-for-bit-after-approval",
+    "htmlFirst": true,
+    "inputHashes": {
+      "emotionPolicy": "6620d820587974c18a2e8ff959a7cce1687ed814dd0542af9b4ec810eb8ebd34",
+      "mediaCatalog": "f8face46dd141806cef168ccd58071dbee36151b0b41969a6ad9e72ebd1313ab",
+      "presentation": "df192c1e9df4428e4d74673ec3a7b1864845393bd5cf8617c9f2fbdaf0406820",
+      "timelineInput": "2fe94ddeb01b4de3cb1ae7ac953fce62c9d7eca45ce85e2d625dc6495b787085"
+    },
+    "policy": "approved-json-bit-for-bit",
+    "schemaVersion": "1.0",
+    "seed": 1001104799,
+    "toolchain": {
+      "maasHtmlBuilder": "0.1.0"
+    }
+  },
+  "interactions": [],
   "language": "es-MX",
   "orientations": [
     "landscape",
@@ -42,6 +60,163 @@
   "schemaVersion": "2.1",
   "seed": 1001104799,
   "status": "draft",
+  "subtitleTracks": [
+    {
+      "format": "webvtt",
+      "id": "subtitles-es-mx",
+      "kind": "subtitles",
+      "label": "Espanol",
+      "language": "es-MX",
+      "sha256": "8abd58b826b73c188797b43ddefa2503d648b4f5d65ae12d52c3cdca54d7571e",
+      "url": "/episodes/episodio-0-prueba-efectos/subtitles.es-mx.vtt"
+    }
+  ],
+  "subtitles": [
+    {
+      "cueId": "cue-0001",
+      "endMs": 1000,
+      "id": "subtitle-0001",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 0,
+      "text": "No otra vez..."
+    },
+    {
+      "cueId": "cue-0002",
+      "endMs": 2000,
+      "id": "subtitle-0002",
+      "kind": "sound",
+      "speakerLabel": "Persona_1",
+      "startMs": 1000,
+      "text": "Snif, snif"
+    },
+    {
+      "cueId": "cue-0003",
+      "endMs": 4000,
+      "id": "subtitle-0003",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_2",
+      "startMs": 2000,
+      "text": "¡Puaj!"
+    },
+    {
+      "cueId": "cue-0004",
+      "endMs": 6000,
+      "id": "subtitle-0004",
+      "kind": "sound",
+      "speakerLabel": "Persona_2",
+      "startMs": 4000,
+      "text": "Cof, cof"
+    },
+    {
+      "cueId": "cue-0005",
+      "endMs": 7000,
+      "id": "subtitle-0005",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 6000,
+      "text": "¿Qué rayos...?"
+    },
+    {
+      "cueId": "cue-0006",
+      "endMs": 8000,
+      "id": "subtitle-0006",
+      "kind": "sound",
+      "speakerLabel": "Persona_3",
+      "startMs": 7000,
+      "text": "¿Eh?"
+    },
+    {
+      "cueId": "cue-0007",
+      "endMs": 9000,
+      "id": "subtitle-0007",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 8000,
+      "text": "Cinco minutos más..."
+    },
+    {
+      "cueId": "cue-0008",
+      "endMs": 10000,
+      "id": "subtitle-0008",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 9000,
+      "text": "Zzzz"
+    },
+    {
+      "cueId": "cue-0009",
+      "endMs": 11000,
+      "id": "subtitle-0009",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_1",
+      "startMs": 10000,
+      "text": "Hmm... eso fue raro."
+    },
+    {
+      "cueId": "cue-0010",
+      "endMs": 12000,
+      "id": "subtitle-0010",
+      "kind": "sound",
+      "speakerLabel": "Persona_1",
+      "startMs": 11000,
+      "text": "Hmm"
+    },
+    {
+      "cueId": "cue-0011",
+      "endMs": 13000,
+      "id": "subtitle-0011",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_2",
+      "startMs": 12000,
+      "text": "Shhh, creo que escuché algo."
+    },
+    {
+      "cueId": "cue-0012",
+      "endMs": 14000,
+      "id": "subtitle-0012",
+      "kind": "sound",
+      "speakerLabel": "Persona_2",
+      "startMs": 13000,
+      "text": "Shhh"
+    },
+    {
+      "cueId": "cue-0013",
+      "endMs": 15000,
+      "id": "subtitle-0013",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_3",
+      "startMs": 14000,
+      "text": "Esto es surrealista."
+    },
+    {
+      "cueId": "cue-0014",
+      "endMs": 16000,
+      "id": "subtitle-0014",
+      "kind": "sound",
+      "speakerLabel": "Persona_3",
+      "startMs": 15000,
+      "text": "Jaja"
+    },
+    {
+      "cueId": "cue-0015",
+      "endMs": 17000,
+      "id": "subtitle-0015",
+      "kind": "dialogue",
+      "speakerLabel": "Persona_4",
+      "startMs": 16000,
+      "text": "¡Ay! ¿Quién dejó esto aquí?"
+    },
+    {
+      "cueId": "cue-0016",
+      "endMs": 18000,
+      "id": "subtitle-0016",
+      "kind": "sound",
+      "speakerLabel": "Persona_4",
+      "startMs": 17000,
+      "text": "Ay"
+    }
+  ],
   "timeline": [
     {
       "declaredDurationMs": 1000,
